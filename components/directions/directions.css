@@ -1,0 +1,234 @@
+/**
+ * Блок «Ключевые направления нашей работы» — 10 карточек, сетка.
+ */
+@property --border-angle {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 0deg;
+}
+
+.directions {
+  background: #0d0d0d;
+  padding: 180px 0 100px;
+}
+
+.directions__inner {
+  max-width: 1520px;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.directions__subtitle {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 25px;
+  margin: 0 0 12px;
+  background: linear-gradient(90deg, #dd6f20 10.58%, #e02727 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.directions__title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 50px;
+  color: #fff;
+  margin: 0 0 48px;
+  line-height: 1.2;
+}
+
+.directions__grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+}
+
+.directions__card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: space-between;
+  width: calc((100% - 80px) / 3);
+  padding: 50px 40px 45px 40px;
+  border-radius: 30px;
+  box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.05);
+  background: #1e1e1e;
+  text-decoration: none;
+  color: inherit;
+  box-sizing: border-box;
+  overflow: hidden;
+  transition: background 0.3s ease;
+}
+
+/* Эффект при наведении — размытое красное свечение как в Figma */
+.directions__card::after {
+  content: "";
+  position: absolute;
+  top: -50%;
+  right: -30%;
+  width: 90%;
+  height: 200%;
+  background: radial-gradient(
+    ellipse 90% 60% at 65% 50%,
+    rgba(193, 43, 32, 0.65) 0%,
+    rgba(193, 43, 32, 0.2) 50%,
+    transparent 85%
+  );
+  filter: blur(35px);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.directions__card:hover {
+  background: rgba(30, 30, 30, 0.95);
+}
+
+.directions__card:hover::after {
+  opacity: 1;
+}
+
+/* Анимированная обводка по контуру (как у hero-формы). Градиент на реальном элементе — угол меняет JS. */
+.directions__card-border {
+  position: absolute;
+  inset: 0;
+  border-radius: 30px;
+  padding: 1px;
+  background: conic-gradient(
+    from var(--border-angle, 0deg) at 50% 50%,
+    rgba(255, 255, 255, 0.85) 0deg,
+    rgba(255, 255, 255, 0.4) 25deg,
+    rgba(255, 255, 255, 0.05) 60deg,
+    rgba(255, 255, 255, 0) 90deg,
+    rgba(255, 255, 255, 0) 360deg
+  );
+  -webkit-mask:
+    linear-gradient(#fff, #fff) content-box,
+    linear-gradient(#fff, #fff);
+  -webkit-mask-composite: xor;
+  mask:
+    linear-gradient(#fff, #fff) content-box,
+    linear-gradient(#fff, #fff);
+  mask-composite: exclude;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.directions__card-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  z-index: 1;
+  position: relative;
+}
+
+.directions__arrow {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.directions__arrow svg {
+  display: block;
+  width: 9px;
+  height: 15px;
+}
+
+.directions__card-title {
+  margin: 0;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 22px;
+  color: #fff;
+  line-height: 1.3;
+  min-width: 0;
+}
+
+.directions__card-desc {
+  position: relative;
+  z-index: 1;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  color: #9b9b9b;
+  margin: 0;
+  line-height: 1.45;
+}
+
+@media (max-width: 1520px) {
+  .directions__grid {
+    gap: 20px;
+  }
+
+  .directions__card {
+    width: calc((100% - 40px) / 3);
+    padding: 30px 20px 25px 20px;
+    font-size: 12px;
+  }
+
+  .directions__card-desc {
+    font-size: 12px;
+  }
+
+  .directions__title {
+    font-size: 40px;
+  }
+
+  .directions {
+    padding: 100px 60px 100px 60px;
+  }
+
+  .directions__card-title {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .directions {
+    padding: 90px 10px 0px 10px;
+  }
+
+  .directions__title {
+    font-size: 25px;
+    margin-bottom: 50px;
+  }
+
+  .directions__grid {
+    gap: 15px;
+    flex-direction: column;
+  }
+
+  .directions__card {
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .directions__card-border {
+    border-radius: 10px;
+  }
+
+  .directions__card-title {
+    font-size: 15px;
+  }
+
+  .directions__card-desc {
+    font-size: 12px;
+  }
+
+  .directions__subtitle{
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+
+
+
+}

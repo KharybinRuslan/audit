@@ -1,0 +1,875 @@
+/**
+ * Первый блок (hero) — на всю высоту экрана, ПК и ноутбуки
+ */
+
+@property --border-angle {
+    syntax: "<angle>";
+    inherits: false;
+    initial-value: 0deg;
+}
+
+.hero {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: #0d0d0d;
+    padding: 2rem 0;
+    overflow: hidden;
+}
+
+.hero__inner {
+    width: 100%;
+    max-width: 1520px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 76px;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+    z-index: 1;
+}
+
+/* Светящиеся красные круги на фоне */
+.hero::before,
+.hero::after {
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(184, 41, 32, 0.4) 0%, rgba(13, 13, 13, 0.2) 100%);
+    filter: blur(70px);
+    pointer-events: none;
+    z-index: 0;
+    transform-origin: center center;
+}
+
+/* Левый круг — за текстом */
+.hero::before {
+    width: 700px;
+    height: 700px;
+    left: -260px;
+    top: -140px;
+    animation: hero-glow-left 26s ease-in-out infinite alternate;
+}
+
+/* Правый круг — за формой */
+.hero::after {
+    width: 840px;
+    height: 840px;
+    right: -320px;
+    top: -180px;
+    animation: hero-glow-right 32s ease-in-out infinite alternate;
+}
+
+@keyframes hero-glow-left {
+    0% {
+        transform: translate3d(0, 0, 0) scale(1);
+        opacity: 0.75;
+    }
+    50% {
+        transform: translate3d(18px, -20px, 0) scale(1.06);
+        opacity: 0.95;
+    }
+    100% {
+        transform: translate3d(-14px, 16px, 0) scale(0.97);
+        opacity: 0.8;
+    }
+}
+
+@keyframes hero-glow-right {
+    0% {
+        transform: translate3d(0, 0, 0) scale(1);
+        opacity: 0.8;
+    }
+    50% {
+        transform: translate3d(-20px, -18px, 0) scale(1.05);
+        opacity: 1;
+    }
+    100% {
+        transform: translate3d(16px, 18px, 0) scale(0.96);
+        opacity: 0.85;
+    }
+}
+
+/* ——— Левая колонка: текст и CTA ——— */
+.hero__content {
+    width: 55%;
+    flex-shrink: 0;
+}
+
+.hero__title {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.2;
+    margin: 0 0 100px;
+    color: #fff;
+}
+
+.hero__title .hero__title-accent {
+    background: linear-gradient(90deg, #dd6f20 0%, #e02727 30.29%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+.hero__desc {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+    margin: 0 0 60px;
+    max-width: 720px;
+}
+
+.hero__list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 100px;
+    margin: 0 0 75px;
+}
+
+.hero__list-col {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero__list-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.hero__list-bullet {
+    flex-shrink: 0;
+    line-height: 0;
+    margin-top: 6px;
+}
+
+.hero__list-text {
+    margin: 0;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.4;
+}
+
+.hero__actions {
+    display: flex;
+    align-items: center;
+    gap: 55px;
+    flex-wrap: nowrap;
+}
+
+.hero__btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 25px;
+    padding: 5px 5px 5px 45px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    border: none;
+    border-radius: 27.5px;
+    background: linear-gradient(90deg, #dd6f20 0%, #e02727 20%, #e02727 40%, #dd6f20 50%, #e02727 70%, #e02727 100%);
+    background-size: 200% 100%;
+    background-position: 0% 50%;
+    box-shadow: 0 0 15px 0 rgba(255, 255, 255, 0.25);
+    transition: opacity 0.2s, transform 0.15s;
+    animation: hero__btn-gradient 4s ease-in-out infinite;
+}
+
+.hero__btn:hover {
+    opacity: 0.95;
+    transform: translateY(1px);
+}
+
+@keyframes hero__btn-gradient {
+    0%, 100% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+}
+
+.hero__btn-icon {
+    width: 45px;
+    height: 45px;
+    flex-shrink: 0;
+}
+
+.hero__btn .hero__btn-icon svg {
+    width: 100%;
+    height: 100%;
+}
+
+.hero__link {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+    transition: opacity 0.2s;
+}
+
+.hero__link:hover {
+    opacity: 0.85;
+}
+
+.hero__footnote {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0;
+}
+
+.hero__footnote--mobile {
+    display: none;
+}
+
+/* ——— Правая колонка: форма ——— */
+.hero__form-wrap {
+    position: relative;
+    flex: 1;
+    min-width: 0;
+    width: 45%;
+    background: rgba(28, 28, 28, 0.95);
+    border-radius: 12px;
+    padding: 40px;
+    box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.05);
+    background: rgba(31, 30, 30, 0.6);
+}
+
+.hero__form-wrap::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 12px;
+    padding: 1px;
+    background: conic-gradient(from var(--border-angle, 0deg) at 50% 50%, rgba(255, 255, 255, 0.85) 0deg, rgba(255, 255, 255, 0.4) 25deg, rgba(255, 255, 255, 0.05) 60deg, rgba(255, 255, 255, 0) 90deg, rgba(255, 255, 255, 0) 360deg);
+    -webkit-mask: linear-gradient(#fff, #fff) content-box, linear-gradient(#fff, #fff);
+    -webkit-mask-composite: xor;
+    mask: linear-gradient(#fff, #fff) content-box, linear-gradient(#fff, #fff);
+    mask-composite: exclude;
+    pointer-events: none;
+    animation: hero__form-border-spin 6s linear infinite;
+}
+
+@keyframes hero__form-border-spin {
+    0%   { --border-angle: 0deg; }
+    100% { --border-angle: -360deg; }
+}
+
+.hero__form-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff;
+    margin: 0 0 0.25rem;
+}
+
+.hero__form-subtitle {
+    font-weight: 500;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.7);
+    margin: 0 0 40px 0;
+}
+
+.hero__form .hero__field {
+    margin-bottom: 25px;
+}
+
+.hero__form .hero__field > label {
+    display: block;
+    font-weight: 500;
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 0.35rem;
+}
+
+.hero__form input,
+.hero__form select,
+.hero__form textarea {
+    width: 100%;
+    padding: 15px 20px;
+    background: #151515;
+    border: 2px solid #29292a;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    transition: border-color 0.2s;
+}
+
+.hero__form input::placeholder,
+.hero__form textarea::placeholder {
+    font-weight: 500;
+    font-size: 16px;
+    color: #888889;
+}
+
+.hero__form input:focus,
+.hero__form select:focus,
+.hero__form textarea:focus {
+    outline: none;
+    border-color: rgba(226, 56, 56, 0.5);
+}
+
+.hero__form select {
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='15' height='9' viewBox='0 0 15 9' fill='none'%3E%3Cpath d='M8.07106%208.07039C7.68054%208.46091%207.04737%208.46091%206.65685%208.07039L0.292885%201.70643C-0.0976398%201.3159%20-0.0976398%200.682738%200.292885%200.292214C0.683409%20-0.0983107%201.31657%20-0.0983107%201.7071%200.292214L7.36395%205.94907L13.0208%200.292213C13.4113%20-0.0983112%2014.0445%20-0.0983112%2014.435%200.292213C14.8255%200.682738%2014.8255%201.3159%2014.435%201.70643L8.07106%208.07039ZM7.36395%206.36328L8.36395%206.36328L8.36395%207.36328L7.36395%207.36328L6.36395%207.36328L6.36395%206.36328L7.36395%206.36328Z' fill='white'/%3E%3C/svg%3E");
+    background-size: 15px 9px;
+    background-repeat: no-repeat;
+    background-position: right 20px center;
+    padding-right: 2.5rem;
+}
+
+.hero__form select.hero__select-native {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+.hero__form select option {
+    color: #888889;
+    background: #151515;
+}
+
+.hero__form select option:checked {
+    color: #fff;
+    background: #252525;
+}
+
+/* Кастомный выпадающий список — тёмный hover вместо синего */
+.hero__select-wrap {
+    position: relative;
+}
+
+.hero__select-trigger {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 17px 20px;
+    padding-right: 52px;
+    background: #151515;
+    border: 2px solid #29292a;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    transition: border-color 0.2s;
+}
+
+.hero__select-trigger:hover,
+.hero__select-trigger:focus {
+    outline: none;
+    border-color: rgba(226, 56, 56, 0.5);
+}
+
+.hero__select-wrap.is-open .hero__select-trigger {
+    border-color: rgba(226, 56, 56, 0.5);
+}
+
+.hero__select-text {
+    flex: 1;
+    min-width: 0;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.hero__select-arrow {
+    position: absolute;
+    right: 20px;
+    top: 0;
+    bottom: 0;
+    width: 15px;
+    margin: auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: transform 0.2s ease;
+    transform-origin: center center;
+}
+
+.hero__select-arrow svg {
+    display: block;
+    width: 15px;
+    height: 9px;
+}
+
+.hero__select-wrap.is-open .hero__select-arrow {
+    transform: rotate(180deg);
+}
+
+.hero__select-dropdown {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    margin-top: 4px;
+    max-height: 280px;
+    overflow-y: auto;
+    background: #151515;
+    border: 2px solid #29292a;
+    border-radius: 8px;
+    z-index: 10;
+    scrollbar-width: thin;
+    scrollbar-color: #444 #29292a;
+}
+
+.hero__select-dropdown::-webkit-scrollbar {
+    width: 6px;
+}
+
+.hero__select-dropdown::-webkit-scrollbar-track {
+    background: #29292a;
+    border-radius: 3px;
+}
+
+.hero__select-dropdown::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 3px;
+}
+
+.hero__select-dropdown::-webkit-scrollbar-thumb:hover {
+    background: #666;
+}
+
+.hero__select-dropdown[hidden] {
+    display: none;
+}
+
+.hero__select-option {
+    padding: 12px 20px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #888889;
+    cursor: pointer;
+    transition: background 0.15s, color 0.15s;
+}
+
+.hero__select-option:hover {
+    background: #252525;
+    color: #fff;
+}
+
+.hero__select-option.is-selected {
+    color: #fff;
+    background: #252525;
+}
+
+.hero__form textarea {
+    min-height: 88px;
+    resize: vertical;
+}
+
+.hero__form-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.hero__form-row .hero__field {
+    flex: 1 1 0;
+    min-width: 0;
+}
+
+.hero__checkbox-wrap {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.6rem;
+    margin-bottom: 1.25rem;
+}
+
+.hero__form input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 22px;
+    height: 22px;
+    min-width: 22px;
+    min-height: 22px;
+    padding: 0;
+    margin-top: 2px;
+    flex-shrink: 0;
+    align-self: flex-start;
+    border: 1px solid #666;
+    border-radius: 5px;
+    background: #2a2a2a;
+    cursor: pointer;
+    transition: border-color 0.2s, background 0.2s;
+    box-sizing: border-box;
+}
+
+.hero__form input[type="checkbox"]:checked {
+    background-color: #2a2a2a;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none'%3E%3Cpath d='M5 12l5 5 9-11' stroke='%23fff' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    background-size: 14px 14px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hero__form input[type="checkbox"]:focus {
+    outline: none;
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.hero__checkbox-wrap label {
+    margin: 0;
+    font-weight: 500;
+    font-size: 13px;
+    color: #fff;
+    cursor: pointer;
+    line-height: 1.4;
+}
+
+.hero__checkbox-wrap label span {
+    font-weight: 500;
+    font-size: 12px;
+    color: #fff;
+    line-height: 1.4;
+}
+
+.hero__form .hero__submit {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 5px 5px 5px 5px;
+    font-size: 0.875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    color: #fff;
+    border: none;
+    border-radius: 27.5px;
+    background: linear-gradient(90deg, #dd6f20 0%, #e02727 20%, #e02727 40%, #dd6f20 50%, #e02727 70%, #e02727 100%);
+    background-size: 200% 100%;
+    background-position: 0% 50%;
+    transition: opacity 0.2s, transform 0.15s;
+    animation: hero__btn-gradient 4s ease-in-out infinite;
+}
+
+.hero__form .hero__submit .hero__submit-text {
+    flex: 1;
+    text-align: center;
+    padding-left: 45px;
+}
+
+.hero__form .hero__submit .hero__btn-icon {
+    width: 45px;
+    height: 45px;
+    flex-shrink: 0;
+}
+
+.hero__form .hero__submit .hero__btn-icon svg {
+    width: 100%;
+    height: 100%;
+}
+
+.hero__form .hero__submit:hover {
+    opacity: 0.95;
+    transform: translateY(1px);
+}
+
+/* Адаптив: от 1520px до самого маленького ноутбука */
+@media (max-width: 1520px) {
+    .hero {
+        padding: 0 60px;
+    }
+
+    .hero__title {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 1.2;
+        margin: 0 0 60px;
+        color: #fff;
+    }
+
+    .hero__desc {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 16px;
+        color: #fff;
+        margin: 0 0 60px;
+        max-width: 720px;
+    }
+
+    .hero__list {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 0;
+        margin: 0 0 75px;
+        justify-content: space-between;
+    }
+
+    .hero__list-text {
+        margin: 0;
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 15px;
+        color: #fff;
+        line-height: 1.4;
+    }
+
+    .hero__btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 25px;
+        padding: 5px 5px 5px 30px;
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 15px;
+        text-align: center;
+        color: #fff;
+        border: none;
+        border-radius: 27.5px;
+        background: linear-gradient(90deg, #dd6f20 0%, #e02727 20%, #e02727 40%, #dd6f20 50%, #e02727 70%, #e02727 100%);
+        background-size: 200% 100%;
+        background-position: 0% 50%;
+        box-shadow: 0 0 15px 0 rgba(255, 255, 255, 0.25);
+        transition: opacity 0.2s, transform 0.15s;
+        animation: hero__btn-gradient 4s ease-in-out infinite;
+    }
+
+    .hero__btn-icon {
+        width: 30px;
+        height: 30px;
+        flex-shrink: 0;
+    }
+
+    .hero__actions {
+        display: flex;
+        align-items: center;
+        gap: 45px;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+
+    .hero__link {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 15px;
+        color: #fff;
+        transition: opacity 0.2s;
+    }
+
+    .hero__footnote {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 13px;
+        color: rgba(255, 255, 255, 0.5);
+        margin: 0;
+    }
+
+    /* Форма: 1100–1520px */
+    .hero__form-wrap {
+        padding: 32px 28px;
+        border-radius: 10px;
+    }
+
+    .hero__form-title {
+        font-weight: 700;
+        font-size: 26px;
+        margin: 0 0 0.2rem;
+    }
+
+    .hero__form-subtitle {
+        font-size: 14px;
+        margin: 0 0 28px 0;
+    }
+
+    .hero__form .hero__field {
+        margin-bottom: 18px;
+    }
+
+    .hero__form .hero__field > label {
+        font-size: 14px;
+        margin-bottom: 0.3rem;
+    }
+
+    .hero__form input,
+    .hero__form select,
+    .hero__form textarea {
+        padding: 12px 16px;
+        font-size: 15px;
+        border-radius: 6px;
+    }
+
+    .hero__form input::placeholder,
+    .hero__form textarea::placeholder {
+        font-size: 13px;
+    }
+
+    .hero__form .hero__select-trigger {
+        padding: 12px 16px;
+        padding-right: 44px;
+        font-size: 15px;
+    }
+
+    .hero__form textarea {
+        min-height: 72px;
+    }
+
+    .hero__checkbox-wrap {
+        margin-bottom: 1rem;
+    }
+
+    .hero__checkbox-wrap label span {
+        font-size: 11px;
+    }
+
+    .hero__form .hero__submit {
+        padding: 8px 8px 8px 28px;
+        font-size: 0.8rem;
+        border-radius: 24px;
+    }
+
+    .hero__form .hero__submit .hero__btn-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .hero__form .hero__submit .hero__submit-text {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 1100px) {
+    .hero__list-text br {
+        display: none;
+    }
+
+    .hero__content {
+        width: 100%;
+        flex-shrink: 0;
+    }
+
+    .hero__form-wrap {
+        width: 100%;
+    }
+
+    .hero__inner {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+        display: flex;
+        gap: 60px;
+        flex-direction: column;
+    }
+
+    .hero {
+        padding: 110px 10px 40px 10px;
+    }
+
+    .hero__title {
+        font-size: 25px;
+        margin: 0 0 40px;
+    }
+
+    .hero__desc {
+        font-size: 15px;
+        margin: 0 0 30px;
+    }
+
+    .hero__list {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 10px;
+        margin: 0 0 20px;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .hero__list-text {
+        margin: 0;
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 13px;
+        color: #fff;
+        line-height: 1.4;
+    }
+
+    .hero__list-col {
+        gap: 10px;
+    }
+
+    .hero__footnote--desktop {
+        display: none;
+    }
+
+    .hero__footnote--mobile {
+        display: block;
+        margin: 0 0 35px 20px;
+        font-size: 13px;
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    .hero__actions {
+        gap: 20px;
+        justify-content: flex-start;
+    }
+
+    .hero__form-wrap {
+        padding: 30px 15px;
+    }
+
+    /* Переупаковка красных кругов на мобильном экране */
+    .hero::before {
+        width: 420px;
+        height: 420px;
+        left: -220px;
+        top: -60px;
+        filter: blur(60px);
+    }
+
+    .hero::after {
+        width: 420px;
+        height: 420px;
+        right: -260px;
+        top: 260px;
+        filter: blur(60px);
+        opacity: 0.85;
+    }
+
+    .hero__form-title {
+        font-weight: 700;
+        font-size: 25px;
+        margin: 0 0 10px 0;
+    }
+
+    .hero__form-subtitle {
+        margin: 0 0 30px 0;
+    }
+
+    .hero__form-row {
+        gap: 0;
+        flex-direction: column;
+    }
+
+    .hero__checkbox-wrap {
+        margin-bottom: 25px;
+    }
+
+    .hero__form .hero__submit {
+        padding: 5px 5px 5px 28px;
+        font-size: 0.8rem;
+        border-radius: 24px;
+    }
+
+}

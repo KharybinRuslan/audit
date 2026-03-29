@@ -1,0 +1,23 @@
+# Аудит — локальный сайт http://aud/
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+    # Разрешаем доступ к реальным файлам и каталогам
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    # Перенаправление на index.php при обращении к каталогу
+    RewriteRule ^$ index.php [L]
+</IfModule>
+
+# Главная страница по умолчанию
+DirectoryIndex index.php
+
+# Кодировка по умолчанию
+AddDefaultCharset UTF-8
+
+# Разрешить доступ к шрифтам и статике
+<FilesMatch "\.(ttf|otf|woff|woff2|css|js|png|jpg|jpeg|gif|ico|svg)$">
+    <IfModule mod_headers.c>
+        Header set Access-Control-Allow-Origin "*"
+    </IfModule>
+</FilesMatch>

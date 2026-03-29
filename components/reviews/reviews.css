@@ -1,0 +1,432 @@
+/**
+ * .reviews — отзывы, слайдер Swiper
+ * Заголовок и пагинация — в колонке как .services (1520px + боковые поля).
+ * Трек слайдера: слева выровнен с этой колонкой, справа — до края экрана (peek).
+ * До 2100px — 100vw; от 2101px — min(100vw, 2800px). Бесконечный loop — в reviews.js (без slidesOffsetAfter — он ломает loop).
+ */
+
+.reviews {
+  --reviews-accent-a: #dd6f20;
+  --reviews-accent-b: #e02727;
+  --reviews-text: #ffffff;
+  --reviews-muted: rgba(255, 255, 255, 0.62);
+  --reviews-card-bg: rgba(31, 30, 30, 0.5);
+  --reviews-card-border: rgba(255, 255, 255, 0.08);
+  --reviews-radius: 30px;
+  /* место под .reviews__quote внизу слайда (секция снизу без padding — по ТЗ) */
+  --reviews-quote-overhang: clamp(48px, 10vw, 88px);
+
+  position: relative;
+  background: #0d0d0d;
+  color: var(--reviews-text);
+  padding: 90px 0 0;
+  overflow-x: hidden;
+}
+
+@supports (overflow: clip) {
+  .reviews {
+    overflow-x: clip;
+    overflow-y: visible;
+  }
+}
+
+.reviews__inner {
+  max-width: 1520px;
+  margin: 0 auto;
+  padding: 0;
+  padding-bottom: 60px;
+}
+
+.reviews__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: clamp(20px, 3vw, 32px);
+  margin-bottom: 30px;
+}
+
+.reviews__slider-wrap {
+  position: relative;
+  width: 100vw;
+  max-width: none;
+  margin-left: calc(50% - 50vw);
+  margin-right: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* совпадает с левым краем контента .reviews__inner */
+  padding-left: calc((100vw - 1520px) / 2);
+}
+
+@media (min-width: 2101px) {
+  .reviews__slider-wrap {
+    width: min(100vw, 2800px);
+  }
+}
+
+.reviews__titles {
+  flex: 1 1 280px;
+  min-width: 0;
+}
+
+.reviews__eyebrow {
+  margin: 0 0 clamp(8px, 1.2vw, 12px);
+  font-weight: 600;
+  font-size: clamp(11px, 0.2vw + 10px, 14px);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, var(--reviews-accent-a), var(--reviews-accent-b));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.reviews__title {
+  margin: 0;
+  font-weight: 700;
+  font-size: clamp(24px, 2.2vw + 14px, 44px);
+  line-height: 1.15;
+  max-width: 22ch;
+  text-wrap: balance;
+}
+
+.reviews__title-accent {
+  background: linear-gradient(90deg, var(--reviews-accent-a), var(--reviews-accent-b));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.reviews__nav {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.reviews__arrow {
+  display: grid;
+  place-items: center;
+  padding: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 50%;
+  transition: opacity 0.2s ease, transform 0.15s ease;
+}
+
+.reviews__arrow:hover {
+  opacity: 0.88;
+  transform: scale(1.04);
+}
+
+.reviews__arrow:focus {
+  outline: none;
+}
+
+.reviews__arrow:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 3px;
+}
+
+.reviews__arrow.swiper-button-disabled {
+  opacity: 0.35;
+  pointer-events: none;
+}
+
+.reviews__slider {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.reviews__slider .swiper-wrapper {
+  align-items: stretch;
+}
+
+/* Специфичность выше, чем у .swiper-slide в swiper-bundle.min.css (он грузится после и задаёт width:100%). */
+.reviews__slider.swiper .swiper-slide.reviews__slide {
+  position: relative;
+  width: 895px;
+  max-width: 100%;
+  flex-shrink: 0;
+  height: auto;
+  box-sizing: border-box;
+  /* высота слайда учитывает «хвост» кавычек внизу — иначе режет .reviews__slider { overflow: hidden } */
+  padding-bottom: var(--reviews-quote-overhang);
+}
+
+.reviews__card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: min(400px, 70vw);
+  padding: clamp(22px, 3vw, 32px) clamp(20px, 3vw, 36px) clamp(28px, 4vw, 40px);
+  border-radius: var(--reviews-radius);
+  background: var(--reviews-card-bg);
+  border: 1px solid var(--reviews-card-border);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  box-shadow: 0 24px 48px rgba(0, 0, 0, 0.25);
+  /* overflow:visible + backdrop-filter дают «ломаный» угол; кавычки вынесены из article */
+  overflow: hidden;
+  isolation: isolate;
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.reviews__card-glow {
+  position: absolute;
+  top: -20%;
+  right: -15%;
+  width: 55%;
+  height: 55%;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle at 30% 30%,
+    rgba(224, 39, 39, 0.22) 0%,
+    rgba(221, 111, 32, 0.12) 40%,
+    transparent 70%
+  );
+  pointer-events: none;
+  z-index: 0;
+}
+
+.reviews__card-top,
+.reviews__card-body {
+  position: relative;
+  z-index: 1;
+}
+
+.reviews__card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: clamp(18px, 2.5vw, 26px);
+}
+
+.reviews__card-label {
+  font-weight: 600;
+  font-size: clamp(11px, 0.25vw + 10px, 13px);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, var(--reviews-accent-a), var(--reviews-accent-b));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.reviews__card-num {
+  font-weight: 600;
+  font-size: clamp(18px, 1.2vw + 12px, 24px);
+  color: rgba(255, 255, 255, 0.45);
+  letter-spacing: 0.04em;
+}
+
+.reviews__card-body {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(22px, 3vw, 28px);
+}
+
+.reviews__card-main {
+  order: 1;
+}
+
+.reviews__card-aside {
+  order: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.reviews__p1 {
+  margin: 0;
+  font-size: clamp(15px, 0.5vw + 14px, 18px);
+  line-height: 1.55;
+  color: var(--reviews-text);
+}
+
+.reviews__p2 {
+  margin: clamp(12px, 1.5vw, 16px) 0 0;
+  font-size: clamp(13px, 0.35vw + 12px, 15px);
+  line-height: 1.5;
+  color: var(--reviews-muted);
+}
+
+.reviews__accent {
+  color: var(--reviews-accent-a);
+  font-weight: 600;
+}
+
+.reviews__photo {
+  width: clamp(88px, 12vw, 112px);
+  height: clamp(88px, 12vw, 112px);
+  border-radius: 50%;
+  object-fit: cover;
+  filter: grayscale(1);
+}
+
+.reviews__name {
+  margin: 0;
+  font-weight: 600;
+  font-size: clamp(15px, 0.45vw + 14px, 18px);
+  background: linear-gradient(90deg, var(--reviews-accent-a), var(--reviews-accent-b));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.reviews__role {
+  margin: 0;
+  font-size: clamp(13px, 0.3vw + 12px, 15px);
+  color: rgba(255, 255, 255, 0.85);
+}
+
+/* Позиция от .reviews__slide: нижний край на (overhang − 34px) от низа слайда = выступ на 34px ниже карточки */
+.reviews__quote {
+  position: absolute;
+  left: clamp(18px, 2.8vw, 36px);
+  bottom: calc(var(--reviews-quote-overhang) - 34px);
+  width: clamp(92px, 12vw, 140px);
+  height: auto;
+  aspect-ratio: 14 / 10;
+  background: url('/img/orange-otziv.svg') center/contain no-repeat;
+  pointer-events: none;
+  z-index: 2;
+}
+
+/* Пагинация — сегменты-линии */
+.reviews__pagination.swiper-pagination {
+  position: relative;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.reviews__pagination .swiper-pagination-bullet {
+  width: clamp(36px, 8vw, 56px);
+  height: 4px;
+  margin: 0 !important;
+  border-radius: 2px;
+  background: rgba(255, 255, 255, 0.2);
+  opacity: 1;
+  transition: background 0.25s ease, transform 0.2s ease;
+}
+
+.reviews__pagination .swiper-pagination-bullet-active {
+  background: #fff;
+  transform: scaleY(1.25);
+}
+
+@media (min-width: 900px) {
+  .reviews__card-body {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: clamp(28px, 4vw, 48px);
+  }
+
+  .reviews__card-aside {
+    order: 0;
+    flex: 0 0 clamp(160px, 18vw, 200px);
+  }
+
+  .reviews__card-main {
+    order: 1;
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+}
+
+/* Как .services: боковые поля контентной колонки */
+@media (max-width: 1520px) {
+  .reviews__inner {
+    padding: 0 60px;
+  }
+
+  .reviews__slider-wrap {
+    padding-left: 60px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .reviews__inner {
+    padding: 0 10px;
+  }
+
+  .reviews__slider-wrap {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 899px) {
+  .reviews__head {
+    margin-bottom: 20px;
+    gap: 14px;
+  }
+
+  .reviews__nav {
+    width: 100%;
+    justify-content: flex-end;
+  }
+
+  .reviews__slider.swiper .swiper-slide.reviews__slide {
+    width: min(92vw, 620px);
+  }
+
+  .reviews__card {
+    min-height: 0;
+    padding: 20px 18px 72px;
+  }
+
+  .reviews__card-top {
+    margin-bottom: 14px;
+  }
+
+  .reviews__card-body {
+    gap: 18px;
+  }
+
+  .reviews__card-aside {
+    display: grid;
+    grid-template-columns: 84px 1fr;
+    grid-template-areas:
+      'photo name'
+      'photo role';
+    column-gap: 14px;
+    row-gap: 4px;
+    align-items: center;
+  }
+
+  .reviews__photo {
+    grid-area: photo;
+    width: 84px;
+    height: 84px;
+  }
+
+  .reviews__name {
+    grid-area: name;
+  }
+
+  .reviews__role {
+    grid-area: role;
+  }
+
+  .reviews__quote {
+    left: 16px;
+    bottom: calc(var(--reviews-quote-overhang) - 26px);
+    width: 112px;
+  }
+}

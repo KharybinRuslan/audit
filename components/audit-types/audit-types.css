@@ -1,0 +1,235 @@
+/**
+ * Блок «Виды аудита» — второй слайдер (карточки), не конфликтует с services.
+ */
+.audit-types {
+  position: relative;
+  background: #0d0d0d;
+  padding: 0px 0 40px;
+}
+
+/* Скрытый SVG только с градиентом для стрелок — не рисует ничего, не занимает место */
+.audit-types__defs {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.audit-types__inner {
+  max-width: 1520px;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: visible;
+}
+
+.audit-types__nav {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 60px;
+}
+
+.audit-types__arrow {
+  width: 56px;
+  height: 56px;
+  padding: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.25s ease;
+}
+
+.audit-types__arrow:hover {
+  opacity: 0.9;
+}
+
+/* При наведении — фон круга */
+.audit-types__arrow:hover svg circle {
+  fill: #1e1e1e;
+}
+
+.audit-types__arrow svg {
+  display: block;
+  width: 56px;
+  height: 56px;
+}
+
+.audit-types__arrow svg circle {
+  fill: none;
+  transition: fill 0.25s ease;
+}
+
+.audit-types__arrow--next svg {
+  transform: scaleX(-1);
+}
+
+.audit-types__slider {
+  overflow: hidden;
+  padding-bottom: 0;
+}
+
+.audit-types__slider .swiper-wrapper {
+  align-items: stretch;
+}
+
+.audit-types__slide {
+  width: 280px;
+  box-sizing: border-box;
+  height: 300px;
+}
+
+.audit-types__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  text-align: left;
+  padding: 0 0 30px;
+  border-radius: 20px;
+  box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.05);
+  background: #1e1e1e;
+  text-decoration: none;
+  cursor: pointer;
+  width: 100%;
+  height: 300px;
+  min-height: 300px;
+  max-height: 300px;
+  box-sizing: border-box;
+}
+
+.audit-types__img-wrap {
+  display: block;
+  width: 100%;
+  max-width: 140px;
+  margin-bottom: 20px;
+  flex-shrink: 0;
+  padding-left: 0;
+  box-sizing: border-box;
+}
+
+.audit-types__img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+.audit-types__title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+  margin: 0 0 8px;
+  display: block;
+  padding-left: 20px;
+}
+
+/* Первый (активный) слайд — градиентный заголовок */
+.audit-types__slide.swiper-slide-active .audit-types__title {
+  background: linear-gradient(90deg, #dd6f20 10.58%, #e02727 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.audit-types__desc {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 15px;
+  color: #fff;
+  line-height: 1.4;
+  margin: 0;
+  display: none;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.audit-types__slide.swiper-slide-active .audit-types__desc {
+  display: block;
+}
+
+/* Точки пагинации — по центру, под слайдером */
+.audit-types__pagination {
+  position: relative;
+  margin-top: 48px;
+  text-align: center;
+  left: 0;
+  transform: none;
+}
+
+.audit-types__pagination.swiper-pagination-horizontal {
+  display: flex;
+  justify-content: center;
+}
+
+.audit-types__pagination .swiper-pagination-bullet {
+  width: 24px;
+  height: 4px;
+  border-radius: 2px;
+  background: rgba(255, 255, 255, 0.3);
+  opacity: 1;
+  transition: background 0.2s;
+}
+
+.audit-types__pagination .swiper-pagination-bullet-active {
+  background: #fff;
+}
+
+@media (max-width: 1520px) {
+  .audit-types {
+    padding: 0 60px 30px 60px;
+  }
+
+  .audit-types__inner {
+    padding: 0 0px 0 0px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .audit-types__slide {
+    width: 260px;
+  }
+
+  .audit-types__inner {
+    padding: 0 16px;
+  }
+
+  .audit-types__nav {
+    margin-bottom: 30px;
+  }
+
+  .audit-types__arrow,
+  .audit-types__arrow svg {
+    width: 44px;
+    height: 44px;
+  }
+
+  .audit-types__card {
+    padding: 0 0 30px;
+    height: 300px;
+    min-height: 300px;
+    max-height: 300px;
+  }
+
+  .audit-types__title {
+    font-size: 18px;
+  }
+
+  .audit-types__desc {
+    font-size: 14px;
+  }
+  .audit-types {
+    padding: 0 0px 30px 0px;
+  }
+
+  .audit-types__inner {
+    padding: 0 0px 0 10px;
+  }
+}

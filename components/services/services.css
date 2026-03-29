@@ -1,0 +1,344 @@
+/**
+ * Блок услуг — слайдер с изображением справа, навигация и полоска загрузки
+ * Только flex, отступы и шрифты в px
+ */
+
+.services {
+  background: #0d0d0d;
+  padding: 60px 0 0px;
+  overflow-x: hidden;
+}
+
+.services__inner {
+  max-width: 1520px;
+  margin: 0 auto;
+}
+
+.services__header {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 30px;
+}
+
+.services__all-link {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.7);
+  transition: opacity 0.2s;
+}
+
+.services__all-link:hover {
+  opacity: 0.85;
+}
+
+.services__main {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  gap: 76px;
+}
+
+.services__content {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  overflow: visible;
+}
+
+.services__title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 1.2;
+  color: #fff;
+  margin: 0 0 30px;
+}
+
+.services__title-accent {
+  background: linear-gradient(90deg, #dd6f20 41.35%, #e02727 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.services__desc {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  color: #fff;
+  margin: 0 0 40px;
+  line-height: 1.5;
+}
+
+.services__link {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  background: linear-gradient(90deg, #dd6f20 10.58%, #e02727 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  transition: opacity 0.2s;
+  background-color: transparent;
+  padding: 0;
+}
+
+.services__link:hover {
+  opacity: 0.9;
+}
+
+.services__media {
+  flex-shrink: 0;
+  width: 45%;
+  max-width: 560px;
+}
+
+.services__img {
+  width: 100%;
+  height: auto;
+}
+
+.services__slider-wrap {
+  position: relative;
+  width: 100vw;
+  margin-bottom: 30px;
+}
+
+.services__nav {
+  width: 100%;
+  padding: 0;
+}
+
+/* Не обрезать текст слайдов; переопределяем overflow из Swiper */
+.services__nav.swiper {
+  overflow: visible;
+}
+
+.services__nav .swiper-wrapper {
+  align-items: flex-start;
+}
+
+.services__nav .swiper-slide {
+  width: auto;
+}
+
+.services__nav-slide {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  flex-shrink: 0;
+  margin-right: 0;
+}
+
+.services__nav-item {
+  display: inline-flex;
+  flex-shrink: 0;
+  cursor: default;
+  padding: 0;
+  margin-right: 0;
+  pointer-events: none;
+}
+
+/* Скрытый SVG с градиентом для линии */
+.services__line-defs {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+/* Линия прокрутки: сплошная SVG 100px, между названиями услуг в одной строке */
+.services__nav-line {
+  display: inline-block;
+  flex-shrink: 0;
+  vertical-align: middle;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.services__nav-line .services__line-track {
+  stroke: rgba(255, 255, 255, 0.45);
+  stroke-width: 2;
+}
+
+.services__nav-line .services__loading-fill {
+  width: 0;
+  transition: none;
+}
+
+.services__nav-line--loading .services__loading-fill {
+  animation: services-loading-fill 5s linear forwards;
+}
+
+.services__nav-item .services__nav-text {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 25px;
+  color: rgba(255, 255, 255, 0.7);
+  transition: color 0.2s;
+  white-space: nowrap;
+}
+
+.services__nav-item--active .services__nav-text {
+  font-weight: 700;
+  background: linear-gradient(90deg, #dd6f20 10.58%, #e02727 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+@keyframes services-loading-fill {
+  to {
+    width: 100px;
+  }
+}
+
+@media (max-width: 1520px) {
+  .services__inner {
+    padding: 0 60px;
+  }
+
+  .services__nav .swiper-wrapper {
+    align-items: flex-start;
+  }
+
+  .services__nav-slide {
+    align-items: flex-start;
+  }
+
+  .services__nav-item .services__nav-text {
+    font-size: 20px;
+  }
+
+  .services__title {
+    font-size: 25px;
+  }
+
+  .services__desc {
+    font-size: 16px;
+    margin: 0 0 20px;
+  }
+
+  .services__link {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .services__inner {
+    padding: 0 10px;
+  }
+
+  .services__header {
+    display: none;
+  }
+
+  .services__main {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .services__content {
+    width: 100%;
+  }
+
+  .services__media {
+    width: 100%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 0;
+    margin-top: -80px;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .services__img {
+    width: 250px;
+    height: auto;
+    display: block;
+    object-fit: contain;
+    object-position: center;
+  }
+
+  .services__slider-wrap {
+    width: 100%;
+  }
+
+  .services__nav.swiper {
+    overflow: hidden;
+  }
+
+  .services__nav-line {
+    width: 50px;
+    height: 2px;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  .services__nav-line--loading .services__loading-fill {
+    animation: services-loading-fill-adaptive 5s linear forwards;
+  }
+
+  .services__title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+  }
+
+  .services__title-accent {
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  .services__nav .swiper-wrapper {
+    align-items: flex-start;
+  }
+
+  .services__nav-slide {
+    align-items: flex-start;
+  }
+
+  .services__nav-item {
+    margin-right: 0;
+  }
+
+  .services__nav-item .services__nav-text {
+    font-weight: 600;
+    font-size: 14px;
+    white-space: nowrap;
+    line-height: 1.3;
+  }
+
+  .services__nav-item--active .services__nav-text {
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .services__desc {
+    font-weight: 500;
+    font-size: 12px;
+    margin: 0 0 24px;
+    min-height: 60px;
+  }
+
+  .services__link {
+    font-weight: 500;
+    font-size: 13px;
+  }
+
+  @keyframes services-loading-fill-adaptive {
+    to {
+      width: 50px;
+    }
+  }
+}
