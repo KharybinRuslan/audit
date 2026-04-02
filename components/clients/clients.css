@@ -1,0 +1,83 @@
+.clients {
+    width: 100%;
+    height: clamp(220px, calc(160px + 8vw), 320px);
+    padding: clamp(18px, calc(8px + 1.2vw), 32px) clamp(20px, calc(8px + 2.6vw), 60px);
+    border-radius: 0 0 clamp(40px, calc(14px + 3.9vw), 100px) clamp(40px, calc(14px + 3.9vw), 100px);
+    background: #141414;
+    overflow: hidden;
+}
+
+.clients__inner {
+    width: 100%;
+    max-width: 1520px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: clamp(10px, calc(4px + 1vw), 24px);
+}
+
+.clients__title {
+    margin: 0;
+    width: 100%;
+    max-width: 137px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: clamp(16px, calc(11px + 0.8vw), 25px);
+    line-height: clamp(1.05, calc(1 + 0.01vw), 1.1);
+    background: linear-gradient(90deg, #dd6f20 0%, #e02727 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+.clients__logo {
+    width: auto;
+    height: auto;
+    max-height: clamp(44px, calc(28px + 1.8vw), 78px);
+    object-fit: contain;
+}
+
+@media (max-width: 767px) {
+    .clients {
+        height: 136px;
+        padding: 0 10px;
+        border-radius: 0 0 30px 30px;
+    }
+
+    .clients__inner {
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        gap: 12px;
+        height: 100%;
+    }
+
+    .clients__title {
+        width: 82px;
+        max-width: 82px;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 18px;
+        display: flex;
+        align-items: center;
+        background: linear-gradient(90deg, #DD6F20 0%, #E02727 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        color: transparent;
+    }
+
+    .clients__logo {
+        width: 57px;
+        max-width: 57px;
+        max-height: none;
+    }
+
+    .clients__logo:nth-of-type(n + 4) {
+        display: none;
+    }
+}
