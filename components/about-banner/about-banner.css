@@ -1,0 +1,252 @@
+/**
+ * Верхний баннер страницы About:
+ * 1) базовый градиент
+ * 2) изображение по центру снизу
+ * 3) затемняющий градиент поверх
+ */
+
+.about-banner {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    background: #0d0d0d;
+    padding: 0 clamp(20px, calc(8px + 2.6vw), 60px) clamp(70px, calc(34px + 2.8vw), 124px);
+    overflow: hidden;
+    border-radius: 0 0 clamp(40px, calc(14px + 3.9vw), 100px) clamp(40px, calc(14px + 3.9vw), 100px);
+    height: clamp(680px, calc(520px + 24vw), 978px);
+    isolation: isolate;
+}
+
+.about-banner__layer {
+    position: absolute;
+    inset: 0;
+}
+
+.about-banner__layer--base {
+    background: linear-gradient(
+        98.31deg,
+        rgba(230, 39, 21, 0.8) 8.86%,
+        rgba(254, 116, 44, 0.8) 30.07%,
+        rgba(253, 79, 44, 0.8) 51.28%,
+        rgba(241, 56, 36, 0.8) 70.4%,
+        rgba(56, 16, 17, 0.8) 95.35%
+    );
+}
+
+.about-banner__layer--image {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    z-index: 1;
+}
+
+.about-banner__layer--image picture {
+    width: 100%;
+    max-width: 1520px;
+}
+
+.about-banner__image {
+    width: 100%;
+    max-width: 1520px;
+    height: auto;
+    object-fit: contain;
+    object-position: right bottom;
+}
+
+.about-banner__layer--overlay {
+    background: linear-gradient(180deg, rgba(13, 13, 13, 0) 0%, #0d0d0d 100%);
+    z-index: 2;
+}
+
+.about-banner__content {
+    position: relative;
+    z-index: 3;
+    width: 100%;
+    max-width: 1520px;
+    margin: 0 auto;
+}
+
+.about-banner__columns {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: clamp(16px, calc(8px + 1.2vw), 40px);
+    margin-bottom: clamp(8px, calc(5px + 0.3vw), 13px);
+}
+
+.about-banner__left {
+    width: 100%;
+    max-width: 673px;
+}
+
+.about-banner__eyebrow {
+    margin: 0 0 30px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: clamp(16px, calc(11px + 0.8vw), 25px);
+    color: #fff;
+}
+
+.about-banner__title {
+    margin: 0;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: clamp(34px, calc(17px + 2.3vw), 70px);
+    line-height: clamp(1.08, calc(1.02 + 0.01vw), 1.15);
+    color: #fff;
+}
+
+.about-banner__right {
+    width: 100%;
+    max-width: 550px;
+}
+
+.about-banner__subtitle {
+    margin: 0 0 45px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: clamp(20px, calc(12px + 1vw), 35px);
+    line-height: 1.2;
+    color: #fff;
+}
+
+.about-banner__text {
+    margin: 0;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: clamp(14px, calc(11px + 0.3vw), 18px);
+    line-height: 1.45;
+    color: #fff;
+}
+
+.about-banner__services {
+    margin-top: clamp(24px, calc(12px + 1.3vw), 50px);
+}
+
+.about-banner__services-title {
+    margin: 0;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: clamp(16px, calc(11px + 0.8vw), 25px);
+    color: #fff;
+}
+
+.about-banner__services-list {
+    margin-top: clamp(24px, calc(12px + 1.3vw), 50px);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: clamp(10px, calc(4px + 1vw), 24px);
+}
+
+.about-banner__service {
+    width: 100%;
+}
+
+.about-banner__service--audit {
+    max-width: 145px;
+}
+
+.about-banner__service--accounting {
+    max-width: 193px;
+}
+
+.about-banner__service--consulting {
+    max-width: 128px;
+}
+
+.about-banner__service--risks {
+    max-width: 244px;
+}
+
+.about-banner__service-number {
+    margin: 0 0 clamp(10px, calc(4px + 0.7vw), 20px);
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: clamp(13px, calc(10px + 0.5vw), 20px);
+}
+
+.about-banner__service-hash {
+    color: #fc4a00;
+}
+
+.about-banner__service-num {
+    color: #fff;
+}
+
+.about-banner__service-name {
+    margin: 0;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: clamp(13px, calc(10px + 0.5vw), 20px);
+    line-height: 1.2;
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+    .about-banner {
+        height: 588px;
+        border-radius: 0;
+        padding: 0 10px 130px;
+    }
+
+    .about-banner__layer--base {
+        background: linear-gradient(
+            138deg,
+            rgba(230, 39, 21, 0.8) 0%,
+            rgba(245, 106, 33, 0.8) 24.52%,
+            rgba(241, 56, 36, 0.8) 66.98%,
+            rgba(56, 16, 17, 0.8) 100%
+        );
+    }
+
+    .about-banner__layer--image picture {
+        max-width: 390px;
+        margin-left: auto;
+    }
+
+    .about-banner__image {
+        max-width: 390px;
+    }
+
+    .about-banner__columns {
+        margin-bottom: 70px;
+    }
+
+    .about-banner__eyebrow {
+        margin-bottom: 30px;
+        font-size: 15px;
+    }
+
+    .about-banner__title {
+        font-size: 25px;
+    }
+
+    .about-banner__right {
+        display: none;
+    }
+
+    .about-banner__services-title {
+        font-size: 15px;
+    }
+
+    .about-banner__services-list {
+        margin-top: 30px;
+        flex-wrap: wrap;
+        gap: 24px 12px;
+    }
+
+    .about-banner__service {
+        max-width: calc(50% - 6px);
+    }
+
+    .about-banner__service-number {
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+
+    .about-banner__service-name {
+        font-size: 12px;
+    }
+}

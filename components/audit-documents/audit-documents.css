@@ -1,0 +1,380 @@
+/**
+ * Компонент: Audit Documents — блок как на скриншоте
+ */
+
+.audit-documents {
+    background: transparent;
+    padding-left: clamp(20px, calc(8px + 2.6vw), 60px);
+    padding-right: clamp(20px, calc(8px + 2.6vw), 60px);
+    padding-top: clamp(120px, calc(84px + 3.8vw), 180px);
+    padding-bottom: clamp(120px, calc(84px + 3.8vw), 180px);
+}
+
+.audit-documents__wrap {
+    max-width: 1520px;
+    margin: 0 auto;
+    padding: 0;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) clamp(320px, calc(140px + 23vw), 490px);
+    gap: clamp(18px, 2vw, 30px); /* внешние и внутренние разрывы — до 30px */
+    align-items: stretch;
+}
+
+.audit-documents__left {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: clamp(18px, 2vw, 30px);
+    min-width: 0;
+    height: 100%;
+}
+
+.audit-documents__right {
+    width: 100%;
+    max-width: none;
+    display: flex;
+    flex-direction: column;
+    gap: clamp(18px, 2vw, 30px);
+    height: 100%;
+    min-width: 0;
+}
+
+.audit-documents__card {
+    background: #1e1e1e;
+    box-shadow: 0px 16px 28px rgba(0, 0, 0, 0.05);
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+/* --------- ЛЕВЫЙ БЛОК: верх --------- */
+.audit-documents__card--complex {
+    position: relative;
+    padding: clamp(30px, 3.3vw, 50px) clamp(20px, 2.6vw, 40px) clamp(25px, 2.7vw, 40px);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.audit-documents__complex-img {
+    position: absolute;
+    top: -50px;
+    right: 40px;
+    width: clamp(120px, 14vw, 200px);
+    height: clamp(120px, 14vw, 200px);
+    object-fit: contain;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.audit-documents__complex-title {
+    max-width: 412px;
+    margin: 0 0 clamp(45px, 5.2vw, 78px);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: clamp(22px, 2.2vw, 32px);
+    line-height: clamp(26px, 2.6vw, 39px);
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.audit-documents__complex-desc {
+    margin: 0;
+    max-width: 745px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: clamp(14px, 1.8vw, 20px);
+    line-height: clamp(16px, 2.2vw, 24px);
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+/* --------- ЛЕВЫЙ БЛОК: низ (2 карточки) --------- */
+.audit-documents__stats-row {
+    display: flex;
+    gap: clamp(18px, 2vw, 30px);
+    align-items: stretch;
+    flex-shrink: 0;
+}
+
+.audit-documents__card--stat {
+    flex: 1;
+    padding: clamp(30px, 3.3vw, 50px) clamp(20px, 2.6vw, 40px);
+}
+
+.audit-documents__stat-title {
+    margin: 0 0 clamp(45px, 5.2vw, 78px);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: clamp(22px, 2.2vw, 32px);
+    line-height: clamp(26px, 2.6vw, 39px);
+    color: #fff;
+}
+
+.audit-documents__card--stat .audit-documents__stat-desc {
+    margin: 0;
+}
+
+.audit-documents__stat-desc {
+    margin: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: clamp(14px, 1.8vw, 20px);
+    line-height: clamp(16px, 2.2vw, 24px);
+    color: #fff;
+}
+
+/* --------- ПРАВЫЙ БЛОК: документы --------- */
+.audit-documents__card--docs {
+    padding: clamp(30px, 3.3vw, 50px) clamp(20px, 2.6vw, 40px);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.audit-documents__docs-title {
+    margin: 0 0 clamp(90px, 10vw, 150px);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: clamp(22px, 2.2vw, 32px);
+    line-height: clamp(26px, 2.6vw, 39px);
+    color: #fff;
+}
+
+.audit-documents__files {
+    display: flex;
+    flex-direction: column;
+    gap: clamp(18px, 2vw, 30px); /* разрыв между файлами */
+    margin-top: auto;
+}
+
+.audit-documents__file {
+    display: flex;
+    align-items: flex-start;
+    gap: clamp(18px, 2vw, 30px); /* отсуп справа от папки */
+    min-width: 0;
+}
+
+.audit-documents__file-icon {
+    width: clamp(50px, 4.2vw, 64px);
+    height: clamp(50px, 4.2vw, 64px);
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.audit-documents__file-content {
+    display: flex;
+    flex-direction: column;
+    gap: clamp(12px, 1.5vw, 18px);
+    min-width: 0;
+}
+
+.audit-documents__file-title {
+    margin: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: clamp(12px, 1.5vw, 15px);
+    line-height: clamp(14px, 1.8vw, 18px);
+    color: #fff;
+    max-width: 320px;
+    width: 100%;
+}
+
+.audit-documents__file-download {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: fit-content;
+    padding: 0;
+    border: none;
+    border-radius: 12px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: clamp(12px, 1.3vw, 14px);
+    line-height: clamp(18px, 2vw, 22px);
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+}
+
+.audit-documents__file-download-text {
+    position: relative;
+    z-index: 1;
+}
+
+.audit-documents__file-download-line {
+    display: block;
+    width: 100%;
+    height: 0;
+    border-top: 1px solid #fff;
+    margin-top: 3px;
+}
+
+/* --------- ПРАВЫЙ БЛОК: карта --------- */
+.audit-documents__map-card {
+    position: relative;
+    padding: clamp(30px, 3.3vw, 50px) clamp(20px, 2.6vw, 40px);
+    height: clamp(200px, 16vw, 260px);
+    background: #1e1e1e;
+    box-shadow: 0px 16px 28px rgba(0, 0, 0, 0.05);
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    overflow: hidden;
+}
+
+.audit-documents__map-title {
+    margin: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: clamp(22px, 2.2vw, 32px);
+    line-height: clamp(26px, 2.6vw, 39px);
+    color: #fff;
+    max-width: 540px;
+    position: relative;
+    z-index: 2;
+}
+
+.audit-documents__map-img {
+    position: absolute;
+    right: 20px;
+    bottom: -10px;
+    width: 229.72px;
+    height: 129.22px;
+    object-fit: contain;
+    pointer-events: none;
+    z-index: 1;
+}
+
+@media (max-width: 767px) {
+    .audit-documents {
+        padding: 90px 10px;
+    }
+
+    .audit-documents__wrap {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        padding: 0;
+    }
+
+    .audit-documents__left {
+        gap: 12px;
+        max-width: 100%;
+    }
+
+    .audit-documents__stats-row {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .audit-documents__card {
+        border-radius: 30px;
+    }
+
+    .audit-documents__card--complex {
+        padding: 30px 20px;
+    }
+
+    .audit-documents__complex-img {
+        width: 120px;
+        height: 120px;
+        right: 20px;
+        top: -50px;
+    }
+
+    .audit-documents__complex-title {
+        max-width: 196px;
+        font-size: 22px;
+        line-height: 27px;
+        margin-bottom: 40px;
+    }
+
+    .audit-documents__complex-desc {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .audit-documents__card--stat {
+        padding: 30px 20px;
+    }
+
+    .audit-documents__stat-title {
+        font-size: 22px;
+        line-height: 27px;
+        margin-bottom: 40px;
+    }
+
+    .audit-documents__stat-desc {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .audit-documents__card--docs {
+        padding: 30px 20px;
+    }
+
+    .audit-documents__docs-title {
+        margin-bottom: 40px;
+        font-size: 22px;
+        line-height: 27px;
+    }
+
+    .audit-documents__files {
+        gap: 20px;
+        margin-top: 0;
+    }
+
+    .audit-documents__file {
+        gap: 28px;
+    }
+
+    .audit-documents__file-icon {
+        width: 68px;
+        height: 57px;
+    }
+
+    .audit-documents__file-content {
+        gap: 10px;
+    }
+
+    .audit-documents__file-title {
+        font-size: 12px;
+        line-height: 15px;
+        max-width: none;
+    }
+
+    .audit-documents__file-download {
+        font-size: 11px;
+        line-height: 22px;
+    }
+
+    .audit-documents__map-card {
+        padding: 30px 20px;
+        height: 230px;
+    }
+
+    .audit-documents__map-title {
+        max-width: 248px;
+        font-size: 22px;
+        line-height: 27px;
+    }
+
+    .audit-documents__map-img {
+        width: 229.72px;
+        height: 129.22px;
+        right: 20px;
+        bottom: -10px;
+    }
+}
+
