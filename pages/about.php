@@ -19,6 +19,8 @@ $pageTitle = 'О компании';
     <link rel="stylesheet" href="/components/audit-documents/audit-documents.css">
     <link rel="stylesheet" href="/components/stages/stages.css">
     <link rel="stylesheet" href="/components/reviews/reviews.css">
+    <link rel="stylesheet" href="/components/audit-request-form/audit-modal.css">
+    <link rel="stylesheet" href="/components/site-footer/site-footer.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 </head>
 
@@ -33,8 +35,12 @@ $pageTitle = 'О компании';
         <?php include __DIR__ . '/../components/contacts/contacts.php'; ?>
     </section>
 
+    <?php include __DIR__ . '/../components/site-footer/site-footer.php'; ?>
+    <?php include __DIR__ . '/../components/audit-request-form/audit-modal.php'; ?>
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="/components/hero/hero.js"></script>
+    <script src="/components/audit-request-form/audit-modal.js"></script>
     <script src="/components/stages/stages.js"></script>
     <script src="/components/reviews/reviews.js"></script>
 </body>

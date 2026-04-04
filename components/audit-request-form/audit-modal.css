@@ -1,0 +1,102 @@
+/**
+ * Модальное окно с формой запроса на аудит.
+ */
+
+.audit-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: clamp(16px, 4vw, 32px);
+  box-sizing: border-box;
+}
+
+.audit-modal[hidden] {
+  display: none !important;
+}
+
+.audit-modal__backdrop {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background: rgba(0, 0, 0, 0.78);
+  cursor: pointer;
+}
+
+.audit-modal__dialog {
+  position: relative;
+  z-index: 1;
+  width: min(100%, 520px);
+  max-height: min(92vh, 900px);
+  overflow: auto;
+  margin: auto;
+  border-radius: 16px;
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.55);
+  /* Непрозрачный фон: под формой не просвечивает страница */
+  background-color: #1e1e1e;
+  isolation: isolate;
+  pointer-events: auto;
+}
+
+/* Перебиваем полупрозрачный фон из .hero__form-wrap (hero) */
+.audit-modal .audit-modal__form-wrap.hero__form-wrap {
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  max-height: none;
+  flex: none;
+  background: #1e1e1e;
+  background-color: #1e1e1e;
+  box-shadow: none;
+}
+
+/* Анимированная рамка ::before — поверх плотного фона блока */
+.audit-modal .audit-modal__form-wrap.hero__form-wrap::before {
+  border-radius: inherit;
+}
+
+.audit-modal__close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.audit-modal__close:hover {
+  background: rgba(255, 255, 255, 0.18);
+}
+
+.audit-modal__close:focus-visible {
+  outline: 2px solid #dd6f20;
+  outline-offset: 2px;
+}
+
+/* Скролл страницы на html (main.css) — блокируем и html, и body */
+html.audit-modal-open,
+body.audit-modal-open {
+  overflow: hidden;
+  overscroll-behavior: none;
+}
+
+@media (max-width: 600px) {
+  .audit-modal__dialog {
+    width: 100%;
+    max-height: 100%;
+    border-radius: 12px 12px 0 0;
+    align-self: flex-end;
+  }
+}

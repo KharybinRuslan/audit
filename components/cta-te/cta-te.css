@@ -1,0 +1,171 @@
+/**
+ * CTA с изображением te.png — отступы секции как у .home-faq.
+ */
+
+.cta-te {
+  --cta-te-accent-a: #dd6f20;
+  --cta-te-accent-b: #e02727;
+  background: #0d0d0d;
+  color: #fff;
+  padding: clamp(48px, 6vw, 88px) 0 clamp(56px, 7vw, 100px);
+}
+
+@media (max-width: 1520px) {
+  .cta-te {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .cta-te {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.cta-te__inner {
+  max-width: 1520px;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cta-te__card {
+  position: relative;
+  overflow: hidden;
+  border-radius: clamp(20px, 2.5vw, 36px);
+  background: linear-gradient(180deg, #161616 0%, #121212 50%, #0f0f0f 100%);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.45);
+}
+
+.cta-te__glow {
+  position: absolute;
+  left: 50%;
+  width: 120%;
+  height: clamp(80px, 12vw, 140px);
+  transform: translateX(-50%);
+  pointer-events: none;
+  filter: blur(40px);
+  opacity: 0.35;
+}
+
+.cta-te__glow--top {
+  top: -40px;
+  background: radial-gradient(ellipse 70% 100% at 50% 0%, rgba(224, 39, 39, 0.9) 0%, transparent 70%);
+}
+
+.cta-te__glow--bottom {
+  bottom: -50px;
+  background: radial-gradient(ellipse 65% 100% at 50% 100%, rgba(221, 111, 32, 0.75) 0%, transparent 72%);
+}
+
+.cta-te__row {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: clamp(28px, 4vw, 56px);
+  /* padding: clamp(28px, 4vw, 48px) clamp(24px, 3.5vw, 48px); — ПК */
+}
+
+.cta-te__visual {
+  /* flex: 0 1 46%; — ПК */
+  min-width: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.cta-te__img {
+  width: 100%;
+  max-width: 520px;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  object-position: center bottom;
+}
+
+.cta-te__content {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: clamp(18px, 2.2vw, 28px);
+}
+
+.cta-te__title {
+  margin: 0;
+  font-weight: 700;
+  font-size: clamp(22px, 1.5vw + 14px, 38px);
+  line-height: 1.2;
+  text-wrap: balance;
+}
+
+.cta-te__title-accent {
+  background: linear-gradient(90deg, var(--cta-te-accent-a), var(--cta-te-accent-b));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.cta-te__text {
+  margin: 0;
+  font-size: clamp(14px, 0.3vw + 13px, 17px);
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.78);
+  max-width: 52ch;
+}
+
+.cta-te__btn.hero__btn {
+  margin-top: clamp(4px, 0.8vw, 12px);
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
+.cta-te__btn-text--short {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .cta-te__row {
+    flex-direction: column-reverse;
+    align-items: stretch;
+    text-align: left;
+    /* padding: clamp(28px, 4vw, 48px) clamp(24px, 3.5vw, 48px); */
+    gap: 10px;
+  }
+
+  .cta-te__visual {
+    /* flex: 1 1 auto; */
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .cta-te__img {
+    max-width: 400px;
+    margin: 0;
+  }
+
+  .cta-te__content {
+    align-items: flex-start;
+    padding: 40px 10px;
+  }
+
+  .cta-te__text {
+    max-width: none;
+  }
+
+  .cta-te__btn-text--full {
+    display: none;
+  }
+
+  .cta-te__btn-text--short {
+    display: inline;
+  }
+}
