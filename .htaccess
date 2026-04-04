@@ -2,10 +2,20 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
     RewriteBase /
-    # Разрешаем доступ к реальным файлам и каталогам
+
+    # /pages/name.php → /name (301); THE_REQUEST — только реальный запрос, не внутренняя подстановка
+    RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /pages/[^?\s]+\.php(\?|\s) [NC]
+    RewriteRule ^pages/([^/.]+)\.php$ /$1 [R=301,L,QSA]
+
+    # Чистые URL: /name → pages/name.php (если файл есть)
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
-    # Перенаправление на index.php при обращении к каталогу
+    RewriteCond %{DOCUMENT_ROOT}/pages/$1.php -f
+    RewriteRule ^([^/.]+)/?$ pages/$1.php [L,QSA]
+
+    # Главная: не файл/не каталог
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
     RewriteRule ^$ index.php [L]
 </IfModule>
 
