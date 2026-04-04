@@ -77,7 +77,7 @@ $siteFooterServices = [
                     <p class="site-footer__heading">О компании</p>
                     <ul class="site-footer__list">
                         <li><a class="site-footer__link" href="#">Презентация</a></li>
-                        <li><a class="site-footer__link" href="/pages/about.php#audit-documents">Документы</a></li>
+                        <li><a class="site-footer__link" href="/about#audit-documents">Документы</a></li>
                         <li><a class="site-footer__link" href="#">Реквизиты</a></li>
                     </ul>
                 </div>

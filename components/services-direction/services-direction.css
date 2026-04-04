@@ -1,0 +1,194 @@
+/**
+ * Hero страницы направления — две колонки, отступы как у остальных блоков (1520 / 60 / 10)
+ */
+
+.services-direction {
+  position: relative;
+  background: #0d0d0d;
+  margin: 0;
+  padding: 80px 0 0;
+  overflow-x: visible;
+}
+
+/* Светящееся пятно слева (макет Rectangle) */
+.services-direction::before {
+  content: '';
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: -100px;
+  top: 0;
+  background: radial-gradient(64% 64% at 50% 50%, rgba(239, 49, 36, 0.5) 20.75%, rgba(3, 1, 5, 0) 100%);
+  filter: blur(50px);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.services-direction__inner {
+  position: relative;
+  z-index: 1;
+  max-width: 1520px;
+  margin: 0 auto;
+}
+
+.services-direction__main {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 76px;
+}
+
+.services-direction__content {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Заголовок — типографика по макету; градиент только у «Аудиторские услуги» */
+.services-direction__title {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 856px;
+  min-height: 165px;
+  margin: 0 0 60px;
+  padding: 0;
+  font-family: 'Montserrat', var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  display: block;
+  color: #fff;
+}
+
+.services-direction__title-accent {
+  background: linear-gradient(90deg, #dd6f20 0%, #e02727 36.54%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.services-direction__title-rest {
+  color: #ffffff;
+  -webkit-text-fill-color: #ffffff;
+}
+
+.services-direction__desc {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 801px;
+  min-height: 81px;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+  color: #ffffff;
+}
+
+.services-direction__media {
+  flex-shrink: 0;
+  width: 45%;
+  max-width: 560px;
+  position: relative;
+}
+
+.services-direction__media::before {
+  content: '';
+  position: absolute;
+  right: -8%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: min(100%, 380px);
+  height: min(100%, 380px);
+  max-height: 360px;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(184, 41, 32, 0.38) 0%, rgba(13, 13, 13, 0) 70%);
+  filter: blur(56px);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.services-direction__img {
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 1;
+  display: block;
+}
+
+@media (max-width: 1520px) {
+  .services-direction__inner {
+    padding: 0 60px;
+  }
+
+  .services-direction__title {
+    font-size: 36px;
+    line-height: 44px;
+    min-height: 0;
+    margin-bottom: 40px;
+  }
+
+  .services-direction__desc {
+    font-size: 18px;
+    line-height: 24px;
+    min-height: 0;
+  }
+}
+
+@media (max-width: 1100px) {
+  .services-direction__inner {
+    padding: 0 10px;
+  }
+
+  .services-direction {
+    padding: 50px 0 0;
+  }
+
+  .services-direction__main {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+  }
+
+  .services-direction__content {
+    width: 100%;
+  }
+
+  /* Размеры по мобильному макету (без position/left/top) */
+  .services-direction__title {
+    max-width: 354px;
+    min-height: 72px;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0 0 40px;
+  }
+
+  .services-direction__desc {
+    max-width: 355px;
+    min-height: 45px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .services-direction__media {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .services-direction__img {
+    width: min(100%, 280px);
+  }
+
+  .services-direction__media::before {
+    right: 0;
+    width: 240px;
+    height: 240px;
+  }
+}

@@ -1,0 +1,176 @@
+/**
+ * Текстовые блоки направления (макет: заголовки, списки, карточка-заглушка).
+ * Позиции absolute из Figma заменены на сетку 1520 + отступы как в проекте.
+ */
+
+.service-direction-details {
+  background: #0d0d0d;
+  padding: 180px 0 100px;
+  margin: 0;
+}
+
+.service-direction-details__inner {
+  max-width: 1520px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.service-direction-details__heading {
+  margin: 0 0 60px;
+  padding: 0;
+  max-width: 708px;
+  font-family: 'Montserrat', var(--font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 49px;
+  color: #ffffff;
+}
+
+.service-direction-details__heading--narrow {
+  max-width: 670px;
+  margin-top: 0;
+}
+
+.service-direction-details__col {
+  flex: 1;
+  min-width: 0;
+  max-width: 867px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.service-direction-details__list {
+  margin: 0 0 100px;
+  padding: 0;
+  list-style: none;
+}
+
+.service-direction-details__list--benefits {
+  max-width: 1520px;
+}
+
+.service-direction-details__item {
+  position: relative;
+  margin: 0 0 12px;
+  padding-left: 22px;
+  font-family: 'Montserrat', var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+  color: #ffffff;
+}
+
+.service-direction-details__item:last-child {
+  margin-bottom: 0;
+}
+
+.service-direction-details__item::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 11px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #ffffff;
+}
+
+.service-direction-details__row {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  gap: 80px;
+}
+
+.service-direction-details__list--scope {
+  width: 100%;
+  margin: 0;
+}
+
+.service-direction-details__card {
+  flex-shrink: 0;
+  box-sizing: border-box;
+  width: 573px;
+  max-width: 100%;
+  height: 351px;
+  background: #1e1e1e;
+  box-shadow: 0 16px 28px rgba(0, 0, 0, 0.05);
+  border-radius: 30px;
+}
+
+@media (max-width: 1520px) {
+  .service-direction-details__inner {
+    padding: 0 60px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .service-direction-details {
+    padding: 80px 0 64px;
+  }
+
+  .service-direction-details__inner {
+    padding: 0 10px;
+  }
+
+  .service-direction-details__heading {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    max-width: none;
+  }
+
+  .service-direction-details__inner > .service-direction-details__heading:first-of-type {
+    max-width: 319px;
+  }
+
+  .service-direction-details__heading--narrow {
+    max-width: 302px;
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
+
+  .service-direction-details__list--benefits {
+    max-width: 355px;
+    margin-bottom: 60px;
+  }
+
+  .service-direction-details__list--scope {
+    max-width: 355px;
+    margin-bottom: 40px;
+  }
+
+  .service-direction-details__item {
+    font-size: 12px;
+    line-height: 15px;
+    padding-left: 16px;
+    margin-bottom: 8px;
+  }
+
+  .service-direction-details__item::before {
+    top: 5px;
+    width: 4px;
+    height: 4px;
+  }
+
+  .service-direction-details__row {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .service-direction-details__col {
+    max-width: none;
+    width: 100%;
+    order: 1;
+  }
+
+  .service-direction-details__card {
+    order: 2;
+    width: 100%;
+    height: 220px;
+  }
+}
