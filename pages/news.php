@@ -1,6 +1,6 @@
 <?php
 declare(strict_types=1);
-$pageTitle = 'Услуга направления';
+$pageTitle = 'Новости';
 ?>
 <!DOCTYPE html>
 <html lang="ru">
@@ -12,30 +12,20 @@ $pageTitle = 'Услуга направления';
     <link rel="stylesheet" href="/css/fonts.css">
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/components/site-header/site-header.css">
-    <link rel="stylesheet" href="/components/services-direction/services-direction.css">
-    <link rel="stylesheet" href="/components/audit-types/audit-types.css">
-    <link rel="stylesheet" href="/components/service-direction-details/service-direction-details.css">
-    <link rel="stylesheet" href="/components/news-slider/news-slider.css">
     <link rel="stylesheet" href="/components/hero/hero.css">
+    <link rel="stylesheet" href="/components/news-list/news-list.css">
     <link rel="stylesheet" href="/components/audit-request-form/audit-modal.css">
     <link rel="stylesheet" href="/components/site-footer/site-footer.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 </head>
 
 <body class="has-site-header">
     <?php include __DIR__ . '/../components/site-header/site-header.php'; ?>
-    <?php include __DIR__ . '/../components/services-direction/services-direction.php'; ?>
-    <?php include __DIR__ . '/../components/audit-types/audit-types.php'; ?>
-    <?php include __DIR__ . '/../components/service-direction-details/service-direction-details.php'; ?>
-    <?php include __DIR__ . '/../components/news-slider/news-slider.php'; ?>
+    <?php include __DIR__ . '/../components/news-list/news-list.php'; ?>
     <?php include __DIR__ . '/../components/site-footer/site-footer.php'; ?>
     <?php include __DIR__ . '/../components/audit-request-form/audit-modal.php'; ?>
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="/components/audit-types/audit-types.js"></script>
     <script src="/components/site-header/site-header.js"></script>
     <script src="/components/audit-request-form/audit-modal.js"></script>
-    <script src="/components/news-slider/news-slider.js"></script>
 </body>
 
 </html>

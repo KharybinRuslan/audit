@@ -69,7 +69,7 @@ $newsItems = [
     <div class="news__inner">
         <header class="news__header">
             <h2 class="news__title">Свежие новости <span class="news__title-accent">ТОП ЭКСПЕРТ</span></h2>
-            <a href="#" class="news__all">Все новости</a>
+            <a href="/news" class="news__all">Все новости</a>
         </header>
         <div class="news__grid">
             <?php foreach ($newsItems as $item): ?>
