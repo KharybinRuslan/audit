@@ -10,7 +10,7 @@
     display: flex;
     align-items: flex-end;
     background: #0d0d0d;
-    padding: 0 clamp(20px, calc(8px + 2.6vw), 60px) clamp(70px, calc(34px + 2.8vw), 124px);
+    padding: var(--site-header-height) clamp(20px, calc(8px + 2.6vw), 60px) clamp(70px, calc(34px + 2.8vw), 124px);
     overflow: hidden;
     border-radius: 0 0 clamp(40px, calc(14px + 3.9vw), 100px) clamp(40px, calc(14px + 3.9vw), 100px);
     height: clamp(680px, calc(520px + 24vw), 978px);

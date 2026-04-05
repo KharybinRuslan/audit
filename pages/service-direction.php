@@ -11,6 +11,7 @@ $pageTitle = 'Услуга направления';
     <title><?= htmlspecialchars($pageTitle, ENT_QUOTES, 'UTF-8') ?></title>
     <link rel="stylesheet" href="/css/fonts.css">
     <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/components/site-header/site-header.css">
     <link rel="stylesheet" href="/components/services-direction/services-direction.css">
     <link rel="stylesheet" href="/components/audit-types/audit-types.css">
     <link rel="stylesheet" href="/components/service-direction-details/service-direction-details.css">
@@ -20,7 +21,8 @@ $pageTitle = 'Услуга направления';
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 </head>
 
-<body>
+<body class="has-site-header">
+    <?php include __DIR__ . '/../components/site-header/site-header.php'; ?>
     <?php include __DIR__ . '/../components/services-direction/services-direction.php'; ?>
     <?php include __DIR__ . '/../components/audit-types/audit-types.php'; ?>
     <?php include __DIR__ . '/../components/service-direction-details/service-direction-details.php'; ?>
@@ -29,6 +31,7 @@ $pageTitle = 'Услуга направления';
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="/components/audit-types/audit-types.js"></script>
+    <script src="/components/site-header/site-header.js"></script>
     <script src="/components/audit-request-form/audit-modal.js"></script>
 </body>
 

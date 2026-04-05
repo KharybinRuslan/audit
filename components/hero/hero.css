@@ -14,7 +14,7 @@
     display: flex;
     align-items: center;
     background: #0d0d0d;
-    padding: 2rem 0;
+    padding: calc(2rem + var(--site-header-height)) 0 2rem;
     overflow: hidden;
 }
 

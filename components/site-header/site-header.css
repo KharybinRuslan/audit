@@ -1,0 +1,290 @@
+/**
+ * Шапка: прозрачная, после скролла фон #0D0D0D.
+ */
+
+body.has-site-header {
+  /* 20 + 48 (лого) + 20 padding inner; совпадает с .site-header__inner */
+  --site-header-height: 88px;
+  /* Без верхнего padding — иначе под шапкой виден фон body (#0d0d0d) */
+  padding-top: 0;
+}
+
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 200;
+  min-height: var(--site-header-height);
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  transition: background-color 0.35s ease;
+}
+
+.site-header--scrolled,
+.site-header--menu-open {
+  background-color: #0d0d0d;
+}
+
+/* Горизонтальные поля как у hero / directions / services-direction: 0 → 60px (≤1520) → 10px (≤1100) */
+.site-header__inner {
+  width: 100%;
+  max-width: 1520px;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  box-sizing: border-box;
+}
+
+.site-header__logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+  color: #fff;
+  text-decoration: none;
+}
+
+.site-header__logo-img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.site-header__logo-text {
+  font-weight: 800;
+  font-size: clamp(16px, 2vw, 20px);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.site-header__nav {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  min-width: 0;
+}
+
+.site-header__nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(16px, 2.5vw, 40px);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.site-header__nav-link {
+  font-weight: 600;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.92);
+  text-decoration: none;
+  transition: color 0.2s ease, opacity 0.2s ease;
+}
+
+.site-header__nav-link:hover {
+  color: #fff;
+}
+
+.site-header__actions {
+  display: flex;
+  align-items: center;
+  gap: clamp(12px, 2vw, 24px);
+  flex-shrink: 0;
+}
+
+/* Та же сетка/padding/radius/иконка 45×45, что у .hero__btn; только фон кнопки и отключённая анимация градиента */
+.site-header .hero__btn.site-header__audit-btn {
+  color: #000;
+  background: #fff;
+  background-size: auto;
+  background-position: 0 0;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.12);
+  animation: none;
+  transition: opacity 0.2s, transform 0.15s;
+}
+
+.site-header .hero__btn.site-header__audit-btn:hover {
+  opacity: 0.95;
+  transform: translateY(1px);
+}
+
+.site-header .hero__btn.site-header__audit-btn:focus-visible {
+  outline: 2px solid #dd6f20;
+  outline-offset: 3px;
+}
+
+.site-header__audit-label {
+  display: inline-flex;
+  align-items: center;
+  line-height: 1.2;
+}
+
+.site-header__audit-btn--panel {
+  width: 100%;
+  max-width: 320px;
+  margin-top: 8px;
+}
+
+/* Бургер: на всех ширинах (как в макете); иконка — 43×15 на ПК, 27×10 до 900px */
+.site-header__burger {
+  display: inline-flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  min-width: 44px;
+  min-height: 44px;
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.site-header__burger:focus-visible {
+  outline: 2px solid #dd6f20;
+  outline-offset: 2px;
+  border-radius: 8px;
+}
+
+.site-header__burger-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+}
+
+/* Не использовать .site-header__burger-icon svg — иначе display:block перебивает display:none у скрытой иконки, на мобилке рисуются оба SVG */
+.site-header__burger-svg--lg {
+  display: block;
+  width: 43px;
+  height: 15px;
+}
+
+.site-header__burger-svg--md {
+  display: none;
+  width: 27px;
+  height: 10px;
+}
+
+.site-header__burger-icon--close {
+  display: none;
+}
+
+.site-header__burger-icon--close svg {
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+
+.site-header--menu-open .site-header__burger-icon--menu {
+  display: none;
+}
+
+.site-header--menu-open .site-header__burger-icon--close {
+  display: flex;
+}
+
+/* Выезжающая панель (моб.) */
+.site-header__panel {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: var(--site-header-height);
+  bottom: 0;
+  z-index: 199;
+  background: #0d0d0d;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  overflow-y: auto;
+  transform: translateY(-8px);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.28s ease, transform 0.28s ease, visibility 0.28s;
+}
+
+.site-header--menu-open .site-header__panel {
+  transform: translateY(0);
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.site-header__panel-inner {
+  max-width: 1520px;
+  margin: 0 auto;
+  padding: 24px 0 40px;
+  box-sizing: border-box;
+}
+
+.site-header__panel-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.site-header__panel-link {
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.site-header__panel-link:hover {
+  color: #dd6f20;
+}
+
+html.site-header-menu-open,
+body.site-header-menu-open {
+  overflow: hidden;
+}
+
+@media (max-width: 1520px) {
+  .site-header__inner {
+    padding: 20px 60px;
+  }
+
+  .site-header__panel-inner {
+    padding: 24px 60px 40px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .site-header__inner {
+    padding: 20px 10px;
+  }
+
+  .site-header__panel-inner {
+    padding: 24px 10px 40px;
+  }
+}
+
+@media (max-width: 900px) {
+  .site-header__nav,
+  .site-header__actions > .site-header__audit-btn:not(.site-header__audit-btn--panel) {
+    display: none;
+  }
+
+  .site-header__burger-svg--lg {
+    display: none;
+  }
+
+  .site-header__burger-svg--md {
+    display: block;
+  }
+
+  .site-header__inner {
+    justify-content: space-between;
+  }
+}

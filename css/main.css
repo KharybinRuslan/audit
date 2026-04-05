@@ -18,6 +18,8 @@ html {
 
 :root {
     --font-family: 'Montserrat', sans-serif;
+    /* С фиксированной шапкой body.has-site-header задаёт высоту шапки; иначе 0 */
+    --site-header-height: 0px;
 }
 
 body {

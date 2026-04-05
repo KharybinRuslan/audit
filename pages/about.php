@@ -11,6 +11,7 @@ $pageTitle = 'О компании';
     <title><?= htmlspecialchars($pageTitle, ENT_QUOTES, 'UTF-8') ?></title>
     <link rel="stylesheet" href="/css/fonts.css">
     <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/components/site-header/site-header.css">
     <link rel="stylesheet" href="/components/hero/hero.css">
     <link rel="stylesheet" href="/components/about-banner/about-banner.css">
     <link rel="stylesheet" href="/components/clients/clients.css">
@@ -26,7 +27,8 @@ $pageTitle = 'О компании';
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 </head>
 
-<body>
+<body class="has-site-header">
+    <?php include __DIR__ . '/../components/site-header/site-header.php'; ?>
     <section id="about" class="pages-about">
         <?php include __DIR__ . '/../components/about-banner/about-banner.php'; ?>
         <?php include __DIR__ . '/../components/clients/clients.php'; ?>
@@ -44,6 +46,7 @@ $pageTitle = 'О компании';
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="/components/hero/hero.js"></script>
+    <script src="/components/site-header/site-header.js"></script>
     <script src="/components/audit-request-form/audit-modal.js"></script>
     <script src="/components/directions/directions.js"></script>
     <script src="/components/stages/stages.js"></script>
