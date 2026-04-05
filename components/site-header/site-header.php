@@ -6,17 +6,17 @@ declare(strict_types=1);
 ?>
 <header class="site-header" id="site-header" data-site-header>
     <div class="site-header__inner">
-        <a class="site-header__logo" href="/index.php" aria-label="На главную">
+        <a class="site-header__logo" href="/" aria-label="На главную">
             <img class="site-header__logo-img" src="/img/logo.png" width="48" height="48" alt="">
             <span class="site-header__logo-text">АУДИТ</span>
         </a>
 
         <nav class="site-header__nav" aria-label="Основная навигация">
             <ul class="site-header__nav-list">
-                <li><a class="site-header__nav-link" href="/pages/about.php">О компании</a></li>
-                <li><a class="site-header__nav-link" href="/pages/services.php">Услуги</a></li>
-                <li><a class="site-header__nav-link" href="/index.php#news">Блог</a></li>
-                <li><a class="site-header__nav-link" href="/index.php#contacts">Контакты</a></li>
+                <li><a class="site-header__nav-link" href="/about">О компании</a></li>
+                <li><a class="site-header__nav-link" href="/services">Услуги</a></li>
+                <li><a class="site-header__nav-link" href="/news">Блог</a></li>
+                <li><a class="site-header__nav-link" href="/contacts">Контакты</a></li>
             </ul>
         </nav>
 
@@ -58,10 +58,10 @@ declare(strict_types=1);
         <div class="site-header__panel-inner">
             <nav class="site-header__panel-nav" aria-label="Меню">
                 <ul class="site-header__panel-list">
-                    <li><a class="site-header__panel-link" href="/pages/about.php" data-site-header-panel-link>О компании</a></li>
-                    <li><a class="site-header__panel-link" href="/pages/services.php" data-site-header-panel-link>Услуги</a></li>
-                    <li><a class="site-header__panel-link" href="/index.php#news" data-site-header-panel-link>Блог</a></li>
-                    <li><a class="site-header__panel-link" href="/index.php#contacts" data-site-header-panel-link>Контакты</a></li>
+                    <li><a class="site-header__panel-link" href="/about" data-site-header-panel-link>О компании</a></li>
+                    <li><a class="site-header__panel-link" href="/services" data-site-header-panel-link>Услуги</a></li>
+                    <li><a class="site-header__panel-link" href="/news" data-site-header-panel-link>Блог</a></li>
+                    <li><a class="site-header__panel-link" href="/contacts" data-site-header-panel-link>Контакты</a></li>
                 </ul>
             </nav>
             <?php

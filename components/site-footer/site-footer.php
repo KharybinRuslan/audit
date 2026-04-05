@@ -6,16 +6,16 @@ declare(strict_types=1);
 $siteFooterLegalLine1 = '© 2026 «АНО ЭПЦ ТОП ЭКСПЕРТ».';
 $siteFooterLegalLine2 = 'Все права защищены';
 $siteFooterServices = [
-    ['Аудиторские услуги', '/index.php#services'],
-    ['Налоговый консалтинг и налоговая безопасность', '/index.php#services'],
-    ['Финансовый консалтинг и оценка', '/index.php#services'],
-    ['Бухгалтерский консалтинг и аутсорсинг', '/index.php#services'],
-    ['Due diligence и forensic', '/index.php#services'],
-    ['Кадровый аудит и консалтинг', '/index.php#services'],
-    ['МСФО и международная отчетность', '/index.php#services'],
-    ['Комплаенс, риск-контроль, внутренний аудит', '/index.php#services'],
-    ['Консалтинг и сопровождение бизнеса', '/index.php#services'],
-    ['Обучение и академия HSEP', '/index.php#services'],
+    ['Аудиторские услуги', '/#services'],
+    ['Налоговый консалтинг и налоговая безопасность', '/#services'],
+    ['Финансовый консалтинг и оценка', '/#services'],
+    ['Бухгалтерский консалтинг и аутсорсинг', '/#services'],
+    ['Due diligence и forensic', '/#services'],
+    ['Кадровый аудит и консалтинг', '/#services'],
+    ['МСФО и международная отчетность', '/#services'],
+    ['Комплаенс, риск-контроль, внутренний аудит', '/#services'],
+    ['Консалтинг и сопровождение бизнеса', '/#services'],
+    ['Обучение и академия HSEP', '/#services'],
 ];
 ?>
 <footer class="site-footer" id="site-footer">
@@ -69,7 +69,7 @@ $siteFooterServices = [
                 <div class="site-footer__meta-block">
                     <p class="site-footer__heading">Блог</p>
                     <ul class="site-footer__list">
-                        <li><a class="site-footer__link" href="/index.php#news">Новости</a></li>
+                        <li><a class="site-footer__link" href="/news">Новости</a></li>
                         <li><a class="site-footer__link" href="#">Статьи от экспертов</a></li>
                     </ul>
                 </div>
@@ -84,7 +84,7 @@ $siteFooterServices = [
             </div>
 
             <div class="site-footer__col site-footer__col--contacts">
-                <p class="site-footer__heading site-footer__heading--contacts">Контакты</p>
+                <a class="site-footer__heading site-footer__heading--contacts" href="/contacts">Контакты</a>
                 <div class="site-footer__phone-row">
                     <a class="site-footer__phone" href="tel:+74952752233">+7 495 275-22-33</a>
                 </div>

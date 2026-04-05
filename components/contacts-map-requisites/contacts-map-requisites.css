@@ -1,0 +1,256 @@
+/**
+ * Контакты: карта (ЧБ) + реквизиты — сетка 1520, адаптив через clamp (как about-details).
+ */
+
+.contacts-map-requisites {
+  background: #0d0d0d;
+  margin: 0;
+  padding: clamp(64px, calc(48px + 3vw), 100px) 0;
+  box-sizing: border-box;
+}
+
+.contacts-map-requisites__inner {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: clamp(24px, calc(10px + 1.8vw), 60px);
+  align-items: stretch;
+  max-width: 1520px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding-left: clamp(20px, calc(8px + 2.6vw), 60px);
+  padding-right: clamp(20px, calc(8px + 2.6vw), 60px);
+}
+
+.contacts-map-requisites__map {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  min-height: 0;
+  box-sizing: border-box;
+  align-self: stretch;
+}
+
+.contacts-map-requisites__map-inner {
+  position: relative;
+  flex: 1 1 auto;
+  width: 100%;
+  min-height: clamp(240px, calc(200px + 14vw), 480px);
+  border-radius: clamp(8px, calc(6px + 0.35vw), 12px);
+  overflow: hidden;
+  box-shadow: 0 16px 28px rgba(0, 0, 0, 0.25);
+  background: #1e1e1e;
+}
+
+.contacts-map-requisites__frame {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+
+.contacts-map-requisites__frame--mobile {
+  display: none;
+}
+
+.contacts-map-requisites__map-link {
+  display: inline-block;
+  flex-shrink: 0;
+  margin-top: clamp(8px, calc(4px + 0.8vw), 14px);
+  font-family: 'Montserrat', var(--font-family);
+  font-weight: 500;
+  font-size: clamp(13px, calc(11px + 0.35vw), 15px);
+  line-height: 1.35;
+  color: rgba(250, 252, 255, 0.75);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.contacts-map-requisites__map-link:hover {
+  color: #fafcff;
+}
+
+.contacts-map-requisites__content {
+  min-width: 0;
+  box-sizing: border-box;
+  align-self: start;
+}
+
+.contacts-map-requisites__eyebrow {
+  margin: 0 0 clamp(15px, calc(10px + 1vw), 30px);
+  padding: 0;
+  font-family: 'Montserrat', var(--font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: clamp(16px, calc(12px + 0.7vw), 25px);
+  line-height: clamp(20px, calc(15px + 0.8vw), 30px);
+  display: flex;
+  align-items: center;
+  background: linear-gradient(90deg, #dd6f20 0%, #e02727 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.contacts-map-requisites__title {
+  margin: 0 0 clamp(32px, calc(20px + 2vw), 60px);
+  padding: 0;
+  max-width: min(42rem, 100%);
+  font-family: 'Montserrat', var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: clamp(30px, calc(18px + 1.6vw), 50px);
+  line-height: clamp(38px, calc(24px + 2vw), 61px);
+  color: #ffffff;
+}
+
+.contacts-map-requisites__list {
+  margin: 0;
+  padding: 0;
+  max-width: min(52rem, 100%);
+  display: grid;
+  grid-template-columns: minmax(0, clamp(160px, 22vw, 280px)) minmax(0, 1fr);
+  gap: clamp(8px, calc(4px + 0.6vw), 12px) clamp(16px, calc(8px + 1.2vw), 24px);
+  align-items: start;
+}
+
+.contacts-map-requisites__term {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', var(--font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: clamp(14px, calc(11px + 0.45vw), 18px);
+  line-height: clamp(18px, calc(14px + 0.55vw), 22px);
+  color: rgba(250, 252, 255, 0.65);
+}
+
+.contacts-map-requisites__def {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', var(--font-family);
+  font-style: normal;
+  font-weight: 600;
+  font-size: clamp(14px, calc(11px + 0.45vw), 18px);
+  line-height: clamp(18px, calc(14px + 0.55vw), 22px);
+  color: #ffffff;
+}
+
+.contacts-map-requisites__link {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: opacity 0.2s ease;
+}
+
+.contacts-map-requisites__link:hover {
+  opacity: 0.88;
+}
+
+.contacts-map-requisites__link:focus-visible {
+  outline: 2px solid #dd6f20;
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+@media (max-width: 1100px) {
+  .contacts-map-requisites__inner {
+    grid-template-columns: 1fr;
+    align-items: start;
+    gap: clamp(28px, calc(16px + 2.5vw), 40px);
+  }
+
+  /* Одноколонка: сначала текст, затем карта (в разметке карта первая). */
+  .contacts-map-requisites__content {
+    order: 1;
+    align-self: stretch;
+  }
+
+  .contacts-map-requisites__map {
+    order: 2;
+    width: 100%;
+  }
+
+  .contacts-map-requisites__map-inner {
+    flex: 0 0 auto;
+    min-height: clamp(220px, calc(180px + 22vw), 360px);
+    aspect-ratio: 16 / 10;
+  }
+
+  .contacts-map-requisites__list {
+    grid-template-columns: 1fr;
+    gap: clamp(4px, 0.8vw, 8px) 0;
+  }
+
+  .contacts-map-requisites__term:not(:first-of-type) {
+    margin-top: clamp(10px, 2vw, 14px);
+  }
+
+  .contacts-map-requisites__def {
+    margin-bottom: clamp(4px, 1vw, 8px);
+  }
+}
+
+@media (max-width: 767px) {
+  .contacts-map-requisites {
+    padding: clamp(56px, 14vw, 90px) 0;
+  }
+
+  .contacts-map-requisites__inner {
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 0;
+  }
+
+  .contacts-map-requisites__eyebrow {
+    margin: 0 0 15px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  .contacts-map-requisites__title {
+    margin: 0 0 40px;
+    max-width: none;
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .contacts-map-requisites__list {
+    max-width: none;
+    margin: 0 0 50px;
+  }
+
+  .contacts-map-requisites__term,
+  .contacts-map-requisites__def {
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 600;
+  }
+
+  .contacts-map-requisites__term {
+    color: #ffffff;
+  }
+
+  .contacts-map-requisites__map-inner {
+    min-height: 339px;
+    height: 339px;
+    aspect-ratio: unset;
+  }
+
+  .contacts-map-requisites__frame--desktop {
+    display: none;
+  }
+
+  .contacts-map-requisites__frame--mobile {
+    display: block;
+  }
+
+  .contacts-map-requisites__map-link {
+    margin-top: 12px;
+    font-size: 13px;
+  }
+}
