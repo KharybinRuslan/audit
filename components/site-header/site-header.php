@@ -1,8 +1,9 @@
 <?php
 declare(strict_types=1);
 /**
- * Шапка: лого, навигация, CTA «Заказать аудит» (hero__btn + модификаторы), бургер.
+ * Шапка: лого, навигация, CTA «Заказать аудит», бургер, выезжающее меню слева.
  */
+require __DIR__ . '/site-header-menu-data.php';
 ?>
 <header class="site-header" id="site-header" data-site-header>
     <div class="site-header__inner">
@@ -31,7 +32,7 @@ declare(strict_types=1);
                 class="site-header__burger"
                 data-site-header-burger
                 aria-expanded="false"
-                aria-controls="site-header-panel"
+                aria-controls="site-header-drawer"
                 aria-label="Открыть меню"
             >
                 <span class="site-header__burger-icon site-header__burger-icon--menu" aria-hidden="true">
@@ -44,30 +45,11 @@ declare(strict_types=1);
                         <path d="M1 9H26" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
                     </svg>
                 </span>
-                <span class="site-header__burger-icon site-header__burger-icon--close" aria-hidden="true">
-                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M1.00272 1L19.0027 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
-                        <path d="M19 1L1 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
-                    </svg>
-                </span>
             </button>
         </div>
     </div>
-
-    <div class="site-header__panel" id="site-header-panel" data-site-header-panel aria-hidden="true">
-        <div class="site-header__panel-inner">
-            <nav class="site-header__panel-nav" aria-label="Меню">
-                <ul class="site-header__panel-list">
-                    <li><a class="site-header__panel-link" href="/about" data-site-header-panel-link>О компании</a></li>
-                    <li><a class="site-header__panel-link" href="/services" data-site-header-panel-link>Услуги</a></li>
-                    <li><a class="site-header__panel-link" href="/news" data-site-header-panel-link>Блог</a></li>
-                    <li><a class="site-header__panel-link" href="/contacts" data-site-header-panel-link>Контакты</a></li>
-                </ul>
-            </nav>
-            <?php
-            $siteHeaderAuditPanel = true;
-            include __DIR__ . '/site-header-audit-button.php';
-            ?>
-        </div>
-    </div>
 </header>
+<?php
+/* Вне <header>: иначе fixed-панель внутри flex+fixed шапки ломает сетку страницы */
+include __DIR__ . '/site-header-drawer.php';
+?>
