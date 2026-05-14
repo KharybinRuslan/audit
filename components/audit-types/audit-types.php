@@ -1,54 +1,81 @@
 <?php
+require_once dirname(__DIR__, 2) . '/includes/img-webp.php';
 /**
  * Компонент: Виды аудита — второй слайдер (карточки с иконками).
  * Уникальный id #audit-types-swiper, не конфликтует с services-nav-swiper.
+ *
+ * Опционально на странице:
+ * @var string $auditTypesEyebrow подпись над блоком (капс в CSS)
+ * @var string $auditTypesHeadingLead $auditTypesHeadingAccent $auditTypesHeadingRest — составной h2
+ * @var list<array{title: string, desc: string, href: string, img?: string}>|null $auditTypes свой набор карточек
+ * @var bool $auditTypesHideImages карточки без изображений (текст и ссылки)
  */
+if (!isset($auditTypes)) {
 $auditTypes = [
     [
         'title' => 'Обязательный аудит',
         'desc' => 'Аудит повышает доверие и снижает риски для всех заинтересованных сторон',
-        'img' => '/img/obyazatelnyy-audit.png',
-        'href' => '#',
+        'img' => '/img/audit/obyazatelnyy.png',
+        'href' => '/audit/obyazatelnyj-audit',
     ],
     [
         'title' => 'Инициативный аудит',
         'desc' => 'Независимая оценка по инициативе руководства для выявления резервов и рисков',
-        'img' => '/img/Initsiativnyy-audit.png',
-        'href' => '#',
+        'img' => '/img/audit/Initsiativnyy-audit.png',
+        'href' => '/audit/iniciativnyj-audit',
     ],
     [
         'title' => 'Комплексный аудит',
         'desc' => 'Единый подход к проверке учёта, налогов, внутреннего контроля и процессов',
-        'img' => '/img/kompleksnyy-audit.png',
-        'href' => '#',
+        'img' => '/img/audit/kompleksnyy-audit.png',
+        'href' => '/audit/kompleksnyj-audit',
     ],
     [
         'title' => 'Налоговый аудит',
         'desc' => 'Проверка расчётов с бюджетом и снижение налоговых рисков до проверок ФНС',
-        'img' => '/img/nalogovyy-audit.png',
-        'href' => '#',
+        'img' => '/img/audit/nalogovyy-audit.png',
+        'href' => '/audit/nalogovyj-audit',
     ],
     [
-        'title' => 'Финансовый аудит',
-        'desc' => 'Подтверждение достоверности отчётности и оценка финансового положения',
-        'img' => '/img/finansovyy-audit.png',
-        'href' => '#',
+        'title' => 'Аудит финансовой отчётности',
+        'desc' => 'Подтверждение достоверности отчётности и согласованность с применимыми стандартами',
+        'img' => '/img/audit/finansovyy-audit.png',
+        'href' => '/audit/audit-finansovoj-otchetnosti',
     ],
     [
         'title' => 'Кадровый аудит',
         'desc' => 'Проверка кадрового документооборота и соответствия трудовому законодательству',
-        'img' => '/img/kadrovyy-audit.png',
-        'href' => '#',
+        'img' => '/img/audit/kadrovyy-audit.png',
+        'href' => '/kadrovyy-audit',
     ],
 ];
+}
+
+$auditTypesEyebrow ??= '';
+$auditTypesHeadingLead ??= '';
+$auditTypesHeadingAccent ??= '';
+$auditTypesHeadingRest ??= '';
+$auditTypesHideImages ??= false;
 ?>
-<section class="audit-types" id="audit-types">
+<section class="audit-types<?= $auditTypesHideImages ? ' audit-types--text-only' : '' ?>" id="audit-types">
     <svg xmlns="http://www.w3.org/2000/svg" class="audit-types__defs" aria-hidden="true"><defs>
         <linearGradient id="audit-types-arrow-gradient" x1="28" y1="0" x2="28" y2="56" gradientUnits="userSpaceOnUse">
             <stop stop-color="#1E1E1E" /><stop offset="1" stop-color="white" />
         </linearGradient>
     </defs></svg>
     <div class="audit-types__inner">
+        <?php if ($auditTypesEyebrow !== '' || $auditTypesHeadingLead !== '' || $auditTypesHeadingAccent !== '' || $auditTypesHeadingRest !== ''): ?>
+            <div class="audit-types__intro">
+                <?php if ($auditTypesEyebrow !== ''): ?>
+                    <p class="audit-types__eyebrow"><?= htmlspecialchars($auditTypesEyebrow, ENT_QUOTES, 'UTF-8') ?></p>
+                <?php endif; ?>
+                <?php if ($auditTypesHeadingLead !== '' || $auditTypesHeadingAccent !== '' || $auditTypesHeadingRest !== ''): ?>
+                    <h2 class="audit-types__page-title">
+                        <?= htmlspecialchars($auditTypesHeadingLead, ENT_QUOTES, 'UTF-8') ?><?php if ($auditTypesHeadingAccent !== ''): ?><span class="audit-types__page-title-accent"><?= htmlspecialchars($auditTypesHeadingAccent, ENT_QUOTES, 'UTF-8') ?></span><?php endif; ?><?= htmlspecialchars($auditTypesHeadingRest, ENT_QUOTES, 'UTF-8') ?>
+                    </h2>
+                <?php endif; ?>
+            </div>
+        <?php endif; ?>
         <div class="audit-types__nav">
             <button type="button" class="audit-types__arrow audit-types__arrow--prev" aria-label="Назад">
                 <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -79,10 +106,12 @@ $auditTypes = [
             <div class="swiper-wrapper">
                 <?php foreach ($auditTypes as $i => $item): ?>
                 <div class="swiper-slide audit-types__slide">
-                    <a href="<?= htmlspecialchars($item['href'], ENT_QUOTES, 'UTF-8') ?>" class="audit-types__card">
+                    <a href="<?= htmlspecialchars($item['href'], ENT_QUOTES, 'UTF-8') ?>" class="audit-types__card" aria-label="<?= htmlspecialchars($item['title'] . ' — ' . $item['desc'], ENT_QUOTES, 'UTF-8') ?>">
+                        <?php if (!$auditTypesHideImages && !empty($item['img'])): ?>
                         <span class="audit-types__img-wrap">
-                            <img src="<?= htmlspecialchars($item['img'], ENT_QUOTES, 'UTF-8') ?>" alt="" class="audit-types__img" loading="lazy">
+                            <?php aud_img_picture_webp($item['img'], '', ['class' => 'audit-types__img', 'width' => 140, 'height' => 140, 'loading' => 'lazy', 'decoding' => 'async']); ?>
                         </span>
+                        <?php endif; ?>
                         <span class="audit-types__title"><?= htmlspecialchars($item['title'], ENT_QUOTES, 'UTF-8') ?></span>
                         <span class="audit-types__desc"><?= htmlspecialchars($item['desc'], ENT_QUOTES, 'UTF-8') ?></span>
                     </a>

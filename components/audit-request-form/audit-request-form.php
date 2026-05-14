@@ -1,8 +1,14 @@
 <?php
 declare(strict_types=1);
+
+require_once dirname(__DIR__, 2) . '/includes/load-env.php';
+aud_load_env_file();
+require_once dirname(__DIR__, 2) . '/includes/recaptcha.php';
+
 /**
  * Общая форма «Запрос на аудит» — подключать внутри .hero__form-wrap.
  * Задайте перед include: $auditRequestFormPrefix = 'hero' | 'contacts' | 'audit-modal' (уникальные id).
+ * В письме «Источник» строится из скрытого _return (URL страницы) + этого префикса (блок / модалка).
  */
 if (!isset($auditRequestFormPrefix) || !is_string($auditRequestFormPrefix) || $auditRequestFormPrefix === '') {
     $auditRequestFormPrefix = 'hero';
@@ -14,7 +20,13 @@ if ($p === '') {
 ?>
 <h2 class="hero__form-title" id="<?= htmlspecialchars($p, ENT_QUOTES, 'UTF-8') ?>-form-title">Запрос на аудит</h2>
 <p class="hero__form-subtitle">Ответим в течении часа в рабочее время</p>
-<form class="hero__form" action="#" method="post">
+<form class="hero__form" action="/audit-request-submit.php" method="post">
+    <input type="hidden" name="form_source" value="<?= htmlspecialchars($p, ENT_QUOTES, 'UTF-8') ?>">
+    <input type="hidden" name="_return" value="">
+    <div class="hero__field hero__hp-field" aria-hidden="true">
+        <label for="<?= htmlspecialchars($p, ENT_QUOTES, 'UTF-8') ?>-company-site">Сайт компании (не заполняйте)</label>
+        <input type="text" id="<?= htmlspecialchars($p, ENT_QUOTES, 'UTF-8') ?>-company-site" name="company_site" value="" tabindex="-1" autocomplete="off">
+    </div>
     <div class="hero__field">
         <label for="<?= htmlspecialchars($p, ENT_QUOTES, 'UTF-8') ?>-name">Ваше имя</label>
         <input type="text" id="<?= htmlspecialchars($p, ENT_QUOTES, 'UTF-8') ?>-name" name="name" placeholder="Иван Иванов" required>
@@ -32,7 +44,7 @@ if ($p === '') {
     <div class="hero__field">
         <label for="<?= htmlspecialchars($p, ENT_QUOTES, 'UTF-8') ?>-service">Интересующая услуга</label>
         <div class="hero__select-wrap">
-            <select id="<?= htmlspecialchars($p, ENT_QUOTES, 'UTF-8') ?>-service" name="service" class="hero__select-native" aria-hidden="true" tabindex="-1" required>
+            <select id="<?= htmlspecialchars($p, ENT_QUOTES, 'UTF-8') ?>-service" name="service" class="hero__select-native" hidden required>
                 <option value="audit">Аудиторские услуги</option>
                 <option value="tax">Налоговый консалтинг и налоговая безопасность</option>
                 <option value="financial">Финансовый консалтинг и оценка</option>
@@ -43,6 +55,7 @@ if ($p === '') {
                 <option value="compliance">Коплаенс, риск-контроль, внутренний аудит</option>
                 <option value="consulting">Консалтинг и сопровождение бизнеса</option>
                 <option value="training">Обучение и академия HSEP</option>
+                <option value="other">Другое</option>
             </select>
             <div
                 class="hero__select-trigger"
@@ -68,6 +81,7 @@ if ($p === '') {
                 <div class="hero__select-option" data-value="compliance" role="option">Коплаенс, риск-контроль, внутренний аудит</div>
                 <div class="hero__select-option" data-value="consulting" role="option">Консалтинг и сопровождение бизнеса</div>
                 <div class="hero__select-option" data-value="training" role="option">Обучение и академия HSEP</div>
+                <div class="hero__select-option" data-value="other" role="option">Другое</div>
             </div>
         </div>
     </div>
@@ -75,9 +89,30 @@ if ($p === '') {
         <label for="<?= htmlspecialchars($p, ENT_QUOTES, 'UTF-8') ?>-comment">Комментарий</label>
         <textarea id="<?= htmlspecialchars($p, ENT_QUOTES, 'UTF-8') ?>-comment" name="comment" placeholder="Размер компании, отчетность, сроки, пожелания"></textarea>
     </div>
+    <?php
+    $recSite = aud_recaptcha_site_key();
+    if (aud_recaptcha_enabled()):
+        ?>
+    <div class="hero__field hero__recaptcha">
+        <div
+            class="g-recaptcha"
+            id="<?= htmlspecialchars($p, ENT_QUOTES, 'UTF-8') ?>-g-recaptcha"
+            data-sitekey="<?= htmlspecialchars($recSite, ENT_QUOTES, 'UTF-8') ?>"
+        ></div>
+    </div>
+        <?php
+    endif;
+    ?>
     <div class="hero__checkbox-wrap">
-        <input type="checkbox" id="<?= htmlspecialchars($p, ENT_QUOTES, 'UTF-8') ?>-consent" name="consent" required>
-        <label for="<?= htmlspecialchars($p, ENT_QUOTES, 'UTF-8') ?>-consent"><span>Согласие на обработку персональных данных и условия конфиденциальности</span></label>
+        <input type="checkbox" id="<?= htmlspecialchars($p, ENT_QUOTES, 'UTF-8') ?>-consent" name="consent" value="1" required>
+        <label for="<?= htmlspecialchars($p, ENT_QUOTES, 'UTF-8') ?>-consent">
+            <span>
+                Даю согласие на обработку персональных данных, принимаю
+                <a href="/politika-konfidencialnosti" target="_blank" rel="noopener noreferrer">Политику конфиденциальности</a>
+                и
+                <a href="/polzovatelskoe-soglashenie" target="_blank" rel="noopener noreferrer">Пользовательское соглашение</a>.
+            </span>
+        </label>
     </div>
     <button type="submit" class="hero__submit"><span class="hero__submit-text">Отправить</span> <span class="hero__btn-icon" aria-hidden="true"><svg width="30" height="30" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="22.5" cy="22.5" r="22.5" fill="white"></circle><path d="M16 21C15.4477 21 15 21.4477 15 22C15 22.5523 15.4477 23 16 23L16 22L16 21ZM30.7071 22.7071C31.0976 22.3166 31.0976 21.6834 30.7071 21.2929L24.3431 14.9289C23.9526 14.5384 23.3195 14.5384 22.9289 14.9289C22.5384 15.3195 22.5384 15.9526 22.9289 16.3431L28.5858 22L22.9289 27.6569C22.5384 28.0474 22.5384 28.6805 22.9289 29.0711C23.3195 29.4616 23.9526 29.4616 24.3431 29.0711L30.7071 22.7071ZM16 22L16 23L30 23L30 22L30 21L16 21L16 22Z" fill="#DF2726"></path></svg></span></button>
 </form>

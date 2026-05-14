@@ -1,0 +1,757 @@
+{
+  "meta": {
+    "generated_at": "2026-04-15T19:13:55Z",
+    "source": "export-ready/rebuild-manifest.json",
+    "patterns_removed_as_dom_roots": [
+      "text-token-text-primary",
+      "conversation-turn",
+      "data-message-author-role",
+      "agent-turn",
+      "markdown prose"
+    ]
+  },
+  "summary": {
+    "html_patterns_removed_containers": [
+      "text-token-text-primary",
+      "conversation-turn",
+      "data-message-author-role",
+      "agent-turn",
+      "markdown prose"
+    ],
+    "records_with_container_removals": 49,
+    "manual_review_count_before_sanitization": 49,
+    "manual_review_count_after_sanitization": 0,
+    "manual_review_cleared_by_sanitization": 49,
+    "cleared_manual_review_post_ids": [
+      15,
+      440,
+      534,
+      584,
+      599,
+      680,
+      696,
+      712,
+      756,
+      773,
+      800,
+      816,
+      965,
+      978,
+      989,
+      999,
+      1055,
+      1132,
+      1142,
+      1155,
+      1164,
+      1180,
+      1293,
+      1570,
+      1587,
+      1596,
+      1610,
+      1622,
+      1694,
+      1718,
+      1766,
+      1782,
+      1912,
+      1918,
+      3813,
+      3910,
+      4055,
+      4057,
+      4059,
+      4062,
+      4066,
+      4108,
+      4211,
+      4321,
+      4333,
+      4345,
+      4346,
+      4357,
+      4358
+    ]
+  },
+  "sanitized_records": [
+    {
+      "id": 1055,
+      "slug": "audit-nekommercheskoj-organizacii",
+      "removed_container_roots": 1,
+      "patterns_matched": [
+        "agent-turn",
+        "conversation-turn",
+        "data-message-author-role",
+        "markdown prose",
+        "text-token-text-primary"
+      ],
+      "manual_review_before": true,
+      "manual_review_after": false
+    },
+    {
+      "id": 1132,
+      "slug": "ocenka-biznesa",
+      "removed_container_roots": 1,
+      "patterns_matched": [
+        "agent-turn",
+        "conversation-turn",
+        "data-message-author-role",
+        "markdown prose",
+        "text-token-text-primary"
+      ],
+      "manual_review_before": true,
+      "manual_review_after": false
+    },
+    {
+      "id": 1142,
+      "slug": "ocenka-nedvizhimosti",
+      "removed_container_roots": 1,
+      "patterns_matched": [
+        "agent-turn",
+        "conversation-turn",
+        "data-message-author-role",
+        "markdown prose",
+        "text-token-text-primary"
+      ],
+      "manual_review_before": true,
+      "manual_review_after": false
+    },
+    {
+      "id": 1155,
+      "slug": "ocenka-nematerialnyh-aktivov",
+      "removed_container_roots": 1,
+      "patterns_matched": [
+        "agent-turn",
+        "conversation-turn",
+        "data-message-author-role",
+        "markdown prose",
+        "text-token-text-primary"
+      ],
+      "manual_review_before": true,
+      "manual_review_after": false
+    },
+    {
+      "id": 1164,
+      "slug": "ocenka-mashin-i-oborudovanija",
+      "removed_container_roots": 1,
+      "patterns_matched": [
+        "agent-turn",
+        "conversation-turn",
+        "data-message-author-role",
+        "markdown prose",
+        "text-token-text-primary"
+      ],
+      "manual_review_before": true,
+      "manual_review_after": false
+    },
+    {
+      "id": 1180,
+      "slug": "ocenka-zemelnyh-uchastkov",
+      "removed_container_roots": 1,
+      "patterns_matched": [
+        "agent-turn",
+        "conversation-turn",
+        "data-message-author-role",
+        "markdown prose",
+        "text-token-text-primary"
+      ],
+      "manual_review_before": true,
+      "manual_review_after": false
+    },
+    {
+      "id": 1293,
+      "slug": "proizvodstvo-potrebitelskikh-tovarov-i-roznichnaya-torgovlya",
+      "removed_container_roots": 1,
+      "patterns_matched": [
+        "data-message-author-role",
+        "markdown prose"
+      ],
+      "manual_review_before": true,
+      "manual_review_after": false
+    },
+    {
+      "id": 15,
+      "slug": "glavnaja",
+      "removed_container_roots": 1,
+      "patterns_matched": [
+        "agent-turn",
+        "conversation-turn",
+        "data-message-author-role",
+        "markdown prose",
+        "text-token-text-primary"
+      ],
+      "manual_review_before": true,
+      "manual_review_after": false
+    },
+    {
+      "id": 1570,
+      "slug": "kompleksnye-reshenija-po-peremeshheniju-personala",
+      "removed_container_roots": 1,
+      "patterns_matched": [
+        "agent-turn",
+        "conversation-turn",
+        "data-message-author-role",
+        "markdown prose",
+        "text-token-text-primary"
+      ],
+      "manual_review_before": true,
+      "manual_review_after": false
+    },
+    {
+      "id": 1587,
+      "slug": "konsultacionnye-uslugi-po-obucheniju-i-razvitiju",
+      "removed_container_roots": 1,
+      "patterns_matched": [
+        "agent-turn",
+        "conversation-turn",
+        "data-message-author-role",
+        "markdown prose",
+        "text-token-text-primary"
+      ],
+      "manual_review_before": true,
+      "manual_review_after": false
+    },
+    {
+      "id": 1596,
+      "slug": "konsultacionnye-uslugi-v-oblasti-voznagrazhdenija-i-kpi",
+      "removed_container_roots": 1,
+      "patterns_matched": [
+        "agent-turn",
+        "conversation-turn",
+        "data-message-author-role",
+        "markdown prose",
+        "text-token-text-primary"
+      ],
+      "manual_review_before": true,
+      "manual_review_after": false
+    },
+    {
+      "id": 1610,
+      "slug": "kadrovaja-analitika",
+      "removed_container_roots": 1,
+      "patterns_matched": [
+        "agent-turn",
+        "conversation-turn",
+        "data-message-author-role",
+        "markdown prose",
+        "text-token-text-primary"
+      ],
+      "manual_review_before": true,
+      "manual_review_after": false
+    },
+    {
+      "id": 1622,
+      "slug": "uslugi-v-oblasti-nalogooblozhenija-dlja-chastnyh-klientov",
+      "removed_container_roots": 1,
+      "patterns_matched": [
+        "agent-turn",
+        "conversation-turn",
+        "data-message-author-role",
+        "markdown prose",
+        "text-token-text-primary"
+      ],
+      "manual_review_before": true,
+      "manual_review_after": false
+    },
+    {
+      "id": 1694,
+      "slug": "juridicheskoe-soprovozhdenie",
+      "removed_container_roots": 1,
+      "patterns_matched": [
+        "agent-turn",
+        "conversation-turn",
+        "data-message-author-role",
+        "markdown prose",
+        "text-token-text-primary"
+      ],
+      "manual_review_before": true,
+      "manual_review_after": false
+    },
+    {
+      "id": 1718,
+      "slug": "meropriyatiya",
+      "removed_container_roots": 1,
+      "patterns_matched": [
+        "data-message-author-role",
+        "markdown prose"
+      ],
+      "manual_review_before": true,
+      "manual_review_after": false
+    },
+    {
+      "id": 1766,
+      "slug": "investicii-i-finansy",
+      "removed_container_roots": 1,
+      "patterns_matched": [
+        "agent-turn",
+        "conversation-turn",
+        "data-message-author-role",
+        "markdown prose",
+        "text-token-text-primary"
+      ],
+      "manual_review_before": true,
+      "manual_review_after": false
+    },
+    {
+      "id": 1782,
+      "slug": "proverka-kompanij-compliance",
+      "removed_container_roots": 1,
+      "patterns_matched": [
+        "agent-turn",
+        "conversation-turn",
+        "data-message-author-role",
+        "markdown prose",
+        "text-token-text-primary"
+      ],
+      "manual_review_before": true,
+      "manual_review_after": false
+    },
+    {
+      "id": 1912,
+      "slug": "shkola-jekspertizy-i-prava",
+      "removed_container_roots": 1,
+      "patterns_matched": [
+        "agent-turn",
+        "conversation-turn",
+        "data-message-author-role",
+        "markdown prose",
+        "text-token-text-primary"
+      ],
+      "manual_review_before": true,
+      "manual_review_after": false
+    },
+    {
+      "id": 1918,
+      "slug": "soobshhestvo-biznesmenov",
+      "removed_container_roots": 1,
+      "patterns_matched": [
+        "agent-turn",
+        "conversation-turn",
+        "data-message-author-role",
+        "markdown prose",
+        "text-token-text-primary"
+      ],
+      "manual_review_before": true,
+      "manual_review_after": false
+    },
+    {
+      "id": 3813,
+      "slug": "dosudebnaya-expertiza",
+      "removed_container_roots": 1,
+      "patterns_matched": [
+        "agent-turn",
+        "conversation-turn",
+        "data-message-author-role",
+        "markdown prose",
+        "text-token-text-primary"
+      ],
+      "manual_review_before": true,
+      "manual_review_after": false
+    },
+    {
+      "id": 3910,
+      "slug": "expertiza-prom-bezopasnosti",
+      "removed_container_roots": 1,
+      "patterns_matched": [
+        "agent-turn",
+        "conversation-turn",
+        "data-message-author-role",
+        "markdown prose",
+        "text-token-text-primary"
+      ],
+      "manual_review_before": true,
+      "manual_review_after": false
+    },
+    {
+      "id": 4055,
+      "slug": "gost-ipo",
+      "removed_container_roots": 1,
+      "patterns_matched": [
+        "agent-turn",
+        "conversation-turn",
+        "data-message-author-role",
+        "markdown prose",
+        "text-token-text-primary"
+      ],
+      "manual_review_before": true,
+      "manual_review_after": false
+    },
+    {
+      "id": 4057,
+      "slug": "spiker-ipo",
+      "removed_container_roots": 1,
+      "patterns_matched": [
+        "agent-turn",
+        "conversation-turn",
+        "data-message-author-role",
+        "markdown prose",
+        "text-token-text-primary"
+      ],
+      "manual_review_before": true,
+      "manual_review_after": false
+    },
+    {
+      "id": 4059,
+      "slug": "bussines-vstrecha-8-ijunya-2024-spb",
+      "removed_container_roots": 1,
+      "patterns_matched": [
+        "agent-turn",
+        "conversation-turn",
+        "data-message-author-role",
+        "markdown prose",
+        "text-token-text-primary"
+      ],
+      "manual_review_before": true,
+      "manual_review_after": false
+    },
+    {
+      "id": 4062,
+      "slug": "pmef-2024-spb",
+      "removed_container_roots": 1,
+      "patterns_matched": [
+        "agent-turn",
+        "conversation-turn",
+        "data-message-author-role",
+        "markdown prose",
+        "text-token-text-primary"
+      ],
+      "manual_review_before": true,
+      "manual_review_after": false
+    },
+    {
+      "id": 4066,
+      "slug": "ipo",
+      "removed_container_roots": 1,
+      "patterns_matched": [
+        "agent-turn",
+        "conversation-turn",
+        "data-message-author-role",
+        "markdown prose",
+        "text-token-text-primary"
+      ],
+      "manual_review_before": true,
+      "manual_review_after": false
+    },
+    {
+      "id": 4108,
+      "slug": "ipo-2024-chto-zhdet-rissian-company",
+      "removed_container_roots": 1,
+      "patterns_matched": [
+        "agent-turn",
+        "conversation-turn",
+        "data-message-author-role",
+        "markdown prose",
+        "text-token-text-primary"
+      ],
+      "manual_review_before": true,
+      "manual_review_after": false
+    },
+    {
+      "id": 4211,
+      "slug": "biznes-forum-integracija-vozmozhnostej-put-k-ipo-s-5-po-6-ijulja-2024",
+      "removed_container_roots": 1,
+      "patterns_matched": [
+        "agent-turn",
+        "conversation-turn",
+        "data-message-author-role",
+        "markdown prose",
+        "text-token-text-primary"
+      ],
+      "manual_review_before": true,
+      "manual_review_after": false
+    },
+    {
+      "id": 4321,
+      "slug": "pmjef",
+      "removed_container_roots": 1,
+      "patterns_matched": [
+        "agent-turn",
+        "conversation-turn",
+        "data-message-author-role",
+        "markdown prose",
+        "text-token-text-primary"
+      ],
+      "manual_review_before": true,
+      "manual_review_after": false
+    },
+    {
+      "id": 4333,
+      "slug": "pmjuf",
+      "removed_container_roots": 1,
+      "patterns_matched": [
+        "agent-turn",
+        "conversation-turn",
+        "data-message-author-role",
+        "markdown prose",
+        "text-token-text-primary"
+      ],
+      "manual_review_before": true,
+      "manual_review_after": false
+    },
+    {
+      "id": 4345,
+      "slug": "gost-integracija-vozmozhnostej",
+      "removed_container_roots": 1,
+      "patterns_matched": [
+        "agent-turn",
+        "conversation-turn",
+        "data-message-author-role",
+        "markdown prose",
+        "text-token-text-primary"
+      ],
+      "manual_review_before": true,
+      "manual_review_after": false
+    },
+    {
+      "id": 4346,
+      "slug": "spiker-integracija-vozmozhnostej",
+      "removed_container_roots": 1,
+      "patterns_matched": [
+        "agent-turn",
+        "conversation-turn",
+        "data-message-author-role",
+        "markdown prose",
+        "text-token-text-primary"
+      ],
+      "manual_review_before": true,
+      "manual_review_after": false
+    },
+    {
+      "id": 4357,
+      "slug": "gost-ot-vozmozhnostej-k-celi",
+      "removed_container_roots": 1,
+      "patterns_matched": [
+        "agent-turn",
+        "conversation-turn",
+        "data-message-author-role",
+        "markdown prose",
+        "text-token-text-primary"
+      ],
+      "manual_review_before": true,
+      "manual_review_after": false
+    },
+    {
+      "id": 4358,
+      "slug": "spiker-ot-vozmozhnostej-k-celi",
+      "removed_container_roots": 1,
+      "patterns_matched": [
+        "agent-turn",
+        "conversation-turn",
+        "data-message-author-role",
+        "markdown prose",
+        "text-token-text-primary"
+      ],
+      "manual_review_before": true,
+      "manual_review_after": false
+    },
+    {
+      "id": 440,
+      "slug": "obyazatelnyy-audit",
+      "removed_container_roots": 1,
+      "patterns_matched": [
+        "agent-turn",
+        "conversation-turn",
+        "data-message-author-role",
+        "markdown prose",
+        "text-token-text-primary"
+      ],
+      "manual_review_before": true,
+      "manual_review_after": false
+    },
+    {
+      "id": 534,
+      "slug": "iniciativnyj-audit",
+      "removed_container_roots": 1,
+      "patterns_matched": [
+        "agent-turn",
+        "conversation-turn",
+        "data-message-author-role",
+        "markdown prose",
+        "text-token-text-primary"
+      ],
+      "manual_review_before": true,
+      "manual_review_after": false
+    },
+    {
+      "id": 584,
+      "slug": "audit-mikrofinansovyh-organizacij",
+      "removed_container_roots": 1,
+      "patterns_matched": [
+        "agent-turn",
+        "conversation-turn",
+        "data-message-author-role",
+        "markdown prose",
+        "text-token-text-primary"
+      ],
+      "manual_review_before": true,
+      "manual_review_after": false
+    },
+    {
+      "id": 599,
+      "slug": "strahovoj-audit",
+      "removed_container_roots": 1,
+      "patterns_matched": [
+        "agent-turn",
+        "conversation-turn",
+        "data-message-author-role",
+        "markdown prose",
+        "text-token-text-primary"
+      ],
+      "manual_review_before": true,
+      "manual_review_after": false
+    },
+    {
+      "id": 680,
+      "slug": "audit-dolgosrochnyh-programm-razvitija",
+      "removed_container_roots": 1,
+      "patterns_matched": [
+        "agent-turn",
+        "conversation-turn",
+        "data-message-author-role",
+        "markdown prose",
+        "text-token-text-primary"
+      ],
+      "manual_review_before": true,
+      "manual_review_after": false
+    },
+    {
+      "id": 696,
+      "slug": "it-audit",
+      "removed_container_roots": 1,
+      "patterns_matched": [
+        "agent-turn",
+        "conversation-turn",
+        "data-message-author-role",
+        "markdown prose",
+        "text-token-text-primary"
+      ],
+      "manual_review_before": true,
+      "manual_review_after": false
+    },
+    {
+      "id": 712,
+      "slug": "stroitelnyj-audit",
+      "removed_container_roots": 1,
+      "patterns_matched": [
+        "agent-turn",
+        "conversation-turn",
+        "data-message-author-role",
+        "markdown prose",
+        "text-token-text-primary"
+      ],
+      "manual_review_before": true,
+      "manual_review_after": false
+    },
+    {
+      "id": 756,
+      "slug": "slijanie-i-pogloshhenie",
+      "removed_container_roots": 1,
+      "patterns_matched": [
+        "agent-turn",
+        "conversation-turn",
+        "data-message-author-role",
+        "markdown prose",
+        "text-token-text-primary"
+      ],
+      "manual_review_before": true,
+      "manual_review_after": false
+    },
+    {
+      "id": 773,
+      "slug": "nalogi-i-jekspertiza",
+      "removed_container_roots": 1,
+      "patterns_matched": [
+        "agent-turn",
+        "conversation-turn",
+        "data-message-author-role",
+        "markdown prose",
+        "text-token-text-primary"
+      ],
+      "manual_review_before": true,
+      "manual_review_after": false
+    },
+    {
+      "id": 800,
+      "slug": "optimizacija-biznesa",
+      "removed_container_roots": 1,
+      "patterns_matched": [
+        "agent-turn",
+        "conversation-turn",
+        "data-message-author-role",
+        "markdown prose",
+        "text-token-text-primary"
+      ],
+      "manual_review_before": true,
+      "manual_review_after": false
+    },
+    {
+      "id": 816,
+      "slug": "juridicheskij-konsalting",
+      "removed_container_roots": 1,
+      "patterns_matched": [
+        "agent-turn",
+        "conversation-turn",
+        "data-message-author-role",
+        "markdown prose",
+        "text-token-text-primary"
+      ],
+      "manual_review_before": true,
+      "manual_review_after": false
+    },
+    {
+      "id": 965,
+      "slug": "buhgalterija-i-finansovaja-otchetnost",
+      "removed_container_roots": 3,
+      "patterns_matched": [
+        "agent-turn",
+        "conversation-turn",
+        "data-message-author-role",
+        "markdown prose",
+        "text-token-text-primary"
+      ],
+      "manual_review_before": true,
+      "manual_review_after": false
+    },
+    {
+      "id": 978,
+      "slug": "pervichnoe-razmeshhenie-cennyh-bumag-ipo",
+      "removed_container_roots": 1,
+      "patterns_matched": [
+        "agent-turn",
+        "conversation-turn",
+        "data-message-author-role",
+        "markdown prose",
+        "text-token-text-primary"
+      ],
+      "manual_review_before": true,
+      "manual_review_after": false
+    },
+    {
+      "id": 989,
+      "slug": "tamozhennoe-regulirovanie-i-mezhdunarodnaja-torgovlja",
+      "removed_container_roots": 1,
+      "patterns_matched": [
+        "agent-turn",
+        "conversation-turn",
+        "data-message-author-role",
+        "markdown prose",
+        "text-token-text-primary"
+      ],
+      "manual_review_before": true,
+      "manual_review_after": false
+    },
+    {
+      "id": 999,
+      "slug": "information",
+      "removed_container_roots": 1,
+      "patterns_matched": [
+        "data-message-author-role",
+        "markdown prose"
+      ],
+      "manual_review_before": true,
+      "manual_review_after": false
+    }
+  ],
+  "remaining_manual_review_cases": []
+}

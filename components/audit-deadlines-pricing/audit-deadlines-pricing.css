@@ -1,0 +1,237 @@
+/**
+ * Сроки + стоимость аудита.
+ * Легкий CSS: без фоновых картинок и без JS.
+ */
+
+.audit-deadlines-pricing {
+  background: #0d0d0d;
+  color: #fff;
+  padding: clamp(34px, 4.5vw, 68px) 0 clamp(42px, 5vw, 78px);
+}
+
+.audit-deadlines-pricing__inner {
+  max-width: 1520px;
+  margin: 0 auto;
+  padding: 0 var(--site-header-inline-pad, 0px);
+  box-sizing: border-box;
+}
+
+.audit-deadlines-pricing__title {
+  margin: 0 0 clamp(18px, 2.2vw, 28px);
+  max-width: 72rem;
+  font-family: "Montserrat", var(--font-family);
+  font-weight: 700;
+  font-size: clamp(24px, calc(16px + 1.5vw), 46px);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+
+.audit-deadlines-pricing__intro,
+.audit-deadlines-pricing__lead,
+.audit-deadlines-pricing__outro,
+.audit-deadlines-pricing__panel-intro {
+  margin: 0;
+  max-width: 78rem;
+  font-family: "Montserrat", var(--font-family);
+  font-weight: 500;
+  font-size: clamp(14px, calc(12px + 0.35vw), 18px);
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.audit-deadlines-pricing__intro {
+  margin-bottom: 1em;
+}
+
+.audit-deadlines-pricing__lead {
+  margin-bottom: clamp(18px, 2.6vw, 30px);
+  font-weight: 600;
+}
+
+.audit-deadlines-pricing__grid {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: clamp(12px, 2vw, 20px);
+}
+
+@media (min-width: 800px) {
+  .audit-deadlines-pricing__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1160px) {
+  .audit-deadlines-pricing__grid {
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
+  }
+}
+
+.audit-deadlines-pricing__card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: clamp(84px, 10vw, 108px);
+  margin: 0;
+  padding: clamp(14px, 1.8vw, 20px);
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 14px;
+  background: linear-gradient(
+    145deg,
+    rgba(255, 255, 255, 0.11) 0%,
+    rgba(255, 255, 255, 0.04) 38%,
+    rgba(255, 255, 255, 0.02) 100%
+  );
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.18),
+    0 10px 24px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: transform 0.15s ease, border-color 0.15s ease;
+}
+
+.audit-deadlines-pricing__card:hover {
+  border-color: rgba(255, 255, 255, 0.3);
+  transform: translateY(-1px);
+}
+
+@supports ((backdrop-filter: blur(6px)) or (-webkit-backdrop-filter: blur(6px))) {
+  .audit-deadlines-pricing__card {
+    -webkit-backdrop-filter: blur(6px) saturate(120%);
+    backdrop-filter: blur(6px) saturate(120%);
+  }
+}
+
+.audit-deadlines-pricing__card-text {
+  font-family: "Montserrat", var(--font-family);
+  font-weight: 600;
+  font-size: clamp(14px, calc(12px + 0.3vw), 17px);
+  line-height: 1.35;
+  color: #fff;
+}
+
+.audit-deadlines-pricing__outro {
+  margin-top: clamp(18px, 2.6vw, 30px);
+}
+
+.audit-deadlines-pricing__panel {
+  margin-top: clamp(22px, 3vw, 38px);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: linear-gradient(
+    145deg,
+    rgba(255, 255, 255, 0.11) 0%,
+    rgba(255, 255, 255, 0.04) 38%,
+    rgba(255, 255, 255, 0.02) 100%
+  );
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.18),
+    0 12px 30px rgba(0, 0, 0, 0.26);
+  padding: clamp(16px, 2vw, 24px);
+}
+
+@supports ((backdrop-filter: blur(6px)) or (-webkit-backdrop-filter: blur(6px))) {
+  .audit-deadlines-pricing__panel {
+    -webkit-backdrop-filter: blur(6px) saturate(120%);
+    backdrop-filter: blur(6px) saturate(120%);
+  }
+}
+
+.audit-deadlines-pricing__panel-head {
+  margin-bottom: clamp(14px, 2vw, 20px);
+}
+
+.audit-deadlines-pricing__panel-title {
+  margin: 0 0 10px;
+  font-family: "Montserrat", var(--font-family);
+  font-weight: 700;
+  font-size: clamp(22px, calc(16px + 1.2vw), 34px);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+
+.audit-deadlines-pricing__stats {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+
+@media (min-width: 1000px) {
+  .audit-deadlines-pricing__stats {
+    grid-template-columns: 1fr 1fr minmax(240px, 1.2fr);
+    align-items: stretch;
+  }
+}
+
+.audit-deadlines-pricing__stat {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  padding: 14px;
+  background: rgba(0, 0, 0, 0.24);
+}
+
+.audit-deadlines-pricing__stat-label {
+  display: block;
+  margin-bottom: 8px;
+  font-family: "Montserrat", var(--font-family);
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.25;
+  color: rgba(255, 255, 255, 0.82);
+}
+
+.audit-deadlines-pricing__stat-value {
+  display: block;
+  font-family: "Montserrat", var(--font-family);
+  font-weight: 700;
+  font-size: clamp(18px, calc(14px + 0.8vw), 26px);
+  line-height: 1.1;
+  color: #fff;
+}
+
+.audit-deadlines-pricing__cta-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: stretch;
+}
+
+.audit-deadlines-pricing__cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 56px;
+  padding: 12px clamp(20px, 2vw, 28px);
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.32);
+  background: linear-gradient(
+    145deg,
+    rgba(255, 255, 255, 0.18) 0%,
+    rgba(255, 255, 255, 0.08) 45%,
+    rgba(255, 255, 255, 0.04) 100%
+  );
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.24),
+    0 10px 24px rgba(0, 0, 0, 0.24);
+  font-family: "Montserrat", var(--font-family);
+  font-weight: 600;
+  font-size: clamp(14px, calc(12px + 0.25vw), 16px);
+  line-height: 1.2;
+  color: #fff;
+  cursor: pointer;
+  transition: transform 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+}
+
+.audit-deadlines-pricing__cta:hover {
+  border-color: rgba(255, 255, 255, 0.5);
+  transform: translateY(-1px);
+}
+
+.audit-deadlines-pricing__cta:focus-visible {
+  outline: 2px solid #ef4423;
+  outline-offset: 3px;
+}

@@ -1,5 +1,8 @@
 <?php
 declare(strict_types=1);
+
+require_once dirname(__DIR__, 2) . '/includes/img-webp.php';
+require_once dirname(__DIR__, 2) . '/includes/site-address.php';
 /**
  * Component: Contacts — контакты + форма
  */
@@ -17,22 +20,20 @@ declare(strict_types=1);
             </div>
 
             <div class="contacts__messengers">
-                <a class="contacts__messenger" href="#" aria-label="WhatsApp">
-                    <img class="contacts__messenger-icon" src="/img/wa.png" alt="">
-                    <span class="contacts__messenger-text">WhatsApp</span>
-                </a>
-                <a class="contacts__messenger" href="#" aria-label="Telegram">
-                    <img class="contacts__messenger-icon" src="/img/tg.png" alt="">
-                    <span class="contacts__messenger-text">Telegram</span>
-                </a>
+                <?php
+                $socialLinkClass = 'contacts__messenger';
+                $socialIconClass = 'contacts__messenger-icon';
+                $socialSpanClass = 'contacts__messenger-text';
+                include dirname(__DIR__, 2) . '/includes/social-channels-links.php';
+                ?>
             </div>
 
             <div class="contacts__address-row">
                 <div class="contacts__address">
                     <p class="contacts__address-label">Адрес</p>
-                    <p class="contacts__address-text">г. Москва, Гамсоновский пер., 2, стр. 2, этаж 2, офис 211 (метро Тульская)</p>
+                    <p class="contacts__address-text"><?= aud_site_office_address_html() ?></p>
                 </div>
-                <img class="contacts__sphere" src="/img/sfera.png" alt="">
+                <?php aud_img_picture_webp('/img/sfera.png', '', ['class' => 'contacts__sphere', 'loading' => 'lazy', 'decoding' => 'async']); ?>
             </div>
         </div>
 

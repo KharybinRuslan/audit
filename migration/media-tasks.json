@@ -1,0 +1,1293 @@
+{
+  "meta": {
+    "generated_at": "2026-04-15T19:13:55Z",
+    "source": "export-ready/rebuild-manifest.json",
+    "export_ready_meta": {
+      "generated_at": "2026-04-15T18:53:30Z",
+      "source": "export/items/*.json + export-derived/*",
+      "site_home": "http://auditte.ru",
+      "site_netloc": "auditte.ru",
+      "meaningful_plain_chars": 80
+    },
+    "bucket_logic": {
+      "version": 3,
+      "meaningful_plain_chars": 80,
+      "notes": [
+        "Chat/UI HTML (text-token-text-primary, conversation-turn, …) удаляется санитайзером целыми контейнерами; пересчёт cleanup/manual по content_html_sanitized",
+        "Один [elementor-template] при здоровом контенте не ведёт в manual_review_required",
+        "manual_review: остаточный suspicious_embedded_markup, duplicate text, multiple cleanup flags, shortcode при слабом контенте/дубликате URL"
+      ]
+    },
+    "sanitization": {
+      "html_patterns_removed_containers": [
+        "text-token-text-primary",
+        "conversation-turn",
+        "data-message-author-role",
+        "agent-turn",
+        "markdown prose"
+      ],
+      "records_with_container_removals": 49,
+      "manual_review_count_before_sanitization": 49,
+      "manual_review_count_after_sanitization": 0,
+      "manual_review_cleared_by_sanitization": 49,
+      "cleared_manual_review_post_ids": [
+        15,
+        440,
+        534,
+        584,
+        599,
+        680,
+        696,
+        712,
+        756,
+        773,
+        800,
+        816,
+        965,
+        978,
+        989,
+        999,
+        1055,
+        1132,
+        1142,
+        1155,
+        1164,
+        1180,
+        1293,
+        1570,
+        1587,
+        1596,
+        1610,
+        1622,
+        1694,
+        1718,
+        1766,
+        1782,
+        1912,
+        1918,
+        3813,
+        3910,
+        4055,
+        4057,
+        4059,
+        4062,
+        4066,
+        4108,
+        4211,
+        4321,
+        4333,
+        4345,
+        4346,
+        4357,
+        4358
+      ]
+    }
+  },
+  "tasks": [
+    {
+      "id": 1017,
+      "post_type": "page",
+      "slug": "dolgosrochnaya-tsennost",
+      "title": "Долгосрочная ценность",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 22
+    },
+    {
+      "id": 1031,
+      "post_type": "page",
+      "slug": "konsaltingovye-uslugi",
+      "title": "Консалтинговые услуги",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 53
+    },
+    {
+      "id": 1049,
+      "post_type": "page",
+      "slug": "doveriye",
+      "title": "Доверие",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 22
+    },
+    {
+      "id": 1055,
+      "post_type": "page",
+      "slug": "audit-nekommercheskoj-organizacii",
+      "title": "Аудит некоммерческой организации",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 31
+    },
+    {
+      "id": 1109,
+      "post_type": "page",
+      "slug": "ustoychivoye-razvitiye",
+      "title": "Устойчивое развитие",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 22
+    },
+    {
+      "id": 1132,
+      "post_type": "page",
+      "slug": "ocenka-biznesa",
+      "title": "Оценка бизнеса",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 30
+    },
+    {
+      "id": 1142,
+      "post_type": "page",
+      "slug": "ocenka-nedvizhimosti",
+      "title": "Оценка недвижимости",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 30
+    },
+    {
+      "id": 1155,
+      "post_type": "page",
+      "slug": "ocenka-nematerialnyh-aktivov",
+      "title": "Оценка нематериальных активов",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 30
+    },
+    {
+      "id": 1164,
+      "post_type": "page",
+      "slug": "ocenka-mashin-i-oborudovanija",
+      "title": "Оценка машин и оборудования",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 31
+    },
+    {
+      "id": 1180,
+      "post_type": "page",
+      "slug": "ocenka-zemelnyh-uchastkov",
+      "title": "Оценка земельных участков",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 30
+    },
+    {
+      "id": 1218,
+      "post_type": "page",
+      "slug": "otrasli",
+      "title": "Отрасли",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 56
+    },
+    {
+      "id": 1267,
+      "post_type": "page",
+      "slug": "peredovyye-tekhnologii-proizvodstva",
+      "title": "Передовые технологии производства",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 27
+    },
+    {
+      "id": 1293,
+      "post_type": "page",
+      "slug": "proizvodstvo-potrebitelskikh-tovarov-i-roznichnaya-torgovlya",
+      "title": "Производство потребительских товаров и розничная торговля",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 29
+    },
+    {
+      "id": 1367,
+      "post_type": "page",
+      "slug": "toplivno-energeticheskaya-i-dobyvayushchaya-promyshlennost",
+      "title": "Топливно-энергетическая и добывающая отрасли",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 28
+    },
+    {
+      "id": 1381,
+      "post_type": "page",
+      "slug": "finansovyy-sektor",
+      "title": "Финансовый сектор",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 29
+    },
+    {
+      "id": 1392,
+      "post_type": "page",
+      "slug": "uslugi-dlya-gosudarstvennogo-sektora",
+      "title": "Услуги для государственного сектора",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 9
+    },
+    {
+      "id": 1399,
+      "post_type": "page",
+      "slug": "mediko-biologicheskiye-otrasli-i-zdravookhraneniye",
+      "title": "Медико-биологическая отрасль и здравоохранение",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 30
+    },
+    {
+      "id": 1412,
+      "post_type": "page",
+      "slug": "investitsii-v-chastnyy-kapital",
+      "title": "Инвестиции в частный капитал",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 31
+    },
+    {
+      "id": 1422,
+      "post_type": "page",
+      "slug": "tekhnologii-mediasektor-industriya-razvlecheniy-i-sfery-svyazi",
+      "title": "Технологии, медиасектор, индустрия развлечений и отрасль связи",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 31
+    },
+    {
+      "id": 15,
+      "post_type": "page",
+      "slug": "glavnaja",
+      "title": "Главная",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 27
+    },
+    {
+      "id": 1549,
+      "post_type": "page",
+      "slug": "ocenochnaja-dejatelnost",
+      "title": "Оценочная деятельность",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 39
+    },
+    {
+      "id": 1552,
+      "post_type": "page",
+      "slug": "o-nas",
+      "title": "О нас",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 67
+    },
+    {
+      "id": 1570,
+      "post_type": "page",
+      "slug": "kompleksnye-reshenija-po-peremeshheniju-personala",
+      "title": "Комплексные решения по перемещению персонала",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 30
+    },
+    {
+      "id": 1587,
+      "post_type": "page",
+      "slug": "konsultacionnye-uslugi-po-obucheniju-i-razvitiju",
+      "title": "Консультационные услуги по обучению и развитию",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 30
+    },
+    {
+      "id": 1596,
+      "post_type": "page",
+      "slug": "konsultacionnye-uslugi-v-oblasti-voznagrazhdenija-i-kpi",
+      "title": "Консультационные услуги в области вознаграждения и KPI",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 30
+    },
+    {
+      "id": 1610,
+      "post_type": "page",
+      "slug": "kadrovaja-analitika",
+      "title": "Кадровая аналитика",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 30
+    },
+    {
+      "id": 1622,
+      "post_type": "page",
+      "slug": "uslugi-v-oblasti-nalogooblozhenija-dlja-chastnyh-klientov",
+      "title": "Услуги в области налогообложения для частных клиентов",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 30
+    },
+    {
+      "id": 1628,
+      "post_type": "page",
+      "slug": "nasha-tsel",
+      "title": "Наша цель",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 28
+    },
+    {
+      "id": 1637,
+      "post_type": "page",
+      "slug": "upravlenie-personalom",
+      "title": "Управление персоналом",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 39
+    },
+    {
+      "id": 1647,
+      "post_type": "page",
+      "slug": "nashi-tsennosti",
+      "title": "Наши ценности",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 30
+    },
+    {
+      "id": 1687,
+      "post_type": "page",
+      "slug": "nashi-sotrudniki",
+      "title": "Наши сотрудники",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 30
+    },
+    {
+      "id": 1694,
+      "post_type": "page",
+      "slug": "juridicheskoe-soprovozhdenie",
+      "title": "Юридическое сопровождение",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 30
+    },
+    {
+      "id": 1718,
+      "post_type": "page",
+      "slug": "meropriyatiya",
+      "title": "Мероприятия",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 15
+    },
+    {
+      "id": 1766,
+      "post_type": "page",
+      "slug": "investicii-i-finansy",
+      "title": "Инвестиции и финансы",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 30
+    },
+    {
+      "id": 1782,
+      "post_type": "page",
+      "slug": "proverka-kompanij-compliance",
+      "title": "Проверка компаний / Compliance",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 30
+    },
+    {
+      "id": 1799,
+      "post_type": "page",
+      "slug": "karyera",
+      "title": "Карьера",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 67
+    },
+    {
+      "id": 1825,
+      "post_type": "page",
+      "slug": "rabota-v-kompanii",
+      "title": "Работа в нашей компании",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 29
+    },
+    {
+      "id": 1831,
+      "post_type": "page",
+      "slug": "rabota-v-nashey-kompanii",
+      "title": "Что значит работать в нашей компании",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 28
+    },
+    {
+      "id": 1839,
+      "post_type": "page",
+      "slug": "kak-prisoyedinitsya-k-nam",
+      "title": "Как присоединиться к нам",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 28
+    },
+    {
+      "id": 1899,
+      "post_type": "page",
+      "slug": "inostrannym-klientam",
+      "title": "Иностранным клиентам",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 25
+    },
+    {
+      "id": 1912,
+      "post_type": "page",
+      "slug": "shkola-jekspertizy-i-prava",
+      "title": "Школа экспертизы и права",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 31
+    },
+    {
+      "id": 1918,
+      "post_type": "page",
+      "slug": "soobshhestvo-biznesmenov",
+      "title": "Сообщество бизнесменов",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 30
+    },
+    {
+      "id": 1938,
+      "post_type": "page",
+      "slug": "akademija-biznesa",
+      "title": "Академия бизнеса",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 28
+    },
+    {
+      "id": 2280,
+      "post_type": "page",
+      "slug": "kontakty",
+      "title": "Контакты",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 6
+    },
+    {
+      "id": 2505,
+      "post_type": "page",
+      "slug": "forma",
+      "title": "Форма",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 1
+    },
+    {
+      "id": 3,
+      "post_type": "page",
+      "slug": "politika-konfidencialnosti",
+      "title": "Политика конфиденциальности",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 2
+    },
+    {
+      "id": 3758,
+      "post_type": "page",
+      "slug": "ekspertiza",
+      "title": "Экспертные услуги",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 36
+    },
+    {
+      "id": 3800,
+      "post_type": "page",
+      "slug": "sud-expertiza",
+      "title": "Судебная экспертиза",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 12
+    },
+    {
+      "id": 3813,
+      "post_type": "page",
+      "slug": "dosudebnaya-expertiza",
+      "title": "Досудебная экспертиза",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 10
+    },
+    {
+      "id": 3831,
+      "post_type": "page",
+      "slug": "notar-expertiza",
+      "title": "Нотариальная экспертиза",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 9
+    },
+    {
+      "id": 3849,
+      "post_type": "page",
+      "slug": "expertiza-44fz",
+      "title": "Экспертиза по 44 ФЗ",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 9
+    },
+    {
+      "id": 386,
+      "post_type": "page",
+      "slug": "auditorskiye-uslugi",
+      "title": "Аудиторские услуги",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 48
+    },
+    {
+      "id": 3864,
+      "post_type": "page",
+      "slug": "castoms-expertiza",
+      "title": "Таможенная экспертиза",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 9
+    },
+    {
+      "id": 3879,
+      "post_type": "page",
+      "slug": "expertiza-proekt-docum",
+      "title": "Экспертиза проектной документации",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 9
+    },
+    {
+      "id": 3894,
+      "post_type": "page",
+      "slug": "ecolog-expertiza",
+      "title": "Экологическая экспертиза",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 9
+    },
+    {
+      "id": 3910,
+      "post_type": "page",
+      "slug": "expertiza-prom-bezopasnosti",
+      "title": "Экспертиза промышленной безопасности",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 9
+    },
+    {
+      "id": 4055,
+      "post_type": "post",
+      "slug": "gost-ipo",
+      "title": "Гость IPO",
+      "media_case": "has_featured",
+      "reasons": [
+        "migrate_http_media"
+      ],
+      "featured_image_url": "http://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-29-21.54.31-a-sophisticated-and-professional-business-scene-featuring-a-group-of-financial-experts-including-underwriters-in-a-modern-office-setting.-the-expert.webp",
+      "all_image_urls_count": 1
+    },
+    {
+      "id": 4057,
+      "post_type": "post",
+      "slug": "spiker-ipo",
+      "title": "Спикер IPO",
+      "media_case": "has_featured",
+      "reasons": [
+        "migrate_http_media"
+      ],
+      "featured_image_url": "http://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-29-22.50.08-a-professional-business-scene-illustrating-the-roles-of-underwriters-and-consulting-firms-in-the-ipo-process.-on-one-side-investment-bankers-are-show.webp",
+      "all_image_urls_count": 1
+    },
+    {
+      "id": 4059,
+      "post_type": "post",
+      "slug": "bussines-vstrecha-8-ijunya-2024-spb",
+      "title": "Бизнес встреча: 8 июня 2024 Санкт-Петербург",
+      "media_case": "has_featured",
+      "reasons": [
+        "migrate_http_media"
+      ],
+      "featured_image_url": "http://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-29-21.32.11-a-sophisticated-and-professional-business-scene-at-the-saint-petersburg-international-economic-forum-spief-with-top-expert-representatives.-the-im.webp",
+      "all_image_urls_count": 1
+    },
+    {
+      "id": 4062,
+      "post_type": "post",
+      "slug": "pmef-2024-spb",
+      "title": "ПМЭФ 2024 Санкт-Петербург",
+      "media_case": "has_featured",
+      "reasons": [
+        "migrate_http_media"
+      ],
+      "featured_image_url": "http://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-29-21.17.08-a-sophisticated-and-professional-business-scene-at-the-saint-petersburg-international-economic-forum-spief.-the-image-features-a-modern-conference-h.webp",
+      "all_image_urls_count": 170
+    },
+    {
+      "id": 4066,
+      "post_type": "page",
+      "slug": "ipo",
+      "title": "IPO акций",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 30
+    },
+    {
+      "id": 4108,
+      "post_type": "post",
+      "slug": "ipo-2024-chto-zhdet-rissian-company",
+      "title": "IPO 2024 : Что ждет российские компании?",
+      "media_case": "has_featured",
+      "reasons": [
+        "migrate_http_media"
+      ],
+      "featured_image_url": "http://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-14-00.42.57-a-comic-panel-showcasing-the-work-of-top-expert-a-company-specializing-in-audit-consulting-and-evaluation.-the-scene-is-set-in-a-sleek-modern-offi.webp",
+      "all_image_urls_count": 30
+    },
+    {
+      "id": 4211,
+      "post_type": "post",
+      "slug": "biznes-forum-integracija-vozmozhnostej-put-k-ipo-s-5-po-6-ijulja-2024",
+      "title": "Бизнес форум: ИНТЕГРАЦИЯ ВОЗМОЖНОСТЕЙ, ПУТЬ К IPO -  с 5 по 6 июля 2024",
+      "media_case": "has_featured",
+      "reasons": [
+        "migrate_http_media"
+      ],
+      "featured_image_url": "http://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-14-00.52.24-a-comic-panel-in-the-style-of-the-wolf-of-wall-street-showcasing-the-work-of-top-expert-a-company-specializing-in-audit-consulting-and-evaluation.webp",
+      "all_image_urls_count": 1
+    },
+    {
+      "id": 4225,
+      "post_type": "page",
+      "slug": "offer-2025",
+      "title": "Актуальные предложения 2025",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 5
+    },
+    {
+      "id": 425,
+      "post_type": "page",
+      "slug": "uslugi",
+      "title": "Услуги",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 28
+    },
+    {
+      "id": 4321,
+      "post_type": "post",
+      "slug": "pmjef",
+      "title": "ПМЭФ",
+      "media_case": "has_featured",
+      "reasons": [
+        "migrate_http_media"
+      ],
+      "featured_image_url": "http://auditte.ru/wp-content/uploads/2024/06/2.jpg",
+      "all_image_urls_count": 1
+    },
+    {
+      "id": 4333,
+      "post_type": "post",
+      "slug": "pmjuf",
+      "title": "ПМЮФ",
+      "media_case": "has_featured",
+      "reasons": [
+        "migrate_http_media"
+      ],
+      "featured_image_url": "http://auditte.ru/wp-content/uploads/2024/06/1.jpg",
+      "all_image_urls_count": 82
+    },
+    {
+      "id": 4345,
+      "post_type": "post",
+      "slug": "gost-integracija-vozmozhnostej",
+      "title": "Гость ИНТЕГРАЦИЯ ВОЗМОЖНОСТЕЙ",
+      "media_case": "has_featured",
+      "reasons": [
+        "migrate_http_media"
+      ],
+      "featured_image_url": "http://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-14-00.42.57-a-comic-panel-showcasing-the-work-of-top-expert-a-company-specializing-in-audit-consulting-and-evaluation.-the-scene-is-set-in-a-sleek-modern-offi.webp",
+      "all_image_urls_count": 1
+    },
+    {
+      "id": 4346,
+      "post_type": "post",
+      "slug": "spiker-integracija-vozmozhnostej",
+      "title": "Спикер ИНТЕГРАЦИЯ ВОЗМОЖНОСТЕЙ",
+      "media_case": "has_featured",
+      "reasons": [
+        "migrate_http_media"
+      ],
+      "featured_image_url": "http://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-29-16.39.43-a-wide-business-scene-depicting-the-stages-of-an-ipo.-the-image-shows-various-stages-including-a-team-meeting-for-strategy-development-legal-and-fina.webp",
+      "all_image_urls_count": 1
+    },
+    {
+      "id": 4357,
+      "post_type": "post",
+      "slug": "gost-ot-vozmozhnostej-k-celi",
+      "title": "Гость От возможностей к цели",
+      "media_case": "has_featured",
+      "reasons": [
+        "migrate_http_media"
+      ],
+      "featured_image_url": "http://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-29-16.24.40-a-sophisticated-and-professional-business-scene-with-a-focus-on-ipo-and-legal-consulting.-the-image-features-a-group-of-business-professionals-in-a-mo.webp",
+      "all_image_urls_count": 1
+    },
+    {
+      "id": 4358,
+      "post_type": "post",
+      "slug": "spiker-ot-vozmozhnostej-k-celi",
+      "title": "Спикер От возможностей к цели",
+      "media_case": "has_featured",
+      "reasons": [
+        "migrate_http_media"
+      ],
+      "featured_image_url": "http://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-29-21.32.11-a-sophisticated-and-professional-business-scene-at-the-saint-petersburg-international-economic-forum-spief-with-top-expert-representatives.-the-im.webp",
+      "all_image_urls_count": 1
+    },
+    {
+      "id": 440,
+      "post_type": "page",
+      "slug": "obyazatelnyy-audit",
+      "title": "Обязательный аудит",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 32
+    },
+    {
+      "id": 453,
+      "post_type": "post",
+      "slug": "objazatelnyj-audit-akcionernyh-obshhestv",
+      "title": "Обязательный аудит акционерных обществ",
+      "media_case": "has_featured",
+      "reasons": [
+        "migrate_http_media"
+      ],
+      "featured_image_url": "http://auditte.ru/wp-content/uploads/2024/04/3-11.jpg",
+      "all_image_urls_count": 2
+    },
+    {
+      "id": 456,
+      "post_type": "post",
+      "slug": "objazatelnyj-audit-nekommercheskih-organizacij",
+      "title": "Обязательный аудит некоммерческих организаций",
+      "media_case": "has_featured",
+      "reasons": [
+        "migrate_http_media"
+      ],
+      "featured_image_url": "http://auditte.ru/wp-content/uploads/2024/04/2-22.jpg",
+      "all_image_urls_count": 2
+    },
+    {
+      "id": 469,
+      "post_type": "page",
+      "slug": "investitsionnyy-audit",
+      "title": "Инвестиционный аудит",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 25
+    },
+    {
+      "id": 534,
+      "post_type": "page",
+      "slug": "iniciativnyj-audit",
+      "title": "Инициативный аудит",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 31
+    },
+    {
+      "id": 571,
+      "post_type": "page",
+      "slug": "bankovskij-audit",
+      "title": "Банковский аудит",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 31
+    },
+    {
+      "id": 584,
+      "post_type": "page",
+      "slug": "audit-mikrofinansovyh-organizacij",
+      "title": "Аудит микрофинансовых организаций",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 31
+    },
+    {
+      "id": 599,
+      "post_type": "page",
+      "slug": "strahovoj-audit",
+      "title": "Страховой аудит",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 28
+    },
+    {
+      "id": 614,
+      "post_type": "post",
+      "slug": "vnutrennij-audit-v-bankah-i-mfo",
+      "title": "Внутренний аудит в банках и МФО",
+      "media_case": "has_featured",
+      "reasons": [
+        "migrate_http_media"
+      ],
+      "featured_image_url": "http://auditte.ru/wp-content/uploads/2024/04/view-woman-typing-laptop-scaled-1-e1713082950805.jpg",
+      "all_image_urls_count": 1
+    },
+    {
+      "id": 617,
+      "post_type": "post",
+      "slug": "finansovyj-audit-i-ego-osobennosti",
+      "title": "Финансовый аудит и его особенности",
+      "media_case": "has_featured",
+      "reasons": [
+        "migrate_http_media"
+      ],
+      "featured_image_url": "http://auditte.ru/wp-content/uploads/2024/04/top-view-finances-elements-composition-scaled-1-e1713083580687.jpg",
+      "all_image_urls_count": 1
+    },
+    {
+      "id": 632,
+      "post_type": "post",
+      "slug": "audit-buhgalterskoj-finansovoj-otchetnosti-strahovoj-kompanii",
+      "title": "Аудит бухгалтерской (финансовой) отчетности страховой компании",
+      "media_case": "has_featured",
+      "reasons": [
+        "migrate_http_media"
+      ],
+      "featured_image_url": "http://auditte.ru/wp-content/uploads/2024/04/strahovoj-1-1-e1713085632870.jpg",
+      "all_image_urls_count": 1
+    },
+    {
+      "id": 680,
+      "post_type": "page",
+      "slug": "audit-dolgosrochnyh-programm-razvitija",
+      "title": "Аудит долгосрочных программ развития",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 31
+    },
+    {
+      "id": 696,
+      "post_type": "page",
+      "slug": "it-audit",
+      "title": "IT-аудит",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 31
+    },
+    {
+      "id": 712,
+      "post_type": "page",
+      "slug": "stroitelnyj-audit",
+      "title": "Строительный аудит",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 30
+    },
+    {
+      "id": 756,
+      "post_type": "page",
+      "slug": "slijanie-i-pogloshhenie",
+      "title": "Слияние и поглощение",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 32
+    },
+    {
+      "id": 773,
+      "post_type": "page",
+      "slug": "nalogi-i-jekspertiza",
+      "title": "Налоги и экспертиза",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 31
+    },
+    {
+      "id": 800,
+      "post_type": "page",
+      "slug": "optimizacija-biznesa",
+      "title": "Оптимизация бизнеса",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 31
+    },
+    {
+      "id": 816,
+      "post_type": "page",
+      "slug": "juridicheskij-konsalting",
+      "title": "Юридический консалтинг",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 31
+    },
+    {
+      "id": 948,
+      "post_type": "page",
+      "slug": "transformatsiya",
+      "title": "Трансформация",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 29
+    },
+    {
+      "id": 965,
+      "post_type": "page",
+      "slug": "buhgalterija-i-finansovaja-otchetnost",
+      "title": "Бухгалтерия и финансовая отчетность",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 31
+    },
+    {
+      "id": 978,
+      "post_type": "page",
+      "slug": "pervichnoe-razmeshhenie-cennyh-bumag-ipo",
+      "title": "Первичное размещение ценных бумаг (IPO)",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 31
+    },
+    {
+      "id": 989,
+      "post_type": "page",
+      "slug": "tamozhennoe-regulirovanie-i-mezhdunarodnaja-torgovlja",
+      "title": "Таможенное регулирование и международная торговля",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 31
+    },
+    {
+      "id": 999,
+      "post_type": "page",
+      "slug": "information",
+      "title": "Информация",
+      "media_case": "missing_featured_has_inline_images",
+      "reasons": [
+        "pick_featured_from_existing_content",
+        "migrate_http_media"
+      ],
+      "featured_image_url": null,
+      "all_image_urls_count": 53
+    }
+  ]
+}

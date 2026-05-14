@@ -5,11 +5,16 @@
   'use strict';
 
   var el = document.getElementById('news-slider-swiper');
-  if (!el || typeof Swiper === 'undefined') {
+  if (!el) {
     return;
   }
 
   var section = el.closest('.news-slider');
+
+  function startNewsSliderSwiper() {
+  if (typeof Swiper === 'undefined') {
+    return;
+  }
   var paginationEl = section && section.querySelector('.news-slider__pagination');
 
   var config = {
@@ -49,5 +54,17 @@
     };
   }
 
-  new Swiper('#news-slider-swiper', config);
+  var swiper = new Swiper(el, config);
+  if (typeof window.bindSwiperSlidesA11y === 'function') {
+    window.bindSwiperSlidesA11y(swiper);
+  }
+  }
+
+  if (typeof window.audInitSwiperWhenNear === 'function') {
+    window.audInitSwiperWhenNear(section || el, startNewsSliderSwiper, 160);
+  } else {
+    window.requestAnimationFrame(function () {
+      window.requestAnimationFrame(startNewsSliderSwiper);
+    });
+  }
 })();

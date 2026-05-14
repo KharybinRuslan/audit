@@ -1,11 +1,130 @@
 # Аудит — локальный сайт http://aud/
+
+# Не отдавать .env как статику (если файл случайно окажется в корне сайта)
+<FilesMatch "^\.env$">
+    <IfModule mod_authz_core.c>
+        Require all denied
+    </IfModule>
+</FilesMatch>
+
 <IfModule mod_rewrite.c>
     RewriteEngine On
     RewriteBase /
 
+    # Критический CSS: один URL без ручной сборки (склеивает main + site-header + hero)
+    RewriteRule ^css/critical-shell\.css$ css/critical-shell.php [L]
+
+    # SEO: sitemap и robots (динамически от корня сайта)
+    RewriteRule ^sitemap\.xml$ sitemap.xml.php [L]
+    RewriteRule ^robots\.txt$ robots.php [L]
+
     # /pages/name.php → /name (301); THE_REQUEST — только реальный запрос, не внутренняя подстановка
     RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /pages/[^?\s]+\.php(\?|\s) [NC]
     RewriteRule ^pages/([^/.]+)\.php$ /$1 [R=301,L,QSA]
+
+    # /pages/audit/slug.php → /audit/slug (301)
+    RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /pages/audit/[^?\s]+\.php(\?|\s) [NC]
+    RewriteRule ^pages/audit/([^/.]+)\.php$ /audit/$1 [R=301,L,QSA]
+
+    # Подстраницы направления: /audit/slug → pages/audit/slug.php
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^audit/([^/.]+)/?$ pages/audit/$1.php [L,QSA]
+
+    # /pages/konsalting/slug.php → /konsalting/slug (301)
+    RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /pages/konsalting/[^?\s]+\.php(\?|\s) [NC]
+    RewriteRule ^pages/konsalting/([^/.]+)\.php$ /konsalting/$1 [R=301,L,QSA]
+
+    # Подстраницы: /konsalting/slug → pages/konsalting/slug.php
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^konsalting/([^/.]+)/?$ pages/konsalting/$1.php [L,QSA]
+
+    # /pages/finans/slug.php → /finans/slug (301)
+    RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /pages/finans/[^?\s]+\.php(\?|\s) [NC]
+    RewriteRule ^pages/finans/([^/.]+)\.php$ /finans/$1 [R=301,L,QSA]
+
+    # Подстраницы: /finans/slug → pages/finans/slug.php
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^finans/([^/.]+)/?$ pages/finans/$1.php [L,QSA]
+
+    # /pages/buhgalteriya/slug.php → /buhgalteriya/slug (301)
+    RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /pages/buhgalteriya/[^?\s]+\.php(\?|\s) [NC]
+    RewriteRule ^pages/buhgalteriya/([^/.]+)\.php$ /buhgalteriya/$1 [R=301,L,QSA]
+
+    # Подстраницы: /buhgalteriya/slug → pages/buhgalteriya/slug.php
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^buhgalteriya/([^/.]+)/?$ pages/buhgalteriya/$1.php [L,QSA]
+
+    # /pages/forenzik/slug.php → /forenzik/slug (301)
+    RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /pages/forenzik/[^?\s]+\.php(\?|\s) [NC]
+    RewriteRule ^pages/forenzik/([^/.]+)\.php$ /forenzik/$1 [R=301,L,QSA]
+
+    # Подстраницы: /forenzik/slug → pages/forenzik/slug.php
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^forenzik/([^/.]+)/?$ pages/forenzik/$1.php [L,QSA]
+
+    # /pages/kadrovyy-audit/slug.php → /kadrovyy-audit/slug (301)
+    RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /pages/kadrovyy-audit/[^?\s]+\.php(\?|\s) [NC]
+    RewriteRule ^pages/kadrovyy-audit/([^/.]+)\.php$ /kadrovyy-audit/$1 [R=301,L,QSA]
+
+    # Подстраницы: /kadrovyy-audit/slug → pages/kadrovyy-audit/slug.php
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^kadrovyy-audit/([^/.]+)/?$ pages/kadrovyy-audit/$1.php [L,QSA]
+
+    # /pages/msfo/slug.php → /msfo/slug (301)
+    RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /pages/msfo/[^?\s]+\.php(\?|\s) [NC]
+    RewriteRule ^pages/msfo/([^/.]+)\.php$ /msfo/$1 [R=301,L,QSA]
+
+    # Подстраницы: /msfo/slug → pages/msfo/slug.php
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^msfo/([^/.]+)/?$ pages/msfo/$1.php [L,QSA]
+
+    # /pages/komplaens/slug.php → /komplaens/slug (301)
+    RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /pages/komplaens/[^?\s]+\.php(\?|\s) [NC]
+    RewriteRule ^pages/komplaens/([^/.]+)\.php$ /komplaens/$1 [R=301,L,QSA]
+
+    # Подстраницы: /komplaens/slug → pages/komplaens/slug.php
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^komplaens/([^/.]+)/?$ pages/komplaens/$1.php [L,QSA]
+
+    # /pages/biznes-konsalting/slug.php → /biznes-konsalting/slug (301)
+    RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /pages/biznes-konsalting/[^?\s]+\.php(\?|\s) [NC]
+    RewriteRule ^pages/biznes-konsalting/([^/.]+)\.php$ /biznes-konsalting/$1 [R=301,L,QSA]
+
+    # Подстраницы: /biznes-konsalting/slug → pages/biznes-konsalting/slug.php
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^biznes-konsalting/([^/.]+)/?$ pages/biznes-konsalting/$1.php [L,QSA]
+
+    # /pages/hsep/slug.php → /hsep/slug (301)
+    RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /pages/hsep/[^?\s]+\.php(\?|\s) [NC]
+    RewriteRule ^pages/hsep/([^/.]+)\.php$ /hsep/$1 [R=301,L,QSA]
+
+    # Подстраницы: /hsep/slug → pages/hsep/slug.php
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^hsep/([^/.]+)/?$ pages/hsep/$1.php [L,QSA]
+
+    # /pages/due-diligence/slug.php → /due-diligence/slug (301)
+    RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /pages/due-diligence/[^?\s]+\.php(\?|\s) [NC]
+    RewriteRule ^pages/due-diligence/([^/.]+)\.php$ /due-diligence/$1 [R=301,L,QSA]
+
+    # Подстраницы: /due-diligence/slug → pages/due-diligence/slug.php
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^due-diligence/([^/.]+)/?$ pages/due-diligence/$1.php [L,QSA]
+
+    # Подстраница новости: /news/slug → pages/news/article.php
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^news/([^/.]+)/?$ pages/news/article.php?slug=$1 [L,QSA]
 
     # Чистые URL: /name → pages/name.php (если файл есть)
     RewriteCond %{REQUEST_FILENAME} !-f
@@ -25,8 +144,34 @@ DirectoryIndex index.php
 # Кодировка по умолчанию
 AddDefaultCharset UTF-8
 
+# Сжатие текста (Lighthouse «без сжатия» на Apache)
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application/javascript application/json image/svg+xml
+</IfModule>
+
+# Кеш статики (Lighthouse: длинный TTL; при смене файлов — новое имя или сброс кеша)
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType text/css "access plus 1 year"
+    ExpiresByType application/javascript "access plus 1 year"
+    ExpiresByType font/woff2 "access plus 1 year"
+    ExpiresByType font/woff "access plus 1 year"
+    ExpiresByType font/ttf "access plus 1 year"
+    ExpiresByType image/png "access plus 1 year"
+    ExpiresByType image/jpeg "access plus 1 year"
+    ExpiresByType image/webp "access plus 1 year"
+    ExpiresByType image/svg+xml "access plus 1 year"
+</IfModule>
+
+# Cache-Control на случай, если mod_expires недоступен
+<IfModule mod_headers.c>
+    <FilesMatch "\.(css|js|mjs|woff2|woff|ttf|otf|png|jpe?g|webp|svg|ico)$">
+        Header set Cache-Control "public, max-age=31536000, immutable"
+    </FilesMatch>
+</IfModule>
+
 # Разрешить доступ к шрифтам и статике
-<FilesMatch "\.(ttf|otf|woff|woff2|css|js|png|jpg|jpeg|gif|ico|svg)$">
+<FilesMatch "\.(ttf|otf|woff|woff2|css|js|png|jpg|jpeg|gif|ico|svg|webp)$">
     <IfModule mod_headers.c>
         Header set Access-Control-Allow-Origin "*"
     </IfModule>

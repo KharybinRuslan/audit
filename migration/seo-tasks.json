@@ -1,0 +1,3070 @@
+{
+  "meta": {
+    "generated_at": "2026-04-15T19:13:55Z",
+    "source": "export-ready/rebuild-manifest.json",
+    "export_ready_meta": {
+      "generated_at": "2026-04-15T18:53:30Z",
+      "source": "export/items/*.json + export-derived/*",
+      "site_home": "http://auditte.ru",
+      "site_netloc": "auditte.ru",
+      "meaningful_plain_chars": 80
+    },
+    "bucket_logic": {
+      "version": 3,
+      "meaningful_plain_chars": 80,
+      "notes": [
+        "Chat/UI HTML (text-token-text-primary, conversation-turn, …) удаляется санитайзером целыми контейнерами; пересчёт cleanup/manual по content_html_sanitized",
+        "Один [elementor-template] при здоровом контенте не ведёт в manual_review_required",
+        "manual_review: остаточный suspicious_embedded_markup, duplicate text, multiple cleanup flags, shortcode при слабом контенте/дубликате URL"
+      ]
+    },
+    "sanitization": {
+      "html_patterns_removed_containers": [
+        "text-token-text-primary",
+        "conversation-turn",
+        "data-message-author-role",
+        "agent-turn",
+        "markdown prose"
+      ],
+      "records_with_container_removals": 49,
+      "manual_review_count_before_sanitization": 49,
+      "manual_review_count_after_sanitization": 0,
+      "manual_review_cleared_by_sanitization": 49,
+      "cleared_manual_review_post_ids": [
+        15,
+        440,
+        534,
+        584,
+        599,
+        680,
+        696,
+        712,
+        756,
+        773,
+        800,
+        816,
+        965,
+        978,
+        989,
+        999,
+        1055,
+        1132,
+        1142,
+        1155,
+        1164,
+        1180,
+        1293,
+        1570,
+        1587,
+        1596,
+        1610,
+        1622,
+        1694,
+        1718,
+        1766,
+        1782,
+        1912,
+        1918,
+        3813,
+        3910,
+        4055,
+        4057,
+        4059,
+        4062,
+        4066,
+        4108,
+        4211,
+        4321,
+        4333,
+        4345,
+        4346,
+        4357,
+        4358
+      ]
+    }
+  },
+  "tasks": [
+    {
+      "id": 1017,
+      "post_type": "page",
+      "slug": "dolgosrochnaya-tsennost",
+      "title": "Долгосрочная ценность",
+      "tasks": [
+        "template_seo_title"
+      ],
+      "seo_title_is_template": true,
+      "seo_title_raw": "%title% %page%",
+      "seo_title_effective": "Долгосрочная ценность",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": "Долгосрочная ценность - ключ к устойчивому успеху. Инвестируйте в будущее, строя стратегии на основе устойчивого развития."
+    },
+    {
+      "id": 1049,
+      "post_type": "page",
+      "slug": "doveriye",
+      "title": "Доверие",
+      "tasks": [
+        "template_seo_title"
+      ],
+      "seo_title_is_template": true,
+      "seo_title_raw": "%title% - ключевая особенность нашей компании",
+      "seo_title_effective": "Доверие",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": "Доверие - основа успешных отношений. Раскройте потенциал доверия через честность, надежность и уважение в нашей компании."
+    },
+    {
+      "id": 1055,
+      "post_type": "page",
+      "slug": "audit-nekommercheskoj-organizacii",
+      "title": "Аудит некоммерческой организации",
+      "tasks": [
+        "template_seo_title"
+      ],
+      "seo_title_is_template": true,
+      "seo_title_raw": "%title% %page%",
+      "seo_title_effective": "Аудит некоммерческой организации",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": "Прозрачность, эффективность, соответствие стандартам: аудит некоммерческих организаций для укрепления доверия и эффективного управления."
+    },
+    {
+      "id": 1079,
+      "post_type": "post",
+      "slug": "osobennosti-provedenija-audita-nekommercheskoj-organizacii",
+      "title": "Особенности проведения аудита некоммерческой организации",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Особенности проведения аудита некоммерческой организации",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1085,
+      "post_type": "post",
+      "slug": "audit-nekommercheskih-organizacij-znachenie-osobennosti-i-praktika",
+      "title": "Аудит Некоммерческих Организаций: Значение, Особенности и Практика",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Аудит Некоммерческих Организаций: Значение, Особенности и Практика",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1089,
+      "post_type": "post",
+      "slug": "zachem-biznesu-neobhodimo-svoe-soobshhestvo",
+      "title": "Зачем бизнесу необходимо свое сообщество?",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Зачем бизнесу необходимо свое сообщество?",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1095,
+      "post_type": "post",
+      "slug": "poisk-poleznyh-svjazej-i-razvitie-navykov-v-biznes-soobshhestvah",
+      "title": "Поиск полезных связей и развитие навыков в бизнес-сообществах",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Поиск полезных связей и развитие навыков в бизнес-сообществах",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1119,
+      "post_type": "post",
+      "slug": "kak-ispolzovat-potencial-sledujushhego-pokolenija-dlja-sozdanija-bolee-ustojchivoj-sistemy-v-budushhem",
+      "title": "Как мы можем содействовать созданию более устойчивого будущего для следующих поколений?",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Как мы можем содействовать созданию более устойчивого будущего для следующих поколений?",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1132,
+      "post_type": "page",
+      "slug": "ocenka-biznesa",
+      "title": "Оценка бизнеса",
+      "tasks": [
+        "template_seo_title"
+      ],
+      "seo_title_is_template": true,
+      "seo_title_raw": "%title% %page%",
+      "seo_title_effective": "Оценка бизнеса",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": "Оценка бизнеса: методы, инструменты и процессы для определения стоимости, потенциала и рисков предприятия."
+    },
+    {
+      "id": 1142,
+      "post_type": "page",
+      "slug": "ocenka-nedvizhimosti",
+      "title": "Оценка недвижимости",
+      "tasks": [
+        "template_seo_title"
+      ],
+      "seo_title_is_template": true,
+      "seo_title_raw": "%title% %page%",
+      "seo_title_effective": "Оценка недвижимости",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": "Оценка недвижимости: методы, критерии и процессы для определения рыночной стоимости и инвестиционной привлекательности объектов."
+    },
+    {
+      "id": 1155,
+      "post_type": "page",
+      "slug": "ocenka-nematerialnyh-aktivov",
+      "title": "Оценка нематериальных активов",
+      "tasks": [
+        "template_seo_title"
+      ],
+      "seo_title_is_template": true,
+      "seo_title_raw": "%title% %page%",
+      "seo_title_effective": "Оценка нематериальных активов",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": "Оценка нематериальных активов: анализ стоимости, влияния на бизнес и учет в финансовой отчетности. Это включает бренды, патенты и технологии."
+    },
+    {
+      "id": 1164,
+      "post_type": "page",
+      "slug": "ocenka-mashin-i-oborudovanija",
+      "title": "Оценка машин и оборудования",
+      "tasks": [
+        "template_seo_title"
+      ],
+      "seo_title_is_template": true,
+      "seo_title_raw": "%title% %page%",
+      "seo_title_effective": "Оценка машин и оборудования",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": "Оценка машин и оборудования: анализ стоимости, состояния и эффективности для принятия обоснованных решений в бизнесе."
+    },
+    {
+      "id": 1167,
+      "post_type": "post",
+      "slug": "kak-rol-soveta-direktorov-mozhet-sodejstvovat-ustojchivomu-razvitiju-i-innovacijam",
+      "title": "Как роль совета директоров может содействовать устойчивому развитию и инновациям?",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Как роль совета директоров может содействовать устойчивому развитию и инновациям?",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1180,
+      "post_type": "page",
+      "slug": "ocenka-zemelnyh-uchastkov",
+      "title": "Оценка земельных участков",
+      "tasks": [
+        "template_seo_title"
+      ],
+      "seo_title_is_template": true,
+      "seo_title_raw": "%title% %page%",
+      "seo_title_effective": "Оценка земельных участков",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": "Оценка земельных участков: анализ рыночной стоимости, потенциала развития и инвестиционной привлекательности для различных целей."
+    },
+    {
+      "id": 1185,
+      "post_type": "post",
+      "slug": "kak-sdelat-zhizn-milliardov-ljudej-luchshe",
+      "title": "Как сделать жизнь миллиардов людей лучше?",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Как сделать жизнь миллиардов людей лучше?",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1190,
+      "post_type": "post",
+      "slug": "kak-prisoedinenie-k-nashej-samoj-nadezhnoj-seti-mozhet-raskryt-novye-perspektivy",
+      "title": "Как присоединение к нашей самой надежной сети может раскрыть новые перспективы?",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Как присоединение к нашей самой надежной сети может раскрыть новые перспективы?",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1194,
+      "post_type": "post",
+      "slug": "kak-poluchit-vygodu-ot-tehnologicheskih-vozmozhnostej-v-kachestve-dvizhushhej-sily-rosta",
+      "title": "Как получить выгоду от технологических возможностей в качестве движущей силы роста?",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Как получить выгоду от технологических возможностей в качестве движущей силы роста?",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1198,
+      "post_type": "post",
+      "slug": "kak-chastnye-predprijatija-mogut-mobilizovat-chelovecheskij-potencial-dlja-pooshhrenija-razvitija",
+      "title": "Как частные предприятия могут мобилизовать человеческий потенциал для поощрения развития?",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Как частные предприятия могут мобилизовать человеческий потенциал для поощрения развития?",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1203,
+      "post_type": "post",
+      "slug": "kakie-prioritety-izmenjajutsja-v-kontekste-podgotovki-k-zhizni-posle-covid-19",
+      "title": "Какие приоритеты изменяются в контексте подготовки к жизни после Covid-19?",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Какие приоритеты изменяются в контексте подготовки к жизни после Covid-19?",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1218,
+      "post_type": "page",
+      "slug": "otrasli",
+      "title": "Отрасли",
+      "tasks": [
+        "template_seo_title"
+      ],
+      "seo_title_is_template": true,
+      "seo_title_raw": "%title% %page%",
+      "seo_title_effective": "Отрасли",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": "Отрасли. Анализ отраслей: тенденции, вызовы и возможности для развития бизнеса в динамичной экономической среде."
+    },
+    {
+      "id": 1243,
+      "post_type": "post",
+      "slug": "kak-nehvatka-syrja-mozhet-prepjatstvovat-progressu-v-oblasti-jelektrotransporta",
+      "title": "Как нехватка сырья может препятствовать прогрессу в области электротранспорта",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Как нехватка сырья может препятствовать прогрессу в области электротранспорта",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1247,
+      "post_type": "post",
+      "slug": "spravitsja-li-gorno-metallurgicheskaja-otrasl-s-vyzovami-budushhego",
+      "title": "Справится ли горно-металлургическая отрасль с вызовами будущего?",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Справится ли горно-металлургическая отрасль с вызовами будущего?",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1251,
+      "post_type": "post",
+      "slug": "kak-tehnologicheskij-progress-delaet-potrebitelja-centrom-v-sisteme-zdravoohranenija",
+      "title": "Как технологический прогресс делает потребителя центром в системе здравоохранения?",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Как технологический прогресс делает потребителя центром в системе здравоохранения?",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1255,
+      "post_type": "post",
+      "slug": "mogut-li-dannye-garantirovat-dostatochnyj-uroven-doverija-dlja-pereformatirovanija-globalnoj-torgovoj-sistemy",
+      "title": "Могут ли данные гарантировать достаточный уровень доверия для переформатирования глобальной торговой системы?",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Могут ли данные гарантировать достаточный уровень доверия для переформатирования глобальной торговой системы?",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1259,
+      "post_type": "post",
+      "slug": "pjat-strategij-sposobstvujushhih-perehodu-vashej-kompanii-ot-vyzhivanija-k-uspeshnomu-razvitiju",
+      "title": "Пять стратегий, способствующих переходу вашей компании от выживания к успешному развитию.",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Пять стратегий, способствующих переходу вашей компании от выживания к успешному развитию.",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1266,
+      "post_type": "post",
+      "slug": "kak-sovremennye-rukovoditeli-mogut-voplotit-vozmozhnosti-budushhego",
+      "title": "Как современные руководители могут воплотить возможности будущего?",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Как современные руководители могут воплотить возможности будущего?",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1276,
+      "post_type": "post",
+      "slug": "kak-slozhnosti-mogut-stat-stimulom-dlja-razvitija",
+      "title": "Как сложности могут стать стимулом для развития?",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Как сложности могут стать стимулом для развития?",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1281,
+      "post_type": "post",
+      "slug": "kak-izmenit-svoju-perspektivu-chtoby-radikalno-izmenit-svoe-budushhee",
+      "title": "Как изменить свою перспективу, чтобы радикально изменить свое будущее?",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Как изменить свою перспективу, чтобы радикально изменить свое будущее?",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1285,
+      "post_type": "post",
+      "slug": "kak-doverie-sposobstvuet-uskoreniju-processa-transformacii",
+      "title": "Как доверие способствует ускорению процесса трансформации",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Как доверие способствует ускорению процесса трансформации",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1289,
+      "post_type": "post",
+      "slug": "kak-primenenie-peredovyh-tehnologij-sposobno-obespechit-konkurentnoe-prevoshodstvo",
+      "title": "Как применение передовых технологий способно обеспечить конкурентное превосходство?",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Как применение передовых технологий способно обеспечить конкурентное превосходство?",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1293,
+      "post_type": "page",
+      "slug": "proizvodstvo-potrebitelskikh-tovarov-i-roznichnaya-torgovlya",
+      "title": "Производство потребительских товаров и розничная торговля",
+      "tasks": [
+        "template_seo_title"
+      ],
+      "seo_title_is_template": true,
+      "seo_title_raw": "%title% %page%",
+      "seo_title_effective": "Производство потребительских товаров и розничная торговля",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": "Производство потребительских товаров: инновации, качество и устойчивость для удовлетворения потребностей современного рынка."
+    },
+    {
+      "id": 1298,
+      "post_type": "post",
+      "slug": "kak-obespechit-prochnye-otnoshenija-s-klientami-ne-nahodjas-rjadom-s-nimi",
+      "title": "Как обеспечить прочные отношения с клиентами, не находясь рядом с ними?",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Как обеспечить прочные отношения с клиентами, не находясь рядом с ними?",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1304,
+      "post_type": "post",
+      "slug": "kak-ispolzovanie-perspektivy-budushhego-pomozhet-vam-razgljadet-bolee-jasnuju-dorogu-k-dostizheniju-uspeha",
+      "title": "Как использование перспективы будущего поможет вам разглядеть более ясную дорогу к достижению успеха",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Как использование перспективы будущего поможет вам разглядеть более ясную дорогу к достижению успеха",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1308,
+      "post_type": "post",
+      "slug": "kak-vlijanie-odnogo-cheloveka-mozhet-raspahnut-dveri-dlja-mnogih",
+      "title": "Как влияние одного человека может распахнуть двери для многих?",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Как влияние одного человека может распахнуть двери для многих?",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1313,
+      "post_type": "post",
+      "slug": "kak-rol-soveta-direktorov-mozhet-sodejstvovat-ustojchivomu-razvitiju-i-innovacijam-2",
+      "title": "Как роль совета директоров может содействовать устойчивому развитию и инновациям?",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Как роль совета директоров может содействовать устойчивому развитию и инновациям?",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1317,
+      "post_type": "post",
+      "slug": "kak-sdelat-zhizn-milliardov-ljudej-luchshe-2",
+      "title": "Как сделать жизнь миллиардов людей лучше?",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Как сделать жизнь миллиардов людей лучше?",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1321,
+      "post_type": "post",
+      "slug": "kak-prisoedinenie-k-nashej-samoj-nadezhnoj-seti-mozhet-raskryt-novye-perspektivy-2",
+      "title": "Как присоединение к нашей самой надежной сети может раскрыть новые перспективы?",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Как присоединение к нашей самой надежной сети может раскрыть новые перспективы?",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1325,
+      "post_type": "post",
+      "slug": "kakie-drugie-sposoby-est-u-biznesa-dlja-reshenija-problemy-neravenstva",
+      "title": "Какие другие способы есть у бизнеса для решения проблемы неравенства?",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Какие другие способы есть у бизнеса для решения проблемы неравенства?",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1329,
+      "post_type": "post",
+      "slug": "kak-rabotodateli-i-sotrudniki-vidjat-obnovlennoe-rabochee-prostranstvo",
+      "title": "Как работодатели и сотрудники видят обновленное рабочее пространство?",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Как работодатели и сотрудники видят обновленное рабочее пространство?",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1333,
+      "post_type": "post",
+      "slug": "kak-predprinimateli-sposobstvujut-raskrytiju-dolgosrochnoj-cennosti",
+      "title": "Как предприниматели способствуют раскрытию долгосрочной ценности?",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Как предприниматели способствуют раскрытию долгосрочной ценности?",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1337,
+      "post_type": "post",
+      "slug": "otvechajut-li-nashi-strahovye-reshenija-novym-potrebnostjam-potrebitelej",
+      "title": "Отвечают ли наши страховые решения новым потребностям потребителей?",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Отвечают ли наши страховые решения новым потребностям потребителей?",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1341,
+      "post_type": "post",
+      "slug": "rol-dannyh-v-razvitii-intellektualnoj-sobstvennosti",
+      "title": "Роль Данных в Развитии Интеллектуальной Собственности",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Роль Данных в Развитии Интеллектуальной Собственности",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1348,
+      "post_type": "post",
+      "slug": "intellektualnaja-sobstvennost-i-metavselennaja-vlijanie-na-razvitie-tehnologij-i-innovacij",
+      "title": "Интеллектуальная собственность и метавселенная: влияние на развитие технологий и инноваций",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Интеллектуальная собственность и метавселенная: влияние на развитие технологий и инноваций",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1352,
+      "post_type": "post",
+      "slug": "peredovye-tehnologii-i-upravlenie-administrativnymi-processami-v-oblasti-informacionnyh-sistem",
+      "title": "Передовые технологии и управление административными процессами в области информационных систем",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Передовые технологии и управление административными процессами в области информационных систем",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1356,
+      "post_type": "post",
+      "slug": "novejshie-tehnologii-v-proizvodstve",
+      "title": "Новейшие технологии в производстве",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Новейшие технологии в производстве",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 136,
+      "post_type": "post",
+      "slug": "rynok-sovmestnoj-mobilnosti-v-rossii-mozhet-vyrasti-bolee-chem-vchetvero-do-350-mlrd-rublej-v-blizhajshie-pjat-let",
+      "title": "Рынок совместной мобильности в России может вырасти более чем вчетверо, до 350 млрд рублей, в ближайшие пять лет",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Рынок совместной мобильности в России может вырасти более чем вчетверо, до 350 млрд рублей, в ближайшие пять лет",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1399,
+      "post_type": "page",
+      "slug": "mediko-biologicheskiye-otrasli-i-zdravookhraneniye",
+      "title": "Медико-биологическая отрасль и здравоохранение",
+      "tasks": [
+        "template_seo_title"
+      ],
+      "seo_title_is_template": true,
+      "seo_title_raw": "%title% %page%",
+      "seo_title_effective": "Медико-биологическая отрасль и здравоохранение",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": "Развитие здравоохранения и медицинской науки: инновации, технологии и стратегии для повышения качества жизни и обслуживания."
+    },
+    {
+      "id": 1422,
+      "post_type": "page",
+      "slug": "tekhnologii-mediasektor-industriya-razvlecheniy-i-sfery-svyazi",
+      "title": "Технологии, медиасектор, индустрия развлечений и отрасль связи",
+      "tasks": [
+        "template_seo_title"
+      ],
+      "seo_title_is_template": true,
+      "seo_title_raw": "Технологии %sep% %sitename%",
+      "seo_title_effective": "Технологии, медиасектор, индустрия развлечений и отрасль связи",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": "Взаимодействие между разработками, медийным контентом и индустрией развлечений приводит к усовершенствованию пользовательских впечатлений."
+    },
+    {
+      "id": 1445,
+      "post_type": "post",
+      "slug": "cifrovaja-revoljucija-transformacija-media-i-razvlechenij-v-jepohu-tehnologij-i-svjazi",
+      "title": "Цифровая Революция: Трансформация Медиа и Развлечений в Эпоху Технологий и Связи",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Цифровая Революция: Трансформация Медиа и Развлечений в Эпоху Технологий и Связи",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1449,
+      "post_type": "post",
+      "slug": "slijanie-mirov-kak-tehnologii-i-svjaz-redefinirujut-media-i-razvlechenija",
+      "title": "Слияние Миров: Как Технологии и Связь Редефинируют Медиа и Развлечения",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Слияние Миров: Как Технологии и Связь Редефинируют Медиа и Развлечения",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1453,
+      "post_type": "post",
+      "slug": "ctrategii-privlechenija-investicij-v-rossijskij-biznes",
+      "title": "Cтратегии привлечения инвестиций в российский бизнес",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Cтратегии привлечения инвестиций в российский бизнес",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1456,
+      "post_type": "post",
+      "slug": "chastnye-investicii-v-innovacionnuju-dejatelnost-predprijatij-promyshlennosti",
+      "title": "Частные инвестиции в инновационную деятельность предприятий промышленности",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Частные инвестиции в инновационную деятельность предприятий промышленности",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1462,
+      "post_type": "post",
+      "slug": "rabota-s-distribjutorami-i-aptechnymi-setjami-na-farmacevticheskom-rynke-rossii-v-uslovijah-peremen",
+      "title": "Работа с дистрибьюторами и аптечными сетями на фармацевтическом рынке России в условиях перемен",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Работа с дистрибьюторами и аптечными сетями на фармацевтическом рынке России в условиях перемен",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1466,
+      "post_type": "post",
+      "slug": "auditte-predstavljaet-rukovodstvo-po-bezopasnomu-osvoeniju-potenciala-mediko-biologicheskih-issledovanij",
+      "title": "Auditte представляет руководство по безопасному освоению потенциала медико-биологических исследований.",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Auditte представляет руководство по безопасному освоению потенциала медико-биологических исследований.",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 147,
+      "post_type": "post",
+      "slug": "inostrannye-kompanii-pochti-perestali-uhodit-iz-rossii",
+      "title": "Иностранные компании почти перестали уходить из России",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Иностранные компании почти перестали уходить из России",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1470,
+      "post_type": "post",
+      "slug": "sotrudnichestvo-reguljatorov-v-formirovanii-gosudarstvennogo-regulirovanija-v-sfere-uslug",
+      "title": "Сотрудничество регуляторов в формировании государственного регулирования в сфере услуг",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Сотрудничество регуляторов в формировании государственного регулирования в сфере услуг",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1474,
+      "post_type": "post",
+      "slug": "gosudarstvennye-uslugi-prozrachnost-i-vneshnij-nadzor",
+      "title": "Государственные услуги: прозрачность и внешний надзор",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Государственные услуги: прозрачность и внешний надзор",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1478,
+      "post_type": "post",
+      "slug": "gde-upravljajushhie-aktivami-mogut-obnaruzhit-novye-vozmozhnosti-v-uslovijah-izmenenija-aktivov",
+      "title": "Где управляющие активами могут обнаружить новые возможности в условиях изменения активов?",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Где управляющие активами могут обнаружить новые возможности в условиях изменения активов?",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1482,
+      "post_type": "post",
+      "slug": "kak-investory-millenialy-mogut-vlijat-na-budushhij-rost-biznesa",
+      "title": "Как инвесторы-миллениалы могут влиять на будущий рост бизнеса?",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Как инвесторы-миллениалы могут влиять на будущий рост бизнеса?",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1486,
+      "post_type": "post",
+      "slug": "strategii-kotorye-upravljajushhie-aktivami-mogut-ispolzovat-dlja-podgotovki-k-neopredelennomu-budushhemu",
+      "title": "Стратегии, которые управляющие активами могут использовать для подготовки к неопределенному будущему",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Стратегии, которые управляющие активами могут использовать для подготовки к неопределенному будущему",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1491,
+      "post_type": "post",
+      "slug": "kak-ustojchivost-mozhet-vlijat-na-izmenjajushhijsja-landshaft",
+      "title": "Как устойчивость может влиять на изменяющийся ландшафт?",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Как устойчивость может влиять на изменяющийся ландшафт?",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1496,
+      "post_type": "post",
+      "slug": "kak-izmenenija-v-ustojchivosti-rabochej-sily-povlijajut-na-jenergeticheskuju-otrasl",
+      "title": "Как изменения в устойчивости рабочей силы повлияют на энергетическую отрасль",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Как изменения в устойчивости рабочей силы повлияют на энергетическую отрасль",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1500,
+      "post_type": "post",
+      "slug": "kak-ispolzovanie-analiza-dannyh-mozhet-uvelichit-jeffektivnost-cepochki-postavok",
+      "title": "Как использование анализа данных может увеличить эффективность цепочки поставок",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Как использование анализа данных может увеличить эффективность цепочки поставок",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1504,
+      "post_type": "post",
+      "slug": "pochemu-kolebanija-doverija-so-storony-potrebitelej-mogut-zamedlit-jenergeticheskie-preobrazovanija",
+      "title": "Почему колебания доверия со стороны потребителей могут замедлить энергетические преобразования",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Почему колебания доверия со стороны потребителей могут замедлить энергетические преобразования",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1508,
+      "post_type": "post",
+      "slug": "kak-avtosport-priblizhaetsja-k-borbe-s-izmeneniem-klimata",
+      "title": "Как автоспорт приближается к борьбе с изменением климата",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Как автоспорт приближается к борьбе с изменением климата",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1549,
+      "post_type": "page",
+      "slug": "ocenochnaja-dejatelnost",
+      "title": "Оценочная деятельность",
+      "tasks": [
+        "template_seo_title"
+      ],
+      "seo_title_is_template": true,
+      "seo_title_raw": "%title% %page%",
+      "seo_title_effective": "Оценочная деятельность",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": "Оценочная деятельность: профессиональная оценка активов, бизнеса и инвестиционных возможностей для принятия обоснованных решений."
+    },
+    {
+      "id": 1552,
+      "post_type": "page",
+      "slug": "o-nas",
+      "title": "О нас",
+      "tasks": [
+        "template_seo_title"
+      ],
+      "seo_title_is_template": true,
+      "seo_title_raw": "%title% %page%",
+      "seo_title_effective": "О нас",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": "О нас. Узнайте больше о нашей компании: миссия, ценности, опыт и преимущества работы с нами. Мы стремимся к высокому качеству."
+    },
+    {
+      "id": 1570,
+      "post_type": "page",
+      "slug": "kompleksnye-reshenija-po-peremeshheniju-personala",
+      "title": "Комплексные решения по перемещению персонала",
+      "tasks": [
+        "template_seo_title"
+      ],
+      "seo_title_is_template": true,
+      "seo_title_raw": "%title% %page%",
+      "seo_title_effective": "Комплексные решения по перемещению персонала",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": "Комплексные решения по перемещению персонала: стратегии, услуги и поддержка для упрощения процесса переезда сотрудников."
+    },
+    {
+      "id": 1596,
+      "post_type": "page",
+      "slug": "konsultacionnye-uslugi-v-oblasti-voznagrazhdenija-i-kpi",
+      "title": "Консультационные услуги в области вознаграждения и KPI",
+      "tasks": [
+        "template_seo_title"
+      ],
+      "seo_title_is_template": true,
+      "seo_title_raw": "%title% %page%",
+      "seo_title_effective": "Консультационные услуги в области вознаграждения и KPI",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": "Консультационные услуги в области вознаграждения: оптимизация системы оплаты труда, привлечение и удержание перспективных специалистов."
+    },
+    {
+      "id": 161,
+      "post_type": "post",
+      "slug": "rossija-predlozhila-kataru-i-saudovskoj-aravii-peresmotret-nalogovye-soglashenija",
+      "title": "Россия предложила Катару и Саудовской Аравии пересмотреть налоговые соглашения",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Россия предложила Катару и Саудовской Аравии пересмотреть налоговые соглашения",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1610,
+      "post_type": "page",
+      "slug": "kadrovaja-analitika",
+      "title": "Кадровая аналитика",
+      "tasks": [
+        "template_seo_title"
+      ],
+      "seo_title_is_template": true,
+      "seo_title_raw": "%title% %page%",
+      "seo_title_effective": "Кадровая аналитика",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": "Кадровая аналитика - стратегический подход к управлению персоналом, основанный на данных, для оптимизации бизнес-процессов и роста компании."
+    },
+    {
+      "id": 1628,
+      "post_type": "page",
+      "slug": "nasha-tsel",
+      "title": "Наша цель",
+      "tasks": [
+        "template_seo_title"
+      ],
+      "seo_title_is_template": true,
+      "seo_title_raw": "%title% %page%",
+      "seo_title_effective": "Наша цель",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": "Наша цель - воплотить вашу мечту в реальность. Доверьтесь нам для достижения ваших целей и превращения их в успех."
+    },
+    {
+      "id": 1647,
+      "post_type": "page",
+      "slug": "nashi-tsennosti",
+      "title": "Наши ценности",
+      "tasks": [
+        "template_seo_title"
+      ],
+      "seo_title_is_template": true,
+      "seo_title_raw": "%title% %page%",
+      "seo_title_effective": "Наши ценности",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": "Наши ценности - основа нашей работы. Интегритет, инновации и забота о клиентах определяют наш успех."
+    },
+    {
+      "id": 1655,
+      "post_type": "post",
+      "slug": "nasha-missija-sozdanie-blagoprijatnoj-sredy-dlja-uspeha-i-razvitija",
+      "title": "Наша миссия: создание благоприятной среды для успеха и развития",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Наша миссия: создание благоприятной среды для успеха и развития",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1659,
+      "post_type": "post",
+      "slug": "ukreplenie-doverija-i-uverennosti-rol-informacii-i-kachestvennyh-uslug-v-dostizhenii-nashih-celej",
+      "title": "Укрепление доверия и уверенности: роль информации и качественных услуг в достижении наших целей",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Укрепление доверия и уверенности: роль информации и качественных услуг в достижении наших целей",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1663,
+      "post_type": "post",
+      "slug": "sut-nashih-cennostej-osnova-uspeshnogo-razvitija-v-kompanii",
+      "title": "Суть наших ценностей: основа успешного развития в компании",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Суть наших ценностей: основа успешного развития в компании",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1667,
+      "post_type": "post",
+      "slug": "nepokolebimye-principy-kak-nashi-cennosti-formirujut-nashu-kulturu-i-put-k-uspehu",
+      "title": "Непоколебимые принципы: как наши ценности формируют нашу культуру и путь к успеху",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Непоколебимые принципы: как наши ценности формируют нашу культуру и путь к успеху",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1671,
+      "post_type": "post",
+      "slug": "kak-nehvatka-syrja-mozhet-prepjatstvovat-progressu-v-oblasti-jelektrotransporta-2",
+      "title": "Как нехватка сырья может препятствовать прогрессу в области электротранспорта",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Как нехватка сырья может препятствовать прогрессу в области электротранспорта",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1675,
+      "post_type": "post",
+      "slug": "roznichnaja-torgovlja-ponjatie-i-sut",
+      "title": "Розничная торговля: понятие и суть",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Розничная торговля: понятие и суть",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1679,
+      "post_type": "post",
+      "slug": "progress-roznichnoj-torgovli-i-obshhestvennogo-pitanija-kak-vazhnyh-sostavljajushhih-sektora-potrebitelskih-uslug",
+      "title": "Прогресс розничной торговли и общественного питания как важных составляющих сектора потребительских услуг",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Прогресс розничной торговли и общественного питания как важных составляющих сектора потребительских услуг",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1683,
+      "post_type": "post",
+      "slug": "strategicheskoe-napravlenie-razvitija-torgovli-v-rossijskoj-federacii-k-2025-godu",
+      "title": "Стратегическое направление развития торговли в Российской Федерации к 2025 году",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Стратегическое направление развития торговли в Российской Федерации к 2025 году",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1687,
+      "post_type": "page",
+      "slug": "nashi-sotrudniki",
+      "title": "Наши сотрудники",
+      "tasks": [
+        "template_seo_title"
+      ],
+      "seo_title_is_template": true,
+      "seo_title_raw": "%title% %page%",
+      "seo_title_effective": "Наши сотрудники",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": "Наши сотрудники - ключевой ресурс нашей компании. Профессионализм, опыт и преданность обеспечивают высокое качество услуг."
+    },
+    {
+      "id": 1709,
+      "post_type": "page",
+      "slug": "press-sluzhba",
+      "title": "Пресс-служба",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Пресс-служба",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1716,
+      "post_type": "post",
+      "slug": "kak-evropa-mozhet-privlech-investicii-budushhego-pokolenija",
+      "title": "Как Европа может привлечь инвестиции будущего поколения?",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Как Европа может привлечь инвестиции будущего поколения?",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1724,
+      "post_type": "post",
+      "slug": "kak-starye-druzja-mogut-obnaruzhit-novye-perspektivy",
+      "title": "Как старые друзья могут обнаружить новые перспективы?",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Как старые друзья могут обнаружить новые перспективы?",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1729,
+      "post_type": "post",
+      "slug": "kak-jeffektivnoe-upravlenie-mozhet-poluchit-preimushhestva-ot-ustojchivogo-razvitija",
+      "title": "Как эффективное управление может получить преимущества от устойчивого развития?",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Как эффективное управление может получить преимущества от устойчивого развития?",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1734,
+      "post_type": "post",
+      "slug": "kak-korporativnoe-upravlenie-mozhet-sposobstvovat-sozdaniju-bolee-ustojchivogo-mira",
+      "title": "Как корпоративное управление может способствовать созданию более устойчивого мира?",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Как корпоративное управление может способствовать созданию более устойчивого мира?",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1738,
+      "post_type": "post",
+      "slug": "pjat-sposobov-kotorymi-izmenenie-finansov-mozhet-sodejstvovat-ustojchivym-transformacijam",
+      "title": "Пять способов, которыми изменение финансов может содействовать устойчивым трансформациям.",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Пять способов, которыми изменение финансов может содействовать устойчивым трансформациям.",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1742,
+      "post_type": "post",
+      "slug": "pochemu-promyshlennym-kompanijam-vazhno-stat-liderami-v-innovacionnyh-biznes-modeljah",
+      "title": "Почему промышленным компаниям важно стать лидерами в инновационных бизнес-моделях?",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Почему промышленным компаниям важно стать лидерами в инновационных бизнес-моделях?",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1747,
+      "post_type": "post",
+      "slug": "kak-promyshlennye-lidery-mogut-primenjat-ustojchivoe-razvitie-dlja-sozdanija-cennosti",
+      "title": "Как промышленные лидеры могут применять устойчивое развитие для создания ценности?",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Как промышленные лидеры могут применять устойчивое развитие для создания ценности?",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1751,
+      "post_type": "post",
+      "slug": "kak-bystro-zapustit-ustojchivyj-biznes-orientirovannyj-na-potrebitelja",
+      "title": "Как быстро запустить устойчивый бизнес, ориентированный на потребителя?",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Как быстро запустить устойчивый бизнес, ориентированный на потребителя?",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 1766,
+      "post_type": "page",
+      "slug": "investicii-i-finansy",
+      "title": "Инвестиции и финансы",
+      "tasks": [
+        "template_seo_title"
+      ],
+      "seo_title_is_template": true,
+      "seo_title_raw": "%title% %page%",
+      "seo_title_effective": "Инвестиции и финансы",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": "Инвестиции и финансы - ключевые составляющие успешного управления. Узнайте стратегии роста и оптимизации для финансового благополучия."
+    },
+    {
+      "id": 1782,
+      "post_type": "page",
+      "slug": "proverka-kompanij-compliance",
+      "title": "Проверка компаний / Compliance",
+      "tasks": [
+        "template_seo_title"
+      ],
+      "seo_title_is_template": true,
+      "seo_title_raw": "%title% %page%",
+      "seo_title_effective": "Проверка компаний / Compliance",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": "Проверка компаний: аудит, анализ и оценка финансовых, юридических и операционных аспектов для принятия обоснованных решений."
+    },
+    {
+      "id": 1825,
+      "post_type": "page",
+      "slug": "rabota-v-kompanii",
+      "title": "Работа в нашей компании",
+      "tasks": [
+        "template_seo_title"
+      ],
+      "seo_title_is_template": true,
+      "seo_title_raw": "%title% %page%",
+      "seo_title_effective": "Работа в нашей компании",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": "Работа в нашей компании: возможности, карьерный рост и профессиональное развитие в динамичной и перспективной среде."
+    },
+    {
+      "id": 1899,
+      "post_type": "page",
+      "slug": "inostrannym-klientam",
+      "title": "Иностранным клиентам",
+      "tasks": [
+        "template_seo_title"
+      ],
+      "seo_title_is_template": true,
+      "seo_title_raw": "%title% %page%",
+      "seo_title_effective": "Иностранным клиентам",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": "Иностранным клиентам: персонализированные услуги, качественная поддержка и глубокое понимание потребностей международных партнеров."
+    },
+    {
+      "id": 2280,
+      "post_type": "page",
+      "slug": "kontakty",
+      "title": "Контакты",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Контакты",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 2505,
+      "post_type": "page",
+      "slug": "forma",
+      "title": "Форма",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Форма",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 3,
+      "post_type": "page",
+      "slug": "politika-konfidencialnosti",
+      "title": "Политика конфиденциальности",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Политика конфиденциальности",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 3758,
+      "post_type": "page",
+      "slug": "ekspertiza",
+      "title": "Экспертные услуги",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Экспертные услуги",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 3770,
+      "post_type": "post",
+      "slug": "jekspertiza-proektnoj-dokumentacii-po-gradostroitelnomu-kodeksu-rf",
+      "title": "Экспертиза проектной документации по градостроительному кодексу РФ",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Экспертиза проектной документации по градостроительному кодексу РФ",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 3777,
+      "post_type": "post",
+      "slug": "jekspertiza-po-federalnomu-zakonu-44",
+      "title": "Экспертиза по Федеральному закону № 44",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Экспертиза по Федеральному закону № 44",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 3784,
+      "post_type": "post",
+      "slug": "jekspertiza-po-fz-73",
+      "title": "Экспертиза по ФЗ 73",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Экспертиза по ФЗ 73",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 3800,
+      "post_type": "page",
+      "slug": "sud-expertiza",
+      "title": "Судебная экспертиза",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Судебная экспертиза",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 3813,
+      "post_type": "page",
+      "slug": "dosudebnaya-expertiza",
+      "title": "Досудебная экспертиза",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Досудебная экспертиза",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 3820,
+      "post_type": "post",
+      "slug": "dosudebnaja-ekspertiza",
+      "title": "Досудебная экспертиза",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Досудебная экспертиза",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 3824,
+      "post_type": "post",
+      "slug": "dosudebnaja-i-sudebnaja-jekspertizy",
+      "title": "Досудебная и судебная экспертизы",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Досудебная и судебная экспертизы",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 3831,
+      "post_type": "page",
+      "slug": "notar-expertiza",
+      "title": "Нотариальная экспертиза",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Нотариальная экспертиза",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 3839,
+      "post_type": "post",
+      "slug": "notarialnuu-ekspertiza",
+      "title": "Как назначить и провести нотариальную экспертизу?",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Как назначить и провести нотариальную экспертизу?",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 3842,
+      "post_type": "post",
+      "slug": "sbor-dokazatelstv",
+      "title": "Новый вид сбора доказательств",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Новый вид сбора доказательств",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 3849,
+      "post_type": "page",
+      "slug": "expertiza-44fz",
+      "title": "Экспертиза по 44 ФЗ",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Экспертиза по 44 ФЗ",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 3856,
+      "post_type": "post",
+      "slug": "porjadok-provedenija-jekspertizy",
+      "title": "Порядок проведения экспертизы",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Порядок проведения экспертизы",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 3858,
+      "post_type": "post",
+      "slug": "jekspertiza-po-zakonu-44-fz-s-pomoshhju-jekspertov-ili-svoimi-silami",
+      "title": "Экспертиза по Закону № 44‑ФЗ. С помощью экспертов или своими силами?",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Экспертиза по Закону № 44‑ФЗ. С помощью экспертов или своими силами?",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 386,
+      "post_type": "page",
+      "slug": "auditorskiye-uslugi",
+      "title": "Аудиторские услуги",
+      "tasks": [
+        "template_seo_title"
+      ],
+      "seo_title_is_template": true,
+      "seo_title_raw": "%title% %page%",
+      "seo_title_effective": "Аудиторские услуги",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": "Аудиторские услуги: независимая оценка финансовой отчётности, рисков и процессов для обеспечения прозрачности и эффективности."
+    },
+    {
+      "id": 3864,
+      "post_type": "page",
+      "slug": "castoms-expertiza",
+      "title": "Таможенная экспертиза",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Таможенная экспертиза",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 3871,
+      "post_type": "post",
+      "slug": "tamozhennaja-jekspertiza-pravila-i-porjadok-provedenija-v-ramkah-tamozhennogo-kontrolja",
+      "title": "Таможенная экспертиза - правила и порядок проведения в рамках таможенного контроля  ",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Таможенная экспертиза - правила и порядок проведения в рамках таможенного контроля  ",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 3873,
+      "post_type": "post",
+      "slug": "tamozhennaja-jekspertiza",
+      "title": "Таможенная экспертиза",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Таможенная экспертиза",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 3879,
+      "post_type": "page",
+      "slug": "expertiza-proekt-docum",
+      "title": "Экспертиза проектной документации",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Экспертиза проектной документации",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 3886,
+      "post_type": "post",
+      "slug": "provedenie-negosudarstvennoj-jekspertizy-proektnoj-dokumentacii",
+      "title": "Проведение негосударственной экспертизы проектной документации",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Проведение негосударственной экспертизы проектной документации",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 3888,
+      "post_type": "post",
+      "slug": "jekspertiza-proektnoj-dokumentacii-chto-jeto-i-kak-projti",
+      "title": "ЭКСПЕРТИЗА ПРОЕКТНОЙ ДОКУМЕНТАЦИИ — ЧТО ЭТО И КАК ПРОЙТИ?",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "ЭКСПЕРТИЗА ПРОЕКТНОЙ ДОКУМЕНТАЦИИ — ЧТО ЭТО И КАК ПРОЙТИ?",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 3894,
+      "post_type": "page",
+      "slug": "ecolog-expertiza",
+      "title": "Экологическая экспертиза",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Экологическая экспертиза",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 3901,
+      "post_type": "post",
+      "slug": "jekologicheskaja-jekspertiza-vidy-celi-i-jetapy-procedury",
+      "title": "Экологическая экспертиза: виды, цели и этапы процедуры",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Экологическая экспертиза: виды, цели и этапы процедуры",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 3904,
+      "post_type": "post",
+      "slug": "jekologicheskaja-jekspertiza",
+      "title": "Экологическая экспертиза",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Экологическая экспертиза",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 3910,
+      "post_type": "page",
+      "slug": "expertiza-prom-bezopasnosti",
+      "title": "Экспертиза промышленной безопасности",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Экспертиза промышленной безопасности",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 3917,
+      "post_type": "post",
+      "slug": "otvetstvennost-za-narushenie-trebovanij-promyshlennoj-bezopasnosti",
+      "title": "Ответственность за нарушение требований промышленной безопасности",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Ответственность за нарушение требований промышленной безопасности",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 3920,
+      "post_type": "post",
+      "slug": "provedenie-jekspertizy-promyshlennoj-bezopasnosti",
+      "title": "Проведение экспертизы промышленной безопасности",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Проведение экспертизы промышленной безопасности",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 4055,
+      "post_type": "post",
+      "slug": "gost-ipo",
+      "title": "Гость IPO",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Гость IPO",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 4057,
+      "post_type": "post",
+      "slug": "spiker-ipo",
+      "title": "Спикер IPO",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Спикер IPO",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 4059,
+      "post_type": "post",
+      "slug": "bussines-vstrecha-8-ijunya-2024-spb",
+      "title": "Бизнес встреча: 8 июня 2024 Санкт-Петербург",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Бизнес встреча: 8 июня 2024 Санкт-Петербург",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 4062,
+      "post_type": "post",
+      "slug": "pmef-2024-spb",
+      "title": "ПМЭФ 2024 Санкт-Петербург",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "ПМЭФ 2024 Санкт-Петербург",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 4066,
+      "post_type": "page",
+      "slug": "ipo",
+      "title": "IPO акций",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "IPO акций",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 4108,
+      "post_type": "post",
+      "slug": "ipo-2024-chto-zhdet-rissian-company",
+      "title": "IPO 2024 : Что ждет российские компании?",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "IPO 2024 : Что ждет российские компании?",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 4195,
+      "post_type": "post",
+      "slug": "kto-takie-anderrajtery-i-kak-oni-pomogut-prodat-vashi-akcii",
+      "title": "Кто такие андеррайтеры и как они помогут продать ваши акции?",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Кто такие андеррайтеры и как они помогут продать ваши акции?",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 4206,
+      "post_type": "post",
+      "slug": "konsalting-i-anderrajter-vzaimodejstvie-i-kompetencii",
+      "title": "Консалтинг и Андеррайтер: взаимодействие и компетенции",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Консалтинг и Андеррайтер: взаимодействие и компетенции",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 4211,
+      "post_type": "post",
+      "slug": "biznes-forum-integracija-vozmozhnostej-put-k-ipo-s-5-po-6-ijulja-2024",
+      "title": "Бизнес форум: ИНТЕГРАЦИЯ ВОЗМОЖНОСТЕЙ, ПУТЬ К IPO -  с 5 по 6 июля 2024",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Бизнес форум: ИНТЕГРАЦИЯ ВОЗМОЖНОСТЕЙ, ПУТЬ К IPO -  с 5 по 6 июля 2024",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 4225,
+      "post_type": "page",
+      "slug": "offer-2025",
+      "title": "Актуальные предложения 2025",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Актуальные предложения 2025",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 4321,
+      "post_type": "post",
+      "slug": "pmjef",
+      "title": "ПМЭФ",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "ПМЭФ",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 4333,
+      "post_type": "post",
+      "slug": "pmjuf",
+      "title": "ПМЮФ",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "ПМЮФ",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 4345,
+      "post_type": "post",
+      "slug": "gost-integracija-vozmozhnostej",
+      "title": "Гость ИНТЕГРАЦИЯ ВОЗМОЖНОСТЕЙ",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Гость ИНТЕГРАЦИЯ ВОЗМОЖНОСТЕЙ",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 4346,
+      "post_type": "post",
+      "slug": "spiker-integracija-vozmozhnostej",
+      "title": "Спикер ИНТЕГРАЦИЯ ВОЗМОЖНОСТЕЙ",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Спикер ИНТЕГРАЦИЯ ВОЗМОЖНОСТЕЙ",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 4357,
+      "post_type": "post",
+      "slug": "gost-ot-vozmozhnostej-k-celi",
+      "title": "Гость От возможностей к цели",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Гость От возможностей к цели",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 4358,
+      "post_type": "post",
+      "slug": "spiker-ot-vozmozhnostej-k-celi",
+      "title": "Спикер От возможностей к цели",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Спикер От возможностей к цели",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 440,
+      "post_type": "page",
+      "slug": "obyazatelnyy-audit",
+      "title": "Обязательный аудит",
+      "tasks": [
+        "template_seo_title"
+      ],
+      "seo_title_is_template": true,
+      "seo_title_raw": "%title% %page%",
+      "seo_title_effective": "Обязательный аудит",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": "Обязательный аудит: ключевой этап в обеспечении прозрачности, соответствия законодательству и контроля финансовой отчетности."
+    },
+    {
+      "id": 453,
+      "post_type": "post",
+      "slug": "objazatelnyj-audit-akcionernyh-obshhestv",
+      "title": "Обязательный аудит акционерных обществ",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Обязательный аудит акционерных обществ",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 456,
+      "post_type": "post",
+      "slug": "objazatelnyj-audit-nekommercheskih-organizacij",
+      "title": "Обязательный аудит некоммерческих организаций",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Обязательный аудит некоммерческих организаций",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 469,
+      "post_type": "page",
+      "slug": "investitsionnyy-audit",
+      "title": "Инвестиционный аудит",
+      "tasks": [
+        "template_seo_title"
+      ],
+      "seo_title_is_template": true,
+      "seo_title_raw": "%title% %page%",
+      "seo_title_effective": "Инвестиционный аудит",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": "Инвестиционный аудит - эффективный инструмент для анализа портфеля и определения потенциала роста и рисков инвестиций."
+    },
+    {
+      "id": 502,
+      "post_type": "post",
+      "slug": "vzgljad-na-rol-investicionnogo-audita",
+      "title": "Взгляд на Роль Инвестиционного Аудита",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Взгляд на Роль Инвестиционного Аудита",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 506,
+      "post_type": "post",
+      "slug": "iniciativnyj-audit-kljuchevye-momenty-i-preimushhestva",
+      "title": "Инициативный аудит: ключевые моменты и преимущества",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Инициативный аудит: ключевые моменты и преимущества",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 521,
+      "post_type": "post",
+      "slug": "kak-investicionnyj-audit-obespechivaet-finansovuju-uverennost",
+      "title": "Как Инвестиционный Аудит Обеспечивает Финансовую Уверенность",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Как Инвестиционный Аудит Обеспечивает Финансовую Уверенность",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 522,
+      "post_type": "post",
+      "slug": "iniciativnyj-audit-strategicheskij-podhod-k-razvitiju-kompanii",
+      "title": "Инициативный аудит: стратегический подход к развитию компании",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Инициативный аудит: стратегический подход к развитию компании",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 536,
+      "post_type": "post",
+      "slug": "tendencii-i-vyzovy-bankovskogo-audita-v-sovremennom-mire",
+      "title": "Тенденции и вызовы банковского аудита в современном мире",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Тенденции и вызовы банковского аудита в современном мире",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 557,
+      "post_type": "post",
+      "slug": "optimizacija-processa-bankovskogo-audita-sovremennye-podhody-i-luchshie-praktiki",
+      "title": "Оптимизация процесса банковского аудита: современные подходы и лучшие практики",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Оптимизация процесса банковского аудита: современные подходы и лучшие практики",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 584,
+      "post_type": "page",
+      "slug": "audit-mikrofinansovyh-organizacij",
+      "title": "Аудит микрофинансовых организаций",
+      "tasks": [
+        "template_seo_title"
+      ],
+      "seo_title_is_template": true,
+      "seo_title_raw": "%title% %page%",
+      "seo_title_effective": "Аудит микрофинансовых организаций",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": "Оценка финансовой стабильности и соответствия стандартам: аудит микрофинансовых организаций для эффективного управления и развития."
+    },
+    {
+      "id": 614,
+      "post_type": "post",
+      "slug": "vnutrennij-audit-v-bankah-i-mfo",
+      "title": "Внутренний аудит в банках и МФО",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Внутренний аудит в банках и МФО",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 617,
+      "post_type": "post",
+      "slug": "finansovyj-audit-i-ego-osobennosti",
+      "title": "Финансовый аудит и его особенности",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Финансовый аудит и его особенности",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 632,
+      "post_type": "post",
+      "slug": "audit-buhgalterskoj-finansovoj-otchetnosti-strahovoj-kompanii",
+      "title": "Аудит бухгалтерской (финансовой) отчетности страховой компании",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Аудит бухгалтерской (финансовой) отчетности страховой компании",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 635,
+      "post_type": "post",
+      "slug": "osobennosti-strahovogo-audita",
+      "title": "Особенности страхового аудита",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Особенности страхового аудита",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 652,
+      "post_type": "post",
+      "slug": "rol-i-znachimost-audita-v-dolgosrochnyh-programmah-razvitija",
+      "title": "Роль и значимость аудита в долгосрочных программах развития",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Роль и значимость аудита в долгосрочных программах развития",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 659,
+      "post_type": "post",
+      "slug": "audit-dolgosrochnyh-programm-razvitija-kljuchevye-aspekty-i-metody",
+      "title": "Аудит долгосрочных программ развития: Ключевые аспекты и методы",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Аудит долгосрочных программ развития: Ключевые аспекты и методы",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 663,
+      "post_type": "post",
+      "slug": "it-audit-kljuchevye-aspekty-metody-i-prakticheskoe-primenenie",
+      "title": "IT-аудит: Ключевые аспекты, методы и практическое применение",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "IT-аудит: Ключевые аспекты, методы и практическое применение",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 667,
+      "post_type": "post",
+      "slug": "it-audit-strategicheskoe-znachenie-i-process-provedenija",
+      "title": "IT-аудит: стратегическое значение и процесс проведения",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "IT-аудит: стратегическое значение и процесс проведения",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 671,
+      "post_type": "post",
+      "slug": "stroitelnyj-audit-osnovy-process-i-znachenie",
+      "title": "Строительный аудит: Основы, Процесс и Значение",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Строительный аудит: Основы, Процесс и Значение",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 675,
+      "post_type": "post",
+      "slug": "stroitelnyj-audit-kljuchevye-aspekty-i-ego-rol-v-obespechenii-kachestva-stroitelstva",
+      "title": "Строительный аудит: Ключевые аспекты и его роль в обеспечении качества строительства",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Строительный аудит: Ключевые аспекты и его роль в обеспечении качества строительства",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 679,
+      "post_type": "post",
+      "slug": "jeffektivnoe-upravlenie-processom-slijanija-i-pogloshhenija-kljuchevye-aspekty-uspeshnogo-konsaltinga",
+      "title": "Эффективное управление процессом слияния и поглощения: ключевые аспекты успешного консалтинга",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Эффективное управление процессом слияния и поглощения: ключевые аспекты успешного консалтинга",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 680,
+      "post_type": "page",
+      "slug": "audit-dolgosrochnyh-programm-razvitija",
+      "title": "Аудит долгосрочных программ развития",
+      "tasks": [
+        "template_seo_title"
+      ],
+      "seo_title_is_template": true,
+      "seo_title_raw": "%title% %page%",
+      "seo_title_effective": "Аудит долгосрочных программ развития",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": "Аудит долгосрочных программ развития. Оценка финансовой стабильности и соответствия стандартам для эффективного управления и развития."
+    },
+    {
+      "id": 686,
+      "post_type": "post",
+      "slug": "innovacionnye-podhody-konsaltinga-v-processe-slijanija-i-pogloshhenija",
+      "title": "Инновационные подходы консалтинга в процессе слияния и поглощения",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Инновационные подходы консалтинга в процессе слияния и поглощения",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 692,
+      "post_type": "post",
+      "slug": "rol-konsaltinga-v-upravlenii-nalogovymi-riskami-strategii-i-podhody",
+      "title": "Роль консалтинга в управлении налоговыми рисками: стратегии и подходы",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Роль консалтинга в управлении налоговыми рисками: стратегии и подходы",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 696,
+      "post_type": "page",
+      "slug": "it-audit",
+      "title": "IT-аудит",
+      "tasks": [
+        "template_seo_title"
+      ],
+      "seo_title_is_template": true,
+      "seo_title_raw": "%title% проведем качественно для вашей компании",
+      "seo_title_effective": "IT-аудит",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": "IT-аудит - процесс независимой оценки информационных технологий для оптимизации безопасности, эффективности и соответствия стандартам."
+    },
+    {
+      "id": 704,
+      "post_type": "post",
+      "slug": "rol-konsultantov-v-nalogovoj-jekspertize-optimizacija-i-obespechenie-sootvetstvija",
+      "title": "Роль консультантов в налоговой экспертизе: оптимизация и обеспечение соответствия",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Роль консультантов в налоговой экспертизе: оптимизация и обеспечение соответствия",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 714,
+      "post_type": "post",
+      "slug": "optimizacija-biznesa-kljuchevye-strategii-i-podhody-konsaltinga",
+      "title": "Оптимизация бизнеса: ключевые стратегии и подходы консалтинга",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Оптимизация бизнеса: ключевые стратегии и подходы консалтинга",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 722,
+      "post_type": "post",
+      "slug": "innovacionnye-podhody-v-konsaltinge-dlja-optimizacii-biznesa",
+      "title": "Инновационные подходы в консалтинге для оптимизации бизнеса",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Инновационные подходы в консалтинге для оптимизации бизнеса",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 735,
+      "post_type": "post",
+      "slug": "juridicheskij-konsalting-kljuchevye-aspekty-i-ego-vlijanie-na-sovremennyj-biznes",
+      "title": "Юридический консалтинг: ключевые аспекты и его влияние на современный бизнес",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Юридический консалтинг: ключевые аспекты и его влияние на современный бизнес",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 744,
+      "post_type": "post",
+      "slug": "jeffektivnoe-upravlenie-riskami-s-pomoshhju-juridicheskogo-konsaltinga-strategii-instrumenty-i-preimushhestva",
+      "title": "Эффективное управление рисками с помощью юридического консалтинга: стратегии, инструменты и преимущества",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Эффективное управление рисками с помощью юридического консалтинга: стратегии, инструменты и преимущества",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 748,
+      "post_type": "post",
+      "slug": "rol-konsaltinga-v-sovremennoj-buhgalterii-i-finansovoj-otchjotnosti-strategii-i-praktiki",
+      "title": "Роль консалтинга в современной бухгалтерии и финансовой отчётности: стратегии и практики",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Роль консалтинга в современной бухгалтерии и финансовой отчётности: стратегии и практики",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 753,
+      "post_type": "post",
+      "slug": "transformacija-konsaltinga-v-buhgalterii-i-finansah-innovacionnye-podhody-i-perspektivy",
+      "title": "Трансформация консалтинга в бухгалтерии и финансах: инновационные подходы и перспективы",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Трансформация консалтинга в бухгалтерии и финансах: инновационные подходы и перспективы",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 756,
+      "post_type": "page",
+      "slug": "slijanie-i-pogloshhenie",
+      "title": "Слияние и поглощение",
+      "tasks": [
+        "template_seo_title"
+      ],
+      "seo_title_is_template": true,
+      "seo_title_raw": "%title% %page%",
+      "seo_title_effective": "Слияние и поглощение",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": "Слияние и поглощение: стратегические процессы, цели и выгоды для компаний в поиске роста и развития."
+    },
+    {
+      "id": 758,
+      "post_type": "post",
+      "slug": "process-i-osobennosti-pervichnogo-razmeshhenija-cennyh-bumag-ipo",
+      "title": "Процесс и особенности первичного размещения ценных бумаг (IPO)",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Процесс и особенности первичного размещения ценных бумаг (IPO)",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 765,
+      "post_type": "post",
+      "slug": "preimushhestva-i-riski-pervichnogo-razmeshhenija-cennyh-bumag-ipo",
+      "title": "Преимущества и риски первичного размещения ценных бумаг (IPO)",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Преимущества и риски первичного размещения ценных бумаг (IPO)",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 772,
+      "post_type": "post",
+      "slug": "tamozhennoe-regulirovanie-i-ego-vlijanie-na-mezhdunarodnuju-torgovlju-analiz-i-perspektivy",
+      "title": "Таможенное регулирование и его влияние на международную торговлю: анализ и перспективы",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Таможенное регулирование и его влияние на международную торговлю: анализ и перспективы",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 773,
+      "post_type": "page",
+      "slug": "nalogi-i-jekspertiza",
+      "title": "Налоги и экспертиза",
+      "tasks": [
+        "template_seo_title"
+      ],
+      "seo_title_is_template": true,
+      "seo_title_raw": "%title% %page%",
+      "seo_title_effective": "Налоги и экспертиза",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": "Налоги и экспертиза: консультации, анализ и стратегии для оптимизации налоговых платежей и соблюдения законодательства."
+    },
+    {
+      "id": 782,
+      "post_type": "post",
+      "slug": "tamozhennye-procedury-i-ih-vlijanie-na-jeffektivnost-mezhdunarodnoj-torgovli",
+      "title": "Таможенные процедуры и их влияние на эффективность международной торговли",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Таможенные процедуры и их влияние на эффективность международной торговли",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 788,
+      "post_type": "post",
+      "slug": "ocenka-biznesa-metody-i-praktiki",
+      "title": "Оценка бизнеса: методы и практики",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Оценка бизнеса: методы и практики",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 792,
+      "post_type": "post",
+      "slug": "ocenka-biznesa-metody-faktory-preimushhestva-i-nedostatki",
+      "title": "Оценка бизнеса: методы, факторы, преимущества и недостатки.",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Оценка бизнеса: методы, факторы, преимущества и недостатки.",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 796,
+      "post_type": "post",
+      "slug": "ocenka-nedvizhimosti-metody-faktory-rol-ocenshhika",
+      "title": "Оценка недвижимости: Методы, факторы, роль оценщика.",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Оценка недвижимости: Методы, факторы, роль оценщика.",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 800,
+      "post_type": "page",
+      "slug": "optimizacija-biznesa",
+      "title": "Оптимизация бизнеса",
+      "tasks": [
+        "template_seo_title"
+      ],
+      "seo_title_is_template": true,
+      "seo_title_raw": "%title% %page%",
+      "seo_title_effective": "Оптимизация бизнеса",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": "Оптимизация бизнеса: стратегии, инструменты и решения для повышения эффективности, снижения издержек и увеличения прибыли."
+    },
+    {
+      "id": 809,
+      "post_type": "post",
+      "slug": "ocenka-nedvizhimosti-ot-suhih-cifr-k-zhivym-istorijam",
+      "title": "Оценка недвижимости: От Сухих Цифр к Живым Историям",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Оценка недвижимости: От Сухих Цифр к Живым Историям",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 818,
+      "post_type": "post",
+      "slug": "ocenka-nematerialnyh-aktivov-vazhnost-i-metody",
+      "title": "Оценка Нематериальных Активов: Важность и Методы",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Оценка Нематериальных Активов: Важность и Методы",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 828,
+      "post_type": "post",
+      "slug": "tendencii-i-vyzovy-v-ocenke-nematerialnyh-aktivov-v-cifrovuju-jepohu",
+      "title": "Тенденции и Вызовы в Оценке Нематериальных Активов в Цифровую Эпоху",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Тенденции и Вызовы в Оценке Нематериальных Активов в Цифровую Эпоху",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 839,
+      "post_type": "post",
+      "slug": "ocenka-mashin-i-oborudovanija-kljuchevye-aspekty-i-metody",
+      "title": "Оценка Машин и Оборудования: Ключевые Аспекты и Методы",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Оценка Машин и Оборудования: Ключевые Аспекты и Методы",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 843,
+      "post_type": "post",
+      "slug": "ocenka-mashin-i-oborudovanija-put-k-optimizacii-biznesa",
+      "title": "Оценка Машин и Оборудования: Путь к Оптимизации Бизнеса",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Оценка Машин и Оборудования: Путь к Оптимизации Бизнеса",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 848,
+      "post_type": "post",
+      "slug": "metody-ocenki-zemelnyh-uchastkov-i-ih-primenenie",
+      "title": "Методы оценки земельных участков и их применение",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Методы оценки земельных участков и их применение",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 852,
+      "post_type": "post",
+      "slug": "osobennosti-ocenki-zemelnyh-uchastkov-v-selskoj-mestnosti",
+      "title": "Особенности оценки земельных участков в сельской местности",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Особенности оценки земельных участков в сельской местности",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 860,
+      "post_type": "post",
+      "slug": "kompleksnye-podhody-k-upravleniju-peremeshheniem-personala-kljuchevye-principy-i-prakticheskie-rekomendacii",
+      "title": "Комплексные подходы к управлению перемещением персонала: ключевые принципы и практические рекомендации",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Комплексные подходы к управлению перемещением персонала: ключевые принципы и практические рекомендации",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 864,
+      "post_type": "post",
+      "slug": "innovacionnye-podhody-k-upravleniju-peremeshheniem-personala-v-jepohu-globalizacii",
+      "title": "Инновационные подходы к управлению перемещением персонала в эпоху глобализации",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Инновационные подходы к управлению перемещением персонала в эпоху глобализации",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 867,
+      "post_type": "post",
+      "slug": "jeffektivnye-strategii-obuchenija-i-razvitija-rol-konsultacionnyh-uslug",
+      "title": "Эффективные Стратегии Обучения и Развития: Роль Консультационных Услуг",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Эффективные Стратегии Обучения и Развития: Роль Консультационных Услуг",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 870,
+      "post_type": "post",
+      "slug": "innovacionnye-tehnologii-v-oblasti-obuchenija-i-razvitija-rol-konsultacionnyh-uslug",
+      "title": "Инновационные Технологии в Области Обучения и Развития: Роль Консультационных Услуг",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Инновационные Технологии в Области Обучения и Развития: Роль Консультационных Услуг",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 875,
+      "post_type": "post",
+      "slug": "jeffektivnye-strategii-konsultacionnyh-uslug-v-oblasti-voznagrazhdenija",
+      "title": "Эффективные стратегии консультационных услуг в области вознаграждения",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Эффективные стратегии консультационных услуг в области вознаграждения",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 879,
+      "post_type": "post",
+      "slug": "rol-kpi-v-upravlenii-biznesom-kak-konsultacionnye-uslugi-mogut-pomoch",
+      "title": "Роль KPI в управлении бизнесом: как консультационные услуги могут помочь",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Роль KPI в управлении бизнесом: как консультационные услуги могут помочь",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 883,
+      "post_type": "post",
+      "slug": "vvedenie-v-kadrovuju-analitiku-osnovy-i-znachimost",
+      "title": "Введение в кадровую аналитику: Основы и Значимость",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Введение в кадровую аналитику: Основы и Значимость",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 887,
+      "post_type": "post",
+      "slug": "kak-primenjat-kadrovuju-analitiku-dlja-uluchshenija-processov-upravlenija-personalom",
+      "title": "Как Применять Кадровую Аналитику для Улучшения Процессов Управления Персоналом",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Как Применять Кадровую Аналитику для Улучшения Процессов Управления Персоналом",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 893,
+      "post_type": "post",
+      "slug": "ponimanie-nalogooblozhenija-dlja-chastnyh-klientov-osnovy-i-prakticheskie-sovety",
+      "title": "Понимание налогообложения для частных клиентов: Основы и Практические Советы",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Понимание налогообложения для частных клиентов: Основы и Практические Советы",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 897,
+      "post_type": "post",
+      "slug": "optimizacija-nalogooblozhenija-dlja-chastnyh-klientov-iskusstvo-maksimizacii-vygod-i-minimizacii-riskov",
+      "title": "Оптимизация налогообложения для частных клиентов: Искусство максимизации выгод и минимизации рисков",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Оптимизация налогообложения для частных клиентов: Искусство максимизации выгод и минимизации рисков",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 901,
+      "post_type": "post",
+      "slug": "pochemu-juridicheskoe-soprovozhdenie-neobhodimo-dlja-vashego-biznesa",
+      "title": "Почему Юридическое Сопровождение Необходимо для Вашего Бизнеса",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Почему Юридическое Сопровождение Необходимо для Вашего Бизнеса",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 905,
+      "post_type": "post",
+      "slug": "znachenie-juridicheskogo-soprovozhdenija-dlja-inostrannyh-investorov",
+      "title": "Значение Юридического Сопровождения для Иностранных Инвесторов",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Значение Юридического Сопровождения для Иностранных Инвесторов",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 909,
+      "post_type": "post",
+      "slug": "osnovy-investirovanija-kak-nachat-i-uspeshno-vesti-finansy",
+      "title": "Основы Инвестирования: Как Начать и Успешно Вести Финансы",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Основы Инвестирования: Как Начать и Успешно Вести Финансы",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 913,
+      "post_type": "post",
+      "slug": "investicionnye-strategii-kak-vybrat-podhod-kotoryj-podhodit-vam",
+      "title": "Инвестиционные Стратегии: Как Выбрать Подход, Который Подходит Вам",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Инвестиционные Стратегии: Как Выбрать Подход, Который Подходит Вам",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 917,
+      "post_type": "post",
+      "slug": "ponimanie-vazhnosti-compliance-kljuchevye-aspekty-i-preimushhestva-dlja-biznesa",
+      "title": "Понимание важности Compliance: Ключевые аспекты и преимущества для бизнеса",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Понимание важности Compliance: Ключевые аспекты и преимущества для бизнеса",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 921,
+      "post_type": "post",
+      "slug": "prakticheskoe-rukovodstvo-po-proverke-kompanij-jeffektivnye-strategii-i-luchshie-praktiki",
+      "title": "Практическое руководство по проверке компаний: Эффективные стратегии и лучшие практики",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Практическое руководство по проверке компаний: Эффективные стратегии и лучшие практики",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 925,
+      "post_type": "post",
+      "slug": "shkola-jekspertizy-i-prava-kljuchevye-aspekty-professionalnogo-razvitija",
+      "title": "Как Высшая школа экспертизы и Права возводит стандарты в образовании",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Как Высшая школа экспертизы и Права возводит стандарты в образовании",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 929,
+      "post_type": "post",
+      "slug": "shkola-jekspertizy-i-prava-znachenie-obrazovanija-v-sfere-pravosudija",
+      "title": "Профессиональная Переподготовка от Высшей Школы Экспертизы и Права",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Профессиональная Переподготовка от Высшей Школы Экспертизы и Права",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 933,
+      "post_type": "post",
+      "slug": "iskusstvo-organizacii-meroprijatij-ot-idei-do-realizacii",
+      "title": "Искусство организации мероприятий: от идеи до реализации",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Искусство организации мероприятий: от идеи до реализации",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 937,
+      "post_type": "post",
+      "slug": "vstrechi-kak-sdelat-ih-produktivnymi-i-jeffektivnymi",
+      "title": "Встречи: Как сделать их продуктивными и эффективными",
+      "tasks": [
+        "missing_seo_description"
+      ],
+      "seo_title_is_template": false,
+      "seo_title_raw": null,
+      "seo_title_effective": "Встречи: Как сделать их продуктивными и эффективными",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": null
+    },
+    {
+      "id": 978,
+      "post_type": "page",
+      "slug": "pervichnoe-razmeshhenie-cennyh-bumag-ipo",
+      "title": "Первичное размещение ценных бумаг (IPO)",
+      "tasks": [
+        "template_seo_title"
+      ],
+      "seo_title_is_template": true,
+      "seo_title_raw": "%title% %page%",
+      "seo_title_effective": "Первичное размещение ценных бумаг (IPO)",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": "Первичное размещение ценных бумаг: процесс выхода на рынок, привлечения инвестиций и формирования капитала для компании."
+    },
+    {
+      "id": 999,
+      "post_type": "page",
+      "slug": "information",
+      "title": "Информация",
+      "tasks": [
+        "template_seo_title"
+      ],
+      "seo_title_is_template": true,
+      "seo_title_raw": "%title% %page%",
+      "seo_title_effective": "Информация",
+      "seo_title_effective_is_fallback": true,
+      "seo_description": "Информация - ключевой ресурс современного мира. Управляйте, защищайте и используйте информацию эффективно для достижения целей."
+    }
+  ]
+}

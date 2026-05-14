@@ -1,0 +1,27 @@
+{
+  "name": "aud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:swiper": "esbuild tools/swiper-global.mjs --bundle --minify --format=iife --platform=browser --outfile=vendor/swiper/swiper-lite.min.js && esbuild tools/swiper-lite.css --bundle --minify --outfile=vendor/swiper/swiper-lite.min.css",
+    "build:css": "esbuild components/stages/stages.css --minify --outfile=components/stages/stages.min.css && esbuild components/site-footer/site-footer.css --minify --outfile=components/site-footer/site-footer.min.css && esbuild components/reviews/reviews.css --minify --outfile=components/reviews/reviews.min.css",
+    "build": "npm run build:swiper && npm run build:css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KharybinRuslan/audit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KharybinRuslan/audit/issues"
+  },
+  "homepage": "https://github.com/KharybinRuslan/audit#readme",
+  "devDependencies": {
+    "esbuild": "^0.25.12",
+    "swiper": "^11.2.10"
+  }
+}

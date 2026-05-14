@@ -1,16 +1,19 @@
 /**
- * Слайдер «Виды аудита» — 6 карточек, стрелки + пагинация.
+ * Слайдер «Виды аудита» — карточки, стрелки + пагинация, бесконечная прокрутка (loop).
  */
 (function () {
   var el = document.getElementById('audit-types-swiper');
   if (!el) return;
 
   var section = el.closest('.audit-types');
+
+  function startAuditTypesSwiper() {
+  if (typeof Swiper === 'undefined') return;
   var prevEl = section && section.querySelector('.audit-types__arrow--prev');
   var nextEl = section && section.querySelector('.audit-types__arrow--next');
   var paginationEl = section && section.querySelector('.audit-types__pagination');
 
-  window.auditTypesSwiper = new Swiper('#audit-types-swiper', {
+  var swiper = new Swiper(el, {
     slidesPerView: 1.1,
     spaceBetween: 12,
     loop: true,
@@ -19,6 +22,7 @@
     allowTouchMove: true,
     centeredSlides: false,
     slidesPerGroup: 1,
+    watchOverflow: true,
     navigation: {
       nextEl: nextEl,
       prevEl: prevEl,
@@ -46,4 +50,17 @@
       },
     },
   });
+  window.auditTypesSwiper = swiper;
+  if (typeof window.bindSwiperSlidesA11y === 'function') {
+    window.bindSwiperSlidesA11y(swiper);
+  }
+  }
+
+  if (typeof window.audInitSwiperWhenNear === 'function') {
+    window.audInitSwiperWhenNear(section || el, startAuditTypesSwiper, 120);
+  } else {
+    window.requestAnimationFrame(function () {
+      window.requestAnimationFrame(startAuditTypesSwiper);
+    });
+  }
 })();

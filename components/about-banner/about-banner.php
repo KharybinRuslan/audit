@@ -8,11 +8,18 @@ declare(strict_types=1);
     <div class="about-banner__layer about-banner__layer--base" aria-hidden="true"></div>
     <div class="about-banner__layer about-banner__layer--image" aria-hidden="true">
         <picture>
+            <source srcset="/img/hammer-mob.webp" type="image/webp" media="(max-width: 767px)">
+            <source srcset="/img/hammer.webp" type="image/webp" media="(min-width: 768px)">
             <source srcset="/img/hammer-mob.png" media="(max-width: 767px)">
-            <img class="about-banner__image" src="/img/hammer.png" alt="">
+            <img class="about-banner__image" src="/img/hammer.png" alt="" width="1381" height="796" decoding="async">
         </picture>
     </div>
     <div class="about-banner__layer about-banner__layer--overlay" aria-hidden="true"></div>
+    <?php if (isset($breadcrumbs) && is_array($breadcrumbs) && $breadcrumbs !== []): ?>
+    <div class="about-banner__breadcrumbs">
+        <?php include __DIR__ . '/../breadcrumbs/breadcrumbs.php'; ?>
+    </div>
+    <?php endif; ?>
     <div class="about-banner__content">
         <div class="about-banner__columns">
             <div class="about-banner__left">

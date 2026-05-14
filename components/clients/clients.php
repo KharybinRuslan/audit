@@ -1,5 +1,7 @@
 <?php
 declare(strict_types=1);
+
+require_once dirname(__DIR__, 2) . '/includes/img-webp.php';
 /**
  * Компонент: Clients — наши клиенты
  */
@@ -7,10 +9,10 @@ declare(strict_types=1);
 <section class="clients" id="clients">
     <div class="clients__inner">
         <h2 class="clients__title">НАШИ<br>КЛИЕНТЫ</h2>
-        <img class="clients__logo" src="/img/c1.png" alt="Газпром">
-        <img class="clients__logo" src="/img/c2.png" alt="РЖД">
-        <img class="clients__logo" src="/img/c3.png" alt="Магнит">
-        <img class="clients__logo" src="/img/c4.png" alt="Росатом">
-        <img class="clients__logo" src="/img/c5.png" alt="X5 Group">
+        <?php aud_img_picture_webp('/img/c1.png', 'Газпром', ['class' => 'clients__logo', 'loading' => 'lazy', 'decoding' => 'async']); ?>
+        <?php aud_img_picture_webp('/img/c2.png', 'РЖД', ['class' => 'clients__logo', 'loading' => 'lazy', 'decoding' => 'async']); ?>
+        <?php aud_img_picture_webp('/img/c3.png', 'Магнит', ['class' => 'clients__logo', 'loading' => 'lazy', 'decoding' => 'async']); ?>
+        <?php aud_img_picture_webp('/img/c4.png', 'Росатом', ['class' => 'clients__logo', 'loading' => 'lazy', 'decoding' => 'async']); ?>
+        <?php aud_img_picture_webp('/img/c5.png', 'X5 Group', ['class' => 'clients__logo', 'loading' => 'lazy', 'decoding' => 'async']); ?>
     </div>
 </section>

@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "generated_at": "2026-04-15T18:53:30Z",
+    "source_exports": [
+      "export/",
+      "export-derived/"
+    ],
+    "out_dir": "C:/OSPanel/domains/aud/export-ready"
+  },
+  "counts": {
+    "total_items": 241,
+    "ready_for_rebuild_true": 240,
+    "ready_for_rebuild_false": 1,
+    "template_seo_title": 35,
+    "materials_without_seo_title_and_description": 178,
+    "materials_without_featured_image": 78,
+    "materials_without_meaningful_content": 1,
+    "elementor_materials": 109,
+    "migrate_to_https_urls": 498,
+    "technical_empty_records": 1
+  },
+  "technical_empty_records": [
+    {
+      "id": 1709,
+      "slug": "press-sluzhba",
+      "title": "Пресс-служба",
+      "post_type": "page",
+      "permalink_candidate": "http://auditte.ru/press-sluzhba/"
+    }
+  ],
+  "notes": {
+    "ready_for_rebuild_false_rules": [
+      "no_meaningful_content",
+      "duplicate_permalink",
+      "technical_empty_record"
+    ],
+    "permalink_duplicates_count": 0
+  }
+}

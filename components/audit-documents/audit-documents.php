@@ -1,5 +1,7 @@
 <?php
 declare(strict_types=1);
+
+require_once dirname(__DIR__, 2) . '/includes/img-webp.php';
 /**
  * Component: Audit Documents — блок с аудитом, документами и картой
  */
@@ -8,7 +10,7 @@ declare(strict_types=1);
     <div class="audit-documents__wrap">
         <div class="audit-documents__left">
             <div class="audit-documents__card audit-documents__card--complex">
-                <img class="audit-documents__complex-img" src="/img/kompleksnyy-audit.png" alt="">
+                <?php aud_img_picture_webp('/img/kompleksnyy-audit.png', '', ['class' => 'audit-documents__complex-img', 'loading' => 'lazy', 'decoding' => 'async']); ?>
 
                 <h3 class="audit-documents__complex-title">КОМПЛЕКСНЫЙ АУДИТ</h3>
                 <p class="audit-documents__complex-desc">
@@ -36,7 +38,7 @@ declare(strict_types=1);
 
                 <div class="audit-documents__files">
                     <article class="audit-documents__file">
-                        <img class="audit-documents__file-icon" src="/img/papka.png" alt="">
+                        <?php aud_img_picture_webp('/img/papka.png', '', ['class' => 'audit-documents__file-icon', 'loading' => 'lazy', 'decoding' => 'async']); ?>
                         <div class="audit-documents__file-content">
                             <p class="audit-documents__file-title">Свидетельство о гос. регистрации некоммерческой организации</p>
                             <a href="#" class="audit-documents__file-download">
@@ -47,7 +49,7 @@ declare(strict_types=1);
                     </article>
 
                     <article class="audit-documents__file">
-                        <img class="audit-documents__file-icon" src="/img/papka.png" alt="">
+                        <?php aud_img_picture_webp('/img/papka.png', '', ['class' => 'audit-documents__file-icon', 'loading' => 'lazy', 'decoding' => 'async']); ?>
                         <div class="audit-documents__file-content">
                             <p class="audit-documents__file-title">Свидетельство о постановке на учёт в налоговом органе</p>
                             <a href="#" class="audit-documents__file-download">
@@ -58,7 +60,7 @@ declare(strict_types=1);
                     </article>
 
                     <article class="audit-documents__file">
-                        <img class="audit-documents__file-icon" src="/img/papka.png" alt="">
+                        <?php aud_img_picture_webp('/img/papka.png', '', ['class' => 'audit-documents__file-icon', 'loading' => 'lazy', 'decoding' => 'async']); ?>
                         <div class="audit-documents__file-content">
                             <p class="audit-documents__file-title">Свидетельство об аттестации лаборатории</p>
                             <a href="#" class="audit-documents__file-download">
@@ -72,7 +74,7 @@ declare(strict_types=1);
 
             <div class="audit-documents__map-card">
                 <h3 class="audit-documents__map-title">РАБОТАЕМ ПО ВСЕЙ РОССИИ</h3>
-                <img class="audit-documents__map-img" src="/img/map.png" alt="">
+                <?php aud_img_picture_webp('/img/map.png', '', ['class' => 'audit-documents__map-img', 'loading' => 'lazy', 'decoding' => 'async']); ?>
             </div>
         </div>
     </div>

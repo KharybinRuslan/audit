@@ -1,40 +1,70 @@
 <?php
 declare(strict_types=1);
+
+require_once dirname(__DIR__, 2) . '/includes/img-webp.php';
+require_once dirname(__DIR__, 2) . '/includes/site-address.php';
 /**
  * Подвал сайта — десктоп 4 колонки, мобильная колонка.
  */
-$siteFooterLegalLine1 = '© 2026 «АНО ЭПЦ ТОП ЭКСПЕРТ».';
+$siteFooterLegalLine1 = '© 2026 «ООО "Аудит Топ Эксперт"».';
 $siteFooterLegalLine2 = 'Все права защищены';
-$siteFooterServices = [
-    ['Аудиторские услуги', '/#services'],
-    ['Налоговый консалтинг и налоговая безопасность', '/#services'],
-    ['Финансовый консалтинг и оценка', '/#services'],
-    ['Бухгалтерский консалтинг и аутсорсинг', '/#services'],
-    ['Due diligence и forensic', '/#services'],
-    ['Кадровый аудит и консалтинг', '/#services'],
-    ['МСФО и международная отчетность', '/#services'],
-    ['Комплаенс, риск-контроль, внутренний аудит', '/#services'],
-    ['Консалтинг и сопровождение бизнеса', '/#services'],
-    ['Обучение и академия HSEP', '/#services'],
-];
+
+$siteFooterServices = [];
+$siteFooterMenuFile = dirname(__DIR__) . '/site-header/site-header-menu-data.php';
+if (is_readable($siteFooterMenuFile)) {
+    require_once $siteFooterMenuFile;
+    $siteFooterMenu = null;
+    if (isset($siteHeaderMenuServices) && is_array($siteHeaderMenuServices)) {
+        $siteFooterMenu = $siteHeaderMenuServices;
+    } elseif (isset($GLOBALS['siteHeaderMenuServices']) && is_array($GLOBALS['siteHeaderMenuServices'])) {
+        $siteFooterMenu = $GLOBALS['siteHeaderMenuServices'];
+    }
+    if (is_array($siteFooterMenu)) {
+        foreach ($siteFooterMenu as $siteFooterCat) {
+            if (!is_array($siteFooterCat)) {
+                continue;
+            }
+            $siteFooterTitle = isset($siteFooterCat['title']) ? trim((string) $siteFooterCat['title']) : '';
+            $siteFooterHref = isset($siteFooterCat['href']) ? trim((string) $siteFooterCat['href']) : '';
+            if ($siteFooterTitle === '' || $siteFooterHref === '') {
+                continue;
+            }
+            if ($siteFooterHref[0] !== '/') {
+                $siteFooterHref = '/' . ltrim($siteFooterHref, '/');
+            }
+            $siteFooterServices[] = [$siteFooterTitle, $siteFooterHref];
+        }
+    }
+}
+if ($siteFooterServices === []) {
+    $siteFooterServices = [
+        ['Аудиторские услуги', '/audit'],
+        ['Налоговый консалтинг и налоговая безопасность', '/konsalting'],
+        ['Финансовый консалтинг и оценка', '/finans'],
+        ['Бухгалтерский консалтинг и аутсорсинг', '/buhgalteriya'],
+        ['Форензик', '/forenzik'],
+        ['Кадровый аудит', '/kadrovyy-audit'],
+        ['МСФО и международная отчетность', '/msfo'],
+        ['Комплаенс, риск-контроль, внутренний аудит', '/komplaens'],
+        ['Консалтинг и сопровождение бизнеса', '/biznes-konsalting'],
+        ['Обучение и академия HSEP', '/hsep'],
+        ['DUE diligence', '/due-diligence'],
+    ];
+}
 ?>
 <footer class="site-footer" id="site-footer">
-    <div class="site-footer__decor-left" aria-hidden="true">
-        <div class="site-footer__glow-mist site-footer__glow-mist--deep"></div>
-        <div class="site-footer__glow-mist site-footer__glow-mist--warm"></div>
-    </div>
     <div class="site-footer__inner">
         <div class="site-footer__grid">
             <div class="site-footer__col site-footer__col--brand">
                 <div class="site-footer__brand">
-                    <span class="site-footer__brand-top">ТОП ЭКСПЕРТ</span>
+                    <span class="site-footer__brand-top">ООО "Аудит Топ Эксперт"</span>
                     <span class="site-footer__brand-sub">АУДИТ</span>
                 </div>
 
                 <p class="site-footer__legal site-footer__legal--desktop">
                     <?= htmlspecialchars($siteFooterLegalLine1, ENT_QUOTES, 'UTF-8') ?><br>
                     <?= htmlspecialchars($siteFooterLegalLine2, ENT_QUOTES, 'UTF-8') ?><br>
-                    <a class="site-footer__legal-link" href="#">Политика конфиденциальности<br>и обработка персональных данных</a>
+                    <a class="site-footer__legal-link" href="/politika-konfidencialnosti">Политика конфиденциальности<br>и обработка персональных данных</a>
                 </p>
 
                 <button
@@ -70,15 +100,17 @@ $siteFooterServices = [
                     <p class="site-footer__heading">Блог</p>
                     <ul class="site-footer__list">
                         <li><a class="site-footer__link" href="/news">Новости</a></li>
-                        <li><a class="site-footer__link" href="#">Статьи от экспертов</a></li>
+                        <li><a class="site-footer__link" href="/karta-sajta">Карта сайта</a></li>
                     </ul>
                 </div>
                 <div class="site-footer__meta-block">
                     <p class="site-footer__heading">О компании</p>
                     <ul class="site-footer__list">
-                        <li><a class="site-footer__link" href="#">Презентация</a></li>
+                        <li><a class="site-footer__link" href="/about">О нас</a></li>
+                        <li><a class="site-footer__link" href="/services">Услуги</a></li>
+                        <li><a class="site-footer__link" href="/contacts">Контакты</a></li>
                         <li><a class="site-footer__link" href="/about#audit-documents">Документы</a></li>
-                        <li><a class="site-footer__link" href="#">Реквизиты</a></li>
+                        <li><a class="site-footer__link" href="/contacts#contacts-map-requisites">Реквизиты</a></li>
                     </ul>
                 </div>
             </div>
@@ -93,18 +125,16 @@ $siteFooterServices = [
                     <p class="site-footer__reply">Ответим в течение часа в рабочее время</p>
                 </div>
                 <div class="site-footer__messengers">
-                    <a class="site-footer__messenger" href="#" aria-label="WhatsApp">
-                        <img class="site-footer__messenger-icon" src="/img/wa.png" alt="">
-                        <span>WhatsApp</span>
-                    </a>
-                    <a class="site-footer__messenger" href="#" aria-label="Telegram">
-                        <img class="site-footer__messenger-icon" src="/img/tg.png" alt="">
-                        <span>Telegram</span>
-                    </a>
+                    <?php
+                    $socialLinkClass = 'site-footer__messenger';
+                    $socialIconClass = 'site-footer__messenger-icon';
+                    $socialSpanClass = '';
+                    include dirname(__DIR__, 2) . '/includes/social-channels-links.php';
+                    ?>
                 </div>
                 <div class="site-footer__address">
                     <p class="site-footer__address-label">Адрес</p>
-                    <p class="site-footer__address-text">г. Москва, Гамсоновский пер., 2,<br>(метро Тульская)</p>
+                    <p class="site-footer__address-text"><?= aud_site_office_address_html() ?></p>
                 </div>
             </div>
 
@@ -113,8 +143,9 @@ $siteFooterServices = [
                     <?= htmlspecialchars($siteFooterLegalLine1, ENT_QUOTES, 'UTF-8') ?><br>
                     <?= htmlspecialchars($siteFooterLegalLine2, ENT_QUOTES, 'UTF-8') ?>
                 </p>
-                <a class="site-footer__legal-link" href="#">Политика конфиденциальности<br>и обработка персональных данных</a>
+                <a class="site-footer__legal-link" href="/politika-konfidencialnosti">Политика конфиденциальности<br>и обработка персональных данных</a>
             </div>
         </div>
     </div>
 </footer>
+<?php include dirname(__DIR__) . '/cookie-consent/cookie-consent.php'; ?>

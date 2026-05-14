@@ -1,0 +1,3494 @@
+{
+  "meta": {
+    "generated_at": "2026-04-15T19:13:55Z",
+    "source": "export-ready/redirects-map.json"
+  },
+  "redirects": [
+    {
+      "from": "http://auditte.ru/politika-konfidencialnosti/",
+      "to": "https://auditte.ru/politika-konfidencialnosti/",
+      "reason": "permalink_candidate",
+      "post_id": 3,
+      "slug": "politika-konfidencialnosti"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/visa-application-form-composition.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/visa-application-form-composition.jpg",
+      "reason": "all_image_urls",
+      "post_id": 3,
+      "slug": "politika-konfidencialnosti"
+    },
+    {
+      "from": "http://auditte.ru/glavnaja/",
+      "to": "https://auditte.ru/glavnaja/",
+      "reason": "permalink_candidate",
+      "post_id": 15,
+      "slug": "glavnaja"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/18-1024x576.png",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/18-1024x576.png",
+      "reason": "all_image_urls",
+      "post_id": 15,
+      "slug": "glavnaja"
+    },
+    {
+      "from": "http://auditte.ru/rynok-sovmestnoj-mobilnosti-v-rossii-mozhet-vyrasti-bolee-chem-vchetvero-do-350-mlrd-rublej-v-blizhajshie-pjat-let/",
+      "to": "https://auditte.ru/rynok-sovmestnoj-mobilnosti-v-rossii-mozhet-vyrasti-bolee-chem-vchetvero-do-350-mlrd-rublej-v-blizhajshie-pjat-let/",
+      "reason": "permalink_candidate",
+      "post_id": 136,
+      "slug": "rynok-sovmestnoj-mobilnosti-v-rossii-mozhet-vyrasti-bolee-chem-vchetvero-do-350-mlrd-rublej-v-blizhajshie-pjat-let"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/group-business-talking-meeting-scaled-e1712685914127.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/group-business-talking-meeting-scaled-e1712685914127.jpg",
+      "reason": "featured_image_url",
+      "post_id": 136,
+      "slug": "rynok-sovmestnoj-mobilnosti-v-rossii-mozhet-vyrasti-bolee-chem-vchetvero-do-350-mlrd-rublej-v-blizhajshie-pjat-let"
+    },
+    {
+      "from": "http://auditte.ru/inostrannye-kompanii-pochti-perestali-uhodit-iz-rossii/",
+      "to": "https://auditte.ru/inostrannye-kompanii-pochti-perestali-uhodit-iz-rossii/",
+      "reason": "permalink_candidate",
+      "post_id": 147,
+      "slug": "inostrannye-kompanii-pochti-perestali-uhodit-iz-rossii"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/business-team-global-business-planning-working-concept-scaled-e1712685892381.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/business-team-global-business-planning-working-concept-scaled-e1712685892381.jpg",
+      "reason": "featured_image_url",
+      "post_id": 147,
+      "slug": "inostrannye-kompanii-pochti-perestali-uhodit-iz-rossii"
+    },
+    {
+      "from": "http://auditte.ru/rossija-predlozhila-kataru-i-saudovskoj-aravii-peresmotret-nalogovye-soglashenija/",
+      "to": "https://auditte.ru/rossija-predlozhila-kataru-i-saudovskoj-aravii-peresmotret-nalogovye-soglashenija/",
+      "reason": "permalink_candidate",
+      "post_id": 161,
+      "slug": "rossija-predlozhila-kataru-i-saudovskoj-aravii-peresmotret-nalogovye-soglashenija"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/3904-scaled.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/3904-scaled.jpg",
+      "reason": "featured_image_url",
+      "post_id": 161,
+      "slug": "rossija-predlozhila-kataru-i-saudovskoj-aravii-peresmotret-nalogovye-soglashenija"
+    },
+    {
+      "from": "http://auditte.ru/auditorskiye-uslugi/",
+      "to": "https://auditte.ru/auditorskiye-uslugi/",
+      "reason": "permalink_candidate",
+      "post_id": 386,
+      "slug": "auditorskiye-uslugi"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/objazatelnyj-audit.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/objazatelnyj-audit.jpg",
+      "reason": "all_image_urls",
+      "post_id": 386,
+      "slug": "auditorskiye-uslugi"
+    },
+    {
+      "from": "http://auditte.ru/uslugi/",
+      "to": "https://auditte.ru/uslugi/",
+      "reason": "permalink_candidate",
+      "post_id": 425,
+      "slug": "uslugi"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/objazatelnyj-audit.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/objazatelnyj-audit.jpg",
+      "reason": "all_image_urls",
+      "post_id": 425,
+      "slug": "uslugi"
+    },
+    {
+      "from": "http://auditte.ru/obyazatelnyy-audit/",
+      "to": "https://auditte.ru/obyazatelnyy-audit/",
+      "reason": "permalink_candidate",
+      "post_id": 440,
+      "slug": "obyazatelnyy-audit"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/objazatelnyj-audit-1-1024x576.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/objazatelnyj-audit-1-1024x576.jpg",
+      "reason": "all_image_urls",
+      "post_id": 440,
+      "slug": "obyazatelnyy-audit"
+    },
+    {
+      "from": "http://auditte.ru/objazatelnyj-audit-akcionernyh-obshhestv/",
+      "to": "https://auditte.ru/objazatelnyj-audit-akcionernyh-obshhestv/",
+      "reason": "permalink_candidate",
+      "post_id": 453,
+      "slug": "objazatelnyj-audit-akcionernyh-obshhestv"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/3-11.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/3-11.jpg",
+      "reason": "featured_image_url",
+      "post_id": 453,
+      "slug": "objazatelnyj-audit-akcionernyh-obshhestv"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/objazatelnyj-audit-1-1024x683.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/objazatelnyj-audit-1-1024x683.jpg",
+      "reason": "all_image_urls",
+      "post_id": 453,
+      "slug": "objazatelnyj-audit-akcionernyh-obshhestv"
+    },
+    {
+      "from": "http://auditte.ru/objazatelnyj-audit-nekommercheskih-organizacij/",
+      "to": "https://auditte.ru/objazatelnyj-audit-nekommercheskih-organizacij/",
+      "reason": "permalink_candidate",
+      "post_id": 456,
+      "slug": "objazatelnyj-audit-nekommercheskih-organizacij"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/2-22.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/2-22.jpg",
+      "reason": "featured_image_url",
+      "post_id": 456,
+      "slug": "objazatelnyj-audit-nekommercheskih-organizacij"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/1-1024x683.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/1-1024x683.jpg",
+      "reason": "all_image_urls",
+      "post_id": 456,
+      "slug": "objazatelnyj-audit-nekommercheskih-organizacij"
+    },
+    {
+      "from": "http://auditte.ru/investitsionnyy-audit/",
+      "to": "https://auditte.ru/investitsionnyy-audit/",
+      "reason": "permalink_candidate",
+      "post_id": 469,
+      "slug": "investitsionnyy-audit"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/investicionnyj-audit-1-1024x576.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/investicionnyj-audit-1-1024x576.jpg",
+      "reason": "all_image_urls",
+      "post_id": 469,
+      "slug": "investitsionnyy-audit"
+    },
+    {
+      "from": "http://auditte.ru/vzgljad-na-rol-investicionnogo-audita/",
+      "to": "https://auditte.ru/vzgljad-na-rol-investicionnogo-audita/",
+      "reason": "permalink_candidate",
+      "post_id": 502,
+      "slug": "vzgljad-na-rol-investicionnogo-audita"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/investicionnyj-audit-2-1-e1713033183526.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/investicionnyj-audit-2-1-e1713033183526.jpg",
+      "reason": "featured_image_url",
+      "post_id": 502,
+      "slug": "vzgljad-na-rol-investicionnogo-audita"
+    },
+    {
+      "from": "http://auditte.ru/iniciativnyj-audit-kljuchevye-momenty-i-preimushhestva/",
+      "to": "https://auditte.ru/iniciativnyj-audit-kljuchevye-momenty-i-preimushhestva/",
+      "reason": "permalink_candidate",
+      "post_id": 506,
+      "slug": "iniciativnyj-audit-kljuchevye-momenty-i-preimushhestva"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/hands-writing-business-documents-desk-concept-scaled.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/hands-writing-business-documents-desk-concept-scaled.jpg",
+      "reason": "featured_image_url",
+      "post_id": 506,
+      "slug": "iniciativnyj-audit-kljuchevye-momenty-i-preimushhestva"
+    },
+    {
+      "from": "http://auditte.ru/kak-investicionnyj-audit-obespechivaet-finansovuju-uverennost/",
+      "to": "https://auditte.ru/kak-investicionnyj-audit-obespechivaet-finansovuju-uverennost/",
+      "reason": "permalink_candidate",
+      "post_id": 521,
+      "slug": "kak-investicionnyj-audit-obespechivaet-finansovuju-uverennost"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/oig4-1.jpeg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/oig4-1.jpeg",
+      "reason": "featured_image_url",
+      "post_id": 521,
+      "slug": "kak-investicionnyj-audit-obespechivaet-finansovuju-uverennost"
+    },
+    {
+      "from": "http://auditte.ru/iniciativnyj-audit-strategicheskij-podhod-k-razvitiju-kompanii/",
+      "to": "https://auditte.ru/iniciativnyj-audit-strategicheskij-podhod-k-razvitiju-kompanii/",
+      "reason": "permalink_candidate",
+      "post_id": 522,
+      "slug": "iniciativnyj-audit-strategicheskij-podhod-k-razvitiju-kompanii"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/white-blank-papers-pencils-paper-files-coffee-cup-calculator-black-desk-scaled.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/white-blank-papers-pencils-paper-files-coffee-cup-calculator-black-desk-scaled.jpg",
+      "reason": "featured_image_url",
+      "post_id": 522,
+      "slug": "iniciativnyj-audit-strategicheskij-podhod-k-razvitiju-kompanii"
+    },
+    {
+      "from": "http://auditte.ru/iniciativnyj-audit/",
+      "to": "https://auditte.ru/iniciativnyj-audit/",
+      "reason": "permalink_candidate",
+      "post_id": 534,
+      "slug": "iniciativnyj-audit"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/iniciativnyj-audit-1-1024x576.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/iniciativnyj-audit-1-1024x576.jpg",
+      "reason": "all_image_urls",
+      "post_id": 534,
+      "slug": "iniciativnyj-audit"
+    },
+    {
+      "from": "http://auditte.ru/tendencii-i-vyzovy-bankovskogo-audita-v-sovremennom-mire/",
+      "to": "https://auditte.ru/tendencii-i-vyzovy-bankovskogo-audita-v-sovremennom-mire/",
+      "reason": "permalink_candidate",
+      "post_id": 536,
+      "slug": "tendencii-i-vyzovy-bankovskogo-audita-v-sovremennom-mire"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/20943825.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/20943825.jpg",
+      "reason": "featured_image_url",
+      "post_id": 536,
+      "slug": "tendencii-i-vyzovy-bankovskogo-audita-v-sovremennom-mire"
+    },
+    {
+      "from": "http://auditte.ru/optimizacija-processa-bankovskogo-audita-sovremennye-podhody-i-luchshie-praktiki/",
+      "to": "https://auditte.ru/optimizacija-processa-bankovskogo-audita-sovremennye-podhody-i-luchshie-praktiki/",
+      "reason": "permalink_candidate",
+      "post_id": 557,
+      "slug": "optimizacija-processa-bankovskogo-audita-sovremennye-podhody-i-luchshie-praktiki"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/10191042.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/10191042.jpg",
+      "reason": "featured_image_url",
+      "post_id": 557,
+      "slug": "optimizacija-processa-bankovskogo-audita-sovremennye-podhody-i-luchshie-praktiki"
+    },
+    {
+      "from": "http://auditte.ru/bankovskij-audit/",
+      "to": "https://auditte.ru/bankovskij-audit/",
+      "reason": "permalink_candidate",
+      "post_id": 571,
+      "slug": "bankovskij-audit"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/bankovskij-audit-1-1024x576.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/bankovskij-audit-1-1024x576.jpg",
+      "reason": "all_image_urls",
+      "post_id": 571,
+      "slug": "bankovskij-audit"
+    },
+    {
+      "from": "http://auditte.ru/audit-mikrofinansovyh-organizacij/",
+      "to": "https://auditte.ru/audit-mikrofinansovyh-organizacij/",
+      "reason": "permalink_candidate",
+      "post_id": 584,
+      "slug": "audit-mikrofinansovyh-organizacij"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/audit-mikrofinansovyh-organizacij-1-1024x576.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/audit-mikrofinansovyh-organizacij-1-1024x576.jpg",
+      "reason": "all_image_urls",
+      "post_id": 584,
+      "slug": "audit-mikrofinansovyh-organizacij"
+    },
+    {
+      "from": "http://auditte.ru/strahovoj-audit/",
+      "to": "https://auditte.ru/strahovoj-audit/",
+      "reason": "permalink_candidate",
+      "post_id": 599,
+      "slug": "strahovoj-audit"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/strahovoj-audit-1-1024x576.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/strahovoj-audit-1-1024x576.jpg",
+      "reason": "all_image_urls",
+      "post_id": 599,
+      "slug": "strahovoj-audit"
+    },
+    {
+      "from": "http://auditte.ru/vnutrennij-audit-v-bankah-i-mfo/",
+      "to": "https://auditte.ru/vnutrennij-audit-v-bankah-i-mfo/",
+      "reason": "permalink_candidate",
+      "post_id": 614,
+      "slug": "vnutrennij-audit-v-bankah-i-mfo"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/view-woman-typing-laptop-scaled-1-e1713082950805.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/view-woman-typing-laptop-scaled-1-e1713082950805.jpg",
+      "reason": "featured_image_url",
+      "post_id": 614,
+      "slug": "vnutrennij-audit-v-bankah-i-mfo"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/businessman-taking-notes-1024x683.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/businessman-taking-notes-1024x683.jpg",
+      "reason": "all_image_urls",
+      "post_id": 614,
+      "slug": "vnutrennij-audit-v-bankah-i-mfo"
+    },
+    {
+      "from": "http://auditte.ru/finansovyj-audit-i-ego-osobennosti/",
+      "to": "https://auditte.ru/finansovyj-audit-i-ego-osobennosti/",
+      "reason": "permalink_candidate",
+      "post_id": 617,
+      "slug": "finansovyj-audit-i-ego-osobennosti"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/top-view-finances-elements-composition-scaled-1-e1713083580687.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/top-view-finances-elements-composition-scaled-1-e1713083580687.jpg",
+      "reason": "featured_image_url",
+      "post_id": 617,
+      "slug": "finansovyj-audit-i-ego-osobennosti"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/top-view-finances-elements-composition-1024x683.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/top-view-finances-elements-composition-1024x683.jpg",
+      "reason": "all_image_urls",
+      "post_id": 617,
+      "slug": "finansovyj-audit-i-ego-osobennosti"
+    },
+    {
+      "from": "http://auditte.ru/audit-buhgalterskoj-finansovoj-otchetnosti-strahovoj-kompanii/",
+      "to": "https://auditte.ru/audit-buhgalterskoj-finansovoj-otchetnosti-strahovoj-kompanii/",
+      "reason": "permalink_candidate",
+      "post_id": 632,
+      "slug": "audit-buhgalterskoj-finansovoj-otchetnosti-strahovoj-kompanii"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/strahovoj-1-1-e1713085632870.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/strahovoj-1-1-e1713085632870.jpg",
+      "reason": "featured_image_url",
+      "post_id": 632,
+      "slug": "audit-buhgalterskoj-finansovoj-otchetnosti-strahovoj-kompanii"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/1-2-1024x683.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/1-2-1024x683.jpg",
+      "reason": "all_image_urls",
+      "post_id": 632,
+      "slug": "audit-buhgalterskoj-finansovoj-otchetnosti-strahovoj-kompanii"
+    },
+    {
+      "from": "http://auditte.ru/osobennosti-strahovogo-audita/",
+      "to": "https://auditte.ru/osobennosti-strahovogo-audita/",
+      "reason": "permalink_candidate",
+      "post_id": 635,
+      "slug": "osobennosti-strahovogo-audita"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/oig2.jpeg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/oig2.jpeg",
+      "reason": "featured_image_url",
+      "post_id": 635,
+      "slug": "osobennosti-strahovogo-audita"
+    },
+    {
+      "from": "http://auditte.ru/rol-i-znachimost-audita-v-dolgosrochnyh-programmah-razvitija/",
+      "to": "https://auditte.ru/rol-i-znachimost-audita-v-dolgosrochnyh-programmah-razvitija/",
+      "reason": "permalink_candidate",
+      "post_id": 652,
+      "slug": "rol-i-znachimost-audita-v-dolgosrochnyh-programmah-razvitija"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/6203999.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/6203999.jpg",
+      "reason": "featured_image_url",
+      "post_id": 652,
+      "slug": "rol-i-znachimost-audita-v-dolgosrochnyh-programmah-razvitija"
+    },
+    {
+      "from": "http://auditte.ru/audit-dolgosrochnyh-programm-razvitija-kljuchevye-aspekty-i-metody/",
+      "to": "https://auditte.ru/audit-dolgosrochnyh-programm-razvitija-kljuchevye-aspekty-i-metody/",
+      "reason": "permalink_candidate",
+      "post_id": 659,
+      "slug": "audit-dolgosrochnyh-programm-razvitija-kljuchevye-aspekty-i-metody"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/6236501.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/6236501.jpg",
+      "reason": "featured_image_url",
+      "post_id": 659,
+      "slug": "audit-dolgosrochnyh-programm-razvitija-kljuchevye-aspekty-i-metody"
+    },
+    {
+      "from": "http://auditte.ru/it-audit-kljuchevye-aspekty-metody-i-prakticheskoe-primenenie/",
+      "to": "https://auditte.ru/it-audit-kljuchevye-aspekty-metody-i-prakticheskoe-primenenie/",
+      "reason": "permalink_candidate",
+      "post_id": 663,
+      "slug": "it-audit-kljuchevye-aspekty-metody-i-prakticheskoe-primenenie"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/wavy_tech-22_single-09.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/wavy_tech-22_single-09.jpg",
+      "reason": "featured_image_url",
+      "post_id": 663,
+      "slug": "it-audit-kljuchevye-aspekty-metody-i-prakticheskoe-primenenie"
+    },
+    {
+      "from": "http://auditte.ru/it-audit-strategicheskoe-znachenie-i-process-provedenija/",
+      "to": "https://auditte.ru/it-audit-strategicheskoe-znachenie-i-process-provedenija/",
+      "reason": "permalink_candidate",
+      "post_id": 667,
+      "slug": "it-audit-strategicheskoe-znachenie-i-process-provedenija"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/7761618.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/7761618.jpg",
+      "reason": "featured_image_url",
+      "post_id": 667,
+      "slug": "it-audit-strategicheskoe-znachenie-i-process-provedenija"
+    },
+    {
+      "from": "http://auditte.ru/stroitelnyj-audit-osnovy-process-i-znachenie/",
+      "to": "https://auditte.ru/stroitelnyj-audit-osnovy-process-i-znachenie/",
+      "reason": "permalink_candidate",
+      "post_id": 671,
+      "slug": "stroitelnyj-audit-osnovy-process-i-znachenie"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/6029473.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/6029473.jpg",
+      "reason": "featured_image_url",
+      "post_id": 671,
+      "slug": "stroitelnyj-audit-osnovy-process-i-znachenie"
+    },
+    {
+      "from": "http://auditte.ru/stroitelnyj-audit-kljuchevye-aspekty-i-ego-rol-v-obespechenii-kachestva-stroitelstva/",
+      "to": "https://auditte.ru/stroitelnyj-audit-kljuchevye-aspekty-i-ego-rol-v-obespechenii-kachestva-stroitelstva/",
+      "reason": "permalink_candidate",
+      "post_id": 675,
+      "slug": "stroitelnyj-audit-kljuchevye-aspekty-i-ego-rol-v-obespechenii-kachestva-stroitelstva"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/sandy_bus-41_single-08-scaled.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/sandy_bus-41_single-08-scaled.jpg",
+      "reason": "featured_image_url",
+      "post_id": 675,
+      "slug": "stroitelnyj-audit-kljuchevye-aspekty-i-ego-rol-v-obespechenii-kachestva-stroitelstva"
+    },
+    {
+      "from": "http://auditte.ru/jeffektivnoe-upravlenie-processom-slijanija-i-pogloshhenija-kljuchevye-aspekty-uspeshnogo-konsaltinga/",
+      "to": "https://auditte.ru/jeffektivnoe-upravlenie-processom-slijanija-i-pogloshhenija-kljuchevye-aspekty-uspeshnogo-konsaltinga/",
+      "reason": "permalink_candidate",
+      "post_id": 679,
+      "slug": "jeffektivnoe-upravlenie-processom-slijanija-i-pogloshhenija-kljuchevye-aspekty-uspeshnogo-konsaltinga"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/person-presenting-their-job-resignation_23-2149445123.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/person-presenting-their-job-resignation_23-2149445123.jpg",
+      "reason": "featured_image_url",
+      "post_id": 679,
+      "slug": "jeffektivnoe-upravlenie-processom-slijanija-i-pogloshhenija-kljuchevye-aspekty-uspeshnogo-konsaltinga"
+    },
+    {
+      "from": "http://auditte.ru/audit-dolgosrochnyh-programm-razvitija/",
+      "to": "https://auditte.ru/audit-dolgosrochnyh-programm-razvitija/",
+      "reason": "permalink_candidate",
+      "post_id": 680,
+      "slug": "audit-dolgosrochnyh-programm-razvitija"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/audit-dolgosrochnyh-programm-razvitija-1-1024x576.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/audit-dolgosrochnyh-programm-razvitija-1-1024x576.jpg",
+      "reason": "all_image_urls",
+      "post_id": 680,
+      "slug": "audit-dolgosrochnyh-programm-razvitija"
+    },
+    {
+      "from": "http://auditte.ru/innovacionnye-podhody-konsaltinga-v-processe-slijanija-i-pogloshhenija/",
+      "to": "https://auditte.ru/innovacionnye-podhody-konsaltinga-v-processe-slijanija-i-pogloshhenija/",
+      "reason": "permalink_candidate",
+      "post_id": 686,
+      "slug": "innovacionnye-podhody-konsaltinga-v-processe-slijanija-i-pogloshhenija"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/men-multitasking-with-computer-phone_23-2148409476.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/men-multitasking-with-computer-phone_23-2148409476.jpg",
+      "reason": "featured_image_url",
+      "post_id": 686,
+      "slug": "innovacionnye-podhody-konsaltinga-v-processe-slijanija-i-pogloshhenija"
+    },
+    {
+      "from": "http://auditte.ru/rol-konsaltinga-v-upravlenii-nalogovymi-riskami-strategii-i-podhody/",
+      "to": "https://auditte.ru/rol-konsaltinga-v-upravlenii-nalogovymi-riskami-strategii-i-podhody/",
+      "reason": "permalink_candidate",
+      "post_id": 692,
+      "slug": "rol-konsaltinga-v-upravlenii-nalogovymi-riskami-strategii-i-podhody"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/development-focus-concept-illustration_114360-5283.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/development-focus-concept-illustration_114360-5283.jpg",
+      "reason": "featured_image_url",
+      "post_id": 692,
+      "slug": "rol-konsaltinga-v-upravlenii-nalogovymi-riskami-strategii-i-podhody"
+    },
+    {
+      "from": "http://auditte.ru/it-audit/",
+      "to": "https://auditte.ru/it-audit/",
+      "reason": "permalink_candidate",
+      "post_id": 696,
+      "slug": "it-audit"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/it-audit-3-1024x576.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/it-audit-3-1024x576.jpg",
+      "reason": "all_image_urls",
+      "post_id": 696,
+      "slug": "it-audit"
+    },
+    {
+      "from": "http://auditte.ru/rol-konsultantov-v-nalogovoj-jekspertize-optimizacija-i-obespechenie-sootvetstvija/",
+      "to": "https://auditte.ru/rol-konsultantov-v-nalogovoj-jekspertize-optimizacija-i-obespechenie-sootvetstvija/",
+      "reason": "permalink_candidate",
+      "post_id": 704,
+      "slug": "rol-konsultantov-v-nalogovoj-jekspertize-optimizacija-i-obespechenie-sootvetstvija"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/people-analyzing-growth-charts-illustrated_23-2148865274.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/people-analyzing-growth-charts-illustrated_23-2148865274.jpg",
+      "reason": "featured_image_url",
+      "post_id": 704,
+      "slug": "rol-konsultantov-v-nalogovoj-jekspertize-optimizacija-i-obespechenie-sootvetstvija"
+    },
+    {
+      "from": "http://auditte.ru/stroitelnyj-audit/",
+      "to": "https://auditte.ru/stroitelnyj-audit/",
+      "reason": "permalink_candidate",
+      "post_id": 712,
+      "slug": "stroitelnyj-audit"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/stroitelnyj-audit-1-1-1024x576.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/stroitelnyj-audit-1-1-1024x576.jpg",
+      "reason": "all_image_urls",
+      "post_id": 712,
+      "slug": "stroitelnyj-audit"
+    },
+    {
+      "from": "http://auditte.ru/optimizacija-biznesa-kljuchevye-strategii-i-podhody-konsaltinga/",
+      "to": "https://auditte.ru/optimizacija-biznesa-kljuchevye-strategii-i-podhody-konsaltinga/",
+      "reason": "permalink_candidate",
+      "post_id": 714,
+      "slug": "optimizacija-biznesa-kljuchevye-strategii-i-podhody-konsaltinga"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/man-giving-bar-graph-presentation-using-high-technology-digital-pen_53876-104049.avif",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/man-giving-bar-graph-presentation-using-high-technology-digital-pen_53876-104049.avif",
+      "reason": "featured_image_url",
+      "post_id": 714,
+      "slug": "optimizacija-biznesa-kljuchevye-strategii-i-podhody-konsaltinga"
+    },
+    {
+      "from": "http://auditte.ru/innovacionnye-podhody-v-konsaltinge-dlja-optimizacii-biznesa/",
+      "to": "https://auditte.ru/innovacionnye-podhody-v-konsaltinge-dlja-optimizacii-biznesa/",
+      "reason": "permalink_candidate",
+      "post_id": 722,
+      "slug": "innovacionnye-podhody-v-konsaltinge-dlja-optimizacii-biznesa"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/business-mission-concept-illustration_114360-7435.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/business-mission-concept-illustration_114360-7435.jpg",
+      "reason": "featured_image_url",
+      "post_id": 722,
+      "slug": "innovacionnye-podhody-v-konsaltinge-dlja-optimizacii-biznesa"
+    },
+    {
+      "from": "http://auditte.ru/juridicheskij-konsalting-kljuchevye-aspekty-i-ego-vlijanie-na-sovremennyj-biznes/",
+      "to": "https://auditte.ru/juridicheskij-konsalting-kljuchevye-aspekty-i-ego-vlijanie-na-sovremennyj-biznes/",
+      "reason": "permalink_candidate",
+      "post_id": 735,
+      "slug": "juridicheskij-konsalting-kljuchevye-aspekty-i-ego-vlijanie-na-sovremennyj-biznes"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/divorce-lawyer-service-abstract-concept-vector-illustration-family-lawyer-divorce-process-legal-service-consultation-law-firm-aid-child-support-life-estate-deeds-advice-abstract-metaphor_335657-6244.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/divorce-lawyer-service-abstract-concept-vector-illustration-family-lawyer-divorce-process-legal-service-consultation-law-firm-aid-child-support-life-estate-deeds-advice-abstract-metaphor_335657-6244.jpg",
+      "reason": "featured_image_url",
+      "post_id": 735,
+      "slug": "juridicheskij-konsalting-kljuchevye-aspekty-i-ego-vlijanie-na-sovremennyj-biznes"
+    },
+    {
+      "from": "http://auditte.ru/jeffektivnoe-upravlenie-riskami-s-pomoshhju-juridicheskogo-konsaltinga-strategii-instrumenty-i-preimushhestva/",
+      "to": "https://auditte.ru/jeffektivnoe-upravlenie-riskami-s-pomoshhju-juridicheskogo-konsaltinga-strategii-instrumenty-i-preimushhestva/",
+      "reason": "permalink_candidate",
+      "post_id": 744,
+      "slug": "jeffektivnoe-upravlenie-riskami-s-pomoshhju-juridicheskogo-konsaltinga-strategii-instrumenty-i-preimushhestva"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/personal-injury-lawyer-abstract-concept-vector-illustration-legal-services-physical-psychological-injury-criminal-prosecutor-legal-documents-lawsuit-argument-evidence-abstract-metaphor_335657-6124.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/personal-injury-lawyer-abstract-concept-vector-illustration-legal-services-physical-psychological-injury-criminal-prosecutor-legal-documents-lawsuit-argument-evidence-abstract-metaphor_335657-6124.jpg",
+      "reason": "featured_image_url",
+      "post_id": 744,
+      "slug": "jeffektivnoe-upravlenie-riskami-s-pomoshhju-juridicheskogo-konsaltinga-strategii-instrumenty-i-preimushhestva"
+    },
+    {
+      "from": "http://auditte.ru/rol-konsaltinga-v-sovremennoj-buhgalterii-i-finansovoj-otchjotnosti-strategii-i-praktiki/",
+      "to": "https://auditte.ru/rol-konsaltinga-v-sovremennoj-buhgalterii-i-finansovoj-otchjotnosti-strategii-i-praktiki/",
+      "reason": "permalink_candidate",
+      "post_id": 748,
+      "slug": "rol-konsaltinga-v-sovremennoj-buhgalterii-i-finansovoj-otchjotnosti-strategii-i-praktiki"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/accounting-isometric-design-concept-with-budget-audit-planning-income-blue_1284-33327.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/accounting-isometric-design-concept-with-budget-audit-planning-income-blue_1284-33327.jpg",
+      "reason": "featured_image_url",
+      "post_id": 748,
+      "slug": "rol-konsaltinga-v-sovremennoj-buhgalterii-i-finansovoj-otchjotnosti-strategii-i-praktiki"
+    },
+    {
+      "from": "http://auditte.ru/transformacija-konsaltinga-v-buhgalterii-i-finansah-innovacionnye-podhody-i-perspektivy/",
+      "to": "https://auditte.ru/transformacija-konsaltinga-v-buhgalterii-i-finansah-innovacionnye-podhody-i-perspektivy/",
+      "reason": "permalink_candidate",
+      "post_id": 753,
+      "slug": "transformacija-konsaltinga-v-buhgalterii-i-finansah-innovacionnye-podhody-i-perspektivy"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/calculator-spiral-notebook-with-pen-empty-ceramic-cup-white-backdrop_23-2147880637.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/calculator-spiral-notebook-with-pen-empty-ceramic-cup-white-backdrop_23-2147880637.jpg",
+      "reason": "featured_image_url",
+      "post_id": 753,
+      "slug": "transformacija-konsaltinga-v-buhgalterii-i-finansah-innovacionnye-podhody-i-perspektivy"
+    },
+    {
+      "from": "http://auditte.ru/slijanie-i-pogloshhenie/",
+      "to": "https://auditte.ru/slijanie-i-pogloshhenie/",
+      "reason": "permalink_candidate",
+      "post_id": 756,
+      "slug": "slijanie-i-pogloshhenie"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/slijanie-i-pogloshhenie-1-1024x576.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/slijanie-i-pogloshhenie-1-1024x576.jpg",
+      "reason": "all_image_urls",
+      "post_id": 756,
+      "slug": "slijanie-i-pogloshhenie"
+    },
+    {
+      "from": "http://auditte.ru/process-i-osobennosti-pervichnogo-razmeshhenija-cennyh-bumag-ipo/",
+      "to": "https://auditte.ru/process-i-osobennosti-pervichnogo-razmeshhenija-cennyh-bumag-ipo/",
+      "reason": "permalink_candidate",
+      "post_id": 758,
+      "slug": "process-i-osobennosti-pervichnogo-razmeshhenija-cennyh-bumag-ipo"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/hand-drawn-revenue-operations-illustration_23-2150961528.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/hand-drawn-revenue-operations-illustration_23-2150961528.jpg",
+      "reason": "featured_image_url",
+      "post_id": 758,
+      "slug": "process-i-osobennosti-pervichnogo-razmeshhenija-cennyh-bumag-ipo"
+    },
+    {
+      "from": "http://auditte.ru/preimushhestva-i-riski-pervichnogo-razmeshhenija-cennyh-bumag-ipo/",
+      "to": "https://auditte.ru/preimushhestva-i-riski-pervichnogo-razmeshhenija-cennyh-bumag-ipo/",
+      "reason": "permalink_candidate",
+      "post_id": 765,
+      "slug": "preimushhestva-i-riski-pervichnogo-razmeshhenija-cennyh-bumag-ipo"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/growth-curve-concept-illustration_114360-4361.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/growth-curve-concept-illustration_114360-4361.jpg",
+      "reason": "featured_image_url",
+      "post_id": 765,
+      "slug": "preimushhestva-i-riski-pervichnogo-razmeshhenija-cennyh-bumag-ipo"
+    },
+    {
+      "from": "http://auditte.ru/tamozhennoe-regulirovanie-i-ego-vlijanie-na-mezhdunarodnuju-torgovlju-analiz-i-perspektivy/",
+      "to": "https://auditte.ru/tamozhennoe-regulirovanie-i-ego-vlijanie-na-mezhdunarodnuju-torgovlju-analiz-i-perspektivy/",
+      "reason": "permalink_candidate",
+      "post_id": 772,
+      "slug": "tamozhennoe-regulirovanie-i-ego-vlijanie-na-mezhdunarodnuju-torgovlju-analiz-i-perspektivy"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/hand-drawn-international-trade_23-2149149325.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/hand-drawn-international-trade_23-2149149325.jpg",
+      "reason": "featured_image_url",
+      "post_id": 772,
+      "slug": "tamozhennoe-regulirovanie-i-ego-vlijanie-na-mezhdunarodnuju-torgovlju-analiz-i-perspektivy"
+    },
+    {
+      "from": "http://auditte.ru/nalogi-i-jekspertiza/",
+      "to": "https://auditte.ru/nalogi-i-jekspertiza/",
+      "reason": "permalink_candidate",
+      "post_id": 773,
+      "slug": "nalogi-i-jekspertiza"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/nalogi-i-jekspertiza-1-1024x576.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/nalogi-i-jekspertiza-1-1024x576.jpg",
+      "reason": "all_image_urls",
+      "post_id": 773,
+      "slug": "nalogi-i-jekspertiza"
+    },
+    {
+      "from": "http://auditte.ru/tamozhennye-procedury-i-ih-vlijanie-na-jeffektivnost-mezhdunarodnoj-torgovli/",
+      "to": "https://auditte.ru/tamozhennye-procedury-i-ih-vlijanie-na-jeffektivnost-mezhdunarodnoj-torgovli/",
+      "reason": "permalink_candidate",
+      "post_id": 782,
+      "slug": "tamozhennye-procedury-i-ih-vlijanie-na-jeffektivnost-mezhdunarodnoj-torgovli"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/electric-trucks-abstract-concept-illustration_335657-4919.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/electric-trucks-abstract-concept-illustration_335657-4919.jpg",
+      "reason": "featured_image_url",
+      "post_id": 782,
+      "slug": "tamozhennye-procedury-i-ih-vlijanie-na-jeffektivnost-mezhdunarodnoj-torgovli"
+    },
+    {
+      "from": "http://auditte.ru/ocenka-biznesa-metody-i-praktiki/",
+      "to": "https://auditte.ru/ocenka-biznesa-metody-i-praktiki/",
+      "reason": "permalink_candidate",
+      "post_id": 788,
+      "slug": "ocenka-biznesa-metody-i-praktiki"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/financial-analysis-man-cartoon-character-with-magnifying-glass-analyzing-circular-diagram-with-colorful-segments-assessment-audit-research_335657-847.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/financial-analysis-man-cartoon-character-with-magnifying-glass-analyzing-circular-diagram-with-colorful-segments-assessment-audit-research_335657-847.jpg",
+      "reason": "featured_image_url",
+      "post_id": 788,
+      "slug": "ocenka-biznesa-metody-i-praktiki"
+    },
+    {
+      "from": "http://auditte.ru/ocenka-biznesa-metody-faktory-preimushhestva-i-nedostatki/",
+      "to": "https://auditte.ru/ocenka-biznesa-metody-faktory-preimushhestva-i-nedostatki/",
+      "reason": "permalink_candidate",
+      "post_id": 792,
+      "slug": "ocenka-biznesa-metody-faktory-preimushhestva-i-nedostatki"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/growth-curve-concept-illustration_114360-4571.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/growth-curve-concept-illustration_114360-4571.jpg",
+      "reason": "featured_image_url",
+      "post_id": 792,
+      "slug": "ocenka-biznesa-metody-faktory-preimushhestva-i-nedostatki"
+    },
+    {
+      "from": "http://auditte.ru/ocenka-nedvizhimosti-metody-faktory-rol-ocenshhika/",
+      "to": "https://auditte.ru/ocenka-nedvizhimosti-metody-faktory-rol-ocenshhika/",
+      "reason": "permalink_candidate",
+      "post_id": 796,
+      "slug": "ocenka-nedvizhimosti-metody-faktory-rol-ocenshhika"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/real-estate-searching-concept_23-2148658063.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/real-estate-searching-concept_23-2148658063.jpg",
+      "reason": "featured_image_url",
+      "post_id": 796,
+      "slug": "ocenka-nedvizhimosti-metody-faktory-rol-ocenshhika"
+    },
+    {
+      "from": "http://auditte.ru/optimizacija-biznesa/",
+      "to": "https://auditte.ru/optimizacija-biznesa/",
+      "reason": "permalink_candidate",
+      "post_id": 800,
+      "slug": "optimizacija-biznesa"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/optimizacija-biznesa-1-1024x576.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/optimizacija-biznesa-1-1024x576.jpg",
+      "reason": "all_image_urls",
+      "post_id": 800,
+      "slug": "optimizacija-biznesa"
+    },
+    {
+      "from": "http://auditte.ru/ocenka-nedvizhimosti-ot-suhih-cifr-k-zhivym-istorijam/",
+      "to": "https://auditte.ru/ocenka-nedvizhimosti-ot-suhih-cifr-k-zhivym-istorijam/",
+      "reason": "permalink_candidate",
+      "post_id": 809,
+      "slug": "ocenka-nedvizhimosti-ot-suhih-cifr-k-zhivym-istorijam"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/estate-planning-abstract-concept-vector-illustration-real-estate-assets-control-keep-documents-order-trust-account-attorney-advise-life-insurance-personal-possession-abstract-metaphor_335657-5752.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/estate-planning-abstract-concept-vector-illustration-real-estate-assets-control-keep-documents-order-trust-account-attorney-advise-life-insurance-personal-possession-abstract-metaphor_335657-5752.jpg",
+      "reason": "featured_image_url",
+      "post_id": 809,
+      "slug": "ocenka-nedvizhimosti-ot-suhih-cifr-k-zhivym-istorijam"
+    },
+    {
+      "from": "http://auditte.ru/juridicheskij-konsalting/",
+      "to": "https://auditte.ru/juridicheskij-konsalting/",
+      "reason": "permalink_candidate",
+      "post_id": 816,
+      "slug": "juridicheskij-konsalting"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/juridicheskij-konsalting-1-1024x576.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/juridicheskij-konsalting-1-1024x576.jpg",
+      "reason": "all_image_urls",
+      "post_id": 816,
+      "slug": "juridicheskij-konsalting"
+    },
+    {
+      "from": "http://auditte.ru/ocenka-nematerialnyh-aktivov-vazhnost-i-metody/",
+      "to": "https://auditte.ru/ocenka-nematerialnyh-aktivov-vazhnost-i-metody/",
+      "reason": "permalink_candidate",
+      "post_id": 818,
+      "slug": "ocenka-nematerialnyh-aktivov-vazhnost-i-metody"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/gradient-credit-assessment-concept_52683-78046.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/gradient-credit-assessment-concept_52683-78046.jpg",
+      "reason": "featured_image_url",
+      "post_id": 818,
+      "slug": "ocenka-nematerialnyh-aktivov-vazhnost-i-metody"
+    },
+    {
+      "from": "http://auditte.ru/tendencii-i-vyzovy-v-ocenke-nematerialnyh-aktivov-v-cifrovuju-jepohu/",
+      "to": "https://auditte.ru/tendencii-i-vyzovy-v-ocenke-nematerialnyh-aktivov-v-cifrovuju-jepohu/",
+      "reason": "permalink_candidate",
+      "post_id": 828,
+      "slug": "tendencii-i-vyzovy-v-ocenke-nematerialnyh-aktivov-v-cifrovuju-jepohu"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/m.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/m.jpg",
+      "reason": "featured_image_url",
+      "post_id": 828,
+      "slug": "tendencii-i-vyzovy-v-ocenke-nematerialnyh-aktivov-v-cifrovuju-jepohu"
+    },
+    {
+      "from": "http://auditte.ru/ocenka-mashin-i-oborudovanija-kljuchevye-aspekty-i-metody/",
+      "to": "https://auditte.ru/ocenka-mashin-i-oborudovanija-kljuchevye-aspekty-i-metody/",
+      "reason": "permalink_candidate",
+      "post_id": 839,
+      "slug": "ocenka-mashin-i-oborudovanija-kljuchevye-aspekty-i-metody"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/a.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/a.jpg",
+      "reason": "featured_image_url",
+      "post_id": 839,
+      "slug": "ocenka-mashin-i-oborudovanija-kljuchevye-aspekty-i-metody"
+    },
+    {
+      "from": "http://auditte.ru/ocenka-mashin-i-oborudovanija-put-k-optimizacii-biznesa/",
+      "to": "https://auditte.ru/ocenka-mashin-i-oborudovanija-put-k-optimizacii-biznesa/",
+      "reason": "permalink_candidate",
+      "post_id": 843,
+      "slug": "ocenka-mashin-i-oborudovanija-put-k-optimizacii-biznesa"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/rental-vehicle-abstract-concept-vector-illustration_335657-5674.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/rental-vehicle-abstract-concept-vector-illustration_335657-5674.jpg",
+      "reason": "featured_image_url",
+      "post_id": 843,
+      "slug": "ocenka-mashin-i-oborudovanija-put-k-optimizacii-biznesa"
+    },
+    {
+      "from": "http://auditte.ru/metody-ocenki-zemelnyh-uchastkov-i-ih-primenenie/",
+      "to": "https://auditte.ru/metody-ocenki-zemelnyh-uchastkov-i-ih-primenenie/",
+      "reason": "permalink_candidate",
+      "post_id": 848,
+      "slug": "metody-ocenki-zemelnyh-uchastkov-i-ih-primenenie"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/stationery-school-set-grass_23-2148199888.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/stationery-school-set-grass_23-2148199888.jpg",
+      "reason": "featured_image_url",
+      "post_id": 848,
+      "slug": "metody-ocenki-zemelnyh-uchastkov-i-ih-primenenie"
+    },
+    {
+      "from": "http://auditte.ru/osobennosti-ocenki-zemelnyh-uchastkov-v-selskoj-mestnosti/",
+      "to": "https://auditte.ru/osobennosti-ocenki-zemelnyh-uchastkov-v-selskoj-mestnosti/",
+      "reason": "permalink_candidate",
+      "post_id": 852,
+      "slug": "osobennosti-ocenki-zemelnyh-uchastkov-v-selskoj-mestnosti"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/avvvvv.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/avvvvv.jpg",
+      "reason": "featured_image_url",
+      "post_id": 852,
+      "slug": "osobennosti-ocenki-zemelnyh-uchastkov-v-selskoj-mestnosti"
+    },
+    {
+      "from": "http://auditte.ru/kompleksnye-podhody-k-upravleniju-peremeshheniem-personala-kljuchevye-principy-i-prakticheskie-rekomendacii/",
+      "to": "https://auditte.ru/kompleksnye-podhody-k-upravleniju-peremeshheniem-personala-kljuchevye-principy-i-prakticheskie-rekomendacii/",
+      "reason": "permalink_candidate",
+      "post_id": 860,
+      "slug": "kompleksnye-podhody-k-upravleniju-peremeshheniem-personala-kljuchevye-principy-i-prakticheskie-rekomendacii"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/yyy.avif",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/yyy.avif",
+      "reason": "featured_image_url",
+      "post_id": 860,
+      "slug": "kompleksnye-podhody-k-upravleniju-peremeshheniem-personala-kljuchevye-principy-i-prakticheskie-rekomendacii"
+    },
+    {
+      "from": "http://auditte.ru/innovacionnye-podhody-k-upravleniju-peremeshheniem-personala-v-jepohu-globalizacii/",
+      "to": "https://auditte.ru/innovacionnye-podhody-k-upravleniju-peremeshheniem-personala-v-jepohu-globalizacii/",
+      "reason": "permalink_candidate",
+      "post_id": 864,
+      "slug": "innovacionnye-podhody-k-upravleniju-peremeshheniem-personala-v-jepohu-globalizacii"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/ppp.avif",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/ppp.avif",
+      "reason": "featured_image_url",
+      "post_id": 864,
+      "slug": "innovacionnye-podhody-k-upravleniju-peremeshheniem-personala-v-jepohu-globalizacii"
+    },
+    {
+      "from": "http://auditte.ru/jeffektivnye-strategii-obuchenija-i-razvitija-rol-konsultacionnyh-uslug/",
+      "to": "https://auditte.ru/jeffektivnye-strategii-obuchenija-i-razvitija-rol-konsultacionnyh-uslug/",
+      "reason": "permalink_candidate",
+      "post_id": 867,
+      "slug": "jeffektivnye-strategii-obuchenija-i-razvitija-rol-konsultacionnyh-uslug"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/v.avif",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/v.avif",
+      "reason": "featured_image_url",
+      "post_id": 867,
+      "slug": "jeffektivnye-strategii-obuchenija-i-razvitija-rol-konsultacionnyh-uslug"
+    },
+    {
+      "from": "http://auditte.ru/innovacionnye-tehnologii-v-oblasti-obuchenija-i-razvitija-rol-konsultacionnyh-uslug/",
+      "to": "https://auditte.ru/innovacionnye-tehnologii-v-oblasti-obuchenija-i-razvitija-rol-konsultacionnyh-uslug/",
+      "reason": "permalink_candidate",
+      "post_id": 870,
+      "slug": "innovacionnye-tehnologii-v-oblasti-obuchenija-i-razvitija-rol-konsultacionnyh-uslug"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/33.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/33.jpg",
+      "reason": "featured_image_url",
+      "post_id": 870,
+      "slug": "innovacionnye-tehnologii-v-oblasti-obuchenija-i-razvitija-rol-konsultacionnyh-uslug"
+    },
+    {
+      "from": "http://auditte.ru/jeffektivnye-strategii-konsultacionnyh-uslug-v-oblasti-voznagrazhdenija/",
+      "to": "https://auditte.ru/jeffektivnye-strategii-konsultacionnyh-uslug-v-oblasti-voznagrazhdenija/",
+      "reason": "permalink_candidate",
+      "post_id": 875,
+      "slug": "jeffektivnye-strategii-konsultacionnyh-uslug-v-oblasti-voznagrazhdenija"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/22.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/22.jpg",
+      "reason": "featured_image_url",
+      "post_id": 875,
+      "slug": "jeffektivnye-strategii-konsultacionnyh-uslug-v-oblasti-voznagrazhdenija"
+    },
+    {
+      "from": "http://auditte.ru/rol-kpi-v-upravlenii-biznesom-kak-konsultacionnye-uslugi-mogut-pomoch/",
+      "to": "https://auditte.ru/rol-kpi-v-upravlenii-biznesom-kak-konsultacionnye-uslugi-mogut-pomoch/",
+      "reason": "permalink_candidate",
+      "post_id": 879,
+      "slug": "rol-kpi-v-upravlenii-biznesom-kak-konsultacionnye-uslugi-mogut-pomoch"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/55.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/55.jpg",
+      "reason": "featured_image_url",
+      "post_id": 879,
+      "slug": "rol-kpi-v-upravlenii-biznesom-kak-konsultacionnye-uslugi-mogut-pomoch"
+    },
+    {
+      "from": "http://auditte.ru/vvedenie-v-kadrovuju-analitiku-osnovy-i-znachimost/",
+      "to": "https://auditte.ru/vvedenie-v-kadrovuju-analitiku-osnovy-i-znachimost/",
+      "reason": "permalink_candidate",
+      "post_id": 883,
+      "slug": "vvedenie-v-kadrovuju-analitiku-osnovy-i-znachimost"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/2-2.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/2-2.jpg",
+      "reason": "featured_image_url",
+      "post_id": 883,
+      "slug": "vvedenie-v-kadrovuju-analitiku-osnovy-i-znachimost"
+    },
+    {
+      "from": "http://auditte.ru/kak-primenjat-kadrovuju-analitiku-dlja-uluchshenija-processov-upravlenija-personalom/",
+      "to": "https://auditte.ru/kak-primenjat-kadrovuju-analitiku-dlja-uluchshenija-processov-upravlenija-personalom/",
+      "reason": "permalink_candidate",
+      "post_id": 887,
+      "slug": "kak-primenjat-kadrovuju-analitiku-dlja-uluchshenija-processov-upravlenija-personalom"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/4-1.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/4-1.jpg",
+      "reason": "featured_image_url",
+      "post_id": 887,
+      "slug": "kak-primenjat-kadrovuju-analitiku-dlja-uluchshenija-processov-upravlenija-personalom"
+    },
+    {
+      "from": "http://auditte.ru/ponimanie-nalogooblozhenija-dlja-chastnyh-klientov-osnovy-i-prakticheskie-sovety/",
+      "to": "https://auditte.ru/ponimanie-nalogooblozhenija-dlja-chastnyh-klientov-osnovy-i-prakticheskie-sovety/",
+      "reason": "permalink_candidate",
+      "post_id": 893,
+      "slug": "ponimanie-nalogooblozhenija-dlja-chastnyh-klientov-osnovy-i-prakticheskie-sovety"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/2.avif",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/2.avif",
+      "reason": "featured_image_url",
+      "post_id": 893,
+      "slug": "ponimanie-nalogooblozhenija-dlja-chastnyh-klientov-osnovy-i-prakticheskie-sovety"
+    },
+    {
+      "from": "http://auditte.ru/optimizacija-nalogooblozhenija-dlja-chastnyh-klientov-iskusstvo-maksimizacii-vygod-i-minimizacii-riskov/",
+      "to": "https://auditte.ru/optimizacija-nalogooblozhenija-dlja-chastnyh-klientov-iskusstvo-maksimizacii-vygod-i-minimizacii-riskov/",
+      "reason": "permalink_candidate",
+      "post_id": 897,
+      "slug": "optimizacija-nalogooblozhenija-dlja-chastnyh-klientov-iskusstvo-maksimizacii-vygod-i-minimizacii-riskov"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/4.avif",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/4.avif",
+      "reason": "featured_image_url",
+      "post_id": 897,
+      "slug": "optimizacija-nalogooblozhenija-dlja-chastnyh-klientov-iskusstvo-maksimizacii-vygod-i-minimizacii-riskov"
+    },
+    {
+      "from": "http://auditte.ru/pochemu-juridicheskoe-soprovozhdenie-neobhodimo-dlja-vashego-biznesa/",
+      "to": "https://auditte.ru/pochemu-juridicheskoe-soprovozhdenie-neobhodimo-dlja-vashego-biznesa/",
+      "reason": "permalink_candidate",
+      "post_id": 901,
+      "slug": "pochemu-juridicheskoe-soprovozhdenie-neobhodimo-dlja-vashego-biznesa"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/2-3.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/2-3.jpg",
+      "reason": "featured_image_url",
+      "post_id": 901,
+      "slug": "pochemu-juridicheskoe-soprovozhdenie-neobhodimo-dlja-vashego-biznesa"
+    },
+    {
+      "from": "http://auditte.ru/znachenie-juridicheskogo-soprovozhdenija-dlja-inostrannyh-investorov/",
+      "to": "https://auditte.ru/znachenie-juridicheskogo-soprovozhdenija-dlja-inostrannyh-investorov/",
+      "reason": "permalink_candidate",
+      "post_id": 905,
+      "slug": "znachenie-juridicheskogo-soprovozhdenija-dlja-inostrannyh-investorov"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/4-2.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/4-2.jpg",
+      "reason": "featured_image_url",
+      "post_id": 905,
+      "slug": "znachenie-juridicheskogo-soprovozhdenija-dlja-inostrannyh-investorov"
+    },
+    {
+      "from": "http://auditte.ru/osnovy-investirovanija-kak-nachat-i-uspeshno-vesti-finansy/",
+      "to": "https://auditte.ru/osnovy-investirovanija-kak-nachat-i-uspeshno-vesti-finansy/",
+      "reason": "permalink_candidate",
+      "post_id": 909,
+      "slug": "osnovy-investirovanija-kak-nachat-i-uspeshno-vesti-finansy"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/2-4.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/2-4.jpg",
+      "reason": "featured_image_url",
+      "post_id": 909,
+      "slug": "osnovy-investirovanija-kak-nachat-i-uspeshno-vesti-finansy"
+    },
+    {
+      "from": "http://auditte.ru/investicionnye-strategii-kak-vybrat-podhod-kotoryj-podhodit-vam/",
+      "to": "https://auditte.ru/investicionnye-strategii-kak-vybrat-podhod-kotoryj-podhodit-vam/",
+      "reason": "permalink_candidate",
+      "post_id": 913,
+      "slug": "investicionnye-strategii-kak-vybrat-podhod-kotoryj-podhodit-vam"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/4-3.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/4-3.jpg",
+      "reason": "featured_image_url",
+      "post_id": 913,
+      "slug": "investicionnye-strategii-kak-vybrat-podhod-kotoryj-podhodit-vam"
+    },
+    {
+      "from": "http://auditte.ru/ponimanie-vazhnosti-compliance-kljuchevye-aspekty-i-preimushhestva-dlja-biznesa/",
+      "to": "https://auditte.ru/ponimanie-vazhnosti-compliance-kljuchevye-aspekty-i-preimushhestva-dlja-biznesa/",
+      "reason": "permalink_candidate",
+      "post_id": 917,
+      "slug": "ponimanie-vazhnosti-compliance-kljuchevye-aspekty-i-preimushhestva-dlja-biznesa"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/2-5.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/2-5.jpg",
+      "reason": "featured_image_url",
+      "post_id": 917,
+      "slug": "ponimanie-vazhnosti-compliance-kljuchevye-aspekty-i-preimushhestva-dlja-biznesa"
+    },
+    {
+      "from": "http://auditte.ru/prakticheskoe-rukovodstvo-po-proverke-kompanij-jeffektivnye-strategii-i-luchshie-praktiki/",
+      "to": "https://auditte.ru/prakticheskoe-rukovodstvo-po-proverke-kompanij-jeffektivnye-strategii-i-luchshie-praktiki/",
+      "reason": "permalink_candidate",
+      "post_id": 921,
+      "slug": "prakticheskoe-rukovodstvo-po-proverke-kompanij-jeffektivnye-strategii-i-luchshie-praktiki"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/4-4.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/4-4.jpg",
+      "reason": "featured_image_url",
+      "post_id": 921,
+      "slug": "prakticheskoe-rukovodstvo-po-proverke-kompanij-jeffektivnye-strategii-i-luchshie-praktiki"
+    },
+    {
+      "from": "http://auditte.ru/shkola-jekspertizy-i-prava-kljuchevye-aspekty-professionalnogo-razvitija/",
+      "to": "https://auditte.ru/shkola-jekspertizy-i-prava-kljuchevye-aspekty-professionalnogo-razvitija/",
+      "reason": "permalink_candidate",
+      "post_id": 925,
+      "slug": "shkola-jekspertizy-i-prava-kljuchevye-aspekty-professionalnogo-razvitija"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/22-1.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/22-1.jpg",
+      "reason": "featured_image_url",
+      "post_id": 925,
+      "slug": "shkola-jekspertizy-i-prava-kljuchevye-aspekty-professionalnogo-razvitija"
+    },
+    {
+      "from": "http://auditte.ru/shkola-jekspertizy-i-prava-znachenie-obrazovanija-v-sfere-pravosudija/",
+      "to": "https://auditte.ru/shkola-jekspertizy-i-prava-znachenie-obrazovanija-v-sfere-pravosudija/",
+      "reason": "permalink_candidate",
+      "post_id": 929,
+      "slug": "shkola-jekspertizy-i-prava-znachenie-obrazovanija-v-sfere-pravosudija"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/44-1.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/44-1.jpg",
+      "reason": "featured_image_url",
+      "post_id": 929,
+      "slug": "shkola-jekspertizy-i-prava-znachenie-obrazovanija-v-sfere-pravosudija"
+    },
+    {
+      "from": "http://auditte.ru/iskusstvo-organizacii-meroprijatij-ot-idei-do-realizacii/",
+      "to": "https://auditte.ru/iskusstvo-organizacii-meroprijatij-ot-idei-do-realizacii/",
+      "reason": "permalink_candidate",
+      "post_id": 933,
+      "slug": "iskusstvo-organizacii-meroprijatij-ot-idei-do-realizacii"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/2-6.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/2-6.jpg",
+      "reason": "featured_image_url",
+      "post_id": 933,
+      "slug": "iskusstvo-organizacii-meroprijatij-ot-idei-do-realizacii"
+    },
+    {
+      "from": "http://auditte.ru/vstrechi-kak-sdelat-ih-produktivnymi-i-jeffektivnymi/",
+      "to": "https://auditte.ru/vstrechi-kak-sdelat-ih-produktivnymi-i-jeffektivnymi/",
+      "reason": "permalink_candidate",
+      "post_id": 937,
+      "slug": "vstrechi-kak-sdelat-ih-produktivnymi-i-jeffektivnymi"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/4-5.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/4-5.jpg",
+      "reason": "featured_image_url",
+      "post_id": 937,
+      "slug": "vstrechi-kak-sdelat-ih-produktivnymi-i-jeffektivnymi"
+    },
+    {
+      "from": "http://auditte.ru/transformatsiya/",
+      "to": "https://auditte.ru/transformatsiya/",
+      "reason": "permalink_candidate",
+      "post_id": 948,
+      "slug": "transformatsiya"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/transformacija-1-1024x576.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/transformacija-1-1024x576.jpg",
+      "reason": "all_image_urls",
+      "post_id": 948,
+      "slug": "transformatsiya"
+    },
+    {
+      "from": "http://auditte.ru/buhgalterija-i-finansovaja-otchetnost/",
+      "to": "https://auditte.ru/buhgalterija-i-finansovaja-otchetnost/",
+      "reason": "permalink_candidate",
+      "post_id": 965,
+      "slug": "buhgalterija-i-finansovaja-otchetnost"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/buhgalterija-i-finansovaja-otchetnost-1-1-1024x576.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/buhgalterija-i-finansovaja-otchetnost-1-1-1024x576.jpg",
+      "reason": "all_image_urls",
+      "post_id": 965,
+      "slug": "buhgalterija-i-finansovaja-otchetnost"
+    },
+    {
+      "from": "http://auditte.ru/pervichnoe-razmeshhenie-cennyh-bumag-ipo/",
+      "to": "https://auditte.ru/pervichnoe-razmeshhenie-cennyh-bumag-ipo/",
+      "reason": "permalink_candidate",
+      "post_id": 978,
+      "slug": "pervichnoe-razmeshhenie-cennyh-bumag-ipo"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/pervichnoe-razmeshhenie-cennyh-bumag-ipo-1-1-1024x576.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/pervichnoe-razmeshhenie-cennyh-bumag-ipo-1-1-1024x576.jpg",
+      "reason": "all_image_urls",
+      "post_id": 978,
+      "slug": "pervichnoe-razmeshhenie-cennyh-bumag-ipo"
+    },
+    {
+      "from": "http://auditte.ru/tamozhennoe-regulirovanie-i-mezhdunarodnaja-torgovlja/",
+      "to": "https://auditte.ru/tamozhennoe-regulirovanie-i-mezhdunarodnaja-torgovlja/",
+      "reason": "permalink_candidate",
+      "post_id": 989,
+      "slug": "tamozhennoe-regulirovanie-i-mezhdunarodnaja-torgovlja"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/tamozhennoe-regulirovanie-i-mezhdunarodnaja-torgovlja-1-1-1024x576.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/tamozhennoe-regulirovanie-i-mezhdunarodnaja-torgovlja-1-1-1024x576.jpg",
+      "reason": "all_image_urls",
+      "post_id": 989,
+      "slug": "tamozhennoe-regulirovanie-i-mezhdunarodnaja-torgovlja"
+    },
+    {
+      "from": "http://auditte.ru/information/",
+      "to": "https://auditte.ru/information/",
+      "reason": "permalink_candidate",
+      "post_id": 999,
+      "slug": "information"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/informacija.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/informacija.jpg",
+      "reason": "all_image_urls",
+      "post_id": 999,
+      "slug": "information"
+    },
+    {
+      "from": "http://auditte.ru/dolgosrochnaya-tsennost/",
+      "to": "https://auditte.ru/dolgosrochnaya-tsennost/",
+      "reason": "permalink_candidate",
+      "post_id": 1017,
+      "slug": "dolgosrochnaya-tsennost"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/dolgosrochnaja-cennost-1-1024x576.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/dolgosrochnaja-cennost-1-1024x576.jpg",
+      "reason": "all_image_urls",
+      "post_id": 1017,
+      "slug": "dolgosrochnaya-tsennost"
+    },
+    {
+      "from": "http://auditte.ru/konsaltingovye-uslugi/",
+      "to": "https://auditte.ru/konsaltingovye-uslugi/",
+      "reason": "permalink_candidate",
+      "post_id": 1031,
+      "slug": "konsaltingovye-uslugi"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/hands-partners_1098-13020-1024x683.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/hands-partners_1098-13020-1024x683.jpg",
+      "reason": "all_image_urls",
+      "post_id": 1031,
+      "slug": "konsaltingovye-uslugi"
+    },
+    {
+      "from": "http://auditte.ru/doveriye/",
+      "to": "https://auditte.ru/doveriye/",
+      "reason": "permalink_candidate",
+      "post_id": 1049,
+      "slug": "doveriye"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/doverie-1-1024x576.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/doverie-1-1024x576.jpg",
+      "reason": "all_image_urls",
+      "post_id": 1049,
+      "slug": "doveriye"
+    },
+    {
+      "from": "http://auditte.ru/audit-nekommercheskoj-organizacii/",
+      "to": "https://auditte.ru/audit-nekommercheskoj-organizacii/",
+      "reason": "permalink_candidate",
+      "post_id": 1055,
+      "slug": "audit-nekommercheskoj-organizacii"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/audit-nekommercheskoj-organizacii-1-1024x576.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/audit-nekommercheskoj-organizacii-1-1024x576.jpg",
+      "reason": "all_image_urls",
+      "post_id": 1055,
+      "slug": "audit-nekommercheskoj-organizacii"
+    },
+    {
+      "from": "http://auditte.ru/osobennosti-provedenija-audita-nekommercheskoj-organizacii/",
+      "to": "https://auditte.ru/osobennosti-provedenija-audita-nekommercheskoj-organizacii/",
+      "reason": "permalink_candidate",
+      "post_id": 1079,
+      "slug": "osobennosti-provedenija-audita-nekommercheskoj-organizacii"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/2-9.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/2-9.jpg",
+      "reason": "featured_image_url",
+      "post_id": 1079,
+      "slug": "osobennosti-provedenija-audita-nekommercheskoj-organizacii"
+    },
+    {
+      "from": "http://auditte.ru/audit-nekommercheskih-organizacij-znachenie-osobennosti-i-praktika/",
+      "to": "https://auditte.ru/audit-nekommercheskih-organizacij-znachenie-osobennosti-i-praktika/",
+      "reason": "permalink_candidate",
+      "post_id": 1085,
+      "slug": "audit-nekommercheskih-organizacij-znachenie-osobennosti-i-praktika"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/33-1.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/33-1.jpg",
+      "reason": "featured_image_url",
+      "post_id": 1085,
+      "slug": "audit-nekommercheskih-organizacij-znachenie-osobennosti-i-praktika"
+    },
+    {
+      "from": "http://auditte.ru/zachem-biznesu-neobhodimo-svoe-soobshhestvo/",
+      "to": "https://auditte.ru/zachem-biznesu-neobhodimo-svoe-soobshhestvo/",
+      "reason": "permalink_candidate",
+      "post_id": 1089,
+      "slug": "zachem-biznesu-neobhodimo-svoe-soobshhestvo"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/v.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/v.jpg",
+      "reason": "featured_image_url",
+      "post_id": 1089,
+      "slug": "zachem-biznesu-neobhodimo-svoe-soobshhestvo"
+    },
+    {
+      "from": "http://auditte.ru/poisk-poleznyh-svjazej-i-razvitie-navykov-v-biznes-soobshhestvah/",
+      "to": "https://auditte.ru/poisk-poleznyh-svjazej-i-razvitie-navykov-v-biznes-soobshhestvah/",
+      "reason": "permalink_candidate",
+      "post_id": 1095,
+      "slug": "poisk-poleznyh-svjazej-i-razvitie-navykov-v-biznes-soobshhestvah"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/vs.avif",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/vs.avif",
+      "reason": "featured_image_url",
+      "post_id": 1095,
+      "slug": "poisk-poleznyh-svjazej-i-razvitie-navykov-v-biznes-soobshhestvah"
+    },
+    {
+      "from": "http://auditte.ru/ustoychivoye-razvitiye/",
+      "to": "https://auditte.ru/ustoychivoye-razvitiye/",
+      "reason": "permalink_candidate",
+      "post_id": 1109,
+      "slug": "ustoychivoye-razvitiye"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/ustojchivoe-razvitie-1-1024x576.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/ustojchivoe-razvitie-1-1024x576.jpg",
+      "reason": "all_image_urls",
+      "post_id": 1109,
+      "slug": "ustoychivoye-razvitiye"
+    },
+    {
+      "from": "http://auditte.ru/kak-ispolzovat-potencial-sledujushhego-pokolenija-dlja-sozdanija-bolee-ustojchivoj-sistemy-v-budushhem/",
+      "to": "https://auditte.ru/kak-ispolzovat-potencial-sledujushhego-pokolenija-dlja-sozdanija-bolee-ustojchivoj-sistemy-v-budushhem/",
+      "reason": "permalink_candidate",
+      "post_id": 1119,
+      "slug": "kak-ispolzovat-potencial-sledujushhego-pokolenija-dlja-sozdanija-bolee-ustojchivoj-sistemy-v-budushhem"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/3-8.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/3-8.jpg",
+      "reason": "featured_image_url",
+      "post_id": 1119,
+      "slug": "kak-ispolzovat-potencial-sledujushhego-pokolenija-dlja-sozdanija-bolee-ustojchivoj-sistemy-v-budushhem"
+    },
+    {
+      "from": "http://auditte.ru/ocenka-biznesa/",
+      "to": "https://auditte.ru/ocenka-biznesa/",
+      "reason": "permalink_candidate",
+      "post_id": 1132,
+      "slug": "ocenka-biznesa"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/ocenka-biznesa-1-1-1024x576.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/ocenka-biznesa-1-1-1024x576.jpg",
+      "reason": "all_image_urls",
+      "post_id": 1132,
+      "slug": "ocenka-biznesa"
+    },
+    {
+      "from": "http://auditte.ru/ocenka-nedvizhimosti/",
+      "to": "https://auditte.ru/ocenka-nedvizhimosti/",
+      "reason": "permalink_candidate",
+      "post_id": 1142,
+      "slug": "ocenka-nedvizhimosti"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/ocenka-nedvizhimosti-1-1-1024x576.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/ocenka-nedvizhimosti-1-1-1024x576.jpg",
+      "reason": "all_image_urls",
+      "post_id": 1142,
+      "slug": "ocenka-nedvizhimosti"
+    },
+    {
+      "from": "http://auditte.ru/ocenka-nematerialnyh-aktivov/",
+      "to": "https://auditte.ru/ocenka-nematerialnyh-aktivov/",
+      "reason": "permalink_candidate",
+      "post_id": 1155,
+      "slug": "ocenka-nematerialnyh-aktivov"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/ocenka-nematerialnyh-aktivov-1-1-1024x576.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/ocenka-nematerialnyh-aktivov-1-1-1024x576.jpg",
+      "reason": "all_image_urls",
+      "post_id": 1155,
+      "slug": "ocenka-nematerialnyh-aktivov"
+    },
+    {
+      "from": "http://auditte.ru/ocenka-mashin-i-oborudovanija/",
+      "to": "https://auditte.ru/ocenka-mashin-i-oborudovanija/",
+      "reason": "permalink_candidate",
+      "post_id": 1164,
+      "slug": "ocenka-mashin-i-oborudovanija"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/ocenka-1-1024x576.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/ocenka-1-1024x576.jpg",
+      "reason": "all_image_urls",
+      "post_id": 1164,
+      "slug": "ocenka-mashin-i-oborudovanija"
+    },
+    {
+      "from": "http://auditte.ru/kak-rol-soveta-direktorov-mozhet-sodejstvovat-ustojchivomu-razvitiju-i-innovacijam/",
+      "to": "https://auditte.ru/kak-rol-soveta-direktorov-mozhet-sodejstvovat-ustojchivomu-razvitiju-i-innovacijam/",
+      "reason": "permalink_candidate",
+      "post_id": 1167,
+      "slug": "kak-rol-soveta-direktorov-mozhet-sodejstvovat-ustojchivomu-razvitiju-i-innovacijam"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/top-view-abstract-innovation-composition_23-2148909054.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/top-view-abstract-innovation-composition_23-2148909054.jpg",
+      "reason": "featured_image_url",
+      "post_id": 1167,
+      "slug": "kak-rol-soveta-direktorov-mozhet-sodejstvovat-ustojchivomu-razvitiju-i-innovacijam"
+    },
+    {
+      "from": "http://auditte.ru/ocenka-zemelnyh-uchastkov/",
+      "to": "https://auditte.ru/ocenka-zemelnyh-uchastkov/",
+      "reason": "permalink_candidate",
+      "post_id": 1180,
+      "slug": "ocenka-zemelnyh-uchastkov"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/ocenka-zemelnyh-uchastkov-1-1-1024x576.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/ocenka-zemelnyh-uchastkov-1-1-1024x576.jpg",
+      "reason": "all_image_urls",
+      "post_id": 1180,
+      "slug": "ocenka-zemelnyh-uchastkov"
+    },
+    {
+      "from": "http://auditte.ru/kak-sdelat-zhizn-milliardov-ljudej-luchshe/",
+      "to": "https://auditte.ru/kak-sdelat-zhizn-milliardov-ljudej-luchshe/",
+      "reason": "permalink_candidate",
+      "post_id": 1185,
+      "slug": "kak-sdelat-zhizn-milliardov-ljudej-luchshe"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/group-diverse-business-people_53876-144310.avif",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/group-diverse-business-people_53876-144310.avif",
+      "reason": "featured_image_url",
+      "post_id": 1185,
+      "slug": "kak-sdelat-zhizn-milliardov-ljudej-luchshe"
+    },
+    {
+      "from": "http://auditte.ru/kak-prisoedinenie-k-nashej-samoj-nadezhnoj-seti-mozhet-raskryt-novye-perspektivy/",
+      "to": "https://auditte.ru/kak-prisoedinenie-k-nashej-samoj-nadezhnoj-seti-mozhet-raskryt-novye-perspektivy/",
+      "reason": "permalink_candidate",
+      "post_id": 1190,
+      "slug": "kak-prisoedinenie-k-nashej-samoj-nadezhnoj-seti-mozhet-raskryt-novye-perspektivy"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/sssss.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/sssss.jpg",
+      "reason": "featured_image_url",
+      "post_id": 1190,
+      "slug": "kak-prisoedinenie-k-nashej-samoj-nadezhnoj-seti-mozhet-raskryt-novye-perspektivy"
+    },
+    {
+      "from": "http://auditte.ru/kak-poluchit-vygodu-ot-tehnologicheskih-vozmozhnostej-v-kachestve-dvizhushhej-sily-rosta/",
+      "to": "https://auditte.ru/kak-poluchit-vygodu-ot-tehnologicheskih-vozmozhnostej-v-kachestve-dvizhushhej-sily-rosta/",
+      "reason": "permalink_candidate",
+      "post_id": 1194,
+      "slug": "kak-poluchit-vygodu-ot-tehnologicheskih-vozmozhnostej-v-kachestve-dvizhushhej-sily-rosta"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/dizajn-bez-nazvanija.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/dizajn-bez-nazvanija.jpg",
+      "reason": "featured_image_url",
+      "post_id": 1194,
+      "slug": "kak-poluchit-vygodu-ot-tehnologicheskih-vozmozhnostej-v-kachestve-dvizhushhej-sily-rosta"
+    },
+    {
+      "from": "http://auditte.ru/kak-chastnye-predprijatija-mogut-mobilizovat-chelovecheskij-potencial-dlja-pooshhrenija-razvitija/",
+      "to": "https://auditte.ru/kak-chastnye-predprijatija-mogut-mobilizovat-chelovecheskij-potencial-dlja-pooshhrenija-razvitija/",
+      "reason": "permalink_candidate",
+      "post_id": 1198,
+      "slug": "kak-chastnye-predprijatija-mogut-mobilizovat-chelovecheskij-potencial-dlja-pooshhrenija-razvitija"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/dd.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/dd.jpg",
+      "reason": "featured_image_url",
+      "post_id": 1198,
+      "slug": "kak-chastnye-predprijatija-mogut-mobilizovat-chelovecheskij-potencial-dlja-pooshhrenija-razvitija"
+    },
+    {
+      "from": "http://auditte.ru/kakie-prioritety-izmenjajutsja-v-kontekste-podgotovki-k-zhizni-posle-covid-19/",
+      "to": "https://auditte.ru/kakie-prioritety-izmenjajutsja-v-kontekste-podgotovki-k-zhizni-posle-covid-19/",
+      "reason": "permalink_candidate",
+      "post_id": 1203,
+      "slug": "kakie-prioritety-izmenjajutsja-v-kontekste-podgotovki-k-zhizni-posle-covid-19"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/fd.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/fd.jpg",
+      "reason": "featured_image_url",
+      "post_id": 1203,
+      "slug": "kakie-prioritety-izmenjajutsja-v-kontekste-podgotovki-k-zhizni-posle-covid-19"
+    },
+    {
+      "from": "http://auditte.ru/otrasli/",
+      "to": "https://auditte.ru/otrasli/",
+      "reason": "permalink_candidate",
+      "post_id": 1218,
+      "slug": "otrasli"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/peredovye-tehnologii-proizvodstva.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/peredovye-tehnologii-proizvodstva.jpg",
+      "reason": "all_image_urls",
+      "post_id": 1218,
+      "slug": "otrasli"
+    },
+    {
+      "from": "http://auditte.ru/kak-nehvatka-syrja-mozhet-prepjatstvovat-progressu-v-oblasti-jelektrotransporta/",
+      "to": "https://auditte.ru/kak-nehvatka-syrja-mozhet-prepjatstvovat-progressu-v-oblasti-jelektrotransporta/",
+      "reason": "permalink_candidate",
+      "post_id": 1243,
+      "slug": "kak-nehvatka-syrja-mozhet-prepjatstvovat-progressu-v-oblasti-jelektrotransporta"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/2-10.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/2-10.jpg",
+      "reason": "featured_image_url",
+      "post_id": 1243,
+      "slug": "kak-nehvatka-syrja-mozhet-prepjatstvovat-progressu-v-oblasti-jelektrotransporta"
+    },
+    {
+      "from": "http://auditte.ru/spravitsja-li-gorno-metallurgicheskaja-otrasl-s-vyzovami-budushhego/",
+      "to": "https://auditte.ru/spravitsja-li-gorno-metallurgicheskaja-otrasl-s-vyzovami-budushhego/",
+      "reason": "permalink_candidate",
+      "post_id": 1247,
+      "slug": "spravitsja-li-gorno-metallurgicheskaja-otrasl-s-vyzovami-budushhego"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/2-11.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/2-11.jpg",
+      "reason": "featured_image_url",
+      "post_id": 1247,
+      "slug": "spravitsja-li-gorno-metallurgicheskaja-otrasl-s-vyzovami-budushhego"
+    },
+    {
+      "from": "http://auditte.ru/kak-tehnologicheskij-progress-delaet-potrebitelja-centrom-v-sisteme-zdravoohranenija/",
+      "to": "https://auditte.ru/kak-tehnologicheskij-progress-delaet-potrebitelja-centrom-v-sisteme-zdravoohranenija/",
+      "reason": "permalink_candidate",
+      "post_id": 1251,
+      "slug": "kak-tehnologicheskij-progress-delaet-potrebitelja-centrom-v-sisteme-zdravoohranenija"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/v-1.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/v-1.jpg",
+      "reason": "featured_image_url",
+      "post_id": 1251,
+      "slug": "kak-tehnologicheskij-progress-delaet-potrebitelja-centrom-v-sisteme-zdravoohranenija"
+    },
+    {
+      "from": "http://auditte.ru/mogut-li-dannye-garantirovat-dostatochnyj-uroven-doverija-dlja-pereformatirovanija-globalnoj-torgovoj-sistemy/",
+      "to": "https://auditte.ru/mogut-li-dannye-garantirovat-dostatochnyj-uroven-doverija-dlja-pereformatirovanija-globalnoj-torgovoj-sistemy/",
+      "reason": "permalink_candidate",
+      "post_id": 1255,
+      "slug": "mogut-li-dannye-garantirovat-dostatochnyj-uroven-doverija-dlja-pereformatirovanija-globalnoj-torgovoj-sistemy"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/2-12.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/2-12.jpg",
+      "reason": "featured_image_url",
+      "post_id": 1255,
+      "slug": "mogut-li-dannye-garantirovat-dostatochnyj-uroven-doverija-dlja-pereformatirovanija-globalnoj-torgovoj-sistemy"
+    },
+    {
+      "from": "http://auditte.ru/pjat-strategij-sposobstvujushhih-perehodu-vashej-kompanii-ot-vyzhivanija-k-uspeshnomu-razvitiju/",
+      "to": "https://auditte.ru/pjat-strategij-sposobstvujushhih-perehodu-vashej-kompanii-ot-vyzhivanija-k-uspeshnomu-razvitiju/",
+      "reason": "permalink_candidate",
+      "post_id": 1259,
+      "slug": "pjat-strategij-sposobstvujushhih-perehodu-vashej-kompanii-ot-vyzhivanija-k-uspeshnomu-razvitiju"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/2-13.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/2-13.jpg",
+      "reason": "featured_image_url",
+      "post_id": 1259,
+      "slug": "pjat-strategij-sposobstvujushhih-perehodu-vashej-kompanii-ot-vyzhivanija-k-uspeshnomu-razvitiju"
+    },
+    {
+      "from": "http://auditte.ru/kak-sovremennye-rukovoditeli-mogut-voplotit-vozmozhnosti-budushhego/",
+      "to": "https://auditte.ru/kak-sovremennye-rukovoditeli-mogut-voplotit-vozmozhnosti-budushhego/",
+      "reason": "permalink_candidate",
+      "post_id": 1266,
+      "slug": "kak-sovremennye-rukovoditeli-mogut-voplotit-vozmozhnosti-budushhego"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/13.avif",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/13.avif",
+      "reason": "featured_image_url",
+      "post_id": 1266,
+      "slug": "kak-sovremennye-rukovoditeli-mogut-voplotit-vozmozhnosti-budushhego"
+    },
+    {
+      "from": "http://auditte.ru/peredovyye-tekhnologii-proizvodstva/",
+      "to": "https://auditte.ru/peredovyye-tekhnologii-proizvodstva/",
+      "reason": "permalink_candidate",
+      "post_id": 1267,
+      "slug": "peredovyye-tekhnologii-proizvodstva"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/peredovye-tehnologii-proizvodstva-kompanii-top-1-1024x683.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/peredovye-tehnologii-proizvodstva-kompanii-top-1-1024x683.jpg",
+      "reason": "all_image_urls",
+      "post_id": 1267,
+      "slug": "peredovyye-tekhnologii-proizvodstva"
+    },
+    {
+      "from": "http://auditte.ru/kak-slozhnosti-mogut-stat-stimulom-dlja-razvitija/",
+      "to": "https://auditte.ru/kak-slozhnosti-mogut-stat-stimulom-dlja-razvitija/",
+      "reason": "permalink_candidate",
+      "post_id": 1276,
+      "slug": "kak-slozhnosti-mogut-stat-stimulom-dlja-razvitija"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/111.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/111.jpg",
+      "reason": "featured_image_url",
+      "post_id": 1276,
+      "slug": "kak-slozhnosti-mogut-stat-stimulom-dlja-razvitija"
+    },
+    {
+      "from": "http://auditte.ru/kak-izmenit-svoju-perspektivu-chtoby-radikalno-izmenit-svoe-budushhee/",
+      "to": "https://auditte.ru/kak-izmenit-svoju-perspektivu-chtoby-radikalno-izmenit-svoe-budushhee/",
+      "reason": "permalink_candidate",
+      "post_id": 1281,
+      "slug": "kak-izmenit-svoju-perspektivu-chtoby-radikalno-izmenit-svoe-budushhee"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/2-1.avif",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/2-1.avif",
+      "reason": "featured_image_url",
+      "post_id": 1281,
+      "slug": "kak-izmenit-svoju-perspektivu-chtoby-radikalno-izmenit-svoe-budushhee"
+    },
+    {
+      "from": "http://auditte.ru/kak-doverie-sposobstvuet-uskoreniju-processa-transformacii/",
+      "to": "https://auditte.ru/kak-doverie-sposobstvuet-uskoreniju-processa-transformacii/",
+      "reason": "permalink_candidate",
+      "post_id": 1285,
+      "slug": "kak-doverie-sposobstvuet-uskoreniju-processa-transformacii"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/1-15.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/1-15.jpg",
+      "reason": "featured_image_url",
+      "post_id": 1285,
+      "slug": "kak-doverie-sposobstvuet-uskoreniju-processa-transformacii"
+    },
+    {
+      "from": "http://auditte.ru/kak-primenenie-peredovyh-tehnologij-sposobno-obespechit-konkurentnoe-prevoshodstvo/",
+      "to": "https://auditte.ru/kak-primenenie-peredovyh-tehnologij-sposobno-obespechit-konkurentnoe-prevoshodstvo/",
+      "reason": "permalink_candidate",
+      "post_id": 1289,
+      "slug": "kak-primenenie-peredovyh-tehnologij-sposobno-obespechit-konkurentnoe-prevoshodstvo"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/11-2.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/11-2.jpg",
+      "reason": "featured_image_url",
+      "post_id": 1289,
+      "slug": "kak-primenenie-peredovyh-tehnologij-sposobno-obespechit-konkurentnoe-prevoshodstvo"
+    },
+    {
+      "from": "http://auditte.ru/proizvodstvo-potrebitelskikh-tovarov-i-roznichnaya-torgovlya/",
+      "to": "https://auditte.ru/proizvodstvo-potrebitelskikh-tovarov-i-roznichnaya-torgovlya/",
+      "reason": "permalink_candidate",
+      "post_id": 1293,
+      "slug": "proizvodstvo-potrebitelskikh-tovarov-i-roznichnaya-torgovlya"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/proizvodstvo-potrebitelskih-tovarov-i-roznichnaja-torgovlja-top-1024x576.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/proizvodstvo-potrebitelskih-tovarov-i-roznichnaja-torgovlja-top-1024x576.jpg",
+      "reason": "all_image_urls",
+      "post_id": 1293,
+      "slug": "proizvodstvo-potrebitelskikh-tovarov-i-roznichnaya-torgovlya"
+    },
+    {
+      "from": "http://auditte.ru/kak-obespechit-prochnye-otnoshenija-s-klientami-ne-nahodjas-rjadom-s-nimi/",
+      "to": "https://auditte.ru/kak-obespechit-prochnye-otnoshenija-s-klientami-ne-nahodjas-rjadom-s-nimi/",
+      "reason": "permalink_candidate",
+      "post_id": 1298,
+      "slug": "kak-obespechit-prochnye-otnoshenija-s-klientami-ne-nahodjas-rjadom-s-nimi"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/33-2.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/33-2.jpg",
+      "reason": "featured_image_url",
+      "post_id": 1298,
+      "slug": "kak-obespechit-prochnye-otnoshenija-s-klientami-ne-nahodjas-rjadom-s-nimi"
+    },
+    {
+      "from": "http://auditte.ru/kak-ispolzovanie-perspektivy-budushhego-pomozhet-vam-razgljadet-bolee-jasnuju-dorogu-k-dostizheniju-uspeha/",
+      "to": "https://auditte.ru/kak-ispolzovanie-perspektivy-budushhego-pomozhet-vam-razgljadet-bolee-jasnuju-dorogu-k-dostizheniju-uspeha/",
+      "reason": "permalink_candidate",
+      "post_id": 1304,
+      "slug": "kak-ispolzovanie-perspektivy-budushhego-pomozhet-vam-razgljadet-bolee-jasnuju-dorogu-k-dostizheniju-uspeha"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/444.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/444.jpg",
+      "reason": "featured_image_url",
+      "post_id": 1304,
+      "slug": "kak-ispolzovanie-perspektivy-budushhego-pomozhet-vam-razgljadet-bolee-jasnuju-dorogu-k-dostizheniju-uspeha"
+    },
+    {
+      "from": "http://auditte.ru/kak-vlijanie-odnogo-cheloveka-mozhet-raspahnut-dveri-dlja-mnogih/",
+      "to": "https://auditte.ru/kak-vlijanie-odnogo-cheloveka-mozhet-raspahnut-dveri-dlja-mnogih/",
+      "reason": "permalink_candidate",
+      "post_id": 1308,
+      "slug": "kak-vlijanie-odnogo-cheloveka-mozhet-raspahnut-dveri-dlja-mnogih"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/yyyy.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/yyyy.jpg",
+      "reason": "featured_image_url",
+      "post_id": 1308,
+      "slug": "kak-vlijanie-odnogo-cheloveka-mozhet-raspahnut-dveri-dlja-mnogih"
+    },
+    {
+      "from": "http://auditte.ru/kak-rol-soveta-direktorov-mozhet-sodejstvovat-ustojchivomu-razvitiju-i-innovacijam-2/",
+      "to": "https://auditte.ru/kak-rol-soveta-direktorov-mozhet-sodejstvovat-ustojchivomu-razvitiju-i-innovacijam-2/",
+      "reason": "permalink_candidate",
+      "post_id": 1313,
+      "slug": "kak-rol-soveta-direktorov-mozhet-sodejstvovat-ustojchivomu-razvitiju-i-innovacijam-2"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/pm.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/pm.jpg",
+      "reason": "featured_image_url",
+      "post_id": 1313,
+      "slug": "kak-rol-soveta-direktorov-mozhet-sodejstvovat-ustojchivomu-razvitiju-i-innovacijam-2"
+    },
+    {
+      "from": "http://auditte.ru/kak-sdelat-zhizn-milliardov-ljudej-luchshe-2/",
+      "to": "https://auditte.ru/kak-sdelat-zhizn-milliardov-ljudej-luchshe-2/",
+      "reason": "permalink_candidate",
+      "post_id": 1317,
+      "slug": "kak-sdelat-zhizn-milliardov-ljudej-luchshe-2"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/333-1.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/333-1.jpg",
+      "reason": "featured_image_url",
+      "post_id": 1317,
+      "slug": "kak-sdelat-zhizn-milliardov-ljudej-luchshe-2"
+    },
+    {
+      "from": "http://auditte.ru/kak-prisoedinenie-k-nashej-samoj-nadezhnoj-seti-mozhet-raskryt-novye-perspektivy-2/",
+      "to": "https://auditte.ru/kak-prisoedinenie-k-nashej-samoj-nadezhnoj-seti-mozhet-raskryt-novye-perspektivy-2/",
+      "reason": "permalink_candidate",
+      "post_id": 1321,
+      "slug": "kak-prisoedinenie-k-nashej-samoj-nadezhnoj-seti-mozhet-raskryt-novye-perspektivy-2"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/l.p.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/l.p.jpg",
+      "reason": "featured_image_url",
+      "post_id": 1321,
+      "slug": "kak-prisoedinenie-k-nashej-samoj-nadezhnoj-seti-mozhet-raskryt-novye-perspektivy-2"
+    },
+    {
+      "from": "http://auditte.ru/kakie-drugie-sposoby-est-u-biznesa-dlja-reshenija-problemy-neravenstva/",
+      "to": "https://auditte.ru/kakie-drugie-sposoby-est-u-biznesa-dlja-reshenija-problemy-neravenstva/",
+      "reason": "permalink_candidate",
+      "post_id": 1325,
+      "slug": "kakie-drugie-sposoby-est-u-biznesa-dlja-reshenija-problemy-neravenstva"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/2-15.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/2-15.jpg",
+      "reason": "featured_image_url",
+      "post_id": 1325,
+      "slug": "kakie-drugie-sposoby-est-u-biznesa-dlja-reshenija-problemy-neravenstva"
+    },
+    {
+      "from": "http://auditte.ru/kak-rabotodateli-i-sotrudniki-vidjat-obnovlennoe-rabochee-prostranstvo/",
+      "to": "https://auditte.ru/kak-rabotodateli-i-sotrudniki-vidjat-obnovlennoe-rabochee-prostranstvo/",
+      "reason": "permalink_candidate",
+      "post_id": 1329,
+      "slug": "kak-rabotodateli-i-sotrudniki-vidjat-obnovlennoe-rabochee-prostranstvo"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/2-16.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/2-16.jpg",
+      "reason": "featured_image_url",
+      "post_id": 1329,
+      "slug": "kak-rabotodateli-i-sotrudniki-vidjat-obnovlennoe-rabochee-prostranstvo"
+    },
+    {
+      "from": "http://auditte.ru/kak-predprinimateli-sposobstvujut-raskrytiju-dolgosrochnoj-cennosti/",
+      "to": "https://auditte.ru/kak-predprinimateli-sposobstvujut-raskrytiju-dolgosrochnoj-cennosti/",
+      "reason": "permalink_candidate",
+      "post_id": 1333,
+      "slug": "kak-predprinimateli-sposobstvujut-raskrytiju-dolgosrochnoj-cennosti"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/22-4.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/22-4.jpg",
+      "reason": "featured_image_url",
+      "post_id": 1333,
+      "slug": "kak-predprinimateli-sposobstvujut-raskrytiju-dolgosrochnoj-cennosti"
+    },
+    {
+      "from": "http://auditte.ru/otvechajut-li-nashi-strahovye-reshenija-novym-potrebnostjam-potrebitelej/",
+      "to": "https://auditte.ru/otvechajut-li-nashi-strahovye-reshenija-novym-potrebnostjam-potrebitelej/",
+      "reason": "permalink_candidate",
+      "post_id": 1337,
+      "slug": "otvechajut-li-nashi-strahovye-reshenija-novym-potrebnostjam-potrebitelej"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/2-2.avif",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/2-2.avif",
+      "reason": "featured_image_url",
+      "post_id": 1337,
+      "slug": "otvechajut-li-nashi-strahovye-reshenija-novym-potrebnostjam-potrebitelej"
+    },
+    {
+      "from": "http://auditte.ru/rol-dannyh-v-razvitii-intellektualnoj-sobstvennosti/",
+      "to": "https://auditte.ru/rol-dannyh-v-razvitii-intellektualnoj-sobstvennosti/",
+      "reason": "permalink_candidate",
+      "post_id": 1341,
+      "slug": "rol-dannyh-v-razvitii-intellektualnoj-sobstvennosti"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/1-18.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/1-18.jpg",
+      "reason": "featured_image_url",
+      "post_id": 1341,
+      "slug": "rol-dannyh-v-razvitii-intellektualnoj-sobstvennosti"
+    },
+    {
+      "from": "http://auditte.ru/intellektualnaja-sobstvennost-i-metavselennaja-vlijanie-na-razvitie-tehnologij-i-innovacij/",
+      "to": "https://auditte.ru/intellektualnaja-sobstvennost-i-metavselennaja-vlijanie-na-razvitie-tehnologij-i-innovacij/",
+      "reason": "permalink_candidate",
+      "post_id": 1348,
+      "slug": "intellektualnaja-sobstvennost-i-metavselennaja-vlijanie-na-razvitie-tehnologij-i-innovacij"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/22-5.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/22-5.jpg",
+      "reason": "featured_image_url",
+      "post_id": 1348,
+      "slug": "intellektualnaja-sobstvennost-i-metavselennaja-vlijanie-na-razvitie-tehnologij-i-innovacij"
+    },
+    {
+      "from": "http://auditte.ru/peredovye-tehnologii-i-upravlenie-administrativnymi-processami-v-oblasti-informacionnyh-sistem/",
+      "to": "https://auditte.ru/peredovye-tehnologii-i-upravlenie-administrativnymi-processami-v-oblasti-informacionnyh-sistem/",
+      "reason": "permalink_candidate",
+      "post_id": 1352,
+      "slug": "peredovye-tehnologii-i-upravlenie-administrativnymi-processami-v-oblasti-informacionnyh-sistem"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/va.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/va.jpg",
+      "reason": "featured_image_url",
+      "post_id": 1352,
+      "slug": "peredovye-tehnologii-i-upravlenie-administrativnymi-processami-v-oblasti-informacionnyh-sistem"
+    },
+    {
+      "from": "http://auditte.ru/novejshie-tehnologii-v-proizvodstve/",
+      "to": "https://auditte.ru/novejshie-tehnologii-v-proizvodstve/",
+      "reason": "permalink_candidate",
+      "post_id": 1356,
+      "slug": "novejshie-tehnologii-v-proizvodstve"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/artificial-intelligence-concept-illustration_114360-1151-1.avif",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/artificial-intelligence-concept-illustration_114360-1151-1.avif",
+      "reason": "featured_image_url",
+      "post_id": 1356,
+      "slug": "novejshie-tehnologii-v-proizvodstve"
+    },
+    {
+      "from": "http://auditte.ru/toplivno-energeticheskaya-i-dobyvayushchaya-promyshlennost/",
+      "to": "https://auditte.ru/toplivno-energeticheskaya-i-dobyvayushchaya-promyshlennost/",
+      "reason": "permalink_candidate",
+      "post_id": 1367,
+      "slug": "toplivno-energeticheskaya-i-dobyvayushchaya-promyshlennost"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/toplivno-jenergeticheskaja-i-dobyvajushhaja-otrasli-1-1024x578.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/toplivno-jenergeticheskaja-i-dobyvajushhaja-otrasli-1-1024x578.jpg",
+      "reason": "all_image_urls",
+      "post_id": 1367,
+      "slug": "toplivno-energeticheskaya-i-dobyvayushchaya-promyshlennost"
+    },
+    {
+      "from": "http://auditte.ru/finansovyy-sektor/",
+      "to": "https://auditte.ru/finansovyy-sektor/",
+      "reason": "permalink_candidate",
+      "post_id": 1381,
+      "slug": "finansovyy-sektor"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/finansovyj-sektor-top-1024x576.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/finansovyj-sektor-top-1024x576.jpg",
+      "reason": "all_image_urls",
+      "post_id": 1381,
+      "slug": "finansovyy-sektor"
+    },
+    {
+      "from": "http://auditte.ru/uslugi-dlya-gosudarstvennogo-sektora/",
+      "to": "https://auditte.ru/uslugi-dlya-gosudarstvennogo-sektora/",
+      "reason": "permalink_candidate",
+      "post_id": 1392,
+      "slug": "uslugi-dlya-gosudarstvennogo-sektora"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/uslugi-dlja-gosudarstvennogo-sektora-1-1024x578.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/uslugi-dlja-gosudarstvennogo-sektora-1-1024x578.jpg",
+      "reason": "all_image_urls",
+      "post_id": 1392,
+      "slug": "uslugi-dlya-gosudarstvennogo-sektora"
+    },
+    {
+      "from": "http://auditte.ru/mediko-biologicheskiye-otrasli-i-zdravookhraneniye/",
+      "to": "https://auditte.ru/mediko-biologicheskiye-otrasli-i-zdravookhraneniye/",
+      "reason": "permalink_candidate",
+      "post_id": 1399,
+      "slug": "mediko-biologicheskiye-otrasli-i-zdravookhraneniye"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/mediko-biologicheskaja-otrasl-i-zdravoohranenie-1-1024x578.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/mediko-biologicheskaja-otrasl-i-zdravoohranenie-1-1024x578.jpg",
+      "reason": "all_image_urls",
+      "post_id": 1399,
+      "slug": "mediko-biologicheskiye-otrasli-i-zdravookhraneniye"
+    },
+    {
+      "from": "http://auditte.ru/investitsii-v-chastnyy-kapital/",
+      "to": "https://auditte.ru/investitsii-v-chastnyy-kapital/",
+      "reason": "permalink_candidate",
+      "post_id": 1412,
+      "slug": "investitsii-v-chastnyy-kapital"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/chastnye-investicii-top-3-1024x576.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/chastnye-investicii-top-3-1024x576.jpg",
+      "reason": "all_image_urls",
+      "post_id": 1412,
+      "slug": "investitsii-v-chastnyy-kapital"
+    },
+    {
+      "from": "http://auditte.ru/tekhnologii-mediasektor-industriya-razvlecheniy-i-sfery-svyazi/",
+      "to": "https://auditte.ru/tekhnologii-mediasektor-industriya-razvlecheniy-i-sfery-svyazi/",
+      "reason": "permalink_candidate",
+      "post_id": 1422,
+      "slug": "tekhnologii-mediasektor-industriya-razvlecheniy-i-sfery-svyazi"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/tehnologii-1-top-1024x576.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/tehnologii-1-top-1024x576.jpg",
+      "reason": "all_image_urls",
+      "post_id": 1422,
+      "slug": "tekhnologii-mediasektor-industriya-razvlecheniy-i-sfery-svyazi"
+    },
+    {
+      "from": "http://auditte.ru/cifrovaja-revoljucija-transformacija-media-i-razvlechenij-v-jepohu-tehnologij-i-svjazi/",
+      "to": "https://auditte.ru/cifrovaja-revoljucija-transformacija-media-i-razvlechenij-v-jepohu-tehnologij-i-svjazi/",
+      "reason": "permalink_candidate",
+      "post_id": 1445,
+      "slug": "cifrovaja-revoljucija-transformacija-media-i-razvlechenij-v-jepohu-tehnologij-i-svjazi"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/1-24.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/1-24.jpg",
+      "reason": "featured_image_url",
+      "post_id": 1445,
+      "slug": "cifrovaja-revoljucija-transformacija-media-i-razvlechenij-v-jepohu-tehnologij-i-svjazi"
+    },
+    {
+      "from": "http://auditte.ru/slijanie-mirov-kak-tehnologii-i-svjaz-redefinirujut-media-i-razvlechenija/",
+      "to": "https://auditte.ru/slijanie-mirov-kak-tehnologii-i-svjaz-redefinirujut-media-i-razvlechenija/",
+      "reason": "permalink_candidate",
+      "post_id": 1449,
+      "slug": "slijanie-mirov-kak-tehnologii-i-svjaz-redefinirujut-media-i-razvlechenija"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/22-6.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/22-6.jpg",
+      "reason": "featured_image_url",
+      "post_id": 1449,
+      "slug": "slijanie-mirov-kak-tehnologii-i-svjaz-redefinirujut-media-i-razvlechenija"
+    },
+    {
+      "from": "http://auditte.ru/ctrategii-privlechenija-investicij-v-rossijskij-biznes/",
+      "to": "https://auditte.ru/ctrategii-privlechenija-investicij-v-rossijskij-biznes/",
+      "reason": "permalink_candidate",
+      "post_id": 1453,
+      "slug": "ctrategii-privlechenija-investicij-v-rossijskij-biznes"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/44-2.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/44-2.jpg",
+      "reason": "featured_image_url",
+      "post_id": 1453,
+      "slug": "ctrategii-privlechenija-investicij-v-rossijskij-biznes"
+    },
+    {
+      "from": "http://auditte.ru/chastnye-investicii-v-innovacionnuju-dejatelnost-predprijatij-promyshlennosti/",
+      "to": "https://auditte.ru/chastnye-investicii-v-innovacionnuju-dejatelnost-predprijatij-promyshlennosti/",
+      "reason": "permalink_candidate",
+      "post_id": 1456,
+      "slug": "chastnye-investicii-v-innovacionnuju-dejatelnost-predprijatij-promyshlennosti"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/vv-1.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/vv-1.jpg",
+      "reason": "featured_image_url",
+      "post_id": 1456,
+      "slug": "chastnye-investicii-v-innovacionnuju-dejatelnost-predprijatij-promyshlennosti"
+    },
+    {
+      "from": "http://auditte.ru/rabota-s-distribjutorami-i-aptechnymi-setjami-na-farmacevticheskom-rynke-rossii-v-uslovijah-peremen/",
+      "to": "https://auditte.ru/rabota-s-distribjutorami-i-aptechnymi-setjami-na-farmacevticheskom-rynke-rossii-v-uslovijah-peremen/",
+      "reason": "permalink_candidate",
+      "post_id": 1462,
+      "slug": "rabota-s-distribjutorami-i-aptechnymi-setjami-na-farmacevticheskom-rynke-rossii-v-uslovijah-peremen"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/aa.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/aa.jpg",
+      "reason": "featured_image_url",
+      "post_id": 1462,
+      "slug": "rabota-s-distribjutorami-i-aptechnymi-setjami-na-farmacevticheskom-rynke-rossii-v-uslovijah-peremen"
+    },
+    {
+      "from": "http://auditte.ru/auditte-predstavljaet-rukovodstvo-po-bezopasnomu-osvoeniju-potenciala-mediko-biologicheskih-issledovanij/",
+      "to": "https://auditte.ru/auditte-predstavljaet-rukovodstvo-po-bezopasnomu-osvoeniju-potenciala-mediko-biologicheskih-issledovanij/",
+      "reason": "permalink_candidate",
+      "post_id": 1466,
+      "slug": "auditte-predstavljaet-rukovodstvo-po-bezopasnomu-osvoeniju-potenciala-mediko-biologicheskih-issledovanij"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/2-19.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/2-19.jpg",
+      "reason": "featured_image_url",
+      "post_id": 1466,
+      "slug": "auditte-predstavljaet-rukovodstvo-po-bezopasnomu-osvoeniju-potenciala-mediko-biologicheskih-issledovanij"
+    },
+    {
+      "from": "http://auditte.ru/sotrudnichestvo-reguljatorov-v-formirovanii-gosudarstvennogo-regulirovanija-v-sfere-uslug/",
+      "to": "https://auditte.ru/sotrudnichestvo-reguljatorov-v-formirovanii-gosudarstvennogo-regulirovanija-v-sfere-uslug/",
+      "reason": "permalink_candidate",
+      "post_id": 1470,
+      "slug": "sotrudnichestvo-reguljatorov-v-formirovanii-gosudarstvennogo-regulirovanija-v-sfere-uslug"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/11-6.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/11-6.jpg",
+      "reason": "featured_image_url",
+      "post_id": 1470,
+      "slug": "sotrudnichestvo-reguljatorov-v-formirovanii-gosudarstvennogo-regulirovanija-v-sfere-uslug"
+    },
+    {
+      "from": "http://auditte.ru/gosudarstvennye-uslugi-prozrachnost-i-vneshnij-nadzor/",
+      "to": "https://auditte.ru/gosudarstvennye-uslugi-prozrachnost-i-vneshnij-nadzor/",
+      "reason": "permalink_candidate",
+      "post_id": 1474,
+      "slug": "gosudarstvennye-uslugi-prozrachnost-i-vneshnij-nadzor"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/2222.avif",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/2222.avif",
+      "reason": "featured_image_url",
+      "post_id": 1474,
+      "slug": "gosudarstvennye-uslugi-prozrachnost-i-vneshnij-nadzor"
+    },
+    {
+      "from": "http://auditte.ru/gde-upravljajushhie-aktivami-mogut-obnaruzhit-novye-vozmozhnosti-v-uslovijah-izmenenija-aktivov/",
+      "to": "https://auditte.ru/gde-upravljajushhie-aktivami-mogut-obnaruzhit-novye-vozmozhnosti-v-uslovijah-izmenenija-aktivov/",
+      "reason": "permalink_candidate",
+      "post_id": 1478,
+      "slug": "gde-upravljajushhie-aktivami-mogut-obnaruzhit-novye-vozmozhnosti-v-uslovijah-izmenenija-aktivov"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/v-1.avif",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/v-1.avif",
+      "reason": "featured_image_url",
+      "post_id": 1478,
+      "slug": "gde-upravljajushhie-aktivami-mogut-obnaruzhit-novye-vozmozhnosti-v-uslovijah-izmenenija-aktivov"
+    },
+    {
+      "from": "http://auditte.ru/kak-investory-millenialy-mogut-vlijat-na-budushhij-rost-biznesa/",
+      "to": "https://auditte.ru/kak-investory-millenialy-mogut-vlijat-na-budushhij-rost-biznesa/",
+      "reason": "permalink_candidate",
+      "post_id": 1482,
+      "slug": "kak-investory-millenialy-mogut-vlijat-na-budushhij-rost-biznesa"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/vvvv.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/vvvv.jpg",
+      "reason": "featured_image_url",
+      "post_id": 1482,
+      "slug": "kak-investory-millenialy-mogut-vlijat-na-budushhij-rost-biznesa"
+    },
+    {
+      "from": "http://auditte.ru/strategii-kotorye-upravljajushhie-aktivami-mogut-ispolzovat-dlja-podgotovki-k-neopredelennomu-budushhemu/",
+      "to": "https://auditte.ru/strategii-kotorye-upravljajushhie-aktivami-mogut-ispolzovat-dlja-podgotovki-k-neopredelennomu-budushhemu/",
+      "reason": "permalink_candidate",
+      "post_id": 1486,
+      "slug": "strategii-kotorye-upravljajushhie-aktivami-mogut-ispolzovat-dlja-podgotovki-k-neopredelennomu-budushhemu"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/v-4.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/v-4.jpg",
+      "reason": "featured_image_url",
+      "post_id": 1486,
+      "slug": "strategii-kotorye-upravljajushhie-aktivami-mogut-ispolzovat-dlja-podgotovki-k-neopredelennomu-budushhemu"
+    },
+    {
+      "from": "http://auditte.ru/kak-ustojchivost-mozhet-vlijat-na-izmenjajushhijsja-landshaft/",
+      "to": "https://auditte.ru/kak-ustojchivost-mozhet-vlijat-na-izmenjajushhijsja-landshaft/",
+      "reason": "permalink_candidate",
+      "post_id": 1491,
+      "slug": "kak-ustojchivost-mozhet-vlijat-na-izmenjajushhijsja-landshaft"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/221.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/221.jpg",
+      "reason": "featured_image_url",
+      "post_id": 1491,
+      "slug": "kak-ustojchivost-mozhet-vlijat-na-izmenjajushhijsja-landshaft"
+    },
+    {
+      "from": "http://auditte.ru/kak-izmenenija-v-ustojchivosti-rabochej-sily-povlijajut-na-jenergeticheskuju-otrasl/",
+      "to": "https://auditte.ru/kak-izmenenija-v-ustojchivosti-rabochej-sily-povlijajut-na-jenergeticheskuju-otrasl/",
+      "reason": "permalink_candidate",
+      "post_id": 1496,
+      "slug": "kak-izmenenija-v-ustojchivosti-rabochej-sily-povlijajut-na-jenergeticheskuju-otrasl"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/2y.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/2y.jpg",
+      "reason": "featured_image_url",
+      "post_id": 1496,
+      "slug": "kak-izmenenija-v-ustojchivosti-rabochej-sily-povlijajut-na-jenergeticheskuju-otrasl"
+    },
+    {
+      "from": "http://auditte.ru/kak-ispolzovanie-analiza-dannyh-mozhet-uvelichit-jeffektivnost-cepochki-postavok/",
+      "to": "https://auditte.ru/kak-ispolzovanie-analiza-dannyh-mozhet-uvelichit-jeffektivnost-cepochki-postavok/",
+      "reason": "permalink_candidate",
+      "post_id": 1500,
+      "slug": "kak-ispolzovanie-analiza-dannyh-mozhet-uvelichit-jeffektivnost-cepochki-postavok"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/isometric-automatic-assembly-factory-robotic-line-concept_33099-166.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/isometric-automatic-assembly-factory-robotic-line-concept_33099-166.jpg",
+      "reason": "featured_image_url",
+      "post_id": 1500,
+      "slug": "kak-ispolzovanie-analiza-dannyh-mozhet-uvelichit-jeffektivnost-cepochki-postavok"
+    },
+    {
+      "from": "http://auditte.ru/pochemu-kolebanija-doverija-so-storony-potrebitelej-mogut-zamedlit-jenergeticheskie-preobrazovanija/",
+      "to": "https://auditte.ru/pochemu-kolebanija-doverija-so-storony-potrebitelej-mogut-zamedlit-jenergeticheskie-preobrazovanija/",
+      "reason": "permalink_candidate",
+      "post_id": 1504,
+      "slug": "pochemu-kolebanija-doverija-so-storony-potrebitelej-mogut-zamedlit-jenergeticheskie-preobrazovanija"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/vc.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/vc.jpg",
+      "reason": "featured_image_url",
+      "post_id": 1504,
+      "slug": "pochemu-kolebanija-doverija-so-storony-potrebitelej-mogut-zamedlit-jenergeticheskie-preobrazovanija"
+    },
+    {
+      "from": "http://auditte.ru/kak-avtosport-priblizhaetsja-k-borbe-s-izmeneniem-klimata/",
+      "to": "https://auditte.ru/kak-avtosport-priblizhaetsja-k-borbe-s-izmeneniem-klimata/",
+      "reason": "permalink_candidate",
+      "post_id": 1508,
+      "slug": "kak-avtosport-priblizhaetsja-k-borbe-s-izmeneniem-klimata"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/vyf.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/vyf.jpg",
+      "reason": "featured_image_url",
+      "post_id": 1508,
+      "slug": "kak-avtosport-priblizhaetsja-k-borbe-s-izmeneniem-klimata"
+    },
+    {
+      "from": "http://auditte.ru/ocenochnaja-dejatelnost/",
+      "to": "https://auditte.ru/ocenochnaja-dejatelnost/",
+      "reason": "permalink_candidate",
+      "post_id": 1549,
+      "slug": "ocenochnaja-dejatelnost"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/person-office-analyzing-checking-finance-graphs_23-2150377128-e1713343547129-1024x577.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/person-office-analyzing-checking-finance-graphs_23-2150377128-e1713343547129-1024x577.jpg",
+      "reason": "all_image_urls",
+      "post_id": 1549,
+      "slug": "ocenochnaja-dejatelnost"
+    },
+    {
+      "from": "http://auditte.ru/o-nas/",
+      "to": "https://auditte.ru/o-nas/",
+      "reason": "permalink_candidate",
+      "post_id": 1552,
+      "slug": "o-nas"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/nasha-cel-1-1024x578.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/nasha-cel-1-1024x578.jpg",
+      "reason": "all_image_urls",
+      "post_id": 1552,
+      "slug": "o-nas"
+    },
+    {
+      "from": "http://auditte.ru/kompleksnye-reshenija-po-peremeshheniju-personala/",
+      "to": "https://auditte.ru/kompleksnye-reshenija-po-peremeshheniju-personala/",
+      "reason": "permalink_candidate",
+      "post_id": 1570,
+      "slug": "kompleksnye-reshenija-po-peremeshheniju-personala"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/kompleksnye-reshenija-po-peremeshheniju-personala-1-1-1024x576.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/kompleksnye-reshenija-po-peremeshheniju-personala-1-1-1024x576.jpg",
+      "reason": "all_image_urls",
+      "post_id": 1570,
+      "slug": "kompleksnye-reshenija-po-peremeshheniju-personala"
+    },
+    {
+      "from": "http://auditte.ru/konsultacionnye-uslugi-po-obucheniju-i-razvitiju/",
+      "to": "https://auditte.ru/konsultacionnye-uslugi-po-obucheniju-i-razvitiju/",
+      "reason": "permalink_candidate",
+      "post_id": 1587,
+      "slug": "konsultacionnye-uslugi-po-obucheniju-i-razvitiju"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/konsultacionnye-uslugi-po-obucheniju-i-razvitiju-1-1024x576.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/konsultacionnye-uslugi-po-obucheniju-i-razvitiju-1-1024x576.jpg",
+      "reason": "all_image_urls",
+      "post_id": 1587,
+      "slug": "konsultacionnye-uslugi-po-obucheniju-i-razvitiju"
+    },
+    {
+      "from": "http://auditte.ru/konsultacionnye-uslugi-v-oblasti-voznagrazhdenija-i-kpi/",
+      "to": "https://auditte.ru/konsultacionnye-uslugi-v-oblasti-voznagrazhdenija-i-kpi/",
+      "reason": "permalink_candidate",
+      "post_id": 1596,
+      "slug": "konsultacionnye-uslugi-v-oblasti-voznagrazhdenija-i-kpi"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/konsultacionnye-uslugi-1-1024x576.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/konsultacionnye-uslugi-1-1024x576.jpg",
+      "reason": "all_image_urls",
+      "post_id": 1596,
+      "slug": "konsultacionnye-uslugi-v-oblasti-voznagrazhdenija-i-kpi"
+    },
+    {
+      "from": "http://auditte.ru/kadrovaja-analitika/",
+      "to": "https://auditte.ru/kadrovaja-analitika/",
+      "reason": "permalink_candidate",
+      "post_id": 1610,
+      "slug": "kadrovaja-analitika"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/kadrovaja-analitika--1024x576.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/kadrovaja-analitika--1024x576.jpg",
+      "reason": "all_image_urls",
+      "post_id": 1610,
+      "slug": "kadrovaja-analitika"
+    },
+    {
+      "from": "http://auditte.ru/uslugi-v-oblasti-nalogooblozhenija-dlja-chastnyh-klientov/",
+      "to": "https://auditte.ru/uslugi-v-oblasti-nalogooblozhenija-dlja-chastnyh-klientov/",
+      "reason": "permalink_candidate",
+      "post_id": 1622,
+      "slug": "uslugi-v-oblasti-nalogooblozhenija-dlja-chastnyh-klientov"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/nalogooblozhenija-1024x576.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/nalogooblozhenija-1024x576.jpg",
+      "reason": "all_image_urls",
+      "post_id": 1622,
+      "slug": "uslugi-v-oblasti-nalogooblozhenija-dlja-chastnyh-klientov"
+    },
+    {
+      "from": "http://auditte.ru/nasha-tsel/",
+      "to": "https://auditte.ru/nasha-tsel/",
+      "reason": "permalink_candidate",
+      "post_id": 1628,
+      "slug": "nasha-tsel"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/nasha-cel-1-1024x576.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/nasha-cel-1-1024x576.jpg",
+      "reason": "all_image_urls",
+      "post_id": 1628,
+      "slug": "nasha-tsel"
+    },
+    {
+      "from": "http://auditte.ru/upravlenie-personalom/",
+      "to": "https://auditte.ru/upravlenie-personalom/",
+      "reason": "permalink_candidate",
+      "post_id": 1637,
+      "slug": "upravlenie-personalom"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/close-up-business-partner-sitting-front-manager-looking-document_23-2147838536-1024x683.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/close-up-business-partner-sitting-front-manager-looking-document_23-2147838536-1024x683.jpg",
+      "reason": "all_image_urls",
+      "post_id": 1637,
+      "slug": "upravlenie-personalom"
+    },
+    {
+      "from": "http://auditte.ru/nashi-tsennosti/",
+      "to": "https://auditte.ru/nashi-tsennosti/",
+      "reason": "permalink_candidate",
+      "post_id": 1647,
+      "slug": "nashi-tsennosti"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/nashi-cennosti-1-1024x578.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/nashi-cennosti-1-1024x578.jpg",
+      "reason": "all_image_urls",
+      "post_id": 1647,
+      "slug": "nashi-tsennosti"
+    },
+    {
+      "from": "http://auditte.ru/nasha-missija-sozdanie-blagoprijatnoj-sredy-dlja-uspeha-i-razvitija/",
+      "to": "https://auditte.ru/nasha-missija-sozdanie-blagoprijatnoj-sredy-dlja-uspeha-i-razvitija/",
+      "reason": "permalink_candidate",
+      "post_id": 1655,
+      "slug": "nasha-missija-sozdanie-blagoprijatnoj-sredy-dlja-uspeha-i-razvitija"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/1-6.avif",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/1-6.avif",
+      "reason": "featured_image_url",
+      "post_id": 1655,
+      "slug": "nasha-missija-sozdanie-blagoprijatnoj-sredy-dlja-uspeha-i-razvitija"
+    },
+    {
+      "from": "http://auditte.ru/ukreplenie-doverija-i-uverennosti-rol-informacii-i-kachestvennyh-uslug-v-dostizhenii-nashih-celej/",
+      "to": "https://auditte.ru/ukreplenie-doverija-i-uverennosti-rol-informacii-i-kachestvennyh-uslug-v-dostizhenii-nashih-celej/",
+      "reason": "permalink_candidate",
+      "post_id": 1659,
+      "slug": "ukreplenie-doverija-i-uverennosti-rol-informacii-i-kachestvennyh-uslug-v-dostizhenii-nashih-celej"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/3-9.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/3-9.jpg",
+      "reason": "featured_image_url",
+      "post_id": 1659,
+      "slug": "ukreplenie-doverija-i-uverennosti-rol-informacii-i-kachestvennyh-uslug-v-dostizhenii-nashih-celej"
+    },
+    {
+      "from": "http://auditte.ru/sut-nashih-cennostej-osnova-uspeshnogo-razvitija-v-kompanii/",
+      "to": "https://auditte.ru/sut-nashih-cennostej-osnova-uspeshnogo-razvitija-v-kompanii/",
+      "reason": "permalink_candidate",
+      "post_id": 1663,
+      "slug": "sut-nashih-cennostej-osnova-uspeshnogo-razvitija-v-kompanii"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/u.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/u.jpg",
+      "reason": "featured_image_url",
+      "post_id": 1663,
+      "slug": "sut-nashih-cennostej-osnova-uspeshnogo-razvitija-v-kompanii"
+    },
+    {
+      "from": "http://auditte.ru/nepokolebimye-principy-kak-nashi-cennosti-formirujut-nashu-kulturu-i-put-k-uspehu/",
+      "to": "https://auditte.ru/nepokolebimye-principy-kak-nashi-cennosti-formirujut-nashu-kulturu-i-put-k-uspehu/",
+      "reason": "permalink_candidate",
+      "post_id": 1667,
+      "slug": "nepokolebimye-principy-kak-nashi-cennosti-formirujut-nashu-kulturu-i-put-k-uspehu"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/businessman-character-top-mountain_1390-73.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/businessman-character-top-mountain_1390-73.jpg",
+      "reason": "featured_image_url",
+      "post_id": 1667,
+      "slug": "nepokolebimye-principy-kak-nashi-cennosti-formirujut-nashu-kulturu-i-put-k-uspehu"
+    },
+    {
+      "from": "http://auditte.ru/kak-nehvatka-syrja-mozhet-prepjatstvovat-progressu-v-oblasti-jelektrotransporta-2/",
+      "to": "https://auditte.ru/kak-nehvatka-syrja-mozhet-prepjatstvovat-progressu-v-oblasti-jelektrotransporta-2/",
+      "reason": "permalink_candidate",
+      "post_id": 1671,
+      "slug": "kak-nehvatka-syrja-mozhet-prepjatstvovat-progressu-v-oblasti-jelektrotransporta-2"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/yf.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/yf.jpg",
+      "reason": "featured_image_url",
+      "post_id": 1671,
+      "slug": "kak-nehvatka-syrja-mozhet-prepjatstvovat-progressu-v-oblasti-jelektrotransporta-2"
+    },
+    {
+      "from": "http://auditte.ru/roznichnaja-torgovlja-ponjatie-i-sut/",
+      "to": "https://auditte.ru/roznichnaja-torgovlja-ponjatie-i-sut/",
+      "reason": "permalink_candidate",
+      "post_id": 1675,
+      "slug": "roznichnaja-torgovlja-ponjatie-i-sut"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/toy-supermarket-cart-with-gifts-packets_23-2147955413.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/toy-supermarket-cart-with-gifts-packets_23-2147955413.jpg",
+      "reason": "featured_image_url",
+      "post_id": 1675,
+      "slug": "roznichnaja-torgovlja-ponjatie-i-sut"
+    },
+    {
+      "from": "http://auditte.ru/progress-roznichnoj-torgovli-i-obshhestvennogo-pitanija-kak-vazhnyh-sostavljajushhih-sektora-potrebitelskih-uslug/",
+      "to": "https://auditte.ru/progress-roznichnoj-torgovli-i-obshhestvennogo-pitanija-kak-vazhnyh-sostavljajushhih-sektora-potrebitelskih-uslug/",
+      "reason": "permalink_candidate",
+      "post_id": 1679,
+      "slug": "progress-roznichnoj-torgovli-i-obshhestvennogo-pitanija-kak-vazhnyh-sostavljajushhih-sektora-potrebitelskih-uslug"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/12-1.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/12-1.jpg",
+      "reason": "featured_image_url",
+      "post_id": 1679,
+      "slug": "progress-roznichnoj-torgovli-i-obshhestvennogo-pitanija-kak-vazhnyh-sostavljajushhih-sektora-potrebitelskih-uslug"
+    },
+    {
+      "from": "http://auditte.ru/strategicheskoe-napravlenie-razvitija-torgovli-v-rossijskoj-federacii-k-2025-godu/",
+      "to": "https://auditte.ru/strategicheskoe-napravlenie-razvitija-torgovli-v-rossijskoj-federacii-k-2025-godu/",
+      "reason": "permalink_candidate",
+      "post_id": 1683,
+      "slug": "strategicheskoe-napravlenie-razvitija-torgovli-v-rossijskoj-federacii-k-2025-godu"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/shopping-carts-with-phone-alarm-clock_23-2148288243.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/shopping-carts-with-phone-alarm-clock_23-2148288243.jpg",
+      "reason": "featured_image_url",
+      "post_id": 1683,
+      "slug": "strategicheskoe-napravlenie-razvitija-torgovli-v-rossijskoj-federacii-k-2025-godu"
+    },
+    {
+      "from": "http://auditte.ru/nashi-sotrudniki/",
+      "to": "https://auditte.ru/nashi-sotrudniki/",
+      "reason": "permalink_candidate",
+      "post_id": 1687,
+      "slug": "nashi-sotrudniki"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/sotrudniki-1-1024x578.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/sotrudniki-1-1024x578.jpg",
+      "reason": "all_image_urls",
+      "post_id": 1687,
+      "slug": "nashi-sotrudniki"
+    },
+    {
+      "from": "http://auditte.ru/juridicheskoe-soprovozhdenie/",
+      "to": "https://auditte.ru/juridicheskoe-soprovozhdenie/",
+      "reason": "permalink_candidate",
+      "post_id": 1694,
+      "slug": "juridicheskoe-soprovozhdenie"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/juridicheskoe-soprovozhdenie-1-1-1024x576.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/juridicheskoe-soprovozhdenie-1-1-1024x576.jpg",
+      "reason": "all_image_urls",
+      "post_id": 1694,
+      "slug": "juridicheskoe-soprovozhdenie"
+    },
+    {
+      "from": "http://auditte.ru/press-sluzhba/",
+      "to": "https://auditte.ru/press-sluzhba/",
+      "reason": "permalink_candidate",
+      "post_id": 1709,
+      "slug": "press-sluzhba"
+    },
+    {
+      "from": "http://auditte.ru/kak-evropa-mozhet-privlech-investicii-budushhego-pokolenija/",
+      "to": "https://auditte.ru/kak-evropa-mozhet-privlech-investicii-budushhego-pokolenija/",
+      "reason": "permalink_candidate",
+      "post_id": 1716,
+      "slug": "kak-evropa-mozhet-privlech-investicii-budushhego-pokolenija"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/121.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/121.jpg",
+      "reason": "featured_image_url",
+      "post_id": 1716,
+      "slug": "kak-evropa-mozhet-privlech-investicii-budushhego-pokolenija"
+    },
+    {
+      "from": "http://auditte.ru/meropriyatiya/",
+      "to": "https://auditte.ru/meropriyatiya/",
+      "reason": "permalink_candidate",
+      "post_id": 1718,
+      "slug": "meropriyatiya"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/18.png",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/18.png",
+      "reason": "all_image_urls",
+      "post_id": 1718,
+      "slug": "meropriyatiya"
+    },
+    {
+      "from": "http://auditte.ru/kak-starye-druzja-mogut-obnaruzhit-novye-perspektivy/",
+      "to": "https://auditte.ru/kak-starye-druzja-mogut-obnaruzhit-novye-perspektivy/",
+      "reason": "permalink_candidate",
+      "post_id": 1724,
+      "slug": "kak-starye-druzja-mogut-obnaruzhit-novye-perspektivy"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/21.avif",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/21.avif",
+      "reason": "featured_image_url",
+      "post_id": 1724,
+      "slug": "kak-starye-druzja-mogut-obnaruzhit-novye-perspektivy"
+    },
+    {
+      "from": "http://auditte.ru/kak-jeffektivnoe-upravlenie-mozhet-poluchit-preimushhestva-ot-ustojchivogo-razvitija/",
+      "to": "https://auditte.ru/kak-jeffektivnoe-upravlenie-mozhet-poluchit-preimushhestva-ot-ustojchivogo-razvitija/",
+      "reason": "permalink_candidate",
+      "post_id": 1729,
+      "slug": "kak-jeffektivnoe-upravlenie-mozhet-poluchit-preimushhestva-ot-ustojchivogo-razvitija"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/yj.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/yj.jpg",
+      "reason": "featured_image_url",
+      "post_id": 1729,
+      "slug": "kak-jeffektivnoe-upravlenie-mozhet-poluchit-preimushhestva-ot-ustojchivogo-razvitija"
+    },
+    {
+      "from": "http://auditte.ru/kak-korporativnoe-upravlenie-mozhet-sposobstvovat-sozdaniju-bolee-ustojchivogo-mira/",
+      "to": "https://auditte.ru/kak-korporativnoe-upravlenie-mozhet-sposobstvovat-sozdaniju-bolee-ustojchivogo-mira/",
+      "reason": "permalink_candidate",
+      "post_id": 1734,
+      "slug": "kak-korporativnoe-upravlenie-mozhet-sposobstvovat-sozdaniju-bolee-ustojchivogo-mira"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/hand-drawn-business-strategy-concept_23-2149165043.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/hand-drawn-business-strategy-concept_23-2149165043.jpg",
+      "reason": "featured_image_url",
+      "post_id": 1734,
+      "slug": "kak-korporativnoe-upravlenie-mozhet-sposobstvovat-sozdaniju-bolee-ustojchivogo-mira"
+    },
+    {
+      "from": "http://auditte.ru/pjat-sposobov-kotorymi-izmenenie-finansov-mozhet-sodejstvovat-ustojchivym-transformacijam/",
+      "to": "https://auditte.ru/pjat-sposobov-kotorymi-izmenenie-finansov-mozhet-sodejstvovat-ustojchivym-transformacijam/",
+      "reason": "permalink_candidate",
+      "post_id": 1738,
+      "slug": "pjat-sposobov-kotorymi-izmenenie-finansov-mozhet-sodejstvovat-ustojchivym-transformacijam"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/21y.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/21y.jpg",
+      "reason": "featured_image_url",
+      "post_id": 1738,
+      "slug": "pjat-sposobov-kotorymi-izmenenie-finansov-mozhet-sodejstvovat-ustojchivym-transformacijam"
+    },
+    {
+      "from": "http://auditte.ru/pochemu-promyshlennym-kompanijam-vazhno-stat-liderami-v-innovacionnyh-biznes-modeljah/",
+      "to": "https://auditte.ru/pochemu-promyshlennym-kompanijam-vazhno-stat-liderami-v-innovacionnyh-biznes-modeljah/",
+      "reason": "permalink_candidate",
+      "post_id": 1742,
+      "slug": "pochemu-promyshlennym-kompanijam-vazhno-stat-liderami-v-innovacionnyh-biznes-modeljah"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/y1y.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/y1y.jpg",
+      "reason": "featured_image_url",
+      "post_id": 1742,
+      "slug": "pochemu-promyshlennym-kompanijam-vazhno-stat-liderami-v-innovacionnyh-biznes-modeljah"
+    },
+    {
+      "from": "http://auditte.ru/kak-promyshlennye-lidery-mogut-primenjat-ustojchivoe-razvitie-dlja-sozdanija-cennosti/",
+      "to": "https://auditte.ru/kak-promyshlennye-lidery-mogut-primenjat-ustojchivoe-razvitie-dlja-sozdanija-cennosti/",
+      "reason": "permalink_candidate",
+      "post_id": 1747,
+      "slug": "kak-promyshlennye-lidery-mogut-primenjat-ustojchivoe-razvitie-dlja-sozdanija-cennosti"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/vy.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/vy.jpg",
+      "reason": "featured_image_url",
+      "post_id": 1747,
+      "slug": "kak-promyshlennye-lidery-mogut-primenjat-ustojchivoe-razvitie-dlja-sozdanija-cennosti"
+    },
+    {
+      "from": "http://auditte.ru/kak-bystro-zapustit-ustojchivyj-biznes-orientirovannyj-na-potrebitelja/",
+      "to": "https://auditte.ru/kak-bystro-zapustit-ustojchivyj-biznes-orientirovannyj-na-potrebitelja/",
+      "reason": "permalink_candidate",
+      "post_id": 1751,
+      "slug": "kak-bystro-zapustit-ustojchivyj-biznes-orientirovannyj-na-potrebitelja"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/4709959.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/4709959.jpg",
+      "reason": "featured_image_url",
+      "post_id": 1751,
+      "slug": "kak-bystro-zapustit-ustojchivyj-biznes-orientirovannyj-na-potrebitelja"
+    },
+    {
+      "from": "http://auditte.ru/investicii-i-finansy/",
+      "to": "https://auditte.ru/investicii-i-finansy/",
+      "reason": "permalink_candidate",
+      "post_id": 1766,
+      "slug": "investicii-i-finansy"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/investicii-i-finansy-1-2-1024x576.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/investicii-i-finansy-1-2-1024x576.jpg",
+      "reason": "all_image_urls",
+      "post_id": 1766,
+      "slug": "investicii-i-finansy"
+    },
+    {
+      "from": "http://auditte.ru/proverka-kompanij-compliance/",
+      "to": "https://auditte.ru/proverka-kompanij-compliance/",
+      "reason": "permalink_candidate",
+      "post_id": 1782,
+      "slug": "proverka-kompanij-compliance"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/proverka-kompanij-1-1-1024x576.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/proverka-kompanij-1-1-1024x576.jpg",
+      "reason": "all_image_urls",
+      "post_id": 1782,
+      "slug": "proverka-kompanij-compliance"
+    },
+    {
+      "from": "http://auditte.ru/karyera/",
+      "to": "https://auditte.ru/karyera/",
+      "reason": "permalink_candidate",
+      "post_id": 1799,
+      "slug": "karyera"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/juridicheskoe-soprovozhdenie-1-1-1024x576.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/juridicheskoe-soprovozhdenie-1-1-1024x576.jpg",
+      "reason": "all_image_urls",
+      "post_id": 1799,
+      "slug": "karyera"
+    },
+    {
+      "from": "http://auditte.ru/rabota-v-kompanii/",
+      "to": "https://auditte.ru/rabota-v-kompanii/",
+      "reason": "permalink_candidate",
+      "post_id": 1825,
+      "slug": "rabota-v-kompanii"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/juridicheskoe-soprovozhdenie-1-1-1024x576.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/juridicheskoe-soprovozhdenie-1-1-1024x576.jpg",
+      "reason": "all_image_urls",
+      "post_id": 1825,
+      "slug": "rabota-v-kompanii"
+    },
+    {
+      "from": "http://auditte.ru/rabota-v-nashey-kompanii/",
+      "to": "https://auditte.ru/rabota-v-nashey-kompanii/",
+      "reason": "permalink_candidate",
+      "post_id": 1831,
+      "slug": "rabota-v-nashey-kompanii"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/chto-znachit-rabotat-v-nashej-kompanii-1-1024x578.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/chto-znachit-rabotat-v-nashej-kompanii-1-1024x578.jpg",
+      "reason": "all_image_urls",
+      "post_id": 1831,
+      "slug": "rabota-v-nashey-kompanii"
+    },
+    {
+      "from": "http://auditte.ru/kak-prisoyedinitsya-k-nam/",
+      "to": "https://auditte.ru/kak-prisoyedinitsya-k-nam/",
+      "reason": "permalink_candidate",
+      "post_id": 1839,
+      "slug": "kak-prisoyedinitsya-k-nam"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/kak-prisoedinitsja-k-nam-1024x578.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/kak-prisoedinitsja-k-nam-1024x578.jpg",
+      "reason": "all_image_urls",
+      "post_id": 1839,
+      "slug": "kak-prisoyedinitsya-k-nam"
+    },
+    {
+      "from": "http://auditte.ru/inostrannym-klientam/",
+      "to": "https://auditte.ru/inostrannym-klientam/",
+      "reason": "permalink_candidate",
+      "post_id": 1899,
+      "slug": "inostrannym-klientam"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/lawyer-with-smartphone_23-2147984044-1024x683.avif",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/lawyer-with-smartphone_23-2147984044-1024x683.avif",
+      "reason": "all_image_urls",
+      "post_id": 1899,
+      "slug": "inostrannym-klientam"
+    },
+    {
+      "from": "http://auditte.ru/shkola-jekspertizy-i-prava/",
+      "to": "https://auditte.ru/shkola-jekspertizy-i-prava/",
+      "reason": "permalink_candidate",
+      "post_id": 1912,
+      "slug": "shkola-jekspertizy-i-prava"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/2-23-1024x578.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/2-23-1024x578.jpg",
+      "reason": "all_image_urls",
+      "post_id": 1912,
+      "slug": "shkola-jekspertizy-i-prava"
+    },
+    {
+      "from": "http://auditte.ru/soobshhestvo-biznesmenov/",
+      "to": "https://auditte.ru/soobshhestvo-biznesmenov/",
+      "reason": "permalink_candidate",
+      "post_id": 1918,
+      "slug": "soobshhestvo-biznesmenov"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/soobshhestvo-biznesmenov-1-1-1024x576.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/soobshhestvo-biznesmenov-1-1-1024x576.jpg",
+      "reason": "all_image_urls",
+      "post_id": 1918,
+      "slug": "soobshhestvo-biznesmenov"
+    },
+    {
+      "from": "http://auditte.ru/akademija-biznesa/",
+      "to": "https://auditte.ru/akademija-biznesa/",
+      "reason": "permalink_candidate",
+      "post_id": 1938,
+      "slug": "akademija-biznesa"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/2-23-1024x578.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/2-23-1024x578.jpg",
+      "reason": "all_image_urls",
+      "post_id": 1938,
+      "slug": "akademija-biznesa"
+    },
+    {
+      "from": "http://auditte.ru/kontakty/",
+      "to": "https://auditte.ru/kontakty/",
+      "reason": "permalink_candidate",
+      "post_id": 2280,
+      "slug": "kontakty"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/04/visa-application-form-composition.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/04/visa-application-form-composition.jpg",
+      "reason": "all_image_urls",
+      "post_id": 2280,
+      "slug": "kontakty"
+    },
+    {
+      "from": "http://auditte.ru/forma/",
+      "to": "https://auditte.ru/forma/",
+      "reason": "permalink_candidate",
+      "post_id": 2505,
+      "slug": "forma"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-29-16.39.43-a-wide-business-scene-depicting-the-stages-of-an-ipo.-the-image-shows-various-stages-including-a-team-meeting-for-strategy-development-legal-and-fina.webp",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-29-16.39.43-a-wide-business-scene-depicting-the-stages-of-an-ipo.-the-image-shows-various-stages-including-a-team-meeting-for-strategy-development-legal-and-fina.webp",
+      "reason": "all_image_urls",
+      "post_id": 2505,
+      "slug": "forma"
+    },
+    {
+      "from": "http://auditte.ru/ekspertiza/",
+      "to": "https://auditte.ru/ekspertiza/",
+      "reason": "permalink_candidate",
+      "post_id": 3758,
+      "slug": "ekspertiza"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/sudebnaja-jekspertiza-top.png",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/sudebnaja-jekspertiza-top.png",
+      "reason": "all_image_urls",
+      "post_id": 3758,
+      "slug": "ekspertiza"
+    },
+    {
+      "from": "http://auditte.ru/jekspertiza-proektnoj-dokumentacii-po-gradostroitelnomu-kodeksu-rf/",
+      "to": "https://auditte.ru/jekspertiza-proektnoj-dokumentacii-po-gradostroitelnomu-kodeksu-rf/",
+      "reason": "permalink_candidate",
+      "post_id": 3770,
+      "slug": "jekspertiza-proektnoj-dokumentacii-po-gradostroitelnomu-kodeksu-rf"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/jkk.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/jkk.jpg",
+      "reason": "featured_image_url",
+      "post_id": 3770,
+      "slug": "jekspertiza-proektnoj-dokumentacii-po-gradostroitelnomu-kodeksu-rf"
+    },
+    {
+      "from": "http://auditte.ru/jekspertiza-po-federalnomu-zakonu-44/",
+      "to": "https://auditte.ru/jekspertiza-po-federalnomu-zakonu-44/",
+      "reason": "permalink_candidate",
+      "post_id": 3777,
+      "slug": "jekspertiza-po-federalnomu-zakonu-44"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/jkk-1.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/jkk-1.jpg",
+      "reason": "featured_image_url",
+      "post_id": 3777,
+      "slug": "jekspertiza-po-federalnomu-zakonu-44"
+    },
+    {
+      "from": "http://auditte.ru/jekspertiza-po-fz-73/",
+      "to": "https://auditte.ru/jekspertiza-po-fz-73/",
+      "reason": "permalink_candidate",
+      "post_id": 3784,
+      "slug": "jekspertiza-po-fz-73"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/fz-73.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/fz-73.jpg",
+      "reason": "featured_image_url",
+      "post_id": 3784,
+      "slug": "jekspertiza-po-fz-73"
+    },
+    {
+      "from": "http://auditte.ru/sud-expertiza/",
+      "to": "https://auditte.ru/sud-expertiza/",
+      "reason": "permalink_candidate",
+      "post_id": 3800,
+      "slug": "sud-expertiza"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/sudebnaja-jekspertiza-top-jekspert-1024x747.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/sudebnaja-jekspertiza-top-jekspert-1024x747.jpg",
+      "reason": "all_image_urls",
+      "post_id": 3800,
+      "slug": "sud-expertiza"
+    },
+    {
+      "from": "http://auditte.ru/dosudebnaya-expertiza/",
+      "to": "https://auditte.ru/dosudebnaya-expertiza/",
+      "reason": "permalink_candidate",
+      "post_id": 3813,
+      "slug": "dosudebnaya-expertiza"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/dosudebnaja-jekpertiza-top-1024x747.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/dosudebnaja-jekpertiza-top-1024x747.jpg",
+      "reason": "all_image_urls",
+      "post_id": 3813,
+      "slug": "dosudebnaya-expertiza"
+    },
+    {
+      "from": "http://auditte.ru/dosudebnaja-ekspertiza/",
+      "to": "https://auditte.ru/dosudebnaja-ekspertiza/",
+      "reason": "permalink_candidate",
+      "post_id": 3820,
+      "slug": "dosudebnaja-ekspertiza"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/dosudebnaja-jekpertiza-top-1.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/dosudebnaja-jekpertiza-top-1.jpg",
+      "reason": "featured_image_url",
+      "post_id": 3820,
+      "slug": "dosudebnaja-ekspertiza"
+    },
+    {
+      "from": "http://auditte.ru/dosudebnaja-i-sudebnaja-jekspertizy/",
+      "to": "https://auditte.ru/dosudebnaja-i-sudebnaja-jekspertizy/",
+      "reason": "permalink_candidate",
+      "post_id": 3824,
+      "slug": "dosudebnaja-i-sudebnaja-jekspertizy"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/zapis-dosudebnoj.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/zapis-dosudebnoj.jpg",
+      "reason": "featured_image_url",
+      "post_id": 3824,
+      "slug": "dosudebnaja-i-sudebnaja-jekspertizy"
+    },
+    {
+      "from": "http://auditte.ru/notar-expertiza/",
+      "to": "https://auditte.ru/notar-expertiza/",
+      "reason": "permalink_candidate",
+      "post_id": 3831,
+      "slug": "notar-expertiza"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/notarialnaja-jekspertiza-top-1-1024x747.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/notarialnaja-jekspertiza-top-1-1024x747.jpg",
+      "reason": "all_image_urls",
+      "post_id": 3831,
+      "slug": "notar-expertiza"
+    },
+    {
+      "from": "http://auditte.ru/notarialnuu-ekspertiza/",
+      "to": "https://auditte.ru/notarialnuu-ekspertiza/",
+      "reason": "permalink_candidate",
+      "post_id": 3839,
+      "slug": "notarialnuu-ekspertiza"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/notarius-zapis-1.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/notarius-zapis-1.jpg",
+      "reason": "featured_image_url",
+      "post_id": 3839,
+      "slug": "notarialnuu-ekspertiza"
+    },
+    {
+      "from": "http://auditte.ru/sbor-dokazatelstv/",
+      "to": "https://auditte.ru/sbor-dokazatelstv/",
+      "reason": "permalink_candidate",
+      "post_id": 3842,
+      "slug": "sbor-dokazatelstv"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/notarius-zapis-2.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/notarius-zapis-2.jpg",
+      "reason": "featured_image_url",
+      "post_id": 3842,
+      "slug": "sbor-dokazatelstv"
+    },
+    {
+      "from": "http://auditte.ru/expertiza-44fz/",
+      "to": "https://auditte.ru/expertiza-44fz/",
+      "reason": "permalink_candidate",
+      "post_id": 3849,
+      "slug": "expertiza-44fz"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/fz-44-top-1024x747.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/fz-44-top-1024x747.jpg",
+      "reason": "all_image_urls",
+      "post_id": 3849,
+      "slug": "expertiza-44fz"
+    },
+    {
+      "from": "http://auditte.ru/porjadok-provedenija-jekspertizy/",
+      "to": "https://auditte.ru/porjadok-provedenija-jekspertizy/",
+      "reason": "permalink_candidate",
+      "post_id": 3856,
+      "slug": "porjadok-provedenija-jekspertizy"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/fz-44-top-1.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/fz-44-top-1.jpg",
+      "reason": "featured_image_url",
+      "post_id": 3856,
+      "slug": "porjadok-provedenija-jekspertizy"
+    },
+    {
+      "from": "http://auditte.ru/jekspertiza-po-zakonu-44-fz-s-pomoshhju-jekspertov-ili-svoimi-silami/",
+      "to": "https://auditte.ru/jekspertiza-po-zakonu-44-fz-s-pomoshhju-jekspertov-ili-svoimi-silami/",
+      "reason": "permalink_candidate",
+      "post_id": 3858,
+      "slug": "jekspertiza-po-zakonu-44-fz-s-pomoshhju-jekspertov-ili-svoimi-silami"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/zapis-44-fz.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/zapis-44-fz.jpg",
+      "reason": "featured_image_url",
+      "post_id": 3858,
+      "slug": "jekspertiza-po-zakonu-44-fz-s-pomoshhju-jekspertov-ili-svoimi-silami"
+    },
+    {
+      "from": "http://auditte.ru/castoms-expertiza/",
+      "to": "https://auditte.ru/castoms-expertiza/",
+      "reason": "permalink_candidate",
+      "post_id": 3864,
+      "slug": "castoms-expertiza"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/tamozhennaja-jekspertiza-top-1-1024x747.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/tamozhennaja-jekspertiza-top-1-1024x747.jpg",
+      "reason": "all_image_urls",
+      "post_id": 3864,
+      "slug": "castoms-expertiza"
+    },
+    {
+      "from": "http://auditte.ru/tamozhennaja-jekspertiza-pravila-i-porjadok-provedenija-v-ramkah-tamozhennogo-kontrolja/",
+      "to": "https://auditte.ru/tamozhennaja-jekspertiza-pravila-i-porjadok-provedenija-v-ramkah-tamozhennogo-kontrolja/",
+      "reason": "permalink_candidate",
+      "post_id": 3871,
+      "slug": "tamozhennaja-jekspertiza-pravila-i-porjadok-provedenija-v-ramkah-tamozhennogo-kontrolja"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/tamozhennaja-jekspertiza-top-1-1.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/tamozhennaja-jekspertiza-top-1-1.jpg",
+      "reason": "featured_image_url",
+      "post_id": 3871,
+      "slug": "tamozhennaja-jekspertiza-pravila-i-porjadok-provedenija-v-ramkah-tamozhennogo-kontrolja"
+    },
+    {
+      "from": "http://auditte.ru/tamozhennaja-jekspertiza/",
+      "to": "https://auditte.ru/tamozhennaja-jekspertiza/",
+      "reason": "permalink_candidate",
+      "post_id": 3873,
+      "slug": "tamozhennaja-jekspertiza"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/tamozhka-zapis-1.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/tamozhka-zapis-1.jpg",
+      "reason": "featured_image_url",
+      "post_id": 3873,
+      "slug": "tamozhennaja-jekspertiza"
+    },
+    {
+      "from": "http://auditte.ru/expertiza-proekt-docum/",
+      "to": "https://auditte.ru/expertiza-proekt-docum/",
+      "reason": "permalink_candidate",
+      "post_id": 3879,
+      "slug": "expertiza-proekt-docum"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/jekspertiza-proektnoj-dokumentacii-top-1-1024x747.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/jekspertiza-proektnoj-dokumentacii-top-1-1024x747.jpg",
+      "reason": "all_image_urls",
+      "post_id": 3879,
+      "slug": "expertiza-proekt-docum"
+    },
+    {
+      "from": "http://auditte.ru/provedenie-negosudarstvennoj-jekspertizy-proektnoj-dokumentacii/",
+      "to": "https://auditte.ru/provedenie-negosudarstvennoj-jekspertizy-proektnoj-dokumentacii/",
+      "reason": "permalink_candidate",
+      "post_id": 3886,
+      "slug": "provedenie-negosudarstvennoj-jekspertizy-proektnoj-dokumentacii"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/tamozhka-zapis-1.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/tamozhka-zapis-1.jpg",
+      "reason": "featured_image_url",
+      "post_id": 3886,
+      "slug": "provedenie-negosudarstvennoj-jekspertizy-proektnoj-dokumentacii"
+    },
+    {
+      "from": "http://auditte.ru/jekspertiza-proektnoj-dokumentacii-chto-jeto-i-kak-projti/",
+      "to": "https://auditte.ru/jekspertiza-proektnoj-dokumentacii-chto-jeto-i-kak-projti/",
+      "reason": "permalink_candidate",
+      "post_id": 3888,
+      "slug": "jekspertiza-proektnoj-dokumentacii-chto-jeto-i-kak-projti"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/jekspertiza-proektnoj-dokumentacii-zapis.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/jekspertiza-proektnoj-dokumentacii-zapis.jpg",
+      "reason": "featured_image_url",
+      "post_id": 3888,
+      "slug": "jekspertiza-proektnoj-dokumentacii-chto-jeto-i-kak-projti"
+    },
+    {
+      "from": "http://auditte.ru/ecolog-expertiza/",
+      "to": "https://auditte.ru/ecolog-expertiza/",
+      "reason": "permalink_candidate",
+      "post_id": 3894,
+      "slug": "ecolog-expertiza"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/jekologicheskaja-jekspertiza-top-1-1024x747.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/jekologicheskaja-jekspertiza-top-1-1024x747.jpg",
+      "reason": "all_image_urls",
+      "post_id": 3894,
+      "slug": "ecolog-expertiza"
+    },
+    {
+      "from": "http://auditte.ru/jekologicheskaja-jekspertiza-vidy-celi-i-jetapy-procedury/",
+      "to": "https://auditte.ru/jekologicheskaja-jekspertiza-vidy-celi-i-jetapy-procedury/",
+      "reason": "permalink_candidate",
+      "post_id": 3901,
+      "slug": "jekologicheskaja-jekspertiza-vidy-celi-i-jetapy-procedury"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/jekologicheskaja-jekspertiza-top-1-1.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/jekologicheskaja-jekspertiza-top-1-1.jpg",
+      "reason": "featured_image_url",
+      "post_id": 3901,
+      "slug": "jekologicheskaja-jekspertiza-vidy-celi-i-jetapy-procedury"
+    },
+    {
+      "from": "http://auditte.ru/jekologicheskaja-jekspertiza/",
+      "to": "https://auditte.ru/jekologicheskaja-jekspertiza/",
+      "reason": "permalink_candidate",
+      "post_id": 3904,
+      "slug": "jekologicheskaja-jekspertiza"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/jekologicheskaja-jekspertiza-zapis-1-top.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/jekologicheskaja-jekspertiza-zapis-1-top.jpg",
+      "reason": "featured_image_url",
+      "post_id": 3904,
+      "slug": "jekologicheskaja-jekspertiza"
+    },
+    {
+      "from": "http://auditte.ru/expertiza-prom-bezopasnosti/",
+      "to": "https://auditte.ru/expertiza-prom-bezopasnosti/",
+      "reason": "permalink_candidate",
+      "post_id": 3910,
+      "slug": "expertiza-prom-bezopasnosti"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/jekspertiza-promyshlennoj-bezopasnosti-top-4-1024x747.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/jekspertiza-promyshlennoj-bezopasnosti-top-4-1024x747.jpg",
+      "reason": "all_image_urls",
+      "post_id": 3910,
+      "slug": "expertiza-prom-bezopasnosti"
+    },
+    {
+      "from": "http://auditte.ru/otvetstvennost-za-narushenie-trebovanij-promyshlennoj-bezopasnosti/",
+      "to": "https://auditte.ru/otvetstvennost-za-narushenie-trebovanij-promyshlennoj-bezopasnosti/",
+      "reason": "permalink_candidate",
+      "post_id": 3917,
+      "slug": "otvetstvennost-za-narushenie-trebovanij-promyshlennoj-bezopasnosti"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/jekspertiza-promyshlennoj-bezopasnosti-zapis-1.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/jekspertiza-promyshlennoj-bezopasnosti-zapis-1.jpg",
+      "reason": "featured_image_url",
+      "post_id": 3917,
+      "slug": "otvetstvennost-za-narushenie-trebovanij-promyshlennoj-bezopasnosti"
+    },
+    {
+      "from": "http://auditte.ru/provedenie-jekspertizy-promyshlennoj-bezopasnosti/",
+      "to": "https://auditte.ru/provedenie-jekspertizy-promyshlennoj-bezopasnosti/",
+      "reason": "permalink_candidate",
+      "post_id": 3920,
+      "slug": "provedenie-jekspertizy-promyshlennoj-bezopasnosti"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/jekspertiza-promyshlennoj-bezopasnosti-zapis-2.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/jekspertiza-promyshlennoj-bezopasnosti-zapis-2.jpg",
+      "reason": "featured_image_url",
+      "post_id": 3920,
+      "slug": "provedenie-jekspertizy-promyshlennoj-bezopasnosti"
+    },
+    {
+      "from": "http://auditte.ru/gost-ipo/",
+      "to": "https://auditte.ru/gost-ipo/",
+      "reason": "permalink_candidate",
+      "post_id": 4055,
+      "slug": "gost-ipo"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-29-21.54.31-a-sophisticated-and-professional-business-scene-featuring-a-group-of-financial-experts-including-underwriters-in-a-modern-office-setting.-the-expert.webp",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-29-21.54.31-a-sophisticated-and-professional-business-scene-featuring-a-group-of-financial-experts-including-underwriters-in-a-modern-office-setting.-the-expert.webp",
+      "reason": "featured_image_url",
+      "post_id": 4055,
+      "slug": "gost-ipo"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-29-16.24.40-a-sophisticated-and-professional-business-scene-with-a-focus-on-ipo-and-legal-consulting.-the-image-features-a-group-of-business-professionals-in-a-mo.webp",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-29-16.24.40-a-sophisticated-and-professional-business-scene-with-a-focus-on-ipo-and-legal-consulting.-the-image-features-a-group-of-business-professionals-in-a-mo.webp",
+      "reason": "all_image_urls",
+      "post_id": 4055,
+      "slug": "gost-ipo"
+    },
+    {
+      "from": "http://auditte.ru/spiker-ipo/",
+      "to": "https://auditte.ru/spiker-ipo/",
+      "reason": "permalink_candidate",
+      "post_id": 4057,
+      "slug": "spiker-ipo"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-29-22.50.08-a-professional-business-scene-illustrating-the-roles-of-underwriters-and-consulting-firms-in-the-ipo-process.-on-one-side-investment-bankers-are-show.webp",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-29-22.50.08-a-professional-business-scene-illustrating-the-roles-of-underwriters-and-consulting-firms-in-the-ipo-process.-on-one-side-investment-bankers-are-show.webp",
+      "reason": "featured_image_url",
+      "post_id": 4057,
+      "slug": "spiker-ipo"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-29-16.24.40-a-sophisticated-and-professional-business-scene-with-a-focus-on-ipo-and-legal-consulting.-the-image-features-a-group-of-business-professionals-in-a-mo.webp",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-29-16.24.40-a-sophisticated-and-professional-business-scene-with-a-focus-on-ipo-and-legal-consulting.-the-image-features-a-group-of-business-professionals-in-a-mo.webp",
+      "reason": "all_image_urls",
+      "post_id": 4057,
+      "slug": "spiker-ipo"
+    },
+    {
+      "from": "http://auditte.ru/bussines-vstrecha-8-ijunya-2024-spb/",
+      "to": "https://auditte.ru/bussines-vstrecha-8-ijunya-2024-spb/",
+      "reason": "permalink_candidate",
+      "post_id": 4059,
+      "slug": "bussines-vstrecha-8-ijunya-2024-spb"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-29-21.32.11-a-sophisticated-and-professional-business-scene-at-the-saint-petersburg-international-economic-forum-spief-with-top-expert-representatives.-the-im.webp",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-29-21.32.11-a-sophisticated-and-professional-business-scene-at-the-saint-petersburg-international-economic-forum-spief-with-top-expert-representatives.-the-im.webp",
+      "reason": "featured_image_url",
+      "post_id": 4059,
+      "slug": "bussines-vstrecha-8-ijunya-2024-spb"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-29-16.24.40-a-sophisticated-and-professional-business-scene-with-a-focus-on-ipo-and-legal-consulting.-the-image-features-a-group-of-business-professionals-in-a-mo.webp",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-29-16.24.40-a-sophisticated-and-professional-business-scene-with-a-focus-on-ipo-and-legal-consulting.-the-image-features-a-group-of-business-professionals-in-a-mo.webp",
+      "reason": "all_image_urls",
+      "post_id": 4059,
+      "slug": "bussines-vstrecha-8-ijunya-2024-spb"
+    },
+    {
+      "from": "http://auditte.ru/pmef-2024-spb/",
+      "to": "https://auditte.ru/pmef-2024-spb/",
+      "reason": "permalink_candidate",
+      "post_id": 4062,
+      "slug": "pmef-2024-spb"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-29-21.17.08-a-sophisticated-and-professional-business-scene-at-the-saint-petersburg-international-economic-forum-spief.-the-image-features-a-modern-conference-h.webp",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-29-21.17.08-a-sophisticated-and-professional-business-scene-at-the-saint-petersburg-international-economic-forum-spief.-the-image-features-a-modern-conference-h.webp",
+      "reason": "featured_image_url",
+      "post_id": 4062,
+      "slug": "pmef-2024-spb"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/06/photo_2024-06-06_14-42-18-768x1024.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/06/photo_2024-06-06_14-42-18-768x1024.jpg",
+      "reason": "all_image_urls",
+      "post_id": 4062,
+      "slug": "pmef-2024-spb"
+    },
+    {
+      "from": "http://auditte.ru/ipo/",
+      "to": "https://auditte.ru/ipo/",
+      "reason": "permalink_candidate",
+      "post_id": 4066,
+      "slug": "ipo"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-14-00.42.57-a-comic-panel-showcasing-the-work-of-top-expert-a-company-specializing-in-audit-consulting-and-evaluation.-the-scene-is-set-in-a-sleek-modern-offi-1024x585.webp",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-14-00.42.57-a-comic-panel-showcasing-the-work-of-top-expert-a-company-specializing-in-audit-consulting-and-evaluation.-the-scene-is-set-in-a-sleek-modern-offi-1024x585.webp",
+      "reason": "all_image_urls",
+      "post_id": 4066,
+      "slug": "ipo"
+    },
+    {
+      "from": "http://auditte.ru/ipo-2024-chto-zhdet-rissian-company/",
+      "to": "https://auditte.ru/ipo-2024-chto-zhdet-rissian-company/",
+      "reason": "permalink_candidate",
+      "post_id": 4108,
+      "slug": "ipo-2024-chto-zhdet-rissian-company"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-14-00.42.57-a-comic-panel-showcasing-the-work-of-top-expert-a-company-specializing-in-audit-consulting-and-evaluation.-the-scene-is-set-in-a-sleek-modern-offi.webp",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-14-00.42.57-a-comic-panel-showcasing-the-work-of-top-expert-a-company-specializing-in-audit-consulting-and-evaluation.-the-scene-is-set-in-a-sleek-modern-offi.webp",
+      "reason": "featured_image_url",
+      "post_id": 4108,
+      "slug": "ipo-2024-chto-zhdet-rissian-company"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-14-00.42.57-a-comic-panel-showcasing-the-work-of-top-expert-a-company-specializing-in-audit-consulting-and-evaluation.-the-scene-is-set-in-a-sleek-modern-offi-1024x585.webp",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-14-00.42.57-a-comic-panel-showcasing-the-work-of-top-expert-a-company-specializing-in-audit-consulting-and-evaluation.-the-scene-is-set-in-a-sleek-modern-offi-1024x585.webp",
+      "reason": "all_image_urls",
+      "post_id": 4108,
+      "slug": "ipo-2024-chto-zhdet-rissian-company"
+    },
+    {
+      "from": "http://auditte.ru/kto-takie-anderrajtery-i-kak-oni-pomogut-prodat-vashi-akcii/",
+      "to": "https://auditte.ru/kto-takie-anderrajtery-i-kak-oni-pomogut-prodat-vashi-akcii/",
+      "reason": "permalink_candidate",
+      "post_id": 4195,
+      "slug": "kto-takie-anderrajtery-i-kak-oni-pomogut-prodat-vashi-akcii"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-29-21.54.31-a-sophisticated-and-professional-business-scene-featuring-a-group-of-financial-experts-including-underwriters-in-a-modern-office-setting.-the-expert.webp",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-29-21.54.31-a-sophisticated-and-professional-business-scene-featuring-a-group-of-financial-experts-including-underwriters-in-a-modern-office-setting.-the-expert.webp",
+      "reason": "featured_image_url",
+      "post_id": 4195,
+      "slug": "kto-takie-anderrajtery-i-kak-oni-pomogut-prodat-vashi-akcii"
+    },
+    {
+      "from": "http://auditte.ru/konsalting-i-anderrajter-vzaimodejstvie-i-kompetencii/",
+      "to": "https://auditte.ru/konsalting-i-anderrajter-vzaimodejstvie-i-kompetencii/",
+      "reason": "permalink_candidate",
+      "post_id": 4206,
+      "slug": "konsalting-i-anderrajter-vzaimodejstvie-i-kompetencii"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-29-22.50.08-a-professional-business-scene-illustrating-the-roles-of-underwriters-and-consulting-firms-in-the-ipo-process.-on-one-side-investment-bankers-are-show.webp",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-29-22.50.08-a-professional-business-scene-illustrating-the-roles-of-underwriters-and-consulting-firms-in-the-ipo-process.-on-one-side-investment-bankers-are-show.webp",
+      "reason": "featured_image_url",
+      "post_id": 4206,
+      "slug": "konsalting-i-anderrajter-vzaimodejstvie-i-kompetencii"
+    },
+    {
+      "from": "http://auditte.ru/biznes-forum-integracija-vozmozhnostej-put-k-ipo-s-5-po-6-ijulja-2024/",
+      "to": "https://auditte.ru/biznes-forum-integracija-vozmozhnostej-put-k-ipo-s-5-po-6-ijulja-2024/",
+      "reason": "permalink_candidate",
+      "post_id": 4211,
+      "slug": "biznes-forum-integracija-vozmozhnostej-put-k-ipo-s-5-po-6-ijulja-2024"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-14-00.52.24-a-comic-panel-in-the-style-of-the-wolf-of-wall-street-showcasing-the-work-of-top-expert-a-company-specializing-in-audit-consulting-and-evaluation.webp",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-14-00.52.24-a-comic-panel-in-the-style-of-the-wolf-of-wall-street-showcasing-the-work-of-top-expert-a-company-specializing-in-audit-consulting-and-evaluation.webp",
+      "reason": "featured_image_url",
+      "post_id": 4211,
+      "slug": "biznes-forum-integracija-vozmozhnostej-put-k-ipo-s-5-po-6-ijulja-2024"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-29-16.24.40-a-sophisticated-and-professional-business-scene-with-a-focus-on-ipo-and-legal-consulting.-the-image-features-a-group-of-business-professionals-in-a-mo.webp",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-29-16.24.40-a-sophisticated-and-professional-business-scene-with-a-focus-on-ipo-and-legal-consulting.-the-image-features-a-group-of-business-professionals-in-a-mo.webp",
+      "reason": "all_image_urls",
+      "post_id": 4211,
+      "slug": "biznes-forum-integracija-vozmozhnostej-put-k-ipo-s-5-po-6-ijulja-2024"
+    },
+    {
+      "from": "http://auditte.ru/offer-2025/",
+      "to": "https://auditte.ru/offer-2025/",
+      "reason": "permalink_candidate",
+      "post_id": 4225,
+      "slug": "offer-2025"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-14-00.42.57-a-comic-panel-showcasing-the-work-of-top-expert-a-company-specializing-in-audit-consulting-and-evaluation.-the-scene-is-set-in-a-sleek-modern-offi.webp",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-14-00.42.57-a-comic-panel-showcasing-the-work-of-top-expert-a-company-specializing-in-audit-consulting-and-evaluation.-the-scene-is-set-in-a-sleek-modern-offi.webp",
+      "reason": "all_image_urls",
+      "post_id": 4225,
+      "slug": "offer-2025"
+    },
+    {
+      "from": "http://auditte.ru/pmjef/",
+      "to": "https://auditte.ru/pmjef/",
+      "reason": "permalink_candidate",
+      "post_id": 4321,
+      "slug": "pmjef"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/06/2.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/06/2.jpg",
+      "reason": "featured_image_url",
+      "post_id": 4321,
+      "slug": "pmjef"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-29-16.24.40-a-sophisticated-and-professional-business-scene-with-a-focus-on-ipo-and-legal-consulting.-the-image-features-a-group-of-business-professionals-in-a-mo.webp",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-29-16.24.40-a-sophisticated-and-professional-business-scene-with-a-focus-on-ipo-and-legal-consulting.-the-image-features-a-group-of-business-professionals-in-a-mo.webp",
+      "reason": "all_image_urls",
+      "post_id": 4321,
+      "slug": "pmjef"
+    },
+    {
+      "from": "http://auditte.ru/pmjuf/",
+      "to": "https://auditte.ru/pmjuf/",
+      "reason": "permalink_candidate",
+      "post_id": 4333,
+      "slug": "pmjuf"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/06/1.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/06/1.jpg",
+      "reason": "featured_image_url",
+      "post_id": 4333,
+      "slug": "pmjuf"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/07/photo_2024-07-01_08-42-05.jpg",
+      "to": "https://auditte.ru/wp-content/uploads/2024/07/photo_2024-07-01_08-42-05.jpg",
+      "reason": "all_image_urls",
+      "post_id": 4333,
+      "slug": "pmjuf"
+    },
+    {
+      "from": "http://auditte.ru/gost-integracija-vozmozhnostej/",
+      "to": "https://auditte.ru/gost-integracija-vozmozhnostej/",
+      "reason": "permalink_candidate",
+      "post_id": 4345,
+      "slug": "gost-integracija-vozmozhnostej"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-14-00.42.57-a-comic-panel-showcasing-the-work-of-top-expert-a-company-specializing-in-audit-consulting-and-evaluation.-the-scene-is-set-in-a-sleek-modern-offi.webp",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-14-00.42.57-a-comic-panel-showcasing-the-work-of-top-expert-a-company-specializing-in-audit-consulting-and-evaluation.-the-scene-is-set-in-a-sleek-modern-offi.webp",
+      "reason": "featured_image_url",
+      "post_id": 4345,
+      "slug": "gost-integracija-vozmozhnostej"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-29-16.24.40-a-sophisticated-and-professional-business-scene-with-a-focus-on-ipo-and-legal-consulting.-the-image-features-a-group-of-business-professionals-in-a-mo.webp",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-29-16.24.40-a-sophisticated-and-professional-business-scene-with-a-focus-on-ipo-and-legal-consulting.-the-image-features-a-group-of-business-professionals-in-a-mo.webp",
+      "reason": "all_image_urls",
+      "post_id": 4345,
+      "slug": "gost-integracija-vozmozhnostej"
+    },
+    {
+      "from": "http://auditte.ru/spiker-integracija-vozmozhnostej/",
+      "to": "https://auditte.ru/spiker-integracija-vozmozhnostej/",
+      "reason": "permalink_candidate",
+      "post_id": 4346,
+      "slug": "spiker-integracija-vozmozhnostej"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-29-16.39.43-a-wide-business-scene-depicting-the-stages-of-an-ipo.-the-image-shows-various-stages-including-a-team-meeting-for-strategy-development-legal-and-fina.webp",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-29-16.39.43-a-wide-business-scene-depicting-the-stages-of-an-ipo.-the-image-shows-various-stages-including-a-team-meeting-for-strategy-development-legal-and-fina.webp",
+      "reason": "featured_image_url",
+      "post_id": 4346,
+      "slug": "spiker-integracija-vozmozhnostej"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-29-16.24.40-a-sophisticated-and-professional-business-scene-with-a-focus-on-ipo-and-legal-consulting.-the-image-features-a-group-of-business-professionals-in-a-mo.webp",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-29-16.24.40-a-sophisticated-and-professional-business-scene-with-a-focus-on-ipo-and-legal-consulting.-the-image-features-a-group-of-business-professionals-in-a-mo.webp",
+      "reason": "all_image_urls",
+      "post_id": 4346,
+      "slug": "spiker-integracija-vozmozhnostej"
+    },
+    {
+      "from": "http://auditte.ru/gost-ot-vozmozhnostej-k-celi/",
+      "to": "https://auditte.ru/gost-ot-vozmozhnostej-k-celi/",
+      "reason": "permalink_candidate",
+      "post_id": 4357,
+      "slug": "gost-ot-vozmozhnostej-k-celi"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-29-16.24.40-a-sophisticated-and-professional-business-scene-with-a-focus-on-ipo-and-legal-consulting.-the-image-features-a-group-of-business-professionals-in-a-mo.webp",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-29-16.24.40-a-sophisticated-and-professional-business-scene-with-a-focus-on-ipo-and-legal-consulting.-the-image-features-a-group-of-business-professionals-in-a-mo.webp",
+      "reason": "featured_image_url",
+      "post_id": 4357,
+      "slug": "gost-ot-vozmozhnostej-k-celi"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-29-16.24.40-a-sophisticated-and-professional-business-scene-with-a-focus-on-ipo-and-legal-consulting.-the-image-features-a-group-of-business-professionals-in-a-mo.webp",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-29-16.24.40-a-sophisticated-and-professional-business-scene-with-a-focus-on-ipo-and-legal-consulting.-the-image-features-a-group-of-business-professionals-in-a-mo.webp",
+      "reason": "all_image_urls",
+      "post_id": 4357,
+      "slug": "gost-ot-vozmozhnostej-k-celi"
+    },
+    {
+      "from": "http://auditte.ru/spiker-ot-vozmozhnostej-k-celi/",
+      "to": "https://auditte.ru/spiker-ot-vozmozhnostej-k-celi/",
+      "reason": "permalink_candidate",
+      "post_id": 4358,
+      "slug": "spiker-ot-vozmozhnostej-k-celi"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-29-21.32.11-a-sophisticated-and-professional-business-scene-at-the-saint-petersburg-international-economic-forum-spief-with-top-expert-representatives.-the-im.webp",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-29-21.32.11-a-sophisticated-and-professional-business-scene-at-the-saint-petersburg-international-economic-forum-spief-with-top-expert-representatives.-the-im.webp",
+      "reason": "featured_image_url",
+      "post_id": 4358,
+      "slug": "spiker-ot-vozmozhnostej-k-celi"
+    },
+    {
+      "from": "http://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-29-16.24.40-a-sophisticated-and-professional-business-scene-with-a-focus-on-ipo-and-legal-consulting.-the-image-features-a-group-of-business-professionals-in-a-mo.webp",
+      "to": "https://auditte.ru/wp-content/uploads/2024/05/dall-e-2024-05-29-16.24.40-a-sophisticated-and-professional-business-scene-with-a-focus-on-ipo-and-legal-consulting.-the-image-features-a-group-of-business-professionals-in-a-mo.webp",
+      "reason": "all_image_urls",
+      "post_id": 4358,
+      "slug": "spiker-ot-vozmozhnostej-k-celi"
+    }
+  ]
+}

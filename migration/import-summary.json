@@ -1,0 +1,3220 @@
+{
+  "meta": {
+    "generated_at": "2026-04-15T19:13:55Z",
+    "source": "export-ready/rebuild-manifest.json",
+    "export_ready_meta": {
+      "generated_at": "2026-04-15T18:53:30Z",
+      "source": "export/items/*.json + export-derived/*",
+      "site_home": "http://auditte.ru",
+      "site_netloc": "auditte.ru",
+      "meaningful_plain_chars": 80
+    },
+    "bucket_logic": {
+      "version": 3,
+      "meaningful_plain_chars": 80,
+      "notes": [
+        "Chat/UI HTML (text-token-text-primary, conversation-turn, …) удаляется санитайзером целыми контейнерами; пересчёт cleanup/manual по content_html_sanitized",
+        "Один [elementor-template] при здоровом контенте не ведёт в manual_review_required",
+        "manual_review: остаточный suspicious_embedded_markup, duplicate text, multiple cleanup flags, shortcode при слабом контенте/дубликате URL"
+      ]
+    },
+    "sanitization": {
+      "html_patterns_removed_containers": [
+        "text-token-text-primary",
+        "conversation-turn",
+        "data-message-author-role",
+        "agent-turn",
+        "markdown prose"
+      ],
+      "records_with_container_removals": 49,
+      "manual_review_count_before_sanitization": 49,
+      "manual_review_count_after_sanitization": 0,
+      "manual_review_cleared_by_sanitization": 49,
+      "cleared_manual_review_post_ids": [
+        15,
+        440,
+        534,
+        584,
+        599,
+        680,
+        696,
+        712,
+        756,
+        773,
+        800,
+        816,
+        965,
+        978,
+        989,
+        999,
+        1055,
+        1132,
+        1142,
+        1155,
+        1164,
+        1180,
+        1293,
+        1570,
+        1587,
+        1596,
+        1610,
+        1622,
+        1694,
+        1718,
+        1766,
+        1782,
+        1912,
+        1918,
+        3813,
+        3910,
+        4055,
+        4057,
+        4059,
+        4062,
+        4066,
+        4108,
+        4211,
+        4321,
+        4333,
+        4345,
+        4346,
+        4357,
+        4358
+      ]
+    }
+  },
+  "counts_by_bucket": {
+    "ready_without_changes": 0,
+    "ready_with_seo_fix": 146,
+    "ready_with_media_fix": 28,
+    "ready_with_seo_and_media_fix": 66,
+    "manual_review_required": 0,
+    "technical_skip": 1
+  },
+  "counts": {
+    "total": 241,
+    "articles": 163,
+    "pages": 78,
+    "seo_tasks": 213,
+    "media_tasks": 94,
+    "manual_review": 0,
+    "technical_skip": 1,
+    "content_cleanup_flagged": 73,
+    "elementor_shortcode_only_skipped_manual_review": 73
+  },
+  "buckets": {
+    "ready_without_changes": [],
+    "ready_with_seo_fix": [
+      {
+        "id": 1079,
+        "post_type": "post",
+        "slug": "osobennosti-provedenija-audita-nekommercheskoj-organizacii",
+        "title": "Особенности проведения аудита некоммерческой организации",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/osobennosti-provedenija-audita-nekommercheskoj-organizacii/",
+        "normalized_permalink_https": "https://auditte.ru/osobennosti-provedenija-audita-nekommercheskoj-organizacii/"
+      },
+      {
+        "id": 1085,
+        "post_type": "post",
+        "slug": "audit-nekommercheskih-organizacij-znachenie-osobennosti-i-praktika",
+        "title": "Аудит Некоммерческих Организаций: Значение, Особенности и Практика",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/audit-nekommercheskih-organizacij-znachenie-osobennosti-i-praktika/",
+        "normalized_permalink_https": "https://auditte.ru/audit-nekommercheskih-organizacij-znachenie-osobennosti-i-praktika/"
+      },
+      {
+        "id": 1089,
+        "post_type": "post",
+        "slug": "zachem-biznesu-neobhodimo-svoe-soobshhestvo",
+        "title": "Зачем бизнесу необходимо свое сообщество?",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/zachem-biznesu-neobhodimo-svoe-soobshhestvo/",
+        "normalized_permalink_https": "https://auditte.ru/zachem-biznesu-neobhodimo-svoe-soobshhestvo/"
+      },
+      {
+        "id": 1095,
+        "post_type": "post",
+        "slug": "poisk-poleznyh-svjazej-i-razvitie-navykov-v-biznes-soobshhestvah",
+        "title": "Поиск полезных связей и развитие навыков в бизнес-сообществах",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/poisk-poleznyh-svjazej-i-razvitie-navykov-v-biznes-soobshhestvah/",
+        "normalized_permalink_https": "https://auditte.ru/poisk-poleznyh-svjazej-i-razvitie-navykov-v-biznes-soobshhestvah/"
+      },
+      {
+        "id": 1119,
+        "post_type": "post",
+        "slug": "kak-ispolzovat-potencial-sledujushhego-pokolenija-dlja-sozdanija-bolee-ustojchivoj-sistemy-v-budushhem",
+        "title": "Как мы можем содействовать созданию более устойчивого будущего для следующих поколений?",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/kak-ispolzovat-potencial-sledujushhego-pokolenija-dlja-sozdanija-bolee-ustojchivoj-sistemy-v-budushhem/",
+        "normalized_permalink_https": "https://auditte.ru/kak-ispolzovat-potencial-sledujushhego-pokolenija-dlja-sozdanija-bolee-ustojchivoj-sistemy-v-budushhem/"
+      },
+      {
+        "id": 1167,
+        "post_type": "post",
+        "slug": "kak-rol-soveta-direktorov-mozhet-sodejstvovat-ustojchivomu-razvitiju-i-innovacijam",
+        "title": "Как роль совета директоров может содействовать устойчивому развитию и инновациям?",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/kak-rol-soveta-direktorov-mozhet-sodejstvovat-ustojchivomu-razvitiju-i-innovacijam/",
+        "normalized_permalink_https": "https://auditte.ru/kak-rol-soveta-direktorov-mozhet-sodejstvovat-ustojchivomu-razvitiju-i-innovacijam/"
+      },
+      {
+        "id": 1185,
+        "post_type": "post",
+        "slug": "kak-sdelat-zhizn-milliardov-ljudej-luchshe",
+        "title": "Как сделать жизнь миллиардов людей лучше?",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/kak-sdelat-zhizn-milliardov-ljudej-luchshe/",
+        "normalized_permalink_https": "https://auditte.ru/kak-sdelat-zhizn-milliardov-ljudej-luchshe/"
+      },
+      {
+        "id": 1190,
+        "post_type": "post",
+        "slug": "kak-prisoedinenie-k-nashej-samoj-nadezhnoj-seti-mozhet-raskryt-novye-perspektivy",
+        "title": "Как присоединение к нашей самой надежной сети может раскрыть новые перспективы?",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/kak-prisoedinenie-k-nashej-samoj-nadezhnoj-seti-mozhet-raskryt-novye-perspektivy/",
+        "normalized_permalink_https": "https://auditte.ru/kak-prisoedinenie-k-nashej-samoj-nadezhnoj-seti-mozhet-raskryt-novye-perspektivy/"
+      },
+      {
+        "id": 1194,
+        "post_type": "post",
+        "slug": "kak-poluchit-vygodu-ot-tehnologicheskih-vozmozhnostej-v-kachestve-dvizhushhej-sily-rosta",
+        "title": "Как получить выгоду от технологических возможностей в качестве движущей силы роста?",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/kak-poluchit-vygodu-ot-tehnologicheskih-vozmozhnostej-v-kachestve-dvizhushhej-sily-rosta/",
+        "normalized_permalink_https": "https://auditte.ru/kak-poluchit-vygodu-ot-tehnologicheskih-vozmozhnostej-v-kachestve-dvizhushhej-sily-rosta/"
+      },
+      {
+        "id": 1198,
+        "post_type": "post",
+        "slug": "kak-chastnye-predprijatija-mogut-mobilizovat-chelovecheskij-potencial-dlja-pooshhrenija-razvitija",
+        "title": "Как частные предприятия могут мобилизовать человеческий потенциал для поощрения развития?",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/kak-chastnye-predprijatija-mogut-mobilizovat-chelovecheskij-potencial-dlja-pooshhrenija-razvitija/",
+        "normalized_permalink_https": "https://auditte.ru/kak-chastnye-predprijatija-mogut-mobilizovat-chelovecheskij-potencial-dlja-pooshhrenija-razvitija/"
+      },
+      {
+        "id": 1203,
+        "post_type": "post",
+        "slug": "kakie-prioritety-izmenjajutsja-v-kontekste-podgotovki-k-zhizni-posle-covid-19",
+        "title": "Какие приоритеты изменяются в контексте подготовки к жизни после Covid-19?",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/kakie-prioritety-izmenjajutsja-v-kontekste-podgotovki-k-zhizni-posle-covid-19/",
+        "normalized_permalink_https": "https://auditte.ru/kakie-prioritety-izmenjajutsja-v-kontekste-podgotovki-k-zhizni-posle-covid-19/"
+      },
+      {
+        "id": 1243,
+        "post_type": "post",
+        "slug": "kak-nehvatka-syrja-mozhet-prepjatstvovat-progressu-v-oblasti-jelektrotransporta",
+        "title": "Как нехватка сырья может препятствовать прогрессу в области электротранспорта",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/kak-nehvatka-syrja-mozhet-prepjatstvovat-progressu-v-oblasti-jelektrotransporta/",
+        "normalized_permalink_https": "https://auditte.ru/kak-nehvatka-syrja-mozhet-prepjatstvovat-progressu-v-oblasti-jelektrotransporta/"
+      },
+      {
+        "id": 1247,
+        "post_type": "post",
+        "slug": "spravitsja-li-gorno-metallurgicheskaja-otrasl-s-vyzovami-budushhego",
+        "title": "Справится ли горно-металлургическая отрасль с вызовами будущего?",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/spravitsja-li-gorno-metallurgicheskaja-otrasl-s-vyzovami-budushhego/",
+        "normalized_permalink_https": "https://auditte.ru/spravitsja-li-gorno-metallurgicheskaja-otrasl-s-vyzovami-budushhego/"
+      },
+      {
+        "id": 1251,
+        "post_type": "post",
+        "slug": "kak-tehnologicheskij-progress-delaet-potrebitelja-centrom-v-sisteme-zdravoohranenija",
+        "title": "Как технологический прогресс делает потребителя центром в системе здравоохранения?",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/kak-tehnologicheskij-progress-delaet-potrebitelja-centrom-v-sisteme-zdravoohranenija/",
+        "normalized_permalink_https": "https://auditte.ru/kak-tehnologicheskij-progress-delaet-potrebitelja-centrom-v-sisteme-zdravoohranenija/"
+      },
+      {
+        "id": 1255,
+        "post_type": "post",
+        "slug": "mogut-li-dannye-garantirovat-dostatochnyj-uroven-doverija-dlja-pereformatirovanija-globalnoj-torgovoj-sistemy",
+        "title": "Могут ли данные гарантировать достаточный уровень доверия для переформатирования глобальной торговой системы?",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/mogut-li-dannye-garantirovat-dostatochnyj-uroven-doverija-dlja-pereformatirovanija-globalnoj-torgovoj-sistemy/",
+        "normalized_permalink_https": "https://auditte.ru/mogut-li-dannye-garantirovat-dostatochnyj-uroven-doverija-dlja-pereformatirovanija-globalnoj-torgovoj-sistemy/"
+      },
+      {
+        "id": 1259,
+        "post_type": "post",
+        "slug": "pjat-strategij-sposobstvujushhih-perehodu-vashej-kompanii-ot-vyzhivanija-k-uspeshnomu-razvitiju",
+        "title": "Пять стратегий, способствующих переходу вашей компании от выживания к успешному развитию.",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/pjat-strategij-sposobstvujushhih-perehodu-vashej-kompanii-ot-vyzhivanija-k-uspeshnomu-razvitiju/",
+        "normalized_permalink_https": "https://auditte.ru/pjat-strategij-sposobstvujushhih-perehodu-vashej-kompanii-ot-vyzhivanija-k-uspeshnomu-razvitiju/"
+      },
+      {
+        "id": 1266,
+        "post_type": "post",
+        "slug": "kak-sovremennye-rukovoditeli-mogut-voplotit-vozmozhnosti-budushhego",
+        "title": "Как современные руководители могут воплотить возможности будущего?",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/kak-sovremennye-rukovoditeli-mogut-voplotit-vozmozhnosti-budushhego/",
+        "normalized_permalink_https": "https://auditte.ru/kak-sovremennye-rukovoditeli-mogut-voplotit-vozmozhnosti-budushhego/"
+      },
+      {
+        "id": 1276,
+        "post_type": "post",
+        "slug": "kak-slozhnosti-mogut-stat-stimulom-dlja-razvitija",
+        "title": "Как сложности могут стать стимулом для развития?",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/kak-slozhnosti-mogut-stat-stimulom-dlja-razvitija/",
+        "normalized_permalink_https": "https://auditte.ru/kak-slozhnosti-mogut-stat-stimulom-dlja-razvitija/"
+      },
+      {
+        "id": 1281,
+        "post_type": "post",
+        "slug": "kak-izmenit-svoju-perspektivu-chtoby-radikalno-izmenit-svoe-budushhee",
+        "title": "Как изменить свою перспективу, чтобы радикально изменить свое будущее?",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/kak-izmenit-svoju-perspektivu-chtoby-radikalno-izmenit-svoe-budushhee/",
+        "normalized_permalink_https": "https://auditte.ru/kak-izmenit-svoju-perspektivu-chtoby-radikalno-izmenit-svoe-budushhee/"
+      },
+      {
+        "id": 1285,
+        "post_type": "post",
+        "slug": "kak-doverie-sposobstvuet-uskoreniju-processa-transformacii",
+        "title": "Как доверие способствует ускорению процесса трансформации",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/kak-doverie-sposobstvuet-uskoreniju-processa-transformacii/",
+        "normalized_permalink_https": "https://auditte.ru/kak-doverie-sposobstvuet-uskoreniju-processa-transformacii/"
+      },
+      {
+        "id": 1289,
+        "post_type": "post",
+        "slug": "kak-primenenie-peredovyh-tehnologij-sposobno-obespechit-konkurentnoe-prevoshodstvo",
+        "title": "Как применение передовых технологий способно обеспечить конкурентное превосходство?",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/kak-primenenie-peredovyh-tehnologij-sposobno-obespechit-konkurentnoe-prevoshodstvo/",
+        "normalized_permalink_https": "https://auditte.ru/kak-primenenie-peredovyh-tehnologij-sposobno-obespechit-konkurentnoe-prevoshodstvo/"
+      },
+      {
+        "id": 1298,
+        "post_type": "post",
+        "slug": "kak-obespechit-prochnye-otnoshenija-s-klientami-ne-nahodjas-rjadom-s-nimi",
+        "title": "Как обеспечить прочные отношения с клиентами, не находясь рядом с ними?",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/kak-obespechit-prochnye-otnoshenija-s-klientami-ne-nahodjas-rjadom-s-nimi/",
+        "normalized_permalink_https": "https://auditte.ru/kak-obespechit-prochnye-otnoshenija-s-klientami-ne-nahodjas-rjadom-s-nimi/"
+      },
+      {
+        "id": 1304,
+        "post_type": "post",
+        "slug": "kak-ispolzovanie-perspektivy-budushhego-pomozhet-vam-razgljadet-bolee-jasnuju-dorogu-k-dostizheniju-uspeha",
+        "title": "Как использование перспективы будущего поможет вам разглядеть более ясную дорогу к достижению успеха",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/kak-ispolzovanie-perspektivy-budushhego-pomozhet-vam-razgljadet-bolee-jasnuju-dorogu-k-dostizheniju-uspeha/",
+        "normalized_permalink_https": "https://auditte.ru/kak-ispolzovanie-perspektivy-budushhego-pomozhet-vam-razgljadet-bolee-jasnuju-dorogu-k-dostizheniju-uspeha/"
+      },
+      {
+        "id": 1308,
+        "post_type": "post",
+        "slug": "kak-vlijanie-odnogo-cheloveka-mozhet-raspahnut-dveri-dlja-mnogih",
+        "title": "Как влияние одного человека может распахнуть двери для многих?",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/kak-vlijanie-odnogo-cheloveka-mozhet-raspahnut-dveri-dlja-mnogih/",
+        "normalized_permalink_https": "https://auditte.ru/kak-vlijanie-odnogo-cheloveka-mozhet-raspahnut-dveri-dlja-mnogih/"
+      },
+      {
+        "id": 1313,
+        "post_type": "post",
+        "slug": "kak-rol-soveta-direktorov-mozhet-sodejstvovat-ustojchivomu-razvitiju-i-innovacijam-2",
+        "title": "Как роль совета директоров может содействовать устойчивому развитию и инновациям?",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/kak-rol-soveta-direktorov-mozhet-sodejstvovat-ustojchivomu-razvitiju-i-innovacijam-2/",
+        "normalized_permalink_https": "https://auditte.ru/kak-rol-soveta-direktorov-mozhet-sodejstvovat-ustojchivomu-razvitiju-i-innovacijam-2/"
+      },
+      {
+        "id": 1317,
+        "post_type": "post",
+        "slug": "kak-sdelat-zhizn-milliardov-ljudej-luchshe-2",
+        "title": "Как сделать жизнь миллиардов людей лучше?",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/kak-sdelat-zhizn-milliardov-ljudej-luchshe-2/",
+        "normalized_permalink_https": "https://auditte.ru/kak-sdelat-zhizn-milliardov-ljudej-luchshe-2/"
+      },
+      {
+        "id": 1321,
+        "post_type": "post",
+        "slug": "kak-prisoedinenie-k-nashej-samoj-nadezhnoj-seti-mozhet-raskryt-novye-perspektivy-2",
+        "title": "Как присоединение к нашей самой надежной сети может раскрыть новые перспективы?",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/kak-prisoedinenie-k-nashej-samoj-nadezhnoj-seti-mozhet-raskryt-novye-perspektivy-2/",
+        "normalized_permalink_https": "https://auditte.ru/kak-prisoedinenie-k-nashej-samoj-nadezhnoj-seti-mozhet-raskryt-novye-perspektivy-2/"
+      },
+      {
+        "id": 1325,
+        "post_type": "post",
+        "slug": "kakie-drugie-sposoby-est-u-biznesa-dlja-reshenija-problemy-neravenstva",
+        "title": "Какие другие способы есть у бизнеса для решения проблемы неравенства?",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/kakie-drugie-sposoby-est-u-biznesa-dlja-reshenija-problemy-neravenstva/",
+        "normalized_permalink_https": "https://auditte.ru/kakie-drugie-sposoby-est-u-biznesa-dlja-reshenija-problemy-neravenstva/"
+      },
+      {
+        "id": 1329,
+        "post_type": "post",
+        "slug": "kak-rabotodateli-i-sotrudniki-vidjat-obnovlennoe-rabochee-prostranstvo",
+        "title": "Как работодатели и сотрудники видят обновленное рабочее пространство?",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/kak-rabotodateli-i-sotrudniki-vidjat-obnovlennoe-rabochee-prostranstvo/",
+        "normalized_permalink_https": "https://auditte.ru/kak-rabotodateli-i-sotrudniki-vidjat-obnovlennoe-rabochee-prostranstvo/"
+      },
+      {
+        "id": 1333,
+        "post_type": "post",
+        "slug": "kak-predprinimateli-sposobstvujut-raskrytiju-dolgosrochnoj-cennosti",
+        "title": "Как предприниматели способствуют раскрытию долгосрочной ценности?",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/kak-predprinimateli-sposobstvujut-raskrytiju-dolgosrochnoj-cennosti/",
+        "normalized_permalink_https": "https://auditte.ru/kak-predprinimateli-sposobstvujut-raskrytiju-dolgosrochnoj-cennosti/"
+      },
+      {
+        "id": 1337,
+        "post_type": "post",
+        "slug": "otvechajut-li-nashi-strahovye-reshenija-novym-potrebnostjam-potrebitelej",
+        "title": "Отвечают ли наши страховые решения новым потребностям потребителей?",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/otvechajut-li-nashi-strahovye-reshenija-novym-potrebnostjam-potrebitelej/",
+        "normalized_permalink_https": "https://auditte.ru/otvechajut-li-nashi-strahovye-reshenija-novym-potrebnostjam-potrebitelej/"
+      },
+      {
+        "id": 1341,
+        "post_type": "post",
+        "slug": "rol-dannyh-v-razvitii-intellektualnoj-sobstvennosti",
+        "title": "Роль Данных в Развитии Интеллектуальной Собственности",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/rol-dannyh-v-razvitii-intellektualnoj-sobstvennosti/",
+        "normalized_permalink_https": "https://auditte.ru/rol-dannyh-v-razvitii-intellektualnoj-sobstvennosti/"
+      },
+      {
+        "id": 1348,
+        "post_type": "post",
+        "slug": "intellektualnaja-sobstvennost-i-metavselennaja-vlijanie-na-razvitie-tehnologij-i-innovacij",
+        "title": "Интеллектуальная собственность и метавселенная: влияние на развитие технологий и инноваций",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/intellektualnaja-sobstvennost-i-metavselennaja-vlijanie-na-razvitie-tehnologij-i-innovacij/",
+        "normalized_permalink_https": "https://auditte.ru/intellektualnaja-sobstvennost-i-metavselennaja-vlijanie-na-razvitie-tehnologij-i-innovacij/"
+      },
+      {
+        "id": 1352,
+        "post_type": "post",
+        "slug": "peredovye-tehnologii-i-upravlenie-administrativnymi-processami-v-oblasti-informacionnyh-sistem",
+        "title": "Передовые технологии и управление административными процессами в области информационных систем",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/peredovye-tehnologii-i-upravlenie-administrativnymi-processami-v-oblasti-informacionnyh-sistem/",
+        "normalized_permalink_https": "https://auditte.ru/peredovye-tehnologii-i-upravlenie-administrativnymi-processami-v-oblasti-informacionnyh-sistem/"
+      },
+      {
+        "id": 1356,
+        "post_type": "post",
+        "slug": "novejshie-tehnologii-v-proizvodstve",
+        "title": "Новейшие технологии в производстве",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/novejshie-tehnologii-v-proizvodstve/",
+        "normalized_permalink_https": "https://auditte.ru/novejshie-tehnologii-v-proizvodstve/"
+      },
+      {
+        "id": 136,
+        "post_type": "post",
+        "slug": "rynok-sovmestnoj-mobilnosti-v-rossii-mozhet-vyrasti-bolee-chem-vchetvero-do-350-mlrd-rublej-v-blizhajshie-pjat-let",
+        "title": "Рынок совместной мобильности в России может вырасти более чем вчетверо, до 350 млрд рублей, в ближайшие пять лет",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/rynok-sovmestnoj-mobilnosti-v-rossii-mozhet-vyrasti-bolee-chem-vchetvero-do-350-mlrd-rublej-v-blizhajshie-pjat-let/",
+        "normalized_permalink_https": "https://auditte.ru/rynok-sovmestnoj-mobilnosti-v-rossii-mozhet-vyrasti-bolee-chem-vchetvero-do-350-mlrd-rublej-v-blizhajshie-pjat-let/"
+      },
+      {
+        "id": 1445,
+        "post_type": "post",
+        "slug": "cifrovaja-revoljucija-transformacija-media-i-razvlechenij-v-jepohu-tehnologij-i-svjazi",
+        "title": "Цифровая Революция: Трансформация Медиа и Развлечений в Эпоху Технологий и Связи",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/cifrovaja-revoljucija-transformacija-media-i-razvlechenij-v-jepohu-tehnologij-i-svjazi/",
+        "normalized_permalink_https": "https://auditte.ru/cifrovaja-revoljucija-transformacija-media-i-razvlechenij-v-jepohu-tehnologij-i-svjazi/"
+      },
+      {
+        "id": 1449,
+        "post_type": "post",
+        "slug": "slijanie-mirov-kak-tehnologii-i-svjaz-redefinirujut-media-i-razvlechenija",
+        "title": "Слияние Миров: Как Технологии и Связь Редефинируют Медиа и Развлечения",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/slijanie-mirov-kak-tehnologii-i-svjaz-redefinirujut-media-i-razvlechenija/",
+        "normalized_permalink_https": "https://auditte.ru/slijanie-mirov-kak-tehnologii-i-svjaz-redefinirujut-media-i-razvlechenija/"
+      },
+      {
+        "id": 1453,
+        "post_type": "post",
+        "slug": "ctrategii-privlechenija-investicij-v-rossijskij-biznes",
+        "title": "Cтратегии привлечения инвестиций в российский бизнес",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/ctrategii-privlechenija-investicij-v-rossijskij-biznes/",
+        "normalized_permalink_https": "https://auditte.ru/ctrategii-privlechenija-investicij-v-rossijskij-biznes/"
+      },
+      {
+        "id": 1456,
+        "post_type": "post",
+        "slug": "chastnye-investicii-v-innovacionnuju-dejatelnost-predprijatij-promyshlennosti",
+        "title": "Частные инвестиции в инновационную деятельность предприятий промышленности",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/chastnye-investicii-v-innovacionnuju-dejatelnost-predprijatij-promyshlennosti/",
+        "normalized_permalink_https": "https://auditte.ru/chastnye-investicii-v-innovacionnuju-dejatelnost-predprijatij-promyshlennosti/"
+      },
+      {
+        "id": 1462,
+        "post_type": "post",
+        "slug": "rabota-s-distribjutorami-i-aptechnymi-setjami-na-farmacevticheskom-rynke-rossii-v-uslovijah-peremen",
+        "title": "Работа с дистрибьюторами и аптечными сетями на фармацевтическом рынке России в условиях перемен",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/rabota-s-distribjutorami-i-aptechnymi-setjami-na-farmacevticheskom-rynke-rossii-v-uslovijah-peremen/",
+        "normalized_permalink_https": "https://auditte.ru/rabota-s-distribjutorami-i-aptechnymi-setjami-na-farmacevticheskom-rynke-rossii-v-uslovijah-peremen/"
+      },
+      {
+        "id": 1466,
+        "post_type": "post",
+        "slug": "auditte-predstavljaet-rukovodstvo-po-bezopasnomu-osvoeniju-potenciala-mediko-biologicheskih-issledovanij",
+        "title": "Auditte представляет руководство по безопасному освоению потенциала медико-биологических исследований.",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/auditte-predstavljaet-rukovodstvo-po-bezopasnomu-osvoeniju-potenciala-mediko-biologicheskih-issledovanij/",
+        "normalized_permalink_https": "https://auditte.ru/auditte-predstavljaet-rukovodstvo-po-bezopasnomu-osvoeniju-potenciala-mediko-biologicheskih-issledovanij/"
+      },
+      {
+        "id": 147,
+        "post_type": "post",
+        "slug": "inostrannye-kompanii-pochti-perestali-uhodit-iz-rossii",
+        "title": "Иностранные компании почти перестали уходить из России",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/inostrannye-kompanii-pochti-perestali-uhodit-iz-rossii/",
+        "normalized_permalink_https": "https://auditte.ru/inostrannye-kompanii-pochti-perestali-uhodit-iz-rossii/"
+      },
+      {
+        "id": 1470,
+        "post_type": "post",
+        "slug": "sotrudnichestvo-reguljatorov-v-formirovanii-gosudarstvennogo-regulirovanija-v-sfere-uslug",
+        "title": "Сотрудничество регуляторов в формировании государственного регулирования в сфере услуг",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/sotrudnichestvo-reguljatorov-v-formirovanii-gosudarstvennogo-regulirovanija-v-sfere-uslug/",
+        "normalized_permalink_https": "https://auditte.ru/sotrudnichestvo-reguljatorov-v-formirovanii-gosudarstvennogo-regulirovanija-v-sfere-uslug/"
+      },
+      {
+        "id": 1474,
+        "post_type": "post",
+        "slug": "gosudarstvennye-uslugi-prozrachnost-i-vneshnij-nadzor",
+        "title": "Государственные услуги: прозрачность и внешний надзор",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/gosudarstvennye-uslugi-prozrachnost-i-vneshnij-nadzor/",
+        "normalized_permalink_https": "https://auditte.ru/gosudarstvennye-uslugi-prozrachnost-i-vneshnij-nadzor/"
+      },
+      {
+        "id": 1478,
+        "post_type": "post",
+        "slug": "gde-upravljajushhie-aktivami-mogut-obnaruzhit-novye-vozmozhnosti-v-uslovijah-izmenenija-aktivov",
+        "title": "Где управляющие активами могут обнаружить новые возможности в условиях изменения активов?",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/gde-upravljajushhie-aktivami-mogut-obnaruzhit-novye-vozmozhnosti-v-uslovijah-izmenenija-aktivov/",
+        "normalized_permalink_https": "https://auditte.ru/gde-upravljajushhie-aktivami-mogut-obnaruzhit-novye-vozmozhnosti-v-uslovijah-izmenenija-aktivov/"
+      },
+      {
+        "id": 1482,
+        "post_type": "post",
+        "slug": "kak-investory-millenialy-mogut-vlijat-na-budushhij-rost-biznesa",
+        "title": "Как инвесторы-миллениалы могут влиять на будущий рост бизнеса?",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/kak-investory-millenialy-mogut-vlijat-na-budushhij-rost-biznesa/",
+        "normalized_permalink_https": "https://auditte.ru/kak-investory-millenialy-mogut-vlijat-na-budushhij-rost-biznesa/"
+      },
+      {
+        "id": 1486,
+        "post_type": "post",
+        "slug": "strategii-kotorye-upravljajushhie-aktivami-mogut-ispolzovat-dlja-podgotovki-k-neopredelennomu-budushhemu",
+        "title": "Стратегии, которые управляющие активами могут использовать для подготовки к неопределенному будущему",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/strategii-kotorye-upravljajushhie-aktivami-mogut-ispolzovat-dlja-podgotovki-k-neopredelennomu-budushhemu/",
+        "normalized_permalink_https": "https://auditte.ru/strategii-kotorye-upravljajushhie-aktivami-mogut-ispolzovat-dlja-podgotovki-k-neopredelennomu-budushhemu/"
+      },
+      {
+        "id": 1491,
+        "post_type": "post",
+        "slug": "kak-ustojchivost-mozhet-vlijat-na-izmenjajushhijsja-landshaft",
+        "title": "Как устойчивость может влиять на изменяющийся ландшафт?",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/kak-ustojchivost-mozhet-vlijat-na-izmenjajushhijsja-landshaft/",
+        "normalized_permalink_https": "https://auditte.ru/kak-ustojchivost-mozhet-vlijat-na-izmenjajushhijsja-landshaft/"
+      },
+      {
+        "id": 1496,
+        "post_type": "post",
+        "slug": "kak-izmenenija-v-ustojchivosti-rabochej-sily-povlijajut-na-jenergeticheskuju-otrasl",
+        "title": "Как изменения в устойчивости рабочей силы повлияют на энергетическую отрасль",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/kak-izmenenija-v-ustojchivosti-rabochej-sily-povlijajut-na-jenergeticheskuju-otrasl/",
+        "normalized_permalink_https": "https://auditte.ru/kak-izmenenija-v-ustojchivosti-rabochej-sily-povlijajut-na-jenergeticheskuju-otrasl/"
+      },
+      {
+        "id": 1500,
+        "post_type": "post",
+        "slug": "kak-ispolzovanie-analiza-dannyh-mozhet-uvelichit-jeffektivnost-cepochki-postavok",
+        "title": "Как использование анализа данных может увеличить эффективность цепочки поставок",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/kak-ispolzovanie-analiza-dannyh-mozhet-uvelichit-jeffektivnost-cepochki-postavok/",
+        "normalized_permalink_https": "https://auditte.ru/kak-ispolzovanie-analiza-dannyh-mozhet-uvelichit-jeffektivnost-cepochki-postavok/"
+      },
+      {
+        "id": 1504,
+        "post_type": "post",
+        "slug": "pochemu-kolebanija-doverija-so-storony-potrebitelej-mogut-zamedlit-jenergeticheskie-preobrazovanija",
+        "title": "Почему колебания доверия со стороны потребителей могут замедлить энергетические преобразования",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/pochemu-kolebanija-doverija-so-storony-potrebitelej-mogut-zamedlit-jenergeticheskie-preobrazovanija/",
+        "normalized_permalink_https": "https://auditte.ru/pochemu-kolebanija-doverija-so-storony-potrebitelej-mogut-zamedlit-jenergeticheskie-preobrazovanija/"
+      },
+      {
+        "id": 1508,
+        "post_type": "post",
+        "slug": "kak-avtosport-priblizhaetsja-k-borbe-s-izmeneniem-klimata",
+        "title": "Как автоспорт приближается к борьбе с изменением климата",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/kak-avtosport-priblizhaetsja-k-borbe-s-izmeneniem-klimata/",
+        "normalized_permalink_https": "https://auditte.ru/kak-avtosport-priblizhaetsja-k-borbe-s-izmeneniem-klimata/"
+      },
+      {
+        "id": 161,
+        "post_type": "post",
+        "slug": "rossija-predlozhila-kataru-i-saudovskoj-aravii-peresmotret-nalogovye-soglashenija",
+        "title": "Россия предложила Катару и Саудовской Аравии пересмотреть налоговые соглашения",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/rossija-predlozhila-kataru-i-saudovskoj-aravii-peresmotret-nalogovye-soglashenija/",
+        "normalized_permalink_https": "https://auditte.ru/rossija-predlozhila-kataru-i-saudovskoj-aravii-peresmotret-nalogovye-soglashenija/"
+      },
+      {
+        "id": 1655,
+        "post_type": "post",
+        "slug": "nasha-missija-sozdanie-blagoprijatnoj-sredy-dlja-uspeha-i-razvitija",
+        "title": "Наша миссия: создание благоприятной среды для успеха и развития",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/nasha-missija-sozdanie-blagoprijatnoj-sredy-dlja-uspeha-i-razvitija/",
+        "normalized_permalink_https": "https://auditte.ru/nasha-missija-sozdanie-blagoprijatnoj-sredy-dlja-uspeha-i-razvitija/"
+      },
+      {
+        "id": 1659,
+        "post_type": "post",
+        "slug": "ukreplenie-doverija-i-uverennosti-rol-informacii-i-kachestvennyh-uslug-v-dostizhenii-nashih-celej",
+        "title": "Укрепление доверия и уверенности: роль информации и качественных услуг в достижении наших целей",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/ukreplenie-doverija-i-uverennosti-rol-informacii-i-kachestvennyh-uslug-v-dostizhenii-nashih-celej/",
+        "normalized_permalink_https": "https://auditte.ru/ukreplenie-doverija-i-uverennosti-rol-informacii-i-kachestvennyh-uslug-v-dostizhenii-nashih-celej/"
+      },
+      {
+        "id": 1663,
+        "post_type": "post",
+        "slug": "sut-nashih-cennostej-osnova-uspeshnogo-razvitija-v-kompanii",
+        "title": "Суть наших ценностей: основа успешного развития в компании",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/sut-nashih-cennostej-osnova-uspeshnogo-razvitija-v-kompanii/",
+        "normalized_permalink_https": "https://auditte.ru/sut-nashih-cennostej-osnova-uspeshnogo-razvitija-v-kompanii/"
+      },
+      {
+        "id": 1667,
+        "post_type": "post",
+        "slug": "nepokolebimye-principy-kak-nashi-cennosti-formirujut-nashu-kulturu-i-put-k-uspehu",
+        "title": "Непоколебимые принципы: как наши ценности формируют нашу культуру и путь к успеху",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/nepokolebimye-principy-kak-nashi-cennosti-formirujut-nashu-kulturu-i-put-k-uspehu/",
+        "normalized_permalink_https": "https://auditte.ru/nepokolebimye-principy-kak-nashi-cennosti-formirujut-nashu-kulturu-i-put-k-uspehu/"
+      },
+      {
+        "id": 1671,
+        "post_type": "post",
+        "slug": "kak-nehvatka-syrja-mozhet-prepjatstvovat-progressu-v-oblasti-jelektrotransporta-2",
+        "title": "Как нехватка сырья может препятствовать прогрессу в области электротранспорта",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/kak-nehvatka-syrja-mozhet-prepjatstvovat-progressu-v-oblasti-jelektrotransporta-2/",
+        "normalized_permalink_https": "https://auditte.ru/kak-nehvatka-syrja-mozhet-prepjatstvovat-progressu-v-oblasti-jelektrotransporta-2/"
+      },
+      {
+        "id": 1675,
+        "post_type": "post",
+        "slug": "roznichnaja-torgovlja-ponjatie-i-sut",
+        "title": "Розничная торговля: понятие и суть",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/roznichnaja-torgovlja-ponjatie-i-sut/",
+        "normalized_permalink_https": "https://auditte.ru/roznichnaja-torgovlja-ponjatie-i-sut/"
+      },
+      {
+        "id": 1679,
+        "post_type": "post",
+        "slug": "progress-roznichnoj-torgovli-i-obshhestvennogo-pitanija-kak-vazhnyh-sostavljajushhih-sektora-potrebitelskih-uslug",
+        "title": "Прогресс розничной торговли и общественного питания как важных составляющих сектора потребительских услуг",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/progress-roznichnoj-torgovli-i-obshhestvennogo-pitanija-kak-vazhnyh-sostavljajushhih-sektora-potrebitelskih-uslug/",
+        "normalized_permalink_https": "https://auditte.ru/progress-roznichnoj-torgovli-i-obshhestvennogo-pitanija-kak-vazhnyh-sostavljajushhih-sektora-potrebitelskih-uslug/"
+      },
+      {
+        "id": 1683,
+        "post_type": "post",
+        "slug": "strategicheskoe-napravlenie-razvitija-torgovli-v-rossijskoj-federacii-k-2025-godu",
+        "title": "Стратегическое направление развития торговли в Российской Федерации к 2025 году",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/strategicheskoe-napravlenie-razvitija-torgovli-v-rossijskoj-federacii-k-2025-godu/",
+        "normalized_permalink_https": "https://auditte.ru/strategicheskoe-napravlenie-razvitija-torgovli-v-rossijskoj-federacii-k-2025-godu/"
+      },
+      {
+        "id": 1716,
+        "post_type": "post",
+        "slug": "kak-evropa-mozhet-privlech-investicii-budushhego-pokolenija",
+        "title": "Как Европа может привлечь инвестиции будущего поколения?",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/kak-evropa-mozhet-privlech-investicii-budushhego-pokolenija/",
+        "normalized_permalink_https": "https://auditte.ru/kak-evropa-mozhet-privlech-investicii-budushhego-pokolenija/"
+      },
+      {
+        "id": 1724,
+        "post_type": "post",
+        "slug": "kak-starye-druzja-mogut-obnaruzhit-novye-perspektivy",
+        "title": "Как старые друзья могут обнаружить новые перспективы?",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/kak-starye-druzja-mogut-obnaruzhit-novye-perspektivy/",
+        "normalized_permalink_https": "https://auditte.ru/kak-starye-druzja-mogut-obnaruzhit-novye-perspektivy/"
+      },
+      {
+        "id": 1729,
+        "post_type": "post",
+        "slug": "kak-jeffektivnoe-upravlenie-mozhet-poluchit-preimushhestva-ot-ustojchivogo-razvitija",
+        "title": "Как эффективное управление может получить преимущества от устойчивого развития?",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/kak-jeffektivnoe-upravlenie-mozhet-poluchit-preimushhestva-ot-ustojchivogo-razvitija/",
+        "normalized_permalink_https": "https://auditte.ru/kak-jeffektivnoe-upravlenie-mozhet-poluchit-preimushhestva-ot-ustojchivogo-razvitija/"
+      },
+      {
+        "id": 1734,
+        "post_type": "post",
+        "slug": "kak-korporativnoe-upravlenie-mozhet-sposobstvovat-sozdaniju-bolee-ustojchivogo-mira",
+        "title": "Как корпоративное управление может способствовать созданию более устойчивого мира?",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/kak-korporativnoe-upravlenie-mozhet-sposobstvovat-sozdaniju-bolee-ustojchivogo-mira/",
+        "normalized_permalink_https": "https://auditte.ru/kak-korporativnoe-upravlenie-mozhet-sposobstvovat-sozdaniju-bolee-ustojchivogo-mira/"
+      },
+      {
+        "id": 1738,
+        "post_type": "post",
+        "slug": "pjat-sposobov-kotorymi-izmenenie-finansov-mozhet-sodejstvovat-ustojchivym-transformacijam",
+        "title": "Пять способов, которыми изменение финансов может содействовать устойчивым трансформациям.",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/pjat-sposobov-kotorymi-izmenenie-finansov-mozhet-sodejstvovat-ustojchivym-transformacijam/",
+        "normalized_permalink_https": "https://auditte.ru/pjat-sposobov-kotorymi-izmenenie-finansov-mozhet-sodejstvovat-ustojchivym-transformacijam/"
+      },
+      {
+        "id": 1742,
+        "post_type": "post",
+        "slug": "pochemu-promyshlennym-kompanijam-vazhno-stat-liderami-v-innovacionnyh-biznes-modeljah",
+        "title": "Почему промышленным компаниям важно стать лидерами в инновационных бизнес-моделях?",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/pochemu-promyshlennym-kompanijam-vazhno-stat-liderami-v-innovacionnyh-biznes-modeljah/",
+        "normalized_permalink_https": "https://auditte.ru/pochemu-promyshlennym-kompanijam-vazhno-stat-liderami-v-innovacionnyh-biznes-modeljah/"
+      },
+      {
+        "id": 1747,
+        "post_type": "post",
+        "slug": "kak-promyshlennye-lidery-mogut-primenjat-ustojchivoe-razvitie-dlja-sozdanija-cennosti",
+        "title": "Как промышленные лидеры могут применять устойчивое развитие для создания ценности?",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/kak-promyshlennye-lidery-mogut-primenjat-ustojchivoe-razvitie-dlja-sozdanija-cennosti/",
+        "normalized_permalink_https": "https://auditte.ru/kak-promyshlennye-lidery-mogut-primenjat-ustojchivoe-razvitie-dlja-sozdanija-cennosti/"
+      },
+      {
+        "id": 1751,
+        "post_type": "post",
+        "slug": "kak-bystro-zapustit-ustojchivyj-biznes-orientirovannyj-na-potrebitelja",
+        "title": "Как быстро запустить устойчивый бизнес, ориентированный на потребителя?",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/kak-bystro-zapustit-ustojchivyj-biznes-orientirovannyj-na-potrebitelja/",
+        "normalized_permalink_https": "https://auditte.ru/kak-bystro-zapustit-ustojchivyj-biznes-orientirovannyj-na-potrebitelja/"
+      },
+      {
+        "id": 3770,
+        "post_type": "post",
+        "slug": "jekspertiza-proektnoj-dokumentacii-po-gradostroitelnomu-kodeksu-rf",
+        "title": "Экспертиза проектной документации по градостроительному кодексу РФ",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/jekspertiza-proektnoj-dokumentacii-po-gradostroitelnomu-kodeksu-rf/",
+        "normalized_permalink_https": "https://auditte.ru/jekspertiza-proektnoj-dokumentacii-po-gradostroitelnomu-kodeksu-rf/"
+      },
+      {
+        "id": 3777,
+        "post_type": "post",
+        "slug": "jekspertiza-po-federalnomu-zakonu-44",
+        "title": "Экспертиза по Федеральному закону № 44",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/jekspertiza-po-federalnomu-zakonu-44/",
+        "normalized_permalink_https": "https://auditte.ru/jekspertiza-po-federalnomu-zakonu-44/"
+      },
+      {
+        "id": 3784,
+        "post_type": "post",
+        "slug": "jekspertiza-po-fz-73",
+        "title": "Экспертиза по ФЗ 73",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/jekspertiza-po-fz-73/",
+        "normalized_permalink_https": "https://auditte.ru/jekspertiza-po-fz-73/"
+      },
+      {
+        "id": 3820,
+        "post_type": "post",
+        "slug": "dosudebnaja-ekspertiza",
+        "title": "Досудебная экспертиза",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/dosudebnaja-ekspertiza/",
+        "normalized_permalink_https": "https://auditte.ru/dosudebnaja-ekspertiza/"
+      },
+      {
+        "id": 3824,
+        "post_type": "post",
+        "slug": "dosudebnaja-i-sudebnaja-jekspertizy",
+        "title": "Досудебная и судебная экспертизы",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/dosudebnaja-i-sudebnaja-jekspertizy/",
+        "normalized_permalink_https": "https://auditte.ru/dosudebnaja-i-sudebnaja-jekspertizy/"
+      },
+      {
+        "id": 3839,
+        "post_type": "post",
+        "slug": "notarialnuu-ekspertiza",
+        "title": "Как назначить и провести нотариальную экспертизу?",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/notarialnuu-ekspertiza/",
+        "normalized_permalink_https": "https://auditte.ru/notarialnuu-ekspertiza/"
+      },
+      {
+        "id": 3842,
+        "post_type": "post",
+        "slug": "sbor-dokazatelstv",
+        "title": "Новый вид сбора доказательств",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/sbor-dokazatelstv/",
+        "normalized_permalink_https": "https://auditte.ru/sbor-dokazatelstv/"
+      },
+      {
+        "id": 3856,
+        "post_type": "post",
+        "slug": "porjadok-provedenija-jekspertizy",
+        "title": "Порядок проведения экспертизы",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/porjadok-provedenija-jekspertizy/",
+        "normalized_permalink_https": "https://auditte.ru/porjadok-provedenija-jekspertizy/"
+      },
+      {
+        "id": 3858,
+        "post_type": "post",
+        "slug": "jekspertiza-po-zakonu-44-fz-s-pomoshhju-jekspertov-ili-svoimi-silami",
+        "title": "Экспертиза по Закону № 44‑ФЗ. С помощью экспертов или своими силами?",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/jekspertiza-po-zakonu-44-fz-s-pomoshhju-jekspertov-ili-svoimi-silami/",
+        "normalized_permalink_https": "https://auditte.ru/jekspertiza-po-zakonu-44-fz-s-pomoshhju-jekspertov-ili-svoimi-silami/"
+      },
+      {
+        "id": 3871,
+        "post_type": "post",
+        "slug": "tamozhennaja-jekspertiza-pravila-i-porjadok-provedenija-v-ramkah-tamozhennogo-kontrolja",
+        "title": "Таможенная экспертиза - правила и порядок проведения в рамках таможенного контроля  ",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/tamozhennaja-jekspertiza-pravila-i-porjadok-provedenija-v-ramkah-tamozhennogo-kontrolja/",
+        "normalized_permalink_https": "https://auditte.ru/tamozhennaja-jekspertiza-pravila-i-porjadok-provedenija-v-ramkah-tamozhennogo-kontrolja/"
+      },
+      {
+        "id": 3873,
+        "post_type": "post",
+        "slug": "tamozhennaja-jekspertiza",
+        "title": "Таможенная экспертиза",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/tamozhennaja-jekspertiza/",
+        "normalized_permalink_https": "https://auditte.ru/tamozhennaja-jekspertiza/"
+      },
+      {
+        "id": 3886,
+        "post_type": "post",
+        "slug": "provedenie-negosudarstvennoj-jekspertizy-proektnoj-dokumentacii",
+        "title": "Проведение негосударственной экспертизы проектной документации",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/provedenie-negosudarstvennoj-jekspertizy-proektnoj-dokumentacii/",
+        "normalized_permalink_https": "https://auditte.ru/provedenie-negosudarstvennoj-jekspertizy-proektnoj-dokumentacii/"
+      },
+      {
+        "id": 3888,
+        "post_type": "post",
+        "slug": "jekspertiza-proektnoj-dokumentacii-chto-jeto-i-kak-projti",
+        "title": "ЭКСПЕРТИЗА ПРОЕКТНОЙ ДОКУМЕНТАЦИИ — ЧТО ЭТО И КАК ПРОЙТИ?",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/jekspertiza-proektnoj-dokumentacii-chto-jeto-i-kak-projti/",
+        "normalized_permalink_https": "https://auditte.ru/jekspertiza-proektnoj-dokumentacii-chto-jeto-i-kak-projti/"
+      },
+      {
+        "id": 3901,
+        "post_type": "post",
+        "slug": "jekologicheskaja-jekspertiza-vidy-celi-i-jetapy-procedury",
+        "title": "Экологическая экспертиза: виды, цели и этапы процедуры",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/jekologicheskaja-jekspertiza-vidy-celi-i-jetapy-procedury/",
+        "normalized_permalink_https": "https://auditte.ru/jekologicheskaja-jekspertiza-vidy-celi-i-jetapy-procedury/"
+      },
+      {
+        "id": 3904,
+        "post_type": "post",
+        "slug": "jekologicheskaja-jekspertiza",
+        "title": "Экологическая экспертиза",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/jekologicheskaja-jekspertiza/",
+        "normalized_permalink_https": "https://auditte.ru/jekologicheskaja-jekspertiza/"
+      },
+      {
+        "id": 3917,
+        "post_type": "post",
+        "slug": "otvetstvennost-za-narushenie-trebovanij-promyshlennoj-bezopasnosti",
+        "title": "Ответственность за нарушение требований промышленной безопасности",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/otvetstvennost-za-narushenie-trebovanij-promyshlennoj-bezopasnosti/",
+        "normalized_permalink_https": "https://auditte.ru/otvetstvennost-za-narushenie-trebovanij-promyshlennoj-bezopasnosti/"
+      },
+      {
+        "id": 3920,
+        "post_type": "post",
+        "slug": "provedenie-jekspertizy-promyshlennoj-bezopasnosti",
+        "title": "Проведение экспертизы промышленной безопасности",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/provedenie-jekspertizy-promyshlennoj-bezopasnosti/",
+        "normalized_permalink_https": "https://auditte.ru/provedenie-jekspertizy-promyshlennoj-bezopasnosti/"
+      },
+      {
+        "id": 4195,
+        "post_type": "post",
+        "slug": "kto-takie-anderrajtery-i-kak-oni-pomogut-prodat-vashi-akcii",
+        "title": "Кто такие андеррайтеры и как они помогут продать ваши акции?",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/kto-takie-anderrajtery-i-kak-oni-pomogut-prodat-vashi-akcii/",
+        "normalized_permalink_https": "https://auditte.ru/kto-takie-anderrajtery-i-kak-oni-pomogut-prodat-vashi-akcii/"
+      },
+      {
+        "id": 4206,
+        "post_type": "post",
+        "slug": "konsalting-i-anderrajter-vzaimodejstvie-i-kompetencii",
+        "title": "Консалтинг и Андеррайтер: взаимодействие и компетенции",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/konsalting-i-anderrajter-vzaimodejstvie-i-kompetencii/",
+        "normalized_permalink_https": "https://auditte.ru/konsalting-i-anderrajter-vzaimodejstvie-i-kompetencii/"
+      },
+      {
+        "id": 502,
+        "post_type": "post",
+        "slug": "vzgljad-na-rol-investicionnogo-audita",
+        "title": "Взгляд на Роль Инвестиционного Аудита",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/vzgljad-na-rol-investicionnogo-audita/",
+        "normalized_permalink_https": "https://auditte.ru/vzgljad-na-rol-investicionnogo-audita/"
+      },
+      {
+        "id": 506,
+        "post_type": "post",
+        "slug": "iniciativnyj-audit-kljuchevye-momenty-i-preimushhestva",
+        "title": "Инициативный аудит: ключевые моменты и преимущества",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/iniciativnyj-audit-kljuchevye-momenty-i-preimushhestva/",
+        "normalized_permalink_https": "https://auditte.ru/iniciativnyj-audit-kljuchevye-momenty-i-preimushhestva/"
+      },
+      {
+        "id": 521,
+        "post_type": "post",
+        "slug": "kak-investicionnyj-audit-obespechivaet-finansovuju-uverennost",
+        "title": "Как Инвестиционный Аудит Обеспечивает Финансовую Уверенность",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/kak-investicionnyj-audit-obespechivaet-finansovuju-uverennost/",
+        "normalized_permalink_https": "https://auditte.ru/kak-investicionnyj-audit-obespechivaet-finansovuju-uverennost/"
+      },
+      {
+        "id": 522,
+        "post_type": "post",
+        "slug": "iniciativnyj-audit-strategicheskij-podhod-k-razvitiju-kompanii",
+        "title": "Инициативный аудит: стратегический подход к развитию компании",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/iniciativnyj-audit-strategicheskij-podhod-k-razvitiju-kompanii/",
+        "normalized_permalink_https": "https://auditte.ru/iniciativnyj-audit-strategicheskij-podhod-k-razvitiju-kompanii/"
+      },
+      {
+        "id": 536,
+        "post_type": "post",
+        "slug": "tendencii-i-vyzovy-bankovskogo-audita-v-sovremennom-mire",
+        "title": "Тенденции и вызовы банковского аудита в современном мире",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/tendencii-i-vyzovy-bankovskogo-audita-v-sovremennom-mire/",
+        "normalized_permalink_https": "https://auditte.ru/tendencii-i-vyzovy-bankovskogo-audita-v-sovremennom-mire/"
+      },
+      {
+        "id": 557,
+        "post_type": "post",
+        "slug": "optimizacija-processa-bankovskogo-audita-sovremennye-podhody-i-luchshie-praktiki",
+        "title": "Оптимизация процесса банковского аудита: современные подходы и лучшие практики",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/optimizacija-processa-bankovskogo-audita-sovremennye-podhody-i-luchshie-praktiki/",
+        "normalized_permalink_https": "https://auditte.ru/optimizacija-processa-bankovskogo-audita-sovremennye-podhody-i-luchshie-praktiki/"
+      },
+      {
+        "id": 635,
+        "post_type": "post",
+        "slug": "osobennosti-strahovogo-audita",
+        "title": "Особенности страхового аудита",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/osobennosti-strahovogo-audita/",
+        "normalized_permalink_https": "https://auditte.ru/osobennosti-strahovogo-audita/"
+      },
+      {
+        "id": 652,
+        "post_type": "post",
+        "slug": "rol-i-znachimost-audita-v-dolgosrochnyh-programmah-razvitija",
+        "title": "Роль и значимость аудита в долгосрочных программах развития",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/rol-i-znachimost-audita-v-dolgosrochnyh-programmah-razvitija/",
+        "normalized_permalink_https": "https://auditte.ru/rol-i-znachimost-audita-v-dolgosrochnyh-programmah-razvitija/"
+      },
+      {
+        "id": 659,
+        "post_type": "post",
+        "slug": "audit-dolgosrochnyh-programm-razvitija-kljuchevye-aspekty-i-metody",
+        "title": "Аудит долгосрочных программ развития: Ключевые аспекты и методы",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/audit-dolgosrochnyh-programm-razvitija-kljuchevye-aspekty-i-metody/",
+        "normalized_permalink_https": "https://auditte.ru/audit-dolgosrochnyh-programm-razvitija-kljuchevye-aspekty-i-metody/"
+      },
+      {
+        "id": 663,
+        "post_type": "post",
+        "slug": "it-audit-kljuchevye-aspekty-metody-i-prakticheskoe-primenenie",
+        "title": "IT-аудит: Ключевые аспекты, методы и практическое применение",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/it-audit-kljuchevye-aspekty-metody-i-prakticheskoe-primenenie/",
+        "normalized_permalink_https": "https://auditte.ru/it-audit-kljuchevye-aspekty-metody-i-prakticheskoe-primenenie/"
+      },
+      {
+        "id": 667,
+        "post_type": "post",
+        "slug": "it-audit-strategicheskoe-znachenie-i-process-provedenija",
+        "title": "IT-аудит: стратегическое значение и процесс проведения",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/it-audit-strategicheskoe-znachenie-i-process-provedenija/",
+        "normalized_permalink_https": "https://auditte.ru/it-audit-strategicheskoe-znachenie-i-process-provedenija/"
+      },
+      {
+        "id": 671,
+        "post_type": "post",
+        "slug": "stroitelnyj-audit-osnovy-process-i-znachenie",
+        "title": "Строительный аудит: Основы, Процесс и Значение",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/stroitelnyj-audit-osnovy-process-i-znachenie/",
+        "normalized_permalink_https": "https://auditte.ru/stroitelnyj-audit-osnovy-process-i-znachenie/"
+      },
+      {
+        "id": 675,
+        "post_type": "post",
+        "slug": "stroitelnyj-audit-kljuchevye-aspekty-i-ego-rol-v-obespechenii-kachestva-stroitelstva",
+        "title": "Строительный аудит: Ключевые аспекты и его роль в обеспечении качества строительства",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/stroitelnyj-audit-kljuchevye-aspekty-i-ego-rol-v-obespechenii-kachestva-stroitelstva/",
+        "normalized_permalink_https": "https://auditte.ru/stroitelnyj-audit-kljuchevye-aspekty-i-ego-rol-v-obespechenii-kachestva-stroitelstva/"
+      },
+      {
+        "id": 679,
+        "post_type": "post",
+        "slug": "jeffektivnoe-upravlenie-processom-slijanija-i-pogloshhenija-kljuchevye-aspekty-uspeshnogo-konsaltinga",
+        "title": "Эффективное управление процессом слияния и поглощения: ключевые аспекты успешного консалтинга",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/jeffektivnoe-upravlenie-processom-slijanija-i-pogloshhenija-kljuchevye-aspekty-uspeshnogo-konsaltinga/",
+        "normalized_permalink_https": "https://auditte.ru/jeffektivnoe-upravlenie-processom-slijanija-i-pogloshhenija-kljuchevye-aspekty-uspeshnogo-konsaltinga/"
+      },
+      {
+        "id": 686,
+        "post_type": "post",
+        "slug": "innovacionnye-podhody-konsaltinga-v-processe-slijanija-i-pogloshhenija",
+        "title": "Инновационные подходы консалтинга в процессе слияния и поглощения",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/innovacionnye-podhody-konsaltinga-v-processe-slijanija-i-pogloshhenija/",
+        "normalized_permalink_https": "https://auditte.ru/innovacionnye-podhody-konsaltinga-v-processe-slijanija-i-pogloshhenija/"
+      },
+      {
+        "id": 692,
+        "post_type": "post",
+        "slug": "rol-konsaltinga-v-upravlenii-nalogovymi-riskami-strategii-i-podhody",
+        "title": "Роль консалтинга в управлении налоговыми рисками: стратегии и подходы",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/rol-konsaltinga-v-upravlenii-nalogovymi-riskami-strategii-i-podhody/",
+        "normalized_permalink_https": "https://auditte.ru/rol-konsaltinga-v-upravlenii-nalogovymi-riskami-strategii-i-podhody/"
+      },
+      {
+        "id": 704,
+        "post_type": "post",
+        "slug": "rol-konsultantov-v-nalogovoj-jekspertize-optimizacija-i-obespechenie-sootvetstvija",
+        "title": "Роль консультантов в налоговой экспертизе: оптимизация и обеспечение соответствия",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/rol-konsultantov-v-nalogovoj-jekspertize-optimizacija-i-obespechenie-sootvetstvija/",
+        "normalized_permalink_https": "https://auditte.ru/rol-konsultantov-v-nalogovoj-jekspertize-optimizacija-i-obespechenie-sootvetstvija/"
+      },
+      {
+        "id": 714,
+        "post_type": "post",
+        "slug": "optimizacija-biznesa-kljuchevye-strategii-i-podhody-konsaltinga",
+        "title": "Оптимизация бизнеса: ключевые стратегии и подходы консалтинга",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/optimizacija-biznesa-kljuchevye-strategii-i-podhody-konsaltinga/",
+        "normalized_permalink_https": "https://auditte.ru/optimizacija-biznesa-kljuchevye-strategii-i-podhody-konsaltinga/"
+      },
+      {
+        "id": 722,
+        "post_type": "post",
+        "slug": "innovacionnye-podhody-v-konsaltinge-dlja-optimizacii-biznesa",
+        "title": "Инновационные подходы в консалтинге для оптимизации бизнеса",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/innovacionnye-podhody-v-konsaltinge-dlja-optimizacii-biznesa/",
+        "normalized_permalink_https": "https://auditte.ru/innovacionnye-podhody-v-konsaltinge-dlja-optimizacii-biznesa/"
+      },
+      {
+        "id": 735,
+        "post_type": "post",
+        "slug": "juridicheskij-konsalting-kljuchevye-aspekty-i-ego-vlijanie-na-sovremennyj-biznes",
+        "title": "Юридический консалтинг: ключевые аспекты и его влияние на современный бизнес",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/juridicheskij-konsalting-kljuchevye-aspekty-i-ego-vlijanie-na-sovremennyj-biznes/",
+        "normalized_permalink_https": "https://auditte.ru/juridicheskij-konsalting-kljuchevye-aspekty-i-ego-vlijanie-na-sovremennyj-biznes/"
+      },
+      {
+        "id": 744,
+        "post_type": "post",
+        "slug": "jeffektivnoe-upravlenie-riskami-s-pomoshhju-juridicheskogo-konsaltinga-strategii-instrumenty-i-preimushhestva",
+        "title": "Эффективное управление рисками с помощью юридического консалтинга: стратегии, инструменты и преимущества",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/jeffektivnoe-upravlenie-riskami-s-pomoshhju-juridicheskogo-konsaltinga-strategii-instrumenty-i-preimushhestva/",
+        "normalized_permalink_https": "https://auditte.ru/jeffektivnoe-upravlenie-riskami-s-pomoshhju-juridicheskogo-konsaltinga-strategii-instrumenty-i-preimushhestva/"
+      },
+      {
+        "id": 748,
+        "post_type": "post",
+        "slug": "rol-konsaltinga-v-sovremennoj-buhgalterii-i-finansovoj-otchjotnosti-strategii-i-praktiki",
+        "title": "Роль консалтинга в современной бухгалтерии и финансовой отчётности: стратегии и практики",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/rol-konsaltinga-v-sovremennoj-buhgalterii-i-finansovoj-otchjotnosti-strategii-i-praktiki/",
+        "normalized_permalink_https": "https://auditte.ru/rol-konsaltinga-v-sovremennoj-buhgalterii-i-finansovoj-otchjotnosti-strategii-i-praktiki/"
+      },
+      {
+        "id": 753,
+        "post_type": "post",
+        "slug": "transformacija-konsaltinga-v-buhgalterii-i-finansah-innovacionnye-podhody-i-perspektivy",
+        "title": "Трансформация консалтинга в бухгалтерии и финансах: инновационные подходы и перспективы",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/transformacija-konsaltinga-v-buhgalterii-i-finansah-innovacionnye-podhody-i-perspektivy/",
+        "normalized_permalink_https": "https://auditte.ru/transformacija-konsaltinga-v-buhgalterii-i-finansah-innovacionnye-podhody-i-perspektivy/"
+      },
+      {
+        "id": 758,
+        "post_type": "post",
+        "slug": "process-i-osobennosti-pervichnogo-razmeshhenija-cennyh-bumag-ipo",
+        "title": "Процесс и особенности первичного размещения ценных бумаг (IPO)",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/process-i-osobennosti-pervichnogo-razmeshhenija-cennyh-bumag-ipo/",
+        "normalized_permalink_https": "https://auditte.ru/process-i-osobennosti-pervichnogo-razmeshhenija-cennyh-bumag-ipo/"
+      },
+      {
+        "id": 765,
+        "post_type": "post",
+        "slug": "preimushhestva-i-riski-pervichnogo-razmeshhenija-cennyh-bumag-ipo",
+        "title": "Преимущества и риски первичного размещения ценных бумаг (IPO)",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/preimushhestva-i-riski-pervichnogo-razmeshhenija-cennyh-bumag-ipo/",
+        "normalized_permalink_https": "https://auditte.ru/preimushhestva-i-riski-pervichnogo-razmeshhenija-cennyh-bumag-ipo/"
+      },
+      {
+        "id": 772,
+        "post_type": "post",
+        "slug": "tamozhennoe-regulirovanie-i-ego-vlijanie-na-mezhdunarodnuju-torgovlju-analiz-i-perspektivy",
+        "title": "Таможенное регулирование и его влияние на международную торговлю: анализ и перспективы",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/tamozhennoe-regulirovanie-i-ego-vlijanie-na-mezhdunarodnuju-torgovlju-analiz-i-perspektivy/",
+        "normalized_permalink_https": "https://auditte.ru/tamozhennoe-regulirovanie-i-ego-vlijanie-na-mezhdunarodnuju-torgovlju-analiz-i-perspektivy/"
+      },
+      {
+        "id": 782,
+        "post_type": "post",
+        "slug": "tamozhennye-procedury-i-ih-vlijanie-na-jeffektivnost-mezhdunarodnoj-torgovli",
+        "title": "Таможенные процедуры и их влияние на эффективность международной торговли",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/tamozhennye-procedury-i-ih-vlijanie-na-jeffektivnost-mezhdunarodnoj-torgovli/",
+        "normalized_permalink_https": "https://auditte.ru/tamozhennye-procedury-i-ih-vlijanie-na-jeffektivnost-mezhdunarodnoj-torgovli/"
+      },
+      {
+        "id": 788,
+        "post_type": "post",
+        "slug": "ocenka-biznesa-metody-i-praktiki",
+        "title": "Оценка бизнеса: методы и практики",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/ocenka-biznesa-metody-i-praktiki/",
+        "normalized_permalink_https": "https://auditte.ru/ocenka-biznesa-metody-i-praktiki/"
+      },
+      {
+        "id": 792,
+        "post_type": "post",
+        "slug": "ocenka-biznesa-metody-faktory-preimushhestva-i-nedostatki",
+        "title": "Оценка бизнеса: методы, факторы, преимущества и недостатки.",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/ocenka-biznesa-metody-faktory-preimushhestva-i-nedostatki/",
+        "normalized_permalink_https": "https://auditte.ru/ocenka-biznesa-metody-faktory-preimushhestva-i-nedostatki/"
+      },
+      {
+        "id": 796,
+        "post_type": "post",
+        "slug": "ocenka-nedvizhimosti-metody-faktory-rol-ocenshhika",
+        "title": "Оценка недвижимости: Методы, факторы, роль оценщика.",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/ocenka-nedvizhimosti-metody-faktory-rol-ocenshhika/",
+        "normalized_permalink_https": "https://auditte.ru/ocenka-nedvizhimosti-metody-faktory-rol-ocenshhika/"
+      },
+      {
+        "id": 809,
+        "post_type": "post",
+        "slug": "ocenka-nedvizhimosti-ot-suhih-cifr-k-zhivym-istorijam",
+        "title": "Оценка недвижимости: От Сухих Цифр к Живым Историям",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/ocenka-nedvizhimosti-ot-suhih-cifr-k-zhivym-istorijam/",
+        "normalized_permalink_https": "https://auditte.ru/ocenka-nedvizhimosti-ot-suhih-cifr-k-zhivym-istorijam/"
+      },
+      {
+        "id": 818,
+        "post_type": "post",
+        "slug": "ocenka-nematerialnyh-aktivov-vazhnost-i-metody",
+        "title": "Оценка Нематериальных Активов: Важность и Методы",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/ocenka-nematerialnyh-aktivov-vazhnost-i-metody/",
+        "normalized_permalink_https": "https://auditte.ru/ocenka-nematerialnyh-aktivov-vazhnost-i-metody/"
+      },
+      {
+        "id": 828,
+        "post_type": "post",
+        "slug": "tendencii-i-vyzovy-v-ocenke-nematerialnyh-aktivov-v-cifrovuju-jepohu",
+        "title": "Тенденции и Вызовы в Оценке Нематериальных Активов в Цифровую Эпоху",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/tendencii-i-vyzovy-v-ocenke-nematerialnyh-aktivov-v-cifrovuju-jepohu/",
+        "normalized_permalink_https": "https://auditte.ru/tendencii-i-vyzovy-v-ocenke-nematerialnyh-aktivov-v-cifrovuju-jepohu/"
+      },
+      {
+        "id": 839,
+        "post_type": "post",
+        "slug": "ocenka-mashin-i-oborudovanija-kljuchevye-aspekty-i-metody",
+        "title": "Оценка Машин и Оборудования: Ключевые Аспекты и Методы",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/ocenka-mashin-i-oborudovanija-kljuchevye-aspekty-i-metody/",
+        "normalized_permalink_https": "https://auditte.ru/ocenka-mashin-i-oborudovanija-kljuchevye-aspekty-i-metody/"
+      },
+      {
+        "id": 843,
+        "post_type": "post",
+        "slug": "ocenka-mashin-i-oborudovanija-put-k-optimizacii-biznesa",
+        "title": "Оценка Машин и Оборудования: Путь к Оптимизации Бизнеса",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/ocenka-mashin-i-oborudovanija-put-k-optimizacii-biznesa/",
+        "normalized_permalink_https": "https://auditte.ru/ocenka-mashin-i-oborudovanija-put-k-optimizacii-biznesa/"
+      },
+      {
+        "id": 848,
+        "post_type": "post",
+        "slug": "metody-ocenki-zemelnyh-uchastkov-i-ih-primenenie",
+        "title": "Методы оценки земельных участков и их применение",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/metody-ocenki-zemelnyh-uchastkov-i-ih-primenenie/",
+        "normalized_permalink_https": "https://auditte.ru/metody-ocenki-zemelnyh-uchastkov-i-ih-primenenie/"
+      },
+      {
+        "id": 852,
+        "post_type": "post",
+        "slug": "osobennosti-ocenki-zemelnyh-uchastkov-v-selskoj-mestnosti",
+        "title": "Особенности оценки земельных участков в сельской местности",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/osobennosti-ocenki-zemelnyh-uchastkov-v-selskoj-mestnosti/",
+        "normalized_permalink_https": "https://auditte.ru/osobennosti-ocenki-zemelnyh-uchastkov-v-selskoj-mestnosti/"
+      },
+      {
+        "id": 860,
+        "post_type": "post",
+        "slug": "kompleksnye-podhody-k-upravleniju-peremeshheniem-personala-kljuchevye-principy-i-prakticheskie-rekomendacii",
+        "title": "Комплексные подходы к управлению перемещением персонала: ключевые принципы и практические рекомендации",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/kompleksnye-podhody-k-upravleniju-peremeshheniem-personala-kljuchevye-principy-i-prakticheskie-rekomendacii/",
+        "normalized_permalink_https": "https://auditte.ru/kompleksnye-podhody-k-upravleniju-peremeshheniem-personala-kljuchevye-principy-i-prakticheskie-rekomendacii/"
+      },
+      {
+        "id": 864,
+        "post_type": "post",
+        "slug": "innovacionnye-podhody-k-upravleniju-peremeshheniem-personala-v-jepohu-globalizacii",
+        "title": "Инновационные подходы к управлению перемещением персонала в эпоху глобализации",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/innovacionnye-podhody-k-upravleniju-peremeshheniem-personala-v-jepohu-globalizacii/",
+        "normalized_permalink_https": "https://auditte.ru/innovacionnye-podhody-k-upravleniju-peremeshheniem-personala-v-jepohu-globalizacii/"
+      },
+      {
+        "id": 867,
+        "post_type": "post",
+        "slug": "jeffektivnye-strategii-obuchenija-i-razvitija-rol-konsultacionnyh-uslug",
+        "title": "Эффективные Стратегии Обучения и Развития: Роль Консультационных Услуг",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/jeffektivnye-strategii-obuchenija-i-razvitija-rol-konsultacionnyh-uslug/",
+        "normalized_permalink_https": "https://auditte.ru/jeffektivnye-strategii-obuchenija-i-razvitija-rol-konsultacionnyh-uslug/"
+      },
+      {
+        "id": 870,
+        "post_type": "post",
+        "slug": "innovacionnye-tehnologii-v-oblasti-obuchenija-i-razvitija-rol-konsultacionnyh-uslug",
+        "title": "Инновационные Технологии в Области Обучения и Развития: Роль Консультационных Услуг",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/innovacionnye-tehnologii-v-oblasti-obuchenija-i-razvitija-rol-konsultacionnyh-uslug/",
+        "normalized_permalink_https": "https://auditte.ru/innovacionnye-tehnologii-v-oblasti-obuchenija-i-razvitija-rol-konsultacionnyh-uslug/"
+      },
+      {
+        "id": 875,
+        "post_type": "post",
+        "slug": "jeffektivnye-strategii-konsultacionnyh-uslug-v-oblasti-voznagrazhdenija",
+        "title": "Эффективные стратегии консультационных услуг в области вознаграждения",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/jeffektivnye-strategii-konsultacionnyh-uslug-v-oblasti-voznagrazhdenija/",
+        "normalized_permalink_https": "https://auditte.ru/jeffektivnye-strategii-konsultacionnyh-uslug-v-oblasti-voznagrazhdenija/"
+      },
+      {
+        "id": 879,
+        "post_type": "post",
+        "slug": "rol-kpi-v-upravlenii-biznesom-kak-konsultacionnye-uslugi-mogut-pomoch",
+        "title": "Роль KPI в управлении бизнесом: как консультационные услуги могут помочь",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/rol-kpi-v-upravlenii-biznesom-kak-konsultacionnye-uslugi-mogut-pomoch/",
+        "normalized_permalink_https": "https://auditte.ru/rol-kpi-v-upravlenii-biznesom-kak-konsultacionnye-uslugi-mogut-pomoch/"
+      },
+      {
+        "id": 883,
+        "post_type": "post",
+        "slug": "vvedenie-v-kadrovuju-analitiku-osnovy-i-znachimost",
+        "title": "Введение в кадровую аналитику: Основы и Значимость",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/vvedenie-v-kadrovuju-analitiku-osnovy-i-znachimost/",
+        "normalized_permalink_https": "https://auditte.ru/vvedenie-v-kadrovuju-analitiku-osnovy-i-znachimost/"
+      },
+      {
+        "id": 887,
+        "post_type": "post",
+        "slug": "kak-primenjat-kadrovuju-analitiku-dlja-uluchshenija-processov-upravlenija-personalom",
+        "title": "Как Применять Кадровую Аналитику для Улучшения Процессов Управления Персоналом",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/kak-primenjat-kadrovuju-analitiku-dlja-uluchshenija-processov-upravlenija-personalom/",
+        "normalized_permalink_https": "https://auditte.ru/kak-primenjat-kadrovuju-analitiku-dlja-uluchshenija-processov-upravlenija-personalom/"
+      },
+      {
+        "id": 893,
+        "post_type": "post",
+        "slug": "ponimanie-nalogooblozhenija-dlja-chastnyh-klientov-osnovy-i-prakticheskie-sovety",
+        "title": "Понимание налогообложения для частных клиентов: Основы и Практические Советы",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/ponimanie-nalogooblozhenija-dlja-chastnyh-klientov-osnovy-i-prakticheskie-sovety/",
+        "normalized_permalink_https": "https://auditte.ru/ponimanie-nalogooblozhenija-dlja-chastnyh-klientov-osnovy-i-prakticheskie-sovety/"
+      },
+      {
+        "id": 897,
+        "post_type": "post",
+        "slug": "optimizacija-nalogooblozhenija-dlja-chastnyh-klientov-iskusstvo-maksimizacii-vygod-i-minimizacii-riskov",
+        "title": "Оптимизация налогообложения для частных клиентов: Искусство максимизации выгод и минимизации рисков",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/optimizacija-nalogooblozhenija-dlja-chastnyh-klientov-iskusstvo-maksimizacii-vygod-i-minimizacii-riskov/",
+        "normalized_permalink_https": "https://auditte.ru/optimizacija-nalogooblozhenija-dlja-chastnyh-klientov-iskusstvo-maksimizacii-vygod-i-minimizacii-riskov/"
+      },
+      {
+        "id": 901,
+        "post_type": "post",
+        "slug": "pochemu-juridicheskoe-soprovozhdenie-neobhodimo-dlja-vashego-biznesa",
+        "title": "Почему Юридическое Сопровождение Необходимо для Вашего Бизнеса",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/pochemu-juridicheskoe-soprovozhdenie-neobhodimo-dlja-vashego-biznesa/",
+        "normalized_permalink_https": "https://auditte.ru/pochemu-juridicheskoe-soprovozhdenie-neobhodimo-dlja-vashego-biznesa/"
+      },
+      {
+        "id": 905,
+        "post_type": "post",
+        "slug": "znachenie-juridicheskogo-soprovozhdenija-dlja-inostrannyh-investorov",
+        "title": "Значение Юридического Сопровождения для Иностранных Инвесторов",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/znachenie-juridicheskogo-soprovozhdenija-dlja-inostrannyh-investorov/",
+        "normalized_permalink_https": "https://auditte.ru/znachenie-juridicheskogo-soprovozhdenija-dlja-inostrannyh-investorov/"
+      },
+      {
+        "id": 909,
+        "post_type": "post",
+        "slug": "osnovy-investirovanija-kak-nachat-i-uspeshno-vesti-finansy",
+        "title": "Основы Инвестирования: Как Начать и Успешно Вести Финансы",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/osnovy-investirovanija-kak-nachat-i-uspeshno-vesti-finansy/",
+        "normalized_permalink_https": "https://auditte.ru/osnovy-investirovanija-kak-nachat-i-uspeshno-vesti-finansy/"
+      },
+      {
+        "id": 913,
+        "post_type": "post",
+        "slug": "investicionnye-strategii-kak-vybrat-podhod-kotoryj-podhodit-vam",
+        "title": "Инвестиционные Стратегии: Как Выбрать Подход, Который Подходит Вам",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/investicionnye-strategii-kak-vybrat-podhod-kotoryj-podhodit-vam/",
+        "normalized_permalink_https": "https://auditte.ru/investicionnye-strategii-kak-vybrat-podhod-kotoryj-podhodit-vam/"
+      },
+      {
+        "id": 917,
+        "post_type": "post",
+        "slug": "ponimanie-vazhnosti-compliance-kljuchevye-aspekty-i-preimushhestva-dlja-biznesa",
+        "title": "Понимание важности Compliance: Ключевые аспекты и преимущества для бизнеса",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/ponimanie-vazhnosti-compliance-kljuchevye-aspekty-i-preimushhestva-dlja-biznesa/",
+        "normalized_permalink_https": "https://auditte.ru/ponimanie-vazhnosti-compliance-kljuchevye-aspekty-i-preimushhestva-dlja-biznesa/"
+      },
+      {
+        "id": 921,
+        "post_type": "post",
+        "slug": "prakticheskoe-rukovodstvo-po-proverke-kompanij-jeffektivnye-strategii-i-luchshie-praktiki",
+        "title": "Практическое руководство по проверке компаний: Эффективные стратегии и лучшие практики",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/prakticheskoe-rukovodstvo-po-proverke-kompanij-jeffektivnye-strategii-i-luchshie-praktiki/",
+        "normalized_permalink_https": "https://auditte.ru/prakticheskoe-rukovodstvo-po-proverke-kompanij-jeffektivnye-strategii-i-luchshie-praktiki/"
+      },
+      {
+        "id": 925,
+        "post_type": "post",
+        "slug": "shkola-jekspertizy-i-prava-kljuchevye-aspekty-professionalnogo-razvitija",
+        "title": "Как Высшая школа экспертизы и Права возводит стандарты в образовании",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/shkola-jekspertizy-i-prava-kljuchevye-aspekty-professionalnogo-razvitija/",
+        "normalized_permalink_https": "https://auditte.ru/shkola-jekspertizy-i-prava-kljuchevye-aspekty-professionalnogo-razvitija/"
+      },
+      {
+        "id": 929,
+        "post_type": "post",
+        "slug": "shkola-jekspertizy-i-prava-znachenie-obrazovanija-v-sfere-pravosudija",
+        "title": "Профессиональная Переподготовка от Высшей Школы Экспертизы и Права",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/shkola-jekspertizy-i-prava-znachenie-obrazovanija-v-sfere-pravosudija/",
+        "normalized_permalink_https": "https://auditte.ru/shkola-jekspertizy-i-prava-znachenie-obrazovanija-v-sfere-pravosudija/"
+      },
+      {
+        "id": 933,
+        "post_type": "post",
+        "slug": "iskusstvo-organizacii-meroprijatij-ot-idei-do-realizacii",
+        "title": "Искусство организации мероприятий: от идеи до реализации",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/iskusstvo-organizacii-meroprijatij-ot-idei-do-realizacii/",
+        "normalized_permalink_https": "https://auditte.ru/iskusstvo-organizacii-meroprijatij-ot-idei-do-realizacii/"
+      },
+      {
+        "id": 937,
+        "post_type": "post",
+        "slug": "vstrechi-kak-sdelat-ih-produktivnymi-i-jeffektivnymi",
+        "title": "Встречи: Как сделать их продуктивными и эффективными",
+        "migration_bucket": "ready_with_seo_fix",
+        "permalink_candidate": "http://auditte.ru/vstrechi-kak-sdelat-ih-produktivnymi-i-jeffektivnymi/",
+        "normalized_permalink_https": "https://auditte.ru/vstrechi-kak-sdelat-ih-produktivnymi-i-jeffektivnymi/"
+      }
+    ],
+    "ready_with_media_fix": [
+      {
+        "id": 1031,
+        "post_type": "page",
+        "slug": "konsaltingovye-uslugi",
+        "title": "Консалтинговые услуги",
+        "migration_bucket": "ready_with_media_fix",
+        "permalink_candidate": "http://auditte.ru/konsaltingovye-uslugi/",
+        "normalized_permalink_https": "https://auditte.ru/konsaltingovye-uslugi/"
+      },
+      {
+        "id": 1109,
+        "post_type": "page",
+        "slug": "ustoychivoye-razvitiye",
+        "title": "Устойчивое развитие",
+        "migration_bucket": "ready_with_media_fix",
+        "permalink_candidate": "http://auditte.ru/ustoychivoye-razvitiye/",
+        "normalized_permalink_https": "https://auditte.ru/ustoychivoye-razvitiye/"
+      },
+      {
+        "id": 1267,
+        "post_type": "page",
+        "slug": "peredovyye-tekhnologii-proizvodstva",
+        "title": "Передовые технологии производства",
+        "migration_bucket": "ready_with_media_fix",
+        "permalink_candidate": "http://auditte.ru/peredovyye-tekhnologii-proizvodstva/",
+        "normalized_permalink_https": "https://auditte.ru/peredovyye-tekhnologii-proizvodstva/"
+      },
+      {
+        "id": 1367,
+        "post_type": "page",
+        "slug": "toplivno-energeticheskaya-i-dobyvayushchaya-promyshlennost",
+        "title": "Топливно-энергетическая и добывающая отрасли",
+        "migration_bucket": "ready_with_media_fix",
+        "permalink_candidate": "http://auditte.ru/toplivno-energeticheskaya-i-dobyvayushchaya-promyshlennost/",
+        "normalized_permalink_https": "https://auditte.ru/toplivno-energeticheskaya-i-dobyvayushchaya-promyshlennost/"
+      },
+      {
+        "id": 1381,
+        "post_type": "page",
+        "slug": "finansovyy-sektor",
+        "title": "Финансовый сектор",
+        "migration_bucket": "ready_with_media_fix",
+        "permalink_candidate": "http://auditte.ru/finansovyy-sektor/",
+        "normalized_permalink_https": "https://auditte.ru/finansovyy-sektor/"
+      },
+      {
+        "id": 1392,
+        "post_type": "page",
+        "slug": "uslugi-dlya-gosudarstvennogo-sektora",
+        "title": "Услуги для государственного сектора",
+        "migration_bucket": "ready_with_media_fix",
+        "permalink_candidate": "http://auditte.ru/uslugi-dlya-gosudarstvennogo-sektora/",
+        "normalized_permalink_https": "https://auditte.ru/uslugi-dlya-gosudarstvennogo-sektora/"
+      },
+      {
+        "id": 1412,
+        "post_type": "page",
+        "slug": "investitsii-v-chastnyy-kapital",
+        "title": "Инвестиции в частный капитал",
+        "migration_bucket": "ready_with_media_fix",
+        "permalink_candidate": "http://auditte.ru/investitsii-v-chastnyy-kapital/",
+        "normalized_permalink_https": "https://auditte.ru/investitsii-v-chastnyy-kapital/"
+      },
+      {
+        "id": 15,
+        "post_type": "page",
+        "slug": "glavnaja",
+        "title": "Главная",
+        "migration_bucket": "ready_with_media_fix",
+        "permalink_candidate": "http://auditte.ru/glavnaja/",
+        "normalized_permalink_https": "https://auditte.ru/glavnaja/"
+      },
+      {
+        "id": 1587,
+        "post_type": "page",
+        "slug": "konsultacionnye-uslugi-po-obucheniju-i-razvitiju",
+        "title": "Консультационные услуги по обучению и развитию",
+        "migration_bucket": "ready_with_media_fix",
+        "permalink_candidate": "http://auditte.ru/konsultacionnye-uslugi-po-obucheniju-i-razvitiju/",
+        "normalized_permalink_https": "https://auditte.ru/konsultacionnye-uslugi-po-obucheniju-i-razvitiju/"
+      },
+      {
+        "id": 1622,
+        "post_type": "page",
+        "slug": "uslugi-v-oblasti-nalogooblozhenija-dlja-chastnyh-klientov",
+        "title": "Услуги в области налогообложения для частных клиентов",
+        "migration_bucket": "ready_with_media_fix",
+        "permalink_candidate": "http://auditte.ru/uslugi-v-oblasti-nalogooblozhenija-dlja-chastnyh-klientov/",
+        "normalized_permalink_https": "https://auditte.ru/uslugi-v-oblasti-nalogooblozhenija-dlja-chastnyh-klientov/"
+      },
+      {
+        "id": 1637,
+        "post_type": "page",
+        "slug": "upravlenie-personalom",
+        "title": "Управление персоналом",
+        "migration_bucket": "ready_with_media_fix",
+        "permalink_candidate": "http://auditte.ru/upravlenie-personalom/",
+        "normalized_permalink_https": "https://auditte.ru/upravlenie-personalom/"
+      },
+      {
+        "id": 1694,
+        "post_type": "page",
+        "slug": "juridicheskoe-soprovozhdenie",
+        "title": "Юридическое сопровождение",
+        "migration_bucket": "ready_with_media_fix",
+        "permalink_candidate": "http://auditte.ru/juridicheskoe-soprovozhdenie/",
+        "normalized_permalink_https": "https://auditte.ru/juridicheskoe-soprovozhdenie/"
+      },
+      {
+        "id": 1718,
+        "post_type": "page",
+        "slug": "meropriyatiya",
+        "title": "Мероприятия",
+        "migration_bucket": "ready_with_media_fix",
+        "permalink_candidate": "http://auditte.ru/meropriyatiya/",
+        "normalized_permalink_https": "https://auditte.ru/meropriyatiya/"
+      },
+      {
+        "id": 1799,
+        "post_type": "page",
+        "slug": "karyera",
+        "title": "Карьера",
+        "migration_bucket": "ready_with_media_fix",
+        "permalink_candidate": "http://auditte.ru/karyera/",
+        "normalized_permalink_https": "https://auditte.ru/karyera/"
+      },
+      {
+        "id": 1831,
+        "post_type": "page",
+        "slug": "rabota-v-nashey-kompanii",
+        "title": "Что значит работать в нашей компании",
+        "migration_bucket": "ready_with_media_fix",
+        "permalink_candidate": "http://auditte.ru/rabota-v-nashey-kompanii/",
+        "normalized_permalink_https": "https://auditte.ru/rabota-v-nashey-kompanii/"
+      },
+      {
+        "id": 1839,
+        "post_type": "page",
+        "slug": "kak-prisoyedinitsya-k-nam",
+        "title": "Как присоединиться к нам",
+        "migration_bucket": "ready_with_media_fix",
+        "permalink_candidate": "http://auditte.ru/kak-prisoyedinitsya-k-nam/",
+        "normalized_permalink_https": "https://auditte.ru/kak-prisoyedinitsya-k-nam/"
+      },
+      {
+        "id": 1912,
+        "post_type": "page",
+        "slug": "shkola-jekspertizy-i-prava",
+        "title": "Школа экспертизы и права",
+        "migration_bucket": "ready_with_media_fix",
+        "permalink_candidate": "http://auditte.ru/shkola-jekspertizy-i-prava/",
+        "normalized_permalink_https": "https://auditte.ru/shkola-jekspertizy-i-prava/"
+      },
+      {
+        "id": 1918,
+        "post_type": "page",
+        "slug": "soobshhestvo-biznesmenov",
+        "title": "Сообщество бизнесменов",
+        "migration_bucket": "ready_with_media_fix",
+        "permalink_candidate": "http://auditte.ru/soobshhestvo-biznesmenov/",
+        "normalized_permalink_https": "https://auditte.ru/soobshhestvo-biznesmenov/"
+      },
+      {
+        "id": 1938,
+        "post_type": "page",
+        "slug": "akademija-biznesa",
+        "title": "Академия бизнеса",
+        "migration_bucket": "ready_with_media_fix",
+        "permalink_candidate": "http://auditte.ru/akademija-biznesa/",
+        "normalized_permalink_https": "https://auditte.ru/akademija-biznesa/"
+      },
+      {
+        "id": 425,
+        "post_type": "page",
+        "slug": "uslugi",
+        "title": "Услуги",
+        "migration_bucket": "ready_with_media_fix",
+        "permalink_candidate": "http://auditte.ru/uslugi/",
+        "normalized_permalink_https": "https://auditte.ru/uslugi/"
+      },
+      {
+        "id": 534,
+        "post_type": "page",
+        "slug": "iniciativnyj-audit",
+        "title": "Инициативный аудит",
+        "migration_bucket": "ready_with_media_fix",
+        "permalink_candidate": "http://auditte.ru/iniciativnyj-audit/",
+        "normalized_permalink_https": "https://auditte.ru/iniciativnyj-audit/"
+      },
+      {
+        "id": 571,
+        "post_type": "page",
+        "slug": "bankovskij-audit",
+        "title": "Банковский аудит",
+        "migration_bucket": "ready_with_media_fix",
+        "permalink_candidate": "http://auditte.ru/bankovskij-audit/",
+        "normalized_permalink_https": "https://auditte.ru/bankovskij-audit/"
+      },
+      {
+        "id": 599,
+        "post_type": "page",
+        "slug": "strahovoj-audit",
+        "title": "Страховой аудит",
+        "migration_bucket": "ready_with_media_fix",
+        "permalink_candidate": "http://auditte.ru/strahovoj-audit/",
+        "normalized_permalink_https": "https://auditte.ru/strahovoj-audit/"
+      },
+      {
+        "id": 712,
+        "post_type": "page",
+        "slug": "stroitelnyj-audit",
+        "title": "Строительный аудит",
+        "migration_bucket": "ready_with_media_fix",
+        "permalink_candidate": "http://auditte.ru/stroitelnyj-audit/",
+        "normalized_permalink_https": "https://auditte.ru/stroitelnyj-audit/"
+      },
+      {
+        "id": 816,
+        "post_type": "page",
+        "slug": "juridicheskij-konsalting",
+        "title": "Юридический консалтинг",
+        "migration_bucket": "ready_with_media_fix",
+        "permalink_candidate": "http://auditte.ru/juridicheskij-konsalting/",
+        "normalized_permalink_https": "https://auditte.ru/juridicheskij-konsalting/"
+      },
+      {
+        "id": 948,
+        "post_type": "page",
+        "slug": "transformatsiya",
+        "title": "Трансформация",
+        "migration_bucket": "ready_with_media_fix",
+        "permalink_candidate": "http://auditte.ru/transformatsiya/",
+        "normalized_permalink_https": "https://auditte.ru/transformatsiya/"
+      },
+      {
+        "id": 965,
+        "post_type": "page",
+        "slug": "buhgalterija-i-finansovaja-otchetnost",
+        "title": "Бухгалтерия и финансовая отчетность",
+        "migration_bucket": "ready_with_media_fix",
+        "permalink_candidate": "http://auditte.ru/buhgalterija-i-finansovaja-otchetnost/",
+        "normalized_permalink_https": "https://auditte.ru/buhgalterija-i-finansovaja-otchetnost/"
+      },
+      {
+        "id": 989,
+        "post_type": "page",
+        "slug": "tamozhennoe-regulirovanie-i-mezhdunarodnaja-torgovlja",
+        "title": "Таможенное регулирование и международная торговля",
+        "migration_bucket": "ready_with_media_fix",
+        "permalink_candidate": "http://auditte.ru/tamozhennoe-regulirovanie-i-mezhdunarodnaja-torgovlja/",
+        "normalized_permalink_https": "https://auditte.ru/tamozhennoe-regulirovanie-i-mezhdunarodnaja-torgovlja/"
+      }
+    ],
+    "ready_with_seo_and_media_fix": [
+      {
+        "id": 1017,
+        "post_type": "page",
+        "slug": "dolgosrochnaya-tsennost",
+        "title": "Долгосрочная ценность",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/dolgosrochnaya-tsennost/",
+        "normalized_permalink_https": "https://auditte.ru/dolgosrochnaya-tsennost/"
+      },
+      {
+        "id": 1049,
+        "post_type": "page",
+        "slug": "doveriye",
+        "title": "Доверие",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/doveriye/",
+        "normalized_permalink_https": "https://auditte.ru/doveriye/"
+      },
+      {
+        "id": 1055,
+        "post_type": "page",
+        "slug": "audit-nekommercheskoj-organizacii",
+        "title": "Аудит некоммерческой организации",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/audit-nekommercheskoj-organizacii/",
+        "normalized_permalink_https": "https://auditte.ru/audit-nekommercheskoj-organizacii/"
+      },
+      {
+        "id": 1132,
+        "post_type": "page",
+        "slug": "ocenka-biznesa",
+        "title": "Оценка бизнеса",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/ocenka-biznesa/",
+        "normalized_permalink_https": "https://auditte.ru/ocenka-biznesa/"
+      },
+      {
+        "id": 1142,
+        "post_type": "page",
+        "slug": "ocenka-nedvizhimosti",
+        "title": "Оценка недвижимости",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/ocenka-nedvizhimosti/",
+        "normalized_permalink_https": "https://auditte.ru/ocenka-nedvizhimosti/"
+      },
+      {
+        "id": 1155,
+        "post_type": "page",
+        "slug": "ocenka-nematerialnyh-aktivov",
+        "title": "Оценка нематериальных активов",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/ocenka-nematerialnyh-aktivov/",
+        "normalized_permalink_https": "https://auditte.ru/ocenka-nematerialnyh-aktivov/"
+      },
+      {
+        "id": 1164,
+        "post_type": "page",
+        "slug": "ocenka-mashin-i-oborudovanija",
+        "title": "Оценка машин и оборудования",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/ocenka-mashin-i-oborudovanija/",
+        "normalized_permalink_https": "https://auditte.ru/ocenka-mashin-i-oborudovanija/"
+      },
+      {
+        "id": 1180,
+        "post_type": "page",
+        "slug": "ocenka-zemelnyh-uchastkov",
+        "title": "Оценка земельных участков",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/ocenka-zemelnyh-uchastkov/",
+        "normalized_permalink_https": "https://auditte.ru/ocenka-zemelnyh-uchastkov/"
+      },
+      {
+        "id": 1218,
+        "post_type": "page",
+        "slug": "otrasli",
+        "title": "Отрасли",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/otrasli/",
+        "normalized_permalink_https": "https://auditte.ru/otrasli/"
+      },
+      {
+        "id": 1293,
+        "post_type": "page",
+        "slug": "proizvodstvo-potrebitelskikh-tovarov-i-roznichnaya-torgovlya",
+        "title": "Производство потребительских товаров и розничная торговля",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/proizvodstvo-potrebitelskikh-tovarov-i-roznichnaya-torgovlya/",
+        "normalized_permalink_https": "https://auditte.ru/proizvodstvo-potrebitelskikh-tovarov-i-roznichnaya-torgovlya/"
+      },
+      {
+        "id": 1399,
+        "post_type": "page",
+        "slug": "mediko-biologicheskiye-otrasli-i-zdravookhraneniye",
+        "title": "Медико-биологическая отрасль и здравоохранение",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/mediko-biologicheskiye-otrasli-i-zdravookhraneniye/",
+        "normalized_permalink_https": "https://auditte.ru/mediko-biologicheskiye-otrasli-i-zdravookhraneniye/"
+      },
+      {
+        "id": 1422,
+        "post_type": "page",
+        "slug": "tekhnologii-mediasektor-industriya-razvlecheniy-i-sfery-svyazi",
+        "title": "Технологии, медиасектор, индустрия развлечений и отрасль связи",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/tekhnologii-mediasektor-industriya-razvlecheniy-i-sfery-svyazi/",
+        "normalized_permalink_https": "https://auditte.ru/tekhnologii-mediasektor-industriya-razvlecheniy-i-sfery-svyazi/"
+      },
+      {
+        "id": 1549,
+        "post_type": "page",
+        "slug": "ocenochnaja-dejatelnost",
+        "title": "Оценочная деятельность",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/ocenochnaja-dejatelnost/",
+        "normalized_permalink_https": "https://auditte.ru/ocenochnaja-dejatelnost/"
+      },
+      {
+        "id": 1552,
+        "post_type": "page",
+        "slug": "o-nas",
+        "title": "О нас",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/o-nas/",
+        "normalized_permalink_https": "https://auditte.ru/o-nas/"
+      },
+      {
+        "id": 1570,
+        "post_type": "page",
+        "slug": "kompleksnye-reshenija-po-peremeshheniju-personala",
+        "title": "Комплексные решения по перемещению персонала",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/kompleksnye-reshenija-po-peremeshheniju-personala/",
+        "normalized_permalink_https": "https://auditte.ru/kompleksnye-reshenija-po-peremeshheniju-personala/"
+      },
+      {
+        "id": 1596,
+        "post_type": "page",
+        "slug": "konsultacionnye-uslugi-v-oblasti-voznagrazhdenija-i-kpi",
+        "title": "Консультационные услуги в области вознаграждения и KPI",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/konsultacionnye-uslugi-v-oblasti-voznagrazhdenija-i-kpi/",
+        "normalized_permalink_https": "https://auditte.ru/konsultacionnye-uslugi-v-oblasti-voznagrazhdenija-i-kpi/"
+      },
+      {
+        "id": 1610,
+        "post_type": "page",
+        "slug": "kadrovaja-analitika",
+        "title": "Кадровая аналитика",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/kadrovaja-analitika/",
+        "normalized_permalink_https": "https://auditte.ru/kadrovaja-analitika/"
+      },
+      {
+        "id": 1628,
+        "post_type": "page",
+        "slug": "nasha-tsel",
+        "title": "Наша цель",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/nasha-tsel/",
+        "normalized_permalink_https": "https://auditte.ru/nasha-tsel/"
+      },
+      {
+        "id": 1647,
+        "post_type": "page",
+        "slug": "nashi-tsennosti",
+        "title": "Наши ценности",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/nashi-tsennosti/",
+        "normalized_permalink_https": "https://auditte.ru/nashi-tsennosti/"
+      },
+      {
+        "id": 1687,
+        "post_type": "page",
+        "slug": "nashi-sotrudniki",
+        "title": "Наши сотрудники",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/nashi-sotrudniki/",
+        "normalized_permalink_https": "https://auditte.ru/nashi-sotrudniki/"
+      },
+      {
+        "id": 1766,
+        "post_type": "page",
+        "slug": "investicii-i-finansy",
+        "title": "Инвестиции и финансы",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/investicii-i-finansy/",
+        "normalized_permalink_https": "https://auditte.ru/investicii-i-finansy/"
+      },
+      {
+        "id": 1782,
+        "post_type": "page",
+        "slug": "proverka-kompanij-compliance",
+        "title": "Проверка компаний / Compliance",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/proverka-kompanij-compliance/",
+        "normalized_permalink_https": "https://auditte.ru/proverka-kompanij-compliance/"
+      },
+      {
+        "id": 1825,
+        "post_type": "page",
+        "slug": "rabota-v-kompanii",
+        "title": "Работа в нашей компании",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/rabota-v-kompanii/",
+        "normalized_permalink_https": "https://auditte.ru/rabota-v-kompanii/"
+      },
+      {
+        "id": 1899,
+        "post_type": "page",
+        "slug": "inostrannym-klientam",
+        "title": "Иностранным клиентам",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/inostrannym-klientam/",
+        "normalized_permalink_https": "https://auditte.ru/inostrannym-klientam/"
+      },
+      {
+        "id": 2280,
+        "post_type": "page",
+        "slug": "kontakty",
+        "title": "Контакты",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/kontakty/",
+        "normalized_permalink_https": "https://auditte.ru/kontakty/"
+      },
+      {
+        "id": 2505,
+        "post_type": "page",
+        "slug": "forma",
+        "title": "Форма",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/forma/",
+        "normalized_permalink_https": "https://auditte.ru/forma/"
+      },
+      {
+        "id": 3,
+        "post_type": "page",
+        "slug": "politika-konfidencialnosti",
+        "title": "Политика конфиденциальности",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/politika-konfidencialnosti/",
+        "normalized_permalink_https": "https://auditte.ru/politika-konfidencialnosti/"
+      },
+      {
+        "id": 3758,
+        "post_type": "page",
+        "slug": "ekspertiza",
+        "title": "Экспертные услуги",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/ekspertiza/",
+        "normalized_permalink_https": "https://auditte.ru/ekspertiza/"
+      },
+      {
+        "id": 3800,
+        "post_type": "page",
+        "slug": "sud-expertiza",
+        "title": "Судебная экспертиза",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/sud-expertiza/",
+        "normalized_permalink_https": "https://auditte.ru/sud-expertiza/"
+      },
+      {
+        "id": 3813,
+        "post_type": "page",
+        "slug": "dosudebnaya-expertiza",
+        "title": "Досудебная экспертиза",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/dosudebnaya-expertiza/",
+        "normalized_permalink_https": "https://auditte.ru/dosudebnaya-expertiza/"
+      },
+      {
+        "id": 3831,
+        "post_type": "page",
+        "slug": "notar-expertiza",
+        "title": "Нотариальная экспертиза",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/notar-expertiza/",
+        "normalized_permalink_https": "https://auditte.ru/notar-expertiza/"
+      },
+      {
+        "id": 3849,
+        "post_type": "page",
+        "slug": "expertiza-44fz",
+        "title": "Экспертиза по 44 ФЗ",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/expertiza-44fz/",
+        "normalized_permalink_https": "https://auditte.ru/expertiza-44fz/"
+      },
+      {
+        "id": 386,
+        "post_type": "page",
+        "slug": "auditorskiye-uslugi",
+        "title": "Аудиторские услуги",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/auditorskiye-uslugi/",
+        "normalized_permalink_https": "https://auditte.ru/auditorskiye-uslugi/"
+      },
+      {
+        "id": 3864,
+        "post_type": "page",
+        "slug": "castoms-expertiza",
+        "title": "Таможенная экспертиза",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/castoms-expertiza/",
+        "normalized_permalink_https": "https://auditte.ru/castoms-expertiza/"
+      },
+      {
+        "id": 3879,
+        "post_type": "page",
+        "slug": "expertiza-proekt-docum",
+        "title": "Экспертиза проектной документации",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/expertiza-proekt-docum/",
+        "normalized_permalink_https": "https://auditte.ru/expertiza-proekt-docum/"
+      },
+      {
+        "id": 3894,
+        "post_type": "page",
+        "slug": "ecolog-expertiza",
+        "title": "Экологическая экспертиза",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/ecolog-expertiza/",
+        "normalized_permalink_https": "https://auditte.ru/ecolog-expertiza/"
+      },
+      {
+        "id": 3910,
+        "post_type": "page",
+        "slug": "expertiza-prom-bezopasnosti",
+        "title": "Экспертиза промышленной безопасности",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/expertiza-prom-bezopasnosti/",
+        "normalized_permalink_https": "https://auditte.ru/expertiza-prom-bezopasnosti/"
+      },
+      {
+        "id": 4055,
+        "post_type": "post",
+        "slug": "gost-ipo",
+        "title": "Гость IPO",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/gost-ipo/",
+        "normalized_permalink_https": "https://auditte.ru/gost-ipo/"
+      },
+      {
+        "id": 4057,
+        "post_type": "post",
+        "slug": "spiker-ipo",
+        "title": "Спикер IPO",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/spiker-ipo/",
+        "normalized_permalink_https": "https://auditte.ru/spiker-ipo/"
+      },
+      {
+        "id": 4059,
+        "post_type": "post",
+        "slug": "bussines-vstrecha-8-ijunya-2024-spb",
+        "title": "Бизнес встреча: 8 июня 2024 Санкт-Петербург",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/bussines-vstrecha-8-ijunya-2024-spb/",
+        "normalized_permalink_https": "https://auditte.ru/bussines-vstrecha-8-ijunya-2024-spb/"
+      },
+      {
+        "id": 4062,
+        "post_type": "post",
+        "slug": "pmef-2024-spb",
+        "title": "ПМЭФ 2024 Санкт-Петербург",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/pmef-2024-spb/",
+        "normalized_permalink_https": "https://auditte.ru/pmef-2024-spb/"
+      },
+      {
+        "id": 4066,
+        "post_type": "page",
+        "slug": "ipo",
+        "title": "IPO акций",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/ipo/",
+        "normalized_permalink_https": "https://auditte.ru/ipo/"
+      },
+      {
+        "id": 4108,
+        "post_type": "post",
+        "slug": "ipo-2024-chto-zhdet-rissian-company",
+        "title": "IPO 2024 : Что ждет российские компании?",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/ipo-2024-chto-zhdet-rissian-company/",
+        "normalized_permalink_https": "https://auditte.ru/ipo-2024-chto-zhdet-rissian-company/"
+      },
+      {
+        "id": 4211,
+        "post_type": "post",
+        "slug": "biznes-forum-integracija-vozmozhnostej-put-k-ipo-s-5-po-6-ijulja-2024",
+        "title": "Бизнес форум: ИНТЕГРАЦИЯ ВОЗМОЖНОСТЕЙ, ПУТЬ К IPO -  с 5 по 6 июля 2024",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/biznes-forum-integracija-vozmozhnostej-put-k-ipo-s-5-po-6-ijulja-2024/",
+        "normalized_permalink_https": "https://auditte.ru/biznes-forum-integracija-vozmozhnostej-put-k-ipo-s-5-po-6-ijulja-2024/"
+      },
+      {
+        "id": 4225,
+        "post_type": "page",
+        "slug": "offer-2025",
+        "title": "Актуальные предложения 2025",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/offer-2025/",
+        "normalized_permalink_https": "https://auditte.ru/offer-2025/"
+      },
+      {
+        "id": 4321,
+        "post_type": "post",
+        "slug": "pmjef",
+        "title": "ПМЭФ",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/pmjef/",
+        "normalized_permalink_https": "https://auditte.ru/pmjef/"
+      },
+      {
+        "id": 4333,
+        "post_type": "post",
+        "slug": "pmjuf",
+        "title": "ПМЮФ",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/pmjuf/",
+        "normalized_permalink_https": "https://auditte.ru/pmjuf/"
+      },
+      {
+        "id": 4345,
+        "post_type": "post",
+        "slug": "gost-integracija-vozmozhnostej",
+        "title": "Гость ИНТЕГРАЦИЯ ВОЗМОЖНОСТЕЙ",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/gost-integracija-vozmozhnostej/",
+        "normalized_permalink_https": "https://auditte.ru/gost-integracija-vozmozhnostej/"
+      },
+      {
+        "id": 4346,
+        "post_type": "post",
+        "slug": "spiker-integracija-vozmozhnostej",
+        "title": "Спикер ИНТЕГРАЦИЯ ВОЗМОЖНОСТЕЙ",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/spiker-integracija-vozmozhnostej/",
+        "normalized_permalink_https": "https://auditte.ru/spiker-integracija-vozmozhnostej/"
+      },
+      {
+        "id": 4357,
+        "post_type": "post",
+        "slug": "gost-ot-vozmozhnostej-k-celi",
+        "title": "Гость От возможностей к цели",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/gost-ot-vozmozhnostej-k-celi/",
+        "normalized_permalink_https": "https://auditte.ru/gost-ot-vozmozhnostej-k-celi/"
+      },
+      {
+        "id": 4358,
+        "post_type": "post",
+        "slug": "spiker-ot-vozmozhnostej-k-celi",
+        "title": "Спикер От возможностей к цели",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/spiker-ot-vozmozhnostej-k-celi/",
+        "normalized_permalink_https": "https://auditte.ru/spiker-ot-vozmozhnostej-k-celi/"
+      },
+      {
+        "id": 440,
+        "post_type": "page",
+        "slug": "obyazatelnyy-audit",
+        "title": "Обязательный аудит",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/obyazatelnyy-audit/",
+        "normalized_permalink_https": "https://auditte.ru/obyazatelnyy-audit/"
+      },
+      {
+        "id": 453,
+        "post_type": "post",
+        "slug": "objazatelnyj-audit-akcionernyh-obshhestv",
+        "title": "Обязательный аудит акционерных обществ",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/objazatelnyj-audit-akcionernyh-obshhestv/",
+        "normalized_permalink_https": "https://auditte.ru/objazatelnyj-audit-akcionernyh-obshhestv/"
+      },
+      {
+        "id": 456,
+        "post_type": "post",
+        "slug": "objazatelnyj-audit-nekommercheskih-organizacij",
+        "title": "Обязательный аудит некоммерческих организаций",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/objazatelnyj-audit-nekommercheskih-organizacij/",
+        "normalized_permalink_https": "https://auditte.ru/objazatelnyj-audit-nekommercheskih-organizacij/"
+      },
+      {
+        "id": 469,
+        "post_type": "page",
+        "slug": "investitsionnyy-audit",
+        "title": "Инвестиционный аудит",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/investitsionnyy-audit/",
+        "normalized_permalink_https": "https://auditte.ru/investitsionnyy-audit/"
+      },
+      {
+        "id": 584,
+        "post_type": "page",
+        "slug": "audit-mikrofinansovyh-organizacij",
+        "title": "Аудит микрофинансовых организаций",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/audit-mikrofinansovyh-organizacij/",
+        "normalized_permalink_https": "https://auditte.ru/audit-mikrofinansovyh-organizacij/"
+      },
+      {
+        "id": 614,
+        "post_type": "post",
+        "slug": "vnutrennij-audit-v-bankah-i-mfo",
+        "title": "Внутренний аудит в банках и МФО",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/vnutrennij-audit-v-bankah-i-mfo/",
+        "normalized_permalink_https": "https://auditte.ru/vnutrennij-audit-v-bankah-i-mfo/"
+      },
+      {
+        "id": 617,
+        "post_type": "post",
+        "slug": "finansovyj-audit-i-ego-osobennosti",
+        "title": "Финансовый аудит и его особенности",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/finansovyj-audit-i-ego-osobennosti/",
+        "normalized_permalink_https": "https://auditte.ru/finansovyj-audit-i-ego-osobennosti/"
+      },
+      {
+        "id": 632,
+        "post_type": "post",
+        "slug": "audit-buhgalterskoj-finansovoj-otchetnosti-strahovoj-kompanii",
+        "title": "Аудит бухгалтерской (финансовой) отчетности страховой компании",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/audit-buhgalterskoj-finansovoj-otchetnosti-strahovoj-kompanii/",
+        "normalized_permalink_https": "https://auditte.ru/audit-buhgalterskoj-finansovoj-otchetnosti-strahovoj-kompanii/"
+      },
+      {
+        "id": 680,
+        "post_type": "page",
+        "slug": "audit-dolgosrochnyh-programm-razvitija",
+        "title": "Аудит долгосрочных программ развития",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/audit-dolgosrochnyh-programm-razvitija/",
+        "normalized_permalink_https": "https://auditte.ru/audit-dolgosrochnyh-programm-razvitija/"
+      },
+      {
+        "id": 696,
+        "post_type": "page",
+        "slug": "it-audit",
+        "title": "IT-аудит",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/it-audit/",
+        "normalized_permalink_https": "https://auditte.ru/it-audit/"
+      },
+      {
+        "id": 756,
+        "post_type": "page",
+        "slug": "slijanie-i-pogloshhenie",
+        "title": "Слияние и поглощение",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/slijanie-i-pogloshhenie/",
+        "normalized_permalink_https": "https://auditte.ru/slijanie-i-pogloshhenie/"
+      },
+      {
+        "id": 773,
+        "post_type": "page",
+        "slug": "nalogi-i-jekspertiza",
+        "title": "Налоги и экспертиза",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/nalogi-i-jekspertiza/",
+        "normalized_permalink_https": "https://auditte.ru/nalogi-i-jekspertiza/"
+      },
+      {
+        "id": 800,
+        "post_type": "page",
+        "slug": "optimizacija-biznesa",
+        "title": "Оптимизация бизнеса",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/optimizacija-biznesa/",
+        "normalized_permalink_https": "https://auditte.ru/optimizacija-biznesa/"
+      },
+      {
+        "id": 978,
+        "post_type": "page",
+        "slug": "pervichnoe-razmeshhenie-cennyh-bumag-ipo",
+        "title": "Первичное размещение ценных бумаг (IPO)",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/pervichnoe-razmeshhenie-cennyh-bumag-ipo/",
+        "normalized_permalink_https": "https://auditte.ru/pervichnoe-razmeshhenie-cennyh-bumag-ipo/"
+      },
+      {
+        "id": 999,
+        "post_type": "page",
+        "slug": "information",
+        "title": "Информация",
+        "migration_bucket": "ready_with_seo_and_media_fix",
+        "permalink_candidate": "http://auditte.ru/information/",
+        "normalized_permalink_https": "https://auditte.ru/information/"
+      }
+    ],
+    "manual_review_required": [],
+    "technical_skip": [
+      {
+        "id": 1709,
+        "post_type": "page",
+        "slug": "press-sluzhba",
+        "title": "Пресс-служба",
+        "migration_bucket": "technical_skip",
+        "permalink_candidate": "http://auditte.ru/press-sluzhba/",
+        "normalized_permalink_https": "https://auditte.ru/press-sluzhba/"
+      }
+    ]
+  },
+  "content_cleanup_cases": [
+    {
+      "id": 1017,
+      "slug": "dolgosrochnaya-tsennost",
+      "title": "Долгосрочная ценность",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 1031,
+      "slug": "konsaltingovye-uslugi",
+      "title": "Консалтинговые услуги",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 1049,
+      "slug": "doveriye",
+      "title": "Доверие",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 1055,
+      "slug": "audit-nekommercheskoj-organizacii",
+      "title": "Аудит некоммерческой организации",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483",
+        "495"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 1109,
+      "slug": "ustoychivoye-razvitiye",
+      "title": "Устойчивое развитие",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 1132,
+      "slug": "ocenka-biznesa",
+      "title": "Оценка бизнеса",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483",
+        "495"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 1142,
+      "slug": "ocenka-nedvizhimosti",
+      "title": "Оценка недвижимости",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483",
+        "495"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 1155,
+      "slug": "ocenka-nematerialnyh-aktivov",
+      "title": "Оценка нематериальных активов",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483",
+        "495"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 1164,
+      "slug": "ocenka-mashin-i-oborudovanija",
+      "title": "Оценка машин и оборудования",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483",
+        "495"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 1180,
+      "slug": "ocenka-zemelnyh-uchastkov",
+      "title": "Оценка земельных участков",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483",
+        "495"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 1218,
+      "slug": "otrasli",
+      "title": "Отрасли",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 1267,
+      "slug": "peredovyye-tekhnologii-proizvodstva",
+      "title": "Передовые технологии производства",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483",
+        "495"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 1293,
+      "slug": "proizvodstvo-potrebitelskikh-tovarov-i-roznichnaya-torgovlya",
+      "title": "Производство потребительских товаров и розничная торговля",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483",
+        "495"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 1367,
+      "slug": "toplivno-energeticheskaya-i-dobyvayushchaya-promyshlennost",
+      "title": "Топливно-энергетическая и добывающая отрасли",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483",
+        "495"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 1381,
+      "slug": "finansovyy-sektor",
+      "title": "Финансовый сектор",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483",
+        "495"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 1392,
+      "slug": "uslugi-dlya-gosudarstvennogo-sektora",
+      "title": "Услуги для государственного сектора",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483",
+        "495"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 1399,
+      "slug": "mediko-biologicheskiye-otrasli-i-zdravookhraneniye",
+      "title": "Медико-биологическая отрасль и здравоохранение",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483",
+        "495"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 1412,
+      "slug": "investitsii-v-chastnyy-kapital",
+      "title": "Инвестиции в частный капитал",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483",
+        "495"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 1422,
+      "slug": "tekhnologii-mediasektor-industriya-razvlecheniy-i-sfery-svyazi",
+      "title": "Технологии, медиасектор, индустрия развлечений и отрасль связи",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483",
+        "495"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 15,
+      "slug": "glavnaja",
+      "title": "Главная",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 1549,
+      "slug": "ocenochnaja-dejatelnost",
+      "title": "Оценочная деятельность",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 1552,
+      "slug": "o-nas",
+      "title": "О нас",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483",
+        "495"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 1570,
+      "slug": "kompleksnye-reshenija-po-peremeshheniju-personala",
+      "title": "Комплексные решения по перемещению персонала",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483",
+        "495"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 1587,
+      "slug": "konsultacionnye-uslugi-po-obucheniju-i-razvitiju",
+      "title": "Консультационные услуги по обучению и развитию",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483",
+        "495"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 1596,
+      "slug": "konsultacionnye-uslugi-v-oblasti-voznagrazhdenija-i-kpi",
+      "title": "Консультационные услуги в области вознаграждения и KPI",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483",
+        "495"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 1610,
+      "slug": "kadrovaja-analitika",
+      "title": "Кадровая аналитика",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483",
+        "495"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 1622,
+      "slug": "uslugi-v-oblasti-nalogooblozhenija-dlja-chastnyh-klientov",
+      "title": "Услуги в области налогообложения для частных клиентов",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483",
+        "495"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 1628,
+      "slug": "nasha-tsel",
+      "title": "Наша цель",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483",
+        "495"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 1637,
+      "slug": "upravlenie-personalom",
+      "title": "Управление персоналом",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 1647,
+      "slug": "nashi-tsennosti",
+      "title": "Наши ценности",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483",
+        "495"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 1687,
+      "slug": "nashi-sotrudniki",
+      "title": "Наши сотрудники",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483",
+        "495"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 1694,
+      "slug": "juridicheskoe-soprovozhdenie",
+      "title": "Юридическое сопровождение",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483",
+        "495"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 1718,
+      "slug": "meropriyatiya",
+      "title": "Мероприятия",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 1766,
+      "slug": "investicii-i-finansy",
+      "title": "Инвестиции и финансы",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483",
+        "495"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 1782,
+      "slug": "proverka-kompanij-compliance",
+      "title": "Проверка компаний / Compliance",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483",
+        "495"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 1799,
+      "slug": "karyera",
+      "title": "Карьера",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483",
+        "495"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 1825,
+      "slug": "rabota-v-kompanii",
+      "title": "Работа в нашей компании",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483",
+        "495"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 1831,
+      "slug": "rabota-v-nashey-kompanii",
+      "title": "Что значит работать в нашей компании",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483",
+        "495"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 1839,
+      "slug": "kak-prisoyedinitsya-k-nam",
+      "title": "Как присоединиться к нам",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483",
+        "495"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 1899,
+      "slug": "inostrannym-klientam",
+      "title": "Иностранным клиентам",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 1912,
+      "slug": "shkola-jekspertizy-i-prava",
+      "title": "Школа экспертизы и права",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483",
+        "495"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 1918,
+      "slug": "soobshhestvo-biznesmenov",
+      "title": "Сообщество бизнесменов",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483",
+        "495"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 1938,
+      "slug": "akademija-biznesa",
+      "title": "Академия бизнеса",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 2280,
+      "slug": "kontakty",
+      "title": "Контакты",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 3758,
+      "slug": "ekspertiza",
+      "title": "Экспертные услуги",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 3800,
+      "slug": "sud-expertiza",
+      "title": "Судебная экспертиза",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483",
+        "495"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 3813,
+      "slug": "dosudebnaya-expertiza",
+      "title": "Досудебная экспертиза",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483",
+        "495"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 3831,
+      "slug": "notar-expertiza",
+      "title": "Нотариальная экспертиза",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483",
+        "495"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 3849,
+      "slug": "expertiza-44fz",
+      "title": "Экспертиза по 44 ФЗ",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483",
+        "495"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 386,
+      "slug": "auditorskiye-uslugi",
+      "title": "Аудиторские услуги",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 3864,
+      "slug": "castoms-expertiza",
+      "title": "Таможенная экспертиза",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483",
+        "495"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 3879,
+      "slug": "expertiza-proekt-docum",
+      "title": "Экспертиза проектной документации",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483",
+        "495"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 3894,
+      "slug": "ecolog-expertiza",
+      "title": "Экологическая экспертиза",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483",
+        "495"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 3910,
+      "slug": "expertiza-prom-bezopasnosti",
+      "title": "Экспертиза промышленной безопасности",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483",
+        "495"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 425,
+      "slug": "uslugi",
+      "title": "Услуги",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 440,
+      "slug": "obyazatelnyy-audit",
+      "title": "Обязательный аудит",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483",
+        "495"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 469,
+      "slug": "investitsionnyy-audit",
+      "title": "Инвестиционный аудит",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483",
+        "495"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 534,
+      "slug": "iniciativnyj-audit",
+      "title": "Инициативный аудит",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483",
+        "495"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 571,
+      "slug": "bankovskij-audit",
+      "title": "Банковский аудит",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483",
+        "495"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 584,
+      "slug": "audit-mikrofinansovyh-organizacij",
+      "title": "Аудит микрофинансовых организаций",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483",
+        "495"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 599,
+      "slug": "strahovoj-audit",
+      "title": "Страховой аудит",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483",
+        "495"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 680,
+      "slug": "audit-dolgosrochnyh-programm-razvitija",
+      "title": "Аудит долгосрочных программ развития",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483",
+        "495"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 696,
+      "slug": "it-audit",
+      "title": "IT-аудит",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483",
+        "495"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 712,
+      "slug": "stroitelnyj-audit",
+      "title": "Строительный аудит",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483",
+        "495"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 756,
+      "slug": "slijanie-i-pogloshhenie",
+      "title": "Слияние и поглощение",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483",
+        "495"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 773,
+      "slug": "nalogi-i-jekspertiza",
+      "title": "Налоги и экспертиза",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483",
+        "495"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 800,
+      "slug": "optimizacija-biznesa",
+      "title": "Оптимизация бизнеса",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483",
+        "495"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 816,
+      "slug": "juridicheskij-konsalting",
+      "title": "Юридический консалтинг",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483",
+        "495"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 948,
+      "slug": "transformatsiya",
+      "title": "Трансформация",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 965,
+      "slug": "buhgalterija-i-finansovaja-otchetnost",
+      "title": "Бухгалтерия и финансовая отчетность",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483",
+        "495"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 978,
+      "slug": "pervichnoe-razmeshhenie-cennyh-bumag-ipo",
+      "title": "Первичное размещение ценных бумаг (IPO)",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483",
+        "495"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 989,
+      "slug": "tamozhennoe-regulirovanie-i-mezhdunarodnaja-torgovlja",
+      "title": "Таможенное регулирование и международная торговля",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483",
+        "495"
+      ],
+      "manual_review": false
+    },
+    {
+      "id": 999,
+      "slug": "information",
+      "title": "Информация",
+      "flags": [
+        "elementor_template_shortcode"
+      ],
+      "elementor_template_ids": [
+        "483"
+      ],
+      "manual_review": false
+    }
+  ]
+}

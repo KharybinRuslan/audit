@@ -1,0 +1,212 @@
+/**
+ * «Для кого необходим обязательный аудит»: сетка 2×2 + колонка с CTA и 5-й карточкой.
+ * Карточки и типографика согласованы с .mandatory-audit-benefits / .service-subpage-hero__body.
+ */
+
+.mandatory-audit-audience {
+  position: relative;
+  margin: 0;
+  padding: clamp(40px, calc(28px + 3vw), 88px) 0 clamp(64px, calc(40px + 5vw), 120px);
+  background: #0d0d0d;
+  overflow-x: clip;
+  max-width: 100%;
+}
+
+.mandatory-audit-audience__glow--left {
+  position: absolute;
+  pointer-events: none;
+  z-index: 0;
+  left: max(-12%, -120px);
+  top: 20%;
+  width: min(360px, 70vw);
+  height: min(360px, 70vw);
+  border-radius: 50%;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(184, 41, 32, 0.2) 0%,
+    rgba(13, 13, 13, 0) 70%
+  );
+  filter: blur(52px);
+}
+
+.mandatory-audit-audience__inner {
+  position: relative;
+  z-index: 1;
+  max-width: 1520px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding-left: var(--site-header-inline-pad, 0px);
+  padding-right: var(--site-header-inline-pad, 0px);
+}
+
+.mandatory-audit-audience__layout {
+  display: grid;
+  gap: clamp(20px, calc(14px + 1.2vw), 28px) clamp(20px, calc(14px + 1.5vw), 36px);
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "head"
+    "tiles"
+    "card5";
+}
+
+.mandatory-audit-audience__head {
+  grid-area: head;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: clamp(20px, calc(14px + 1vw), 32px);
+}
+
+.mandatory-audit-audience__heading {
+  margin: 0;
+  padding: 0;
+  max-width: 36rem;
+  font-family: "Montserrat", var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: clamp(22px, calc(16px + 1.2vw), 36px);
+  line-height: 1.2;
+  color: #ffffff;
+}
+
+.mandatory-audit-audience__cta.hero__btn {
+  padding-left: clamp(18px, calc(8px + 2vw), 45px);
+  font-size: clamp(14px, calc(12px + 0.35vw), 18px);
+}
+
+.mandatory-audit-audience__tiles {
+  grid-area: tiles;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: clamp(20px, calc(14px + 1.2vw), 28px);
+  min-width: 0;
+}
+
+.mandatory-audit-audience__card5-wrap {
+  grid-area: card5;
+  min-width: 0;
+}
+
+.mandatory-audit-audience__card {
+  position: relative;
+  isolation: isolate;
+  margin: 0;
+  padding: clamp(22px, calc(16px + 1.8vw), 36px) clamp(22px, calc(16px + 1.8vw), 36px)
+    clamp(20px, calc(14px + 1.2vw), 28px);
+  box-sizing: border-box;
+  border-radius: 22px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(30, 30, 30, 0.6);
+  box-shadow:
+    0 16px 28px 0 rgba(0, 0, 0, 0.05),
+    inset 0 1px 0 rgba(255, 255, 255, 0.38),
+    inset 1px 0 0 rgba(255, 255, 255, 0.14),
+    inset 1px 1px 4px rgba(255, 255, 255, 0.12);
+  min-height: 0;
+}
+
+.mandatory-audit-audience__card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  z-index: 0;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.06);
+  background: radial-gradient(
+    120% 80% at 0% 0%,
+    rgba(255, 255, 255, 0.22) 0%,
+    rgba(255, 255, 255, 0.06) 28%,
+    transparent 52%
+  );
+  opacity: 0.95;
+}
+
+.mandatory-audit-audience__card-body {
+  position: relative;
+  z-index: 2;
+  /* Воздух между текстом и крупным индексом /01 внизу карточки */
+  padding-bottom: clamp(36px, 5vw, 52px);
+}
+
+/* Как .service-subpage-hero__body */
+.mandatory-audit-audience__text {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: clamp(14px, calc(11px + 0.45vw), 22px);
+  line-height: clamp(1.35, calc(1.25 + 0.02vw), 1.45);
+  color: #ffffff;
+}
+
+.mandatory-audit-audience__accent {
+  color: #ef4423;
+  font-weight: 600;
+}
+
+.mandatory-audit-audience__index {
+  position: absolute;
+  left: clamp(18px, calc(12px + 1.2vw), 28px);
+  bottom: clamp(10px, calc(6px + 0.8vw), 18px);
+  z-index: 1;
+  font-family: "Montserrat", var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: clamp(28px, calc(18px + 2vw), 44px);
+  line-height: 1;
+  color: rgba(255, 255, 255, 0.12);
+  pointer-events: none;
+}
+
+@media (min-width: 961px) {
+  .mandatory-audit-audience__layout {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas:
+      "tiles head"
+      "tiles card5";
+    align-items: stretch;
+  }
+
+  .mandatory-audit-audience__tiles {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: stretch;
+  }
+
+  .mandatory-audit-audience__card5-wrap {
+    align-self: end;
+  }
+
+  .mandatory-audit-audience__tiles .mandatory-audit-audience__card,
+  .mandatory-audit-audience__card5-wrap .mandatory-audit-audience__card {
+    height: 100%;
+    min-height: clamp(140px, 22vw, 200px);
+  }
+}
+
+@media (max-width: 767px) {
+  .mandatory-audit-audience__text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .mandatory-audit-audience__card-body {
+    padding-bottom: 40px;
+  }
+
+  .mandatory-audit-audience__index {
+    font-size: 28px;
+  }
+
+  .mandatory-audit-audience__heading {
+    font-size: 20px;
+    line-height: 1.25;
+  }
+
+  .mandatory-audit-audience__cta.hero__btn {
+    font-size: 14px;
+  }
+}

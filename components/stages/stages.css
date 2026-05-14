@@ -112,11 +112,12 @@
   color: transparent;
 }
 
-/* Внешний вид — .hero__btn / .hero__btn-icon из hero.css; здесь только ссылка и отступ от заголовка */
+/* Внешний вид — .hero__btn / .hero__btn-icon из hero.css; здесь только отступ от заголовка (кнопка или ссылка) */
 .audit-steps__cta.hero__btn {
   text-decoration: none;
   margin-top: clamp(14px, 2vw, 26px);
   flex-shrink: 0;
+  font: inherit;
 }
 
 .audit-steps__cta:focus {

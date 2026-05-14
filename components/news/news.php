@@ -1,51 +1,15 @@
 <?php
+
+declare(strict_types=1);
+
+require_once dirname(__DIR__, 2) . '/includes/img-webp.php';
+require_once dirname(__DIR__, 2) . '/includes/news/repository.php';
+
 /**
- * Блок «Свежие новости ТОП ЭКСПЕРТ» — 6 карточек новостей.
+ * Блок «Свежие новости ООО "Аудит Топ Эксперт"» — до 6 последних постов по дате.
  */
-$newsItems = [
-    [
-        'date' => '27.10.2025',
-        'img' => '/img/unnamed.jpg',
-        'title' => 'Налоговый аудит в Москве: как снизить риски перед проверками',
-        'desc' => 'Краткая проверка налоговой нагрузки, цепочек контрагентов и спорных вычетов. Поможет выявить риски до визита ФНС и подготовить корректировки.',
-        'href' => '#',
-    ],
-    [
-        'date' => '27.10.2025',
-        'img' => '/img/unnamed.jpg',
-        'title' => 'Налоговый аудит в Москве: как снизить риски перед проверками',
-        'desc' => 'Краткая проверка налоговой нагрузки, цепочек контрагентов и спорных вычетов. Поможет выявить риски до визита ФНС и подготовить корректировки.',
-        'href' => '#',
-    ],
-    [
-        'date' => '27.10.2025',
-        'img' => '/img/unnamed.jpg',
-        'title' => 'Налоговый аудит в Москве: как снизить риски перед проверками',
-        'desc' => 'Краткая проверка налоговой нагрузки, цепочек контрагентов и спорных вычетов. Поможет выявить риски до визита ФНС и подготовить корректировки.',
-        'href' => '#',
-    ],
-    [
-        'date' => '27.10.2025',
-        'img' => '/img/unnamed.jpg',
-        'title' => 'Налоговый аудит в Москве: как снизить риски перед проверками',
-        'desc' => 'Краткая проверка налоговой нагрузки, цепочек контрагентов и спорных вычетов. Поможет выявить риски до визита ФНС и подготовить корректировки.',
-        'href' => '#',
-    ],
-    [
-        'date' => '27.10.2025',
-        'img' => '/img/unnamed.jpg',
-        'title' => 'Налоговый аудит в Москве: как снизить риски перед проверками',
-        'desc' => 'Краткая проверка налоговой нагрузки, цепочек контрагентов и спорных вычетов. Поможет выявить риски до визита ФНС и подготовить корректировки.',
-        'href' => '#',
-    ],
-    [
-        'date' => '27.10.2025',
-        'img' => '/img/unnamed.jpg',
-        'title' => 'Налоговый аудит в Москве: как снизить риски перед проверками',
-        'desc' => 'Краткая проверка налоговой нагрузки, цепочек контрагентов и спорных вычетов. Поможет выявить риски до визита ФНС и подготовить корректировки.',
-        'href' => '#',
-    ],
-];
+$newsHomeLimit = isset($newsHomeLimit) && is_int($newsHomeLimit) ? max(1, min(12, $newsHomeLimit)) : 6;
+$newsHomePosts = getLatestNewsPosts($newsHomeLimit);
 ?>
 <section class="news" id="news">
     <div class="news__circle" aria-hidden="true">
@@ -68,23 +32,55 @@ $newsItems = [
     </div>
     <div class="news__inner">
         <header class="news__header">
-            <h2 class="news__title">Свежие новости <span class="news__title-accent">ТОП ЭКСПЕРТ</span></h2>
+            <h2 class="news__title">Свежие новости <span class="news__title-accent">ООО "Аудит Топ Эксперт"</span></h2>
             <a href="/news" class="news__all">Все новости</a>
         </header>
         <div class="news__grid">
-            <?php foreach ($newsItems as $item): ?>
+            <?php foreach ($newsHomePosts as $newsIndex => $post) {
+                $slug = isset($post['slug']) ? trim((string) $post['slug']) : '';
+                if ($slug === '') {
+                    continue;
+                }
+                $href = '/news/' . rawurlencode($slug);
+                $title = isset($post['title']) ? trim((string) $post['title']) : '';
+                if ($title === '') {
+                    $title = 'Новость';
+                }
+                $dates = aud_news_format_date_ru($post);
+                $excerpt = buildExcerpt($post);
+                $imgResolved = resolveArticleImage($post);
+
+                $newsTitleEsc = htmlspecialchars($title, ENT_QUOTES, 'UTF-8');
+                $newsDateDisplayEsc = htmlspecialchars($dates['display'], ENT_QUOTES, 'UTF-8');
+                $newsDateIsoEsc = htmlspecialchars($dates['iso'], ENT_QUOTES, 'UTF-8');
+                $newsHrefEsc = htmlspecialchars($href, ENT_QUOTES, 'UTF-8');
+                $newsExcerptEsc = htmlspecialchars($excerpt, ENT_QUOTES, 'UTF-8');
+                $newsImgAria = 'Перейти к новости: ' . $title . ' (' . $dates['display'] . ', карточка ' . ($newsIndex + 1) . ')';
+                $newsImgAriaEsc = htmlspecialchars($newsImgAria, ENT_QUOTES, 'UTF-8');
+                ?>
             <article class="news__card">
-                <time class="news__date" datetime="<?= date('Y-m-d', strtotime(str_replace('.', '-', $item['date']))) ?>"><?= htmlspecialchars($item['date'], ENT_QUOTES, 'UTF-8') ?></time>
-                <a href="<?= htmlspecialchars($item['href'], ENT_QUOTES, 'UTF-8') ?>" class="news__img-wrap">
-                    <img src="<?= htmlspecialchars($item['img'], ENT_QUOTES, 'UTF-8') ?>" alt="" class="news__img" loading="lazy">
+                <?php if ($dates['display'] !== '' && $dates['iso'] !== '') { ?>
+                <time class="news__date" datetime="<?= $newsDateIsoEsc ?>"><?= $newsDateDisplayEsc ?></time>
+                <?php } elseif ($dates['display'] !== '') { ?>
+                <span class="news__date"><?= $newsDateDisplayEsc ?></span>
+                <?php } ?>
+                <a href="<?= $newsHrefEsc ?>" class="news__img-wrap" aria-label="<?= $newsImgAriaEsc ?>">
+                    <?php
+                    if (preg_match('#^https?://#i', $imgResolved)) {
+                        echo '<picture><img src="' . htmlspecialchars($imgResolved, ENT_QUOTES, 'UTF-8')
+                            . '" alt="" class="news__img" loading="lazy" decoding="async"></picture>';
+                    } else {
+                        aud_img_picture_webp($imgResolved, '', ['class' => 'news__img', 'loading' => 'lazy', 'decoding' => 'async']);
+                    }
+                    ?>
                     <span class="news__plus" aria-hidden="true">+</span>
                 </a>
                 <h3 class="news__card-title">
-                    <a href="<?= htmlspecialchars($item['href'], ENT_QUOTES, 'UTF-8') ?>"><?= htmlspecialchars($item['title'], ENT_QUOTES, 'UTF-8') ?></a>
+                    <a href="<?= $newsHrefEsc ?>"><?= $newsTitleEsc ?></a>
                 </h3>
-                <p class="news__desc"><?= htmlspecialchars($item['desc'], ENT_QUOTES, 'UTF-8') ?></p>
+                <p class="news__desc"><?= $newsExcerptEsc ?></p>
             </article>
-            <?php endforeach; ?>
+            <?php } ?>
         </div>
     </div>
 </section>

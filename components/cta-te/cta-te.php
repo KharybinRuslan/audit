@@ -1,7 +1,9 @@
 <?php
 declare(strict_types=1);
+
+require_once dirname(__DIR__, 2) . '/includes/img-webp.php';
 /**
- * CTA-блок с изображением te.png и кнопкой открытия модалки формы.
+ * CTA-блок с изображением (WebP + PNG) и кнопкой открытия модалки формы.
  */
 ?>
 <section class="cta-te" id="cta-te" aria-labelledby="cta-te-heading">
@@ -11,19 +13,11 @@ declare(strict_types=1);
             <div class="cta-te__glow cta-te__glow--bottom" aria-hidden="true"></div>
             <div class="cta-te__row">
                 <div class="cta-te__visual">
-                    <img
-                        class="cta-te__img"
-                        src="/img/te.png"
-                        alt=""
-                        width="560"
-                        height="420"
-                        loading="lazy"
-                        decoding="async"
-                    >
+                    <?php aud_img_picture_webp('/img/te.png', '', ['class' => 'cta-te__img', 'width' => 560, 'height' => 420, 'loading' => 'lazy', 'decoding' => 'async']); ?>
                 </div>
                 <div class="cta-te__content">
                     <h2 class="cta-te__title" id="cta-te-heading">
-                        <span class="cta-te__title-accent">ТОП ЭКСПЕРТ</span> — гарантия точности, прозрачности и безопасности бизнеса
+                        <span class="cta-te__title-accent">ООО "Аудит Топ Эксперт"</span> — гарантия точности, прозрачности и безопасности бизнеса
                     </h2>
                     <p class="cta-te__text">
                         Аудит — не только контроль, но и развитие: повышает прозрачность, улучшает управление, снижает финансовые и юр. риски.
@@ -35,8 +29,9 @@ declare(strict_types=1);
                         data-open-audit-modal
                         aria-haspopup="dialog"
                         aria-controls="audit-request-modal"
+                        aria-label="Бесплатная консультация аудитора. Открыть форму запроса на аудит"
                     >
-                        <span class="cta-te__btn-text cta-te__btn-text--full">Бесплатная консультация аудитора</span>
+                        <span class="cta-te__btn-text cta-te__btn-text--full" aria-hidden="true">Бесплатная консультация аудитора</span>
                         <span class="cta-te__btn-text cta-te__btn-text--short" aria-hidden="true">Консультация аудитора</span>
                         <span class="hero__btn-icon" aria-hidden="true">
                             <svg width="30" height="30" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -50,4 +45,3 @@ declare(strict_types=1);
         </div>
     </div>
 </section>
-<?php include __DIR__ . '/../audit-request-form/audit-modal.php'; ?>

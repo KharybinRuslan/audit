@@ -1,6 +1,6 @@
 /**
  * Подвал сайта.
- * Порядок: переменные и корень → внутренний контейнер → декор → сетка → блоки → медиазапросы (от широкого к узкому).
+ * Порядок: переменные и корень → внутренний контейнер → сетка → блоки → медиазапросы (от широкого к узкому).
  */
 
 /* -------------------------------------------------------------------------- */
@@ -57,82 +57,6 @@
   padding-left: 0;
   padding-right: 0;
   box-sizing: border-box;
-}
-
-/* -------------------------------------------------------------------------- */
-/* Декор: свечение слева снизу                                                */
-/* -------------------------------------------------------------------------- */
-
-.site-footer__decor-left {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: min(82vw, 820px);
-  height: min(48vh, 480px);
-  pointer-events: none;
-  z-index: 0;
-}
-
-.site-footer__glow-mist {
-  position: absolute;
-  pointer-events: none;
-  border-radius: 0;
-}
-
-.site-footer__glow-mist--deep {
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  max-height: 480px;
-  background: radial-gradient(
-    ellipse 95% 90% at 0% 100%,
-    rgba(221, 111, 32, 0.92) 0%,
-    rgba(189, 58, 6, 0.52) 28%,
-    rgba(189, 58, 6, 0.22) 48%,
-    rgba(25, 15, 8, 0.12) 62%,
-    transparent 76%
-  );
-  filter: blur(26px);
-  transform-origin: 0 100%;
-  animation: site-footer-mist-drift 18s ease-in-out infinite alternate;
-}
-
-.site-footer__glow-mist--warm {
-  left: 0;
-  bottom: 0;
-  width: 72%;
-  height: 72%;
-  max-width: 560px;
-  max-height: 360px;
-  background: radial-gradient(
-    ellipse 88% 82% at 4% 96%,
-    rgba(255, 165, 95, 0.42) 0%,
-    rgba(221, 111, 32, 0.22) 38%,
-    transparent 68%
-  );
-  filter: blur(18px);
-  transform-origin: 0 100%;
-  animation: site-footer-mist-drift 13s ease-in-out infinite alternate-reverse;
-}
-
-@keyframes site-footer-mist-drift {
-  0% {
-    transform: scale(1);
-    opacity: 0.9;
-  }
-  100% {
-    transform: scale(1.05);
-    opacity: 1;
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .site-footer__glow-mist--deep,
-  .site-footer__glow-mist--warm {
-    animation: none;
-    opacity: 1;
-  }
 }
 
 /* -------------------------------------------------------------------------- */
@@ -389,16 +313,40 @@ a.site-footer__heading:focus-visible {
   font-weight: 500;
   color: #fff;
   text-decoration: none;
+  transition:
+    opacity 0.22s ease,
+    transform 0.22s ease;
 }
 
 .site-footer__messenger:hover {
   opacity: 0.88;
+  transform: translateY(-1px);
+}
+
+.site-footer__messenger:focus-visible {
+  opacity: 0.88;
+  transform: translateY(-1px);
+  outline: 2px solid rgba(255, 255, 255, 0.45);
+  outline-offset: 3px;
+  border-radius: 2px;
 }
 
 .site-footer__messenger-icon {
   width: clamp(16px, calc(12px + 0.35vw), 22px);
   height: clamp(16px, calc(12px + 0.35vw), 22px);
+  flex-shrink: 0;
+  display: block;
   object-fit: contain;
+  transition: transform 0.22s ease;
+}
+
+.site-footer__messenger:hover .site-footer__messenger-icon,
+.site-footer__messenger:focus-visible .site-footer__messenger-icon {
+  transform: scale(1.06);
+}
+
+svg.site-footer__messenger-icon {
+  object-fit: unset;
 }
 
 .site-footer__address-label {
@@ -581,19 +529,6 @@ a.site-footer__heading:focus-visible {
     padding-top: clamp(16px, 4vw, 24px);
     margin-top: 0;
   }
-
-  .site-footer__decor-left {
-    width: min(92vw, 520px);
-    height: min(38vh, 360px);
-  }
-
-  .site-footer__glow-mist--deep {
-    filter: blur(20px);
-  }
-
-  .site-footer__glow-mist--warm {
-    filter: blur(14px);
-  }
 }
 
 @media (max-width: 767px) {
@@ -690,5 +625,22 @@ a.site-footer__heading:focus-visible {
 
   .site-footer__meta-block + .site-footer__meta-block {
     margin-top: 20px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .site-footer__messenger,
+  .site-footer__messenger-icon {
+    transition-duration: 0.01ms;
+  }
+
+  .site-footer__messenger:hover,
+  .site-footer__messenger:focus-visible {
+    transform: none;
+  }
+
+  .site-footer__messenger:hover .site-footer__messenger-icon,
+  .site-footer__messenger:focus-visible .site-footer__messenger-icon {
+    transform: none;
   }
 }

@@ -106,12 +106,40 @@
     gap: clamp(8px, calc(6px + 0.2vw), 10px);
     color: #fff;
     text-decoration: none;
+    transition:
+        opacity 0.22s ease,
+        transform 0.22s ease;
+}
+
+.contacts__messenger:hover {
+    opacity: 0.88;
+    transform: translateY(-1px);
+}
+
+.contacts__messenger:focus-visible {
+    opacity: 0.88;
+    transform: translateY(-1px);
+    outline: 2px solid rgba(255, 255, 255, 0.45);
+    outline-offset: 3px;
+    border-radius: 2px;
 }
 
 .contacts__messenger-icon {
     width: clamp(16px, calc(12px + 0.3vw), 20px);
     height: clamp(16px, calc(12px + 0.3vw), 20px);
+    flex-shrink: 0;
+    display: block;
     object-fit: contain;
+    transition: transform 0.22s ease;
+}
+
+.contacts__messenger:hover .contacts__messenger-icon,
+.contacts__messenger:focus-visible .contacts__messenger-icon {
+    transform: scale(1.06);
+}
+
+svg.contacts__messenger-icon {
+    object-fit: unset;
 }
 
 .contacts__messenger-text {
@@ -195,10 +223,6 @@
 
 .contacts .hero__checkbox-wrap {
     justify-content: center;
-}
-
-.contacts .hero__checkbox-wrap label {
-    text-align: center;
 }
 
 @media (max-width: 767px) {
@@ -310,3 +334,19 @@
     }
 }
 
+@media (prefers-reduced-motion: reduce) {
+    .contacts__messenger,
+    .contacts__messenger-icon {
+        transition-duration: 0.01ms;
+    }
+
+    .contacts__messenger:hover,
+    .contacts__messenger:focus-visible {
+        transform: none;
+    }
+
+    .contacts__messenger:hover .contacts__messenger-icon,
+    .contacts__messenger:focus-visible .contacts__messenger-icon {
+        transform: none;
+    }
+}

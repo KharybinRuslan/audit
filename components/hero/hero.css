@@ -31,6 +31,13 @@
     z-index: 1;
 }
 
+/* Меньше CLS при подгрузке Montserrat: резервируем высоту заголовка (≈2 строки на десктопе) */
+@media (min-width: 1101px) {
+    .hero__title {
+        min-height: 2.4em;
+    }
+}
+
 /* Светящиеся красные круги на фоне */
 .hero::before,
 .hero::after {
@@ -341,6 +348,11 @@
     border: 0;
 }
 
+/* Honeypot для формы заявки */
+.hero__hp-field {
+    display: none;
+}
+
 .hero__form select option {
     color: #888889;
     background: #151515;
@@ -488,6 +500,24 @@
 .hero__form-row .hero__field {
     flex: 1 1 0;
     min-width: 0;
+}
+
+.hero__recaptcha {
+    margin-bottom: 1rem;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.hero__recaptcha > div {
+    display: flex;
+    justify-content: flex-start;
+}
+
+@media (max-width: 480px) {
+    .hero__recaptcha {
+        transform-origin: left top;
+        transform: scale(0.92);
+    }
 }
 
 .hero__checkbox-wrap {

@@ -7,12 +7,21 @@
   margin: 0;
   padding: 100px 0;
   box-sizing: border-box;
+  overflow-x: clip;
+  max-width: 100%;
 }
 
 .news-slider__inner {
   max-width: 1520px;
   margin: 0 auto;
   box-sizing: border-box;
+  min-width: 0;
+  width: 100%;
+}
+
+.news-slider__swiper {
+  max-width: 100%;
+  min-width: 0;
 }
 
 .news-slider__head {
@@ -348,5 +357,31 @@
     line-height: 20px;
     order: 3;
     margin-top: 8px;
+  }
+
+  /* Пагинация в одну линию: без wrap и с прокруткой, если слайдов много */
+  .news-slider .news-slider__pagination.swiper-pagination-horizontal {
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 5px;
+    max-width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    padding: 2px 0 6px;
+    box-sizing: border-box;
+  }
+
+  .news-slider
+    .news-slider__pagination.swiper-pagination-horizontal::-webkit-scrollbar {
+    display: none;
+  }
+
+  .news-slider .news-slider__pagination .swiper-pagination-bullet {
+    flex-shrink: 0;
+    width: 18px;
+    height: 3px;
   }
 }

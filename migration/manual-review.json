@@ -1,0 +1,87 @@
+{
+  "meta": {
+    "generated_at": "2026-04-15T19:13:55Z",
+    "source": "export-ready/rebuild-manifest.json",
+    "export_ready_meta": {
+      "generated_at": "2026-04-15T18:53:30Z",
+      "source": "export/items/*.json + export-derived/*",
+      "site_home": "http://auditte.ru",
+      "site_netloc": "auditte.ru",
+      "meaningful_plain_chars": 80
+    },
+    "bucket_logic": {
+      "version": 3,
+      "meaningful_plain_chars": 80,
+      "notes": [
+        "Chat/UI HTML (text-token-text-primary, conversation-turn, …) удаляется санитайзером целыми контейнерами; пересчёт cleanup/manual по content_html_sanitized",
+        "Один [elementor-template] при здоровом контенте не ведёт в manual_review_required",
+        "manual_review: остаточный suspicious_embedded_markup, duplicate text, multiple cleanup flags, shortcode при слабом контенте/дубликате URL"
+      ]
+    },
+    "sanitization": {
+      "html_patterns_removed_containers": [
+        "text-token-text-primary",
+        "conversation-turn",
+        "data-message-author-role",
+        "agent-turn",
+        "markdown prose"
+      ],
+      "records_with_container_removals": 49,
+      "manual_review_count_before_sanitization": 49,
+      "manual_review_count_after_sanitization": 0,
+      "manual_review_cleared_by_sanitization": 49,
+      "cleared_manual_review_post_ids": [
+        15,
+        440,
+        534,
+        584,
+        599,
+        680,
+        696,
+        712,
+        756,
+        773,
+        800,
+        816,
+        965,
+        978,
+        989,
+        999,
+        1055,
+        1132,
+        1142,
+        1155,
+        1164,
+        1180,
+        1293,
+        1570,
+        1587,
+        1596,
+        1610,
+        1622,
+        1694,
+        1718,
+        1766,
+        1782,
+        1912,
+        1918,
+        3813,
+        3910,
+        4055,
+        4057,
+        4059,
+        4062,
+        4066,
+        4108,
+        4211,
+        4321,
+        4333,
+        4345,
+        4346,
+        4357,
+        4358
+      ]
+    }
+  },
+  "items": []
+}
