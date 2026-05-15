@@ -1,0 +1,75 @@
+/**
+ * Аккордеон для страницы политики (миграция Elementor: <a> без href + <p>).
+ */
+
+.policy-accordion {
+  --policy-acc-border: rgba(255, 255, 255, 0.12);
+  --policy-acc-trigger-bg: rgba(255, 255, 255, 0.04);
+  --policy-acc-trigger-bg-hover: rgba(255, 255, 255, 0.07);
+}
+
+.policy-accordion__item {
+  margin: 0 0 8px;
+  border: 1px solid var(--policy-acc-border);
+  border-radius: 12px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.policy-accordion__trigger {
+  display: flex;
+  width: 100%;
+  margin: 0;
+  padding: 16px 18px 16px 20px;
+  box-sizing: border-box;
+  border: none;
+  border-left: 3px solid transparent;
+  border-radius: 0;
+  background: var(--policy-acc-trigger-bg);
+  color: #fff;
+  font: inherit;
+  font-family: 'Montserrat', var(--font-family);
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.35;
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.policy-accordion__trigger:hover {
+  background: var(--policy-acc-trigger-bg-hover);
+}
+
+.policy-accordion__trigger:focus-visible {
+  outline: 2px solid rgba(184, 41, 32, 0.85);
+  outline-offset: 2px;
+}
+
+.policy-accordion__item--open .policy-accordion__trigger {
+  border-left-color: rgba(184, 41, 32, 0.9);
+  background: var(--policy-acc-trigger-bg-hover);
+}
+
+.policy-accordion__panel {
+  display: none;
+  /* Симметричные отступы сверху/снизу у контента панели */
+  padding: 18px 18px 18px 23px;
+  border-top: 1px solid var(--policy-acc-border);
+}
+
+.policy-accordion__item--open .policy-accordion__panel {
+  display: block;
+}
+
+.policy-accordion__panel p {
+  margin: 0 0 0.85em;
+}
+
+.policy-accordion__panel p:first-child {
+  margin-top: 0;
+}
+
+.policy-accordion__panel p:last-child {
+  margin-bottom: 0;
+}

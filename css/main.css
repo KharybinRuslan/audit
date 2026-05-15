@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+/* <picture>: не создаём лишний flex/grid-элемент; дочерний <img> ведёт себя как раньше */
+picture {
+    display: contents;
+}
+
 /*
   Вертикальный скролл только у html. Если у html и body задать overflow-x: hidden,
   а overflow-y не задать явно, браузер считает overflow-y: auto на обоих — два скроллбара.
@@ -14,6 +19,18 @@ html {
     -webkit-text-size-adjust: 100%;
     overflow-x: hidden;
     overflow-y: auto;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    html {
+        scroll-behavior: smooth;
+    }
+}
+
+/* Якоря из футера и др.: не прятать заголовок под фиксированную шапку */
+#audit-documents,
+#contacts-map-requisites {
+    scroll-margin-top: calc(var(--site-header-height, 72px) + 16px);
 }
 
 :root {
@@ -31,6 +48,19 @@ body {
     background-color: #0d0d0d;
     min-height: 100vh;
     overflow: visible;
+}
+
+/* Swiper / декоративные glow: без горизонтального вылета и «съезда» fixed-шапки */
+body.page-audit-obyazatelnyj,
+body.page-news {
+    overflow-x: clip;
+}
+
+body.page-audit-obyazatelnyj .site-header,
+body.page-news .site-header {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
 img {

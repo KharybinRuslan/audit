@@ -1,0 +1,143 @@
+/**
+ * Финальный CTA на фоне изображения со стеклянной плашкой.
+ */
+
+.audit-final-cta {
+  position: relative;
+  background: #0d0d0d;
+  color: #fff;
+  padding: clamp(30px, 4vw, 54px) 0 clamp(42px, 5vw, 78px);
+  overflow: hidden;
+}
+
+.audit-final-cta__bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background: #0d0d0d;
+}
+
+.audit-final-cta__bg::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background:
+    linear-gradient(
+      108deg,
+      rgba(13, 13, 13, 0.58) 0%,
+      rgba(13, 13, 13, 0.46) 45%,
+      rgba(13, 13, 13, 0.62) 100%
+    ),
+    rgba(13, 13, 13, 0.16);
+}
+
+.audit-final-cta__bg-img {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.audit-final-cta__inner {
+  position: relative;
+  z-index: 1;
+  max-width: 1520px;
+  margin: 0 auto;
+  padding: 0 var(--site-header-inline-pad, 0px);
+  box-sizing: border-box;
+}
+
+.audit-final-cta__glass {
+  border-radius: clamp(16px, 2vw, 24px);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  background: linear-gradient(
+    145deg,
+    rgba(255, 255, 255, 0.18) 0%,
+    rgba(255, 255, 255, 0.09) 42%,
+    rgba(255, 255, 255, 0.05) 100%
+  );
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.22),
+    0 16px 36px rgba(0, 0, 0, 0.28);
+  padding: clamp(18px, 2.2vw, 30px) clamp(16px, 2.2vw, 32px);
+  text-align: center;
+}
+
+@supports (
+  (backdrop-filter: blur(7px)) or (-webkit-backdrop-filter: blur(7px))
+) {
+  .audit-final-cta__glass {
+    -webkit-backdrop-filter: blur(7px) saturate(125%);
+    backdrop-filter: blur(7px) saturate(125%);
+  }
+}
+
+.audit-final-cta__title {
+  margin: 0 0 clamp(12px, 1.8vw, 18px);
+  font-family: "Montserrat", var(--font-family);
+  font-weight: 700;
+  font-size: clamp(24px, calc(16px + 1.5vw), 44px);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+
+.audit-final-cta__text {
+  margin: 0 auto clamp(16px, 2vw, 24px);
+  max-width: 70rem;
+  font-family: "Montserrat", var(--font-family);
+  font-weight: 500;
+  font-size: clamp(14px, calc(12px + 0.35vw), 18px);
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.audit-final-cta__btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 12px clamp(24px, 4vw, 36px);
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.32);
+  background: linear-gradient(
+    145deg,
+    rgba(255, 255, 255, 0.18) 0%,
+    rgba(255, 255, 255, 0.08) 45%,
+    rgba(255, 255, 255, 0.04) 100%
+  );
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.24),
+    0 10px 24px rgba(0, 0, 0, 0.24);
+  font-family: "Montserrat", var(--font-family);
+  font-weight: 600;
+  font-size: clamp(13px, calc(12px + 0.2vw), 15px);
+  line-height: 1.2;
+  color: #fff;
+  cursor: pointer;
+  transition:
+    transform 0.15s ease,
+    border-color 0.15s ease;
+}
+
+.audit-final-cta__btn:hover {
+  border-color: rgba(255, 255, 255, 0.5);
+  transform: translateY(-1px);
+}
+
+.audit-final-cta__btn:focus-visible {
+  outline: 2px solid #ef4423;
+  outline-offset: 3px;
+}
+
+@media (max-width: 767px) {
+  .audit-final-cta__btn {
+    width: 100%;
+    max-width: 360px;
+  }
+}

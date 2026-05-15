@@ -1,0 +1,365 @@
+/**
+ * Страница статьи /news/[slug]
+ */
+
+.news-article {
+  position: relative;
+  background: #0d0d0d;
+  margin: 0;
+  /* Планшеты и ниже: чуть больше воздуха под шапкой + крошками */
+  padding: calc(40px + var(--site-header-height)) 0 100px;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+@media (min-width: 1101px) {
+  .news-article {
+    /* ПК: меньше лишнего отступа под фиксированной шапкой */
+    padding-top: calc(20px + var(--site-header-height));
+  }
+}
+
+.news-article__inner {
+  width: 100%;
+  max-width: 1520px;
+  margin: 0 auto;
+  padding: 0 var(--site-header-inline-pad, 0px);
+  box-sizing: border-box;
+  min-width: 0;
+}
+
+.news-article__head {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 420px);
+  gap: 40px 48px;
+  align-items: start;
+  margin-bottom: 56px;
+  min-width: 0;
+}
+
+.news-article__date {
+  display: block;
+  margin: 0 0 16px;
+  font-family: 'Montserrat', var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.news-article__title {
+  margin: 0;
+  font-family: 'Montserrat', var(--font-family);
+  font-weight: 600;
+  font-size: clamp(28px, 4vw, 44px);
+  line-height: 1.15;
+  color: #fff;
+}
+
+.news-article__lead {
+  margin: 16px 0 0;
+  font-family: 'Montserrat', var(--font-family);
+  font-weight: 400;
+  font-size: clamp(15px, 1.35vw, 18px);
+  line-height: 1.55;
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.news-article__head-text {
+  min-width: 0;
+}
+
+.news-article__head-media {
+  margin: 0;
+  min-width: 0;
+  border-radius: 16px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.news-article__hero-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.news-article__layout {
+  display: grid;
+  /* minmax(0, 1fr): правая колонка не раздувает сетку по ширине «длинного» контента */
+  grid-template-columns: 280px minmax(0, 1fr);
+  gap: 48px 56px;
+  align-items: start;
+  min-width: 0;
+}
+
+.news-article__related {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  min-width: 0;
+}
+
+.news-article__body {
+  min-width: 0;
+  max-width: 100%;
+  /* Широкие таблицы из миграции — горизонтальный скролл только у колонки статьи */
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* ПК: колонка «Похожие» липнет под шапкой, пока скроллится layout */
+@media (min-width: 961px) {
+  .news-article__related {
+    position: sticky;
+    top: calc(var(--site-header-height, 88px) + 16px);
+    align-self: start;
+    z-index: 1;
+  }
+}
+
+.news-article__related-card {
+  display: block;
+  padding: 0;
+  text-decoration: none;
+  color: inherit;
+  border-radius: 12px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+.news-article__related-card:hover {
+  border-color: rgba(184, 41, 32, 0.55);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.news-article__related-media {
+  display: block;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  background: #1a1a1a;
+}
+
+.news-article__related-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.news-article__related-date {
+  display: block;
+  margin: 12px 14px 6px;
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.news-article__related-title {
+  display: block;
+  margin: 0 14px 14px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.35;
+  color: #fff;
+}
+
+/* Типографика контента (whitelist HTML) */
+.article-content {
+  font-family: 'Montserrat', var(--font-family);
+  font-size: 17px;
+  line-height: 1.65;
+  color: rgba(255, 255, 255, 0.92);
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.article-content p {
+  margin: 0 0 1.1em;
+}
+
+.article-content h2,
+.article-content h3 {
+  margin: 1.4em 0 0.6em;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #fff;
+}
+
+.article-content h2 {
+  font-size: 1.5rem;
+}
+
+.article-content h3 {
+  font-size: 1.25rem;
+}
+
+/* main.css сбрасывает list-style у всех ul/ol — здесь возвращаем маркеры для тела статьи */
+.article-content ul {
+  list-style-type: disc;
+  list-style-position: outside;
+  margin: 0 0 1.1em 0;
+  padding: 0 0 0 1.35em;
+}
+
+.article-content ol {
+  list-style-type: decimal;
+  list-style-position: outside;
+  margin: 0 0 1.1em 0;
+  padding: 0 0 0 1.5em;
+}
+
+.article-content li {
+  display: list-item;
+  margin-bottom: 0.35em;
+  padding-left: 0.25em;
+}
+
+.article-content ul ul,
+.article-content ol ol,
+.article-content ul ol,
+.article-content ol ul {
+  margin-top: 0.4em;
+  margin-bottom: 0.4em;
+}
+
+.article-content a {
+  color: #e8b4b0;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.article-content a:hover {
+  color: #fff;
+}
+
+.article-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin: 1em 0;
+  box-sizing: border-box;
+}
+
+.article-content picture {
+  display: block;
+  max-width: 100%;
+  margin: 1em 0;
+}
+
+.article-content picture img {
+  margin: 0;
+}
+
+.article-content video,
+.article-content iframe,
+.article-content embed,
+.article-content object {
+  max-width: 100%;
+  border-radius: 12px;
+}
+
+.article-content table {
+  max-width: 100%;
+  border-collapse: collapse;
+  table-layout: auto;
+}
+
+.article-content pre {
+  max-width: 100%;
+  overflow-x: auto;
+  padding: 12px 14px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.06);
+  font-size: 0.9em;
+  box-sizing: border-box;
+}
+
+.article-content blockquote {
+  margin: 1.2em 0;
+  padding: 12px 20px;
+  border-left: 3px solid #b82920;
+  background: rgba(255, 255, 255, 0.04);
+  color: rgba(255, 255, 255, 0.88);
+}
+
+.news-article--404 .news-article__404-text {
+  margin: 0 0 16px;
+  font-size: 18px;
+}
+
+.news-article__404-link {
+  color: #e8b4b0;
+  font-weight: 600;
+}
+
+@media (max-width: 960px) {
+  .news-article__head {
+    grid-template-columns: 1fr;
+  }
+
+  .news-article__layout {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    grid-template-columns: unset;
+  }
+
+  /* Сначала текст статьи, блок похожих — статично внизу */
+  .news-article__body {
+    order: 1;
+  }
+
+  .news-article__related {
+    order: 2;
+    position: static;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .news-article__related-card {
+    flex: none;
+    width: 100%;
+    min-width: 0;
+  }
+}
+
+/* Юридическая страница (политика ПДн): одна колонка, узкий текст */
+.news-article--policy-page .news-article__head {
+  grid-template-columns: 1fr;
+  margin-bottom: 40px;
+}
+
+/* В миграции часто идут <li> без <ul> — маркер снаружи упирается в край; плюс запас у нормальных списков */
+.news-article--policy-page .article-content :is(ul, ol) {
+  padding-left: clamp(1.5rem, 4vw, 2.25rem);
+  padding-right: 0.5rem;
+  box-sizing: border-box;
+}
+
+.news-article--policy-page .article-content li:not(ul li):not(ol li) {
+  display: list-item;
+  list-style-type: disc;
+  list-style-position: outside;
+  margin-left: clamp(1.25rem, 3.5vw, 2rem);
+  padding-left: 0.35em;
+  margin-bottom: 0.5em;
+  box-sizing: border-box;
+}
+
+/* Доп. блок «Cookie» под миграционным текстом политики */
+.policy-cookie-addon {
+  margin-top: 48px;
+  padding-top: 36px;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  scroll-margin-top: calc(var(--site-header-height, 72px) + 24px);
+}
+
+.policy-cookie-addon__title {
+  margin: 0 0 1rem;
+}
+
+.policy-cookie-addon__subtitle {
+  margin: 1.75rem 0 0.75rem;
+}

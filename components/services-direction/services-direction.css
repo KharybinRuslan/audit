@@ -91,6 +91,29 @@
   color: #ffffff;
 }
 
+.services-direction__link {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 801px;
+  margin: 20px 0 0;
+  padding: 0;
+  font-family: 'Montserrat', var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.services-direction__link-a {
+  color: #e02727;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.services-direction__link-a:hover {
+  color: #ff8a7a;
+}
+
 .services-direction__media {
   flex-shrink: 0;
   width: 45%;

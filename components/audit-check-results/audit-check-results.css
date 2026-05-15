@@ -1,0 +1,45 @@
+/**
+ * Светлый текстовый блок после секции причин.
+ * Без JS и тяжелых эффектов для высокой производительности.
+ */
+
+.audit-check-results {
+  background: #ffffff;
+  color: #101010;
+  padding: clamp(34px, 4.5vw, 72px) 0;
+}
+
+.audit-check-results__inner {
+  max-width: 1520px;
+  margin: 0 auto;
+  padding: 0 var(--site-header-inline-pad, 0px);
+  box-sizing: border-box;
+}
+
+.audit-check-results__title {
+  margin: 0 0 clamp(18px, 2.2vw, 26px);
+  max-width: 60rem;
+  font-family: "Montserrat", var(--font-family);
+  font-weight: 700;
+  font-size: clamp(24px, calc(16px + 1.6vw), 48px);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  color: #101010;
+}
+
+.audit-check-results__body {
+  max-width: 80rem;
+}
+
+.audit-check-results__p {
+  margin: 0 0 1em;
+  font-family: "Montserrat", var(--font-family);
+  font-weight: 500;
+  font-size: clamp(14px, calc(12px + 0.35vw), 18px);
+  line-height: 1.45;
+  color: #101010;
+}
+
+.audit-check-results__p:last-child {
+  margin-bottom: 0;
+}

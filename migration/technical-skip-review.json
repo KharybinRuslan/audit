@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "generated_at": "2026-04-15T19:13:55Z",
+    "source": "export-ready/rebuild-manifest.json",
+    "export_ready_meta": {
+      "generated_at": "2026-04-15T18:53:30Z",
+      "source": "export/items/*.json + export-derived/*",
+      "site_home": "http://auditte.ru",
+      "site_netloc": "auditte.ru",
+      "meaningful_plain_chars": 80
+    },
+    "bucket_logic": {
+      "version": 3,
+      "meaningful_plain_chars": 80,
+      "notes": [
+        "Chat/UI HTML (text-token-text-primary, conversation-turn, …) удаляется санитайзером целыми контейнерами; пересчёт cleanup/manual по content_html_sanitized",
+        "Один [elementor-template] при здоровом контенте не ведёт в manual_review_required",
+        "manual_review: остаточный suspicious_embedded_markup, duplicate text, multiple cleanup flags, shortcode при слабом контенте/дубликате URL"
+      ]
+    },
+    "sanitization": {
+      "html_patterns_removed_containers": [
+        "text-token-text-primary",
+        "conversation-turn",
+        "data-message-author-role",
+        "agent-turn",
+        "markdown prose"
+      ],
+      "records_with_container_removals": 49,
+      "manual_review_count_before_sanitization": 49,
+      "manual_review_count_after_sanitization": 0,
+      "manual_review_cleared_by_sanitization": 49,
+      "cleared_manual_review_post_ids": [
+        15,
+        440,
+        534,
+        584,
+        599,
+        680,
+        696,
+        712,
+        756,
+        773,
+        800,
+        816,
+        965,
+        978,
+        989,
+        999,
+        1055,
+        1132,
+        1142,
+        1155,
+        1164,
+        1180,
+        1293,
+        1570,
+        1587,
+        1596,
+        1610,
+        1622,
+        1694,
+        1718,
+        1766,
+        1782,
+        1912,
+        1918,
+        3813,
+        3910,
+        4055,
+        4057,
+        4059,
+        4062,
+        4066,
+        4108,
+        4211,
+        4321,
+        4333,
+        4345,
+        4346,
+        4357,
+        4358
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": 1709,
+      "post_type": "page",
+      "title": "Пресс-служба",
+      "slug": "press-sluzhba",
+      "permalink_candidate": "http://auditte.ru/press-sluzhba/",
+      "normalized_permalink_https": "https://auditte.ru/press-sluzhba/",
+      "date_published": "2024-04-17 17:17:51",
+      "content_text_plain": "",
+      "content_html_raw": "",
+      "featured_image_url": null,
+      "normalized_featured_image_url": null,
+      "all_image_urls": [],
+      "categories": [],
+      "tags": [],
+      "seo_title_raw": null,
+      "seo_title_effective": "Пресс-служба",
+      "seo_title_is_template": false,
+      "seo_description": null,
+      "seo_focus_keyword": null,
+      "seo_source_primary": null,
+      "internal_links": [],
+      "external_links": [],
+      "issues_codes": [
+        "elementor_empty_text_extracted",
+        "migrate_to_https",
+        "missing_featured_image",
+        "missing_seo_description",
+        "missing_seo_title",
+        "no_meaningful_content"
+      ],
+      "issues_count": 6,
+      "ready_for_rebuild": false,
+      "rebuild_notes": [
+        "no_meaningful_content",
+        "technical_empty_record"
+      ],
+      "content_html_sanitized": "",
+      "sanitization": {
+        "removed_container_roots": 0,
+        "patterns_matched": [],
+        "skipped": true,
+        "reason": "empty"
+      },
+      "migration_bucket": "technical_skip",
+      "final_migration_status": "technical_skip",
+      "seo_action_needed": true,
+      "seo_action_reasons": [
+        "missing_seo_description"
+      ],
+      "seo_custom_title_missing": true,
+      "seo_title_effective_is_fallback": true,
+      "media_action_needed": false,
+      "media_action_reasons": [],
+      "media_case": "no_images",
+      "needs_pick_featured": false,
+      "has_any_image": false,
+      "redirect_action_needed": true,
+      "redirect_action_reasons": [
+        "migrate_to_https_in_issues",
+        "permalink_http"
+      ],
+      "content_cleanup_needed": false,
+      "content_cleanup_flags": [],
+      "content_cleanup_flags_before_sanitization": [],
+      "manual_review_before_sanitization": false,
+      "elementor_template_ids": [],
+      "why_manual_review": [],
+      "elementor_shortcode_only": false,
+      "elementor_shortcode_skipped_manual_review": false
+    }
+  ]
+}

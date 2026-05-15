@@ -148,7 +148,7 @@
   align-items: stretch;
 }
 
-/* Специфичность выше, чем у .swiper-slide в swiper-bundle.min.css (он грузится после и задаёт width:100%). */
+/* Специфичность выше, чем у .swiper-slide в swiper-lite.min.css (грузится после и задаёт width:100%). */
 .reviews__slider.swiper .swiper-slide.reviews__slide {
   position: relative;
   width: 895px;
@@ -180,21 +180,46 @@
   backface-visibility: hidden;
 }
 
+/* Мягкое «атмосферное» свечение: крупный эллипс + blur, без резкой границы */
 .reviews__card-glow {
   position: absolute;
-  top: -20%;
+  top: -35%;
+  left: -25%;
   right: -15%;
-  width: 55%;
-  height: 55%;
+  width: auto;
+  height: 75%;
+  min-height: 220px;
   border-radius: 50%;
   background: radial-gradient(
-    circle at 30% 30%,
-    rgba(224, 39, 39, 0.22) 0%,
-    rgba(221, 111, 32, 0.12) 40%,
-    transparent 70%
+    ellipse 72% 58% at 22% 8%,
+    rgba(224, 39, 39, 0.2) 0%,
+    rgba(221, 111, 32, 0.11) 32%,
+    rgba(184, 41, 32, 0.05) 55%,
+    rgba(13, 13, 13, 0) 78%
   );
+  filter: blur(52px);
+  transform: translateZ(0);
   pointer-events: none;
   z-index: 0;
+  opacity: 0.92;
+}
+
+@media (max-width: 640px) {
+  .reviews__card-glow {
+    top: -28%;
+    left: -20%;
+    height: 68%;
+    min-height: 180px;
+    filter: blur(40px);
+    opacity: 0.88;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reviews__card-glow {
+    filter: blur(36px);
+    opacity: 0.85;
+  }
 }
 
 .reviews__card-top,
@@ -305,10 +330,13 @@
   z-index: 2;
 }
 
-/* Пагинация — сегменты-линии */
+/* Пагинация — сегменты-линии (aria-label на <nav>, не на контейнере Swiper) */
+.reviews__pagination-nav {
+  margin-top: 30px;
+}
+
 .reviews__pagination.swiper-pagination {
   position: relative;
-  margin-top: 30px;
   display: flex;
   justify-content: center;
   align-items: center;

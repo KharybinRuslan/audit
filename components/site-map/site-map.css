@@ -1,0 +1,81 @@
+/**
+ * HTML-карта сайта (/karta-sajta)
+ * Горизонтальные поля как у .site-header__inner / .breadcrumbs__inner (--site-header-inline-pad в :root из site-header.css).
+ */
+
+.site-map {
+  padding: calc(32px + var(--site-header-height, 72px)) 0 80px;
+  background: #0d0d0d;
+  color: #fff;
+}
+
+.site-map__inner {
+  width: 100%;
+  max-width: 1520px;
+  margin: 0 auto;
+  padding-left: var(--site-header-inline-pad, 0px);
+  padding-right: var(--site-header-inline-pad, 0px);
+  box-sizing: border-box;
+}
+
+.site-map__title {
+  margin: 0 0 12px;
+  font-family: 'Montserrat', var(--font-family);
+  font-weight: 600;
+  font-size: clamp(26px, 4vw, 36px);
+  line-height: 1.2;
+}
+
+.site-map__intro {
+  margin: 0 0 36px;
+  font-size: 15px;
+  line-height: 1.55;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.site-map__section {
+  margin-bottom: 36px;
+}
+
+.site-map__section-title {
+  margin: 0 0 14px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  font-family: 'Montserrat', var(--font-family);
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.site-map__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  columns: 1;
+}
+
+@media (min-width: 640px) {
+  .site-map__list--dense {
+    columns: 2;
+    column-gap: 2rem;
+  }
+}
+
+.site-map__item {
+  margin: 0 0 8px;
+  break-inside: avoid;
+}
+
+.site-map__link {
+  color: rgba(255, 255, 255, 0.88);
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.45;
+  word-break: break-word;
+}
+
+.site-map__link:hover {
+  color: #fff;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}

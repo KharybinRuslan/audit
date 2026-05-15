@@ -1,5 +1,8 @@
 <?php
 declare(strict_types=1);
+
+require_once dirname(__DIR__, 2) . '/includes/img-webp.php';
+require_once dirname(__DIR__, 2) . '/includes/site-address.php';
 /** Ожидает $siteHeaderMenuServices из site-header-menu-data.php */
 ?>
 <div
@@ -94,18 +97,16 @@ declare(strict_types=1);
                         <p class="site-footer__reply">Ответим в течение часа в рабочее время</p>
                     </div>
                     <div class="site-footer__messengers">
-                        <a class="site-footer__messenger" href="#" aria-label="WhatsApp">
-                            <img class="site-footer__messenger-icon" src="/img/wa.png" alt="">
-                            <span>WhatsApp</span>
-                        </a>
-                        <a class="site-footer__messenger" href="#" aria-label="Telegram">
-                            <img class="site-footer__messenger-icon" src="/img/tg.png" alt="">
-                            <span>Telegram</span>
-                        </a>
+                        <?php
+                        $socialLinkClass = 'site-footer__messenger';
+                        $socialIconClass = 'site-footer__messenger-icon';
+                        $socialSpanClass = '';
+                        include dirname(__DIR__, 2) . '/includes/social-channels-links.php';
+                        ?>
                     </div>
                     <div class="site-footer__address">
                         <p class="site-footer__address-label">Адрес</p>
-                        <p class="site-footer__address-text">г. Москва, Гамсоновский пер., 2,<br>(метро Тульская)</p>
+                        <p class="site-footer__address-text"><?= aud_site_office_address_html() ?></p>
                     </div>
                 </div>
             </div>
@@ -127,7 +128,7 @@ declare(strict_types=1);
                 <li class="site-header__drawer-item site-header__drawer-item--split">
                     <a
                         class="site-header__drawer-link site-header__drawer-link--split-text"
-                        href="/services"
+                        href="<?= htmlspecialchars($group['href'] ?? '/services', ENT_QUOTES, 'UTF-8') ?>"
                         data-site-header-panel-link
                     ><?= htmlspecialchars($group['title'], ENT_QUOTES, 'UTF-8') ?></a>
                     <button
@@ -163,9 +164,21 @@ declare(strict_types=1);
                 <span class="site-header__drawer-subhead-spacer" aria-hidden="true"></span>
             </div>
             <ul class="site-header__drawer-list site-header__drawer-list--flush">
-                <?php foreach ($group['items'] as $itemLabel): ?>
+                <?php foreach ($group['items'] as $item): ?>
+                    <?php
+                    if (is_array($item)) {
+                        $itemLabel = (string) ($item['label'] ?? $item['title'] ?? '');
+                        $itemHref = (string) ($item['href'] ?? '/services');
+                    } else {
+                        $itemLabel = (string) $item;
+                        $itemHref = '/services';
+                    }
+                    if ($itemLabel === '') {
+                        continue;
+                    }
+                    ?>
                 <li class="site-header__drawer-item">
-                    <a class="site-header__drawer-link site-header__drawer-link--sub" href="/services" data-site-header-panel-link><?= htmlspecialchars($itemLabel, ENT_QUOTES, 'UTF-8') ?></a>
+                    <a class="site-header__drawer-link site-header__drawer-link--sub" href="<?= htmlspecialchars($itemHref, ENT_QUOTES, 'UTF-8') ?>" data-site-header-panel-link><?= htmlspecialchars($itemLabel, ENT_QUOTES, 'UTF-8') ?></a>
                 </li>
                 <?php endforeach; ?>
             </ul>

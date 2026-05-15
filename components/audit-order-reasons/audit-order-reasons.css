@@ -1,0 +1,176 @@
+/**
+ * «Когда заказывают аудит» — типографика + CSS Grid, без JS.
+ */
+
+.audit-order-reasons {
+  position: relative;
+  background: #0d0d0d;
+  color: #fff;
+  padding: clamp(32px, 4vw, 56px) 0 clamp(40px, 5vw, 72px);
+  overflow-x: clip;
+  scroll-margin-top: calc(var(--site-header-height, 88px) + 16px);
+}
+
+.audit-order-reasons__inner {
+  max-width: 1520px;
+  margin: 0 auto;
+  padding: 0 var(--site-header-inline-pad, 0px);
+  box-sizing: border-box;
+}
+
+.audit-order-reasons__title {
+  margin: 0 0 clamp(20px, 2.5vw, 32px);
+  max-width: 52rem;
+  font-family: "Montserrat", var(--font-family);
+  font-weight: 700;
+  font-size: clamp(22px, calc(16px + 1.4vw), 36px);
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+
+.audit-order-reasons__intro {
+  max-width: 52rem;
+  margin-bottom: clamp(24px, 3vw, 40px);
+}
+
+.audit-order-reasons__p {
+  margin: 0 0 1em;
+  font-family: "Montserrat", var(--font-family);
+  font-weight: 500;
+  font-size: clamp(14px, calc(12px + 0.35vw), 18px);
+  line-height: 1.55;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.audit-order-reasons__p:last-child {
+  margin-bottom: 0;
+}
+
+.audit-order-reasons__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: clamp(12px, 2vw, 20px);
+  margin: 0 0 clamp(28px, 4vw, 44px);
+  padding: 0;
+  list-style: none;
+}
+
+@media (min-width: 640px) {
+  .audit-order-reasons__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1000px) {
+  .audit-order-reasons__grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.audit-order-reasons__card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  min-height: clamp(100px, 12vw, 132px);
+  padding: clamp(16px, 2.2vw, 24px) clamp(14px, 2vw, 22px);
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 14px;
+  background: linear-gradient(
+    145deg,
+    rgba(255, 255, 255, 0.11) 0%,
+    rgba(255, 255, 255, 0.04) 38%,
+    rgba(255, 255, 255, 0.02) 100%
+  );
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.18),
+    0 10px 24px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: transform 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .audit-order-reasons__card {
+    transition: none;
+  }
+}
+
+.audit-order-reasons__card:hover {
+  border-color: rgba(255, 255, 255, 0.3);
+  transform: translateY(-1px);
+}
+
+@supports ((backdrop-filter: blur(6px)) or (-webkit-backdrop-filter: blur(6px))) {
+  .audit-order-reasons__card {
+    -webkit-backdrop-filter: blur(6px) saturate(120%);
+    backdrop-filter: blur(6px) saturate(120%);
+  }
+}
+
+.audit-order-reasons__card-text {
+  font-family: "Montserrat", var(--font-family);
+  font-weight: 500;
+  font-size: clamp(13px, calc(11px + 0.35vw), 16px);
+  line-height: 1.45;
+  color: #fff;
+}
+
+.audit-order-reasons__actions {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.audit-order-reasons__btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  min-height: 48px;
+  padding: 12px clamp(24px, 4vw, 36px);
+  border-radius: 999px;
+  font-family: "Montserrat", var(--font-family);
+  font-weight: 600;
+  font-size: clamp(13px, calc(12px + 0.2vw), 15px);
+  line-height: 1.2;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.32);
+  background: linear-gradient(
+    145deg,
+    rgba(255, 255, 255, 0.18) 0%,
+    rgba(255, 255, 255, 0.08) 45%,
+    rgba(255, 255, 255, 0.04) 100%
+  );
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.24),
+    0 10px 24px rgba(0, 0, 0, 0.24);
+  color: #fff;
+  cursor: pointer;
+  transition: transform 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+}
+
+.audit-order-reasons__btn:hover {
+  border-color: rgba(255, 255, 255, 0.5);
+  transform: translateY(-1px);
+}
+
+@supports ((backdrop-filter: blur(6px)) or (-webkit-backdrop-filter: blur(6px))) {
+  .audit-order-reasons__btn {
+    -webkit-backdrop-filter: blur(6px) saturate(120%);
+    backdrop-filter: blur(6px) saturate(120%);
+  }
+}
+
+.audit-order-reasons__btn:focus-visible {
+  outline: 2px solid #ef4423;
+  outline-offset: 3px;
+}
+
+@media (max-width: 767px) {
+  .audit-order-reasons__btn {
+    width: 100%;
+    max-width: 360px;
+  }
+}

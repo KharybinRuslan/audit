@@ -5,11 +5,16 @@
   'use strict';
 
   var el = document.getElementById('reviews-swiper');
-  if (!el || typeof Swiper === 'undefined') {
+  if (!el) {
     return;
   }
 
   var section = el.closest('.reviews');
+
+  function startReviewsSwiper() {
+  if (typeof Swiper === 'undefined') {
+    return;
+  }
   var prevEl = section && section.querySelector('.reviews__arrow--prev');
   var nextEl = section && section.querySelector('.reviews__arrow--next');
   var paginationEl = section && section.querySelector('.reviews__pagination');
@@ -50,6 +55,17 @@
     pagination: {
       el: paginationEl,
       clickable: true,
+      renderBullet: function (index, className) {
+        return (
+          '<span class="' +
+          className +
+          '" aria-label="Отзыв ' +
+          (index + 1) +
+          ' из ' +
+          realSlidesCount +
+          '"></span>'
+        );
+      },
     },
   });
 
@@ -72,4 +88,17 @@
   });
 
   syncPaginationByRealIndex(swiper);
+
+  if (typeof window.bindSwiperSlidesA11y === 'function') {
+    window.bindSwiperSlidesA11y(swiper);
+  }
+  }
+
+  if (typeof window.audInitSwiperWhenNear === 'function') {
+    window.audInitSwiperWhenNear(section || el, startReviewsSwiper, 160);
+  } else {
+    window.requestAnimationFrame(function () {
+      window.requestAnimationFrame(startReviewsSwiper);
+    });
+  }
 })();

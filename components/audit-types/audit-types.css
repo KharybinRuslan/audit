@@ -5,6 +5,8 @@
   position: relative;
   background: #0d0d0d;
   padding: 0px 0 40px;
+  overflow-x: clip;
+  max-width: 100%;
 }
 
 /* Скрытый SVG только с градиентом для стрелок — не рисует ничего, не занимает место */
@@ -18,10 +20,50 @@
 
 .audit-types__inner {
   max-width: 1520px;
-  margin: 0 auto;
+  margin: 30px auto 0;
   padding: 0;
   box-sizing: border-box;
   overflow: visible;
+  min-width: 0;
+  width: 100%;
+}
+
+.audit-types__slider {
+  max-width: 100%;
+  min-width: 0;
+}
+
+.audit-types__intro {
+  margin-bottom: clamp(24px, calc(16px + 2vw), 48px);
+  max-width: 52rem;
+}
+
+.audit-types__eyebrow {
+  margin: 0 0 clamp(12px, calc(8px + 1vw), 20px);
+  padding: 0;
+  font-family: "Montserrat", var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: clamp(11px, calc(9px + 0.35vw), 13px);
+  line-height: 1.3;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #b84a32;
+}
+
+.audit-types__page-title {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: clamp(22px, calc(16px + 1.2vw), 36px);
+  line-height: 1.2;
+  color: #ffffff;
+}
+
+.audit-types__page-title-accent {
+  color: #ef4423;
 }
 
 .audit-types__nav {
@@ -86,11 +128,12 @@
 .audit-types__card {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: flex-start;
   text-align: left;
-  padding: 0 0 30px;
+  padding: 0 0 22px;
   border-radius: 20px;
+  overflow: hidden;
   box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.05);
   background: #1e1e1e;
   text-decoration: none;
@@ -102,11 +145,16 @@
   box-sizing: border-box;
 }
 
+/* Карточки только с текстом (напр. налоговый консалтинг) */
+.audit-types--text-only .audit-types__title {
+  padding-top: 22px;
+}
+
 .audit-types__img-wrap {
   display: block;
   width: 100%;
   max-width: 140px;
-  margin-bottom: 20px;
+  margin-bottom: 12px;
   flex-shrink: 0;
   padding-left: 0;
   box-sizing: border-box;
@@ -124,9 +172,10 @@
   font-weight: 700;
   font-size: 20px;
   color: #fff;
-  margin: 0 0 8px;
+  margin: 0 0 6px;
   display: block;
   padding-left: 20px;
+  flex-shrink: 0;
 }
 
 /* Первый (активный) слайд — градиентный заголовок */
@@ -143,16 +192,39 @@
   font-weight: 500;
   font-size: 15px;
   color: #fff;
-  line-height: 1.4;
+  line-height: 1.45;
   margin: 0;
-  display: none;
   text-align: left;
   padding-left: 20px;
   padding-right: 20px;
+  min-height: 0;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transform: translateY(4px);
+  transition:
+    max-height 0.7s cubic-bezier(0.22, 1, 0.36, 1),
+    opacity 0.6s cubic-bezier(0.33, 1, 0.68, 1) 0.08s,
+    transform 0.6s cubic-bezier(0.33, 1, 0.68, 1) 0.08s;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .audit-types__desc,
+  .audit-types__slide.swiper-slide-active .audit-types__desc {
+    transition-duration: 0.01ms;
+    transition-delay: 0s;
+  }
 }
 
 .audit-types__slide.swiper-slide-active .audit-types__desc {
-  display: block;
+  max-height: 11rem;
+  opacity: 1;
+  transform: translateY(0);
+  transition:
+    max-height 0.7s cubic-bezier(0.22, 1, 0.36, 1),
+    opacity 0.55s cubic-bezier(0.33, 1, 0.68, 1),
+    transform 0.55s cubic-bezier(0.33, 1, 0.68, 1);
 }
 
 /* Точки пагинации — по центру, под слайдером */
@@ -180,6 +252,32 @@
 
 .audit-types__pagination .swiper-pagination-bullet-active {
   background: #fff;
+}
+
+/* ПК: при ширине ≥1520px Swiper показывает 5 слайдов — карточка и заголовок по макету */
+@media (min-width: 1520px) {
+  .audit-types__slide {
+    height: 330px;
+  }
+
+  .audit-types__card {
+    height: 300px;
+    min-height: 330px;
+    max-height: 330px;
+    box-sizing: border-box;
+  }
+
+  .audit-types__title {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    margin: 0 0 6px;
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-shrink: 0;
+  }
 }
 
 @media (max-width: 1520px) {
@@ -212,7 +310,7 @@
   }
 
   .audit-types__card {
-    padding: 0 0 30px;
+    padding: 0 0 22px;
     height: 300px;
     min-height: 300px;
     max-height: 300px;

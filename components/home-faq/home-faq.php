@@ -3,7 +3,7 @@ declare(strict_types=1);
 /**
  * Секция FAQ для главной — аккордеон (кнопка + панель), фон kletka2.svg.
  */
-$homeFaqItems = [
+$homeFaqItems ??= [
     [
         'q' => 'Какие компании могут проводить финансовый аудит?',
         'html' =>
@@ -58,7 +58,7 @@ $homeFaqItems = [
                     <span class="home-faq__eyebrow-rest">частые вопросы</span>
                 </p>
                 <h2 class="home-faq__title" id="home-faq-heading">
-                    Что важно знать об аудите с <span class="home-faq__title-accent">ТОП ЭКСПЕРТ</span>
+                    Что важно знать об аудите с <span class="home-faq__title-accent">ООО "Аудит Топ Эксперт"</span>
                 </h2>
                 <p class="home-faq__lead">
                 Здесь мы собрали практические вопросы клиентов: где аудит действительно помогает, какие риски показывает, чего ожидать от проекта и в каких случаях он особенно выгоден бизнесу
@@ -92,6 +92,7 @@ $homeFaqItems = [
                         role="region"
                         aria-labelledby="<?= htmlspecialchars($triggerId, ENT_QUOTES, 'UTF-8') ?>"
                         aria-hidden="<?= htmlspecialchars($panelHidden, ENT_QUOTES, 'UTF-8') ?>"
+                        <?= $isOpenByDefault ? '' : ' inert' ?>
                     >
                         <div class="home-faq__panel">
                             <div class="home-faq__answer">

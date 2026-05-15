@@ -33,6 +33,7 @@
         }
         if (p) {
           p.setAttribute('aria-hidden', 'true');
+          p.setAttribute('inert', '');
         }
       });
 
@@ -40,6 +41,7 @@
         item.classList.add('is-open');
         btn.setAttribute('aria-expanded', 'true');
         panel.setAttribute('aria-hidden', 'false');
+        panel.removeAttribute('inert');
       }
     });
   });

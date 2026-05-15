@@ -5,31 +5,40 @@
     var section = document.querySelector('.services');
     if (!section) return;
 
+    function startServicesSwiper() {
+    if (typeof Swiper === 'undefined') return;
+
     var descEl = section.querySelector('#services-desc');
     var linkEl = section.querySelector('#services-link');
     var navEl = section.querySelector('#services-nav-swiper');
+    var metaScript = section.querySelector('#services-slide-data');
     if (!navEl) return;
 
-    var slidesData = [
-        { desc: 'Фундамент нашего подхода к аудиту лежит в комплексной оценке рисков, оперативном выявлении ключевых вопросов и их четкой коммуникации', linkHref: '#', linkText: 'Перейти на страницу' },
-        { desc: 'Комплексное сопровождение по налоговому праву, консультации по спорным вопросам и представительство в спорах с ФНС.', linkHref: '#', linkText: 'Перейти на страницу' },
-        { desc: 'Оценка активов и бизнеса, финансовый Due Diligence, построение и аудит моделей и сценариев.', linkHref: '#', linkText: 'Перейти на страницу' },
-        { desc: 'Ведение учёта, подготовка отчётности, постановка и оптимизация учётных процессов под ваши задачи.', linkHref: '#', linkText: 'Перейти на страницу' },
-        { desc: 'Финансовый, налоговый и юридический Due Diligence, расследования мошенничества и нецелевого использования средств.', linkHref: '#', linkText: 'Перейти на страницу' },
-        { desc: 'Аудит кадрового документооборота, проверка соответствия трудовому законодательству и оптимизация HR-процессов.', linkHref: '#', linkText: 'Перейти на страницу' },
-        { desc: 'Подготовка и аудит отчётности по МСФО, конвертация отчётности, консультации по применению стандартов.', linkHref: '#', linkText: 'Перейти на страницу' },
-        { desc: 'Построение и аудит систем внутреннего контроля, комплаенс-процедуры и оценка операционных рисков.', linkHref: '#', linkText: 'Перейти на страницу' },
-        { desc: 'Стратегический и операционный консалтинг, сопровождение проектов и реструктуризации.', linkHref: '#', linkText: 'Перейти на страницу' },
-        { desc: 'Курсы и тренинги по аудиту, МСФО, налогам и внутреннему контролю для вашей команды.', linkHref: '#', linkText: 'Перейти на страницу' }
-    ];
+    var slidesMeta = [];
+    if (metaScript && metaScript.textContent) {
+        try {
+            var parsed = JSON.parse(metaScript.textContent);
+            if (Array.isArray(parsed)) slidesMeta = parsed;
+        } catch (e) {
+            slidesMeta = [];
+        }
+    }
 
     function updateContent(index) {
-        var s = slidesData[index];
-        if (!s) return;
-        if (descEl) descEl.textContent = s.desc;
+        var s = slidesMeta[index];
+        if (!s || typeof s !== 'object') return;
+        var d = typeof s.desc === 'string' ? s.desc : '';
+        var h = typeof s.href === 'string' ? s.href : '/services';
+        var label = typeof s.label === 'string' ? s.label : '';
+        if (descEl) descEl.textContent = d;
         if (linkEl) {
-            linkEl.href = s.linkHref || '#';
-            linkEl.textContent = s.linkText || 'Перейти на страницу';
+            linkEl.href = h || '/services';
+            linkEl.textContent = 'Перейти на страницу';
+            if (label) {
+                linkEl.setAttribute('aria-label', 'Перейти в раздел: ' + label);
+            } else {
+                linkEl.removeAttribute('aria-label');
+            }
         }
     }
 
@@ -88,5 +97,16 @@
 
     window.servicesNavSwiper = swiper;
 
-    updateContent(0);
+    if (typeof window.bindSwiperSlidesA11y === 'function') {
+        window.bindSwiperSlidesA11y(swiper);
+    }
+    }
+
+    if (typeof window.audInitSwiperWhenNear === 'function') {
+        window.audInitSwiperWhenNear(section, startServicesSwiper, 100);
+    } else {
+        window.requestAnimationFrame(function () {
+            window.requestAnimationFrame(startServicesSwiper);
+        });
+    }
 })();

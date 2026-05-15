@@ -1,5 +1,7 @@
 <?php
 declare(strict_types=1);
+
+require_once dirname(__DIR__, 2) . '/includes/img-webp.php';
 /**
  * Шапка: лого, навигация, CTA «Заказать аудит», бургер, выезжающее меню слева.
  */
@@ -7,10 +9,7 @@ require __DIR__ . '/site-header-menu-data.php';
 ?>
 <header class="site-header" id="site-header" data-site-header>
     <div class="site-header__inner">
-        <a class="site-header__logo" href="/" aria-label="На главную">
-            <img class="site-header__logo-img" src="/img/logo.png" width="48" height="48" alt="">
-            <span class="site-header__logo-text">АУДИТ</span>
-        </a>
+        <a class="site-header__logo" href="/" aria-label="На главную"><?php aud_img_picture_webp('/img/logo.png', '', ['class' => 'site-header__logo-img', 'width' => 48, 'height' => 48]); ?><span class="site-header__logo-text">АУДИТ</span></a>
 
         <nav class="site-header__nav" aria-label="Основная навигация">
             <ul class="site-header__nav-list">

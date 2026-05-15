@@ -2,6 +2,23 @@
  * Шапка: прозрачная, после скролла фон #0D0D0D.
  */
 
+/* Горизонтальные поля как у .site-header__inner — для хлебных крошек и т.п. */
+:root {
+  --site-header-inline-pad: 0px;
+}
+
+@media (max-width: 1520px) {
+  :root {
+    --site-header-inline-pad: 60px;
+  }
+}
+
+@media (max-width: 1100px) {
+  :root {
+    --site-header-inline-pad: 10px;
+  }
+}
+
 body.has-site-header {
   /* 20 + 48 (лого) + 20 padding inner; совпадает с .site-header__inner */
   --site-header-height: 88px;
@@ -14,10 +31,13 @@ body.has-site-header {
   top: 0;
   left: 0;
   right: 0;
+  /* Явная ширина вьюпорта: иначе у fixed + flex иногда остаётся «узкая колонка» (заметно на /news) */
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
   z-index: 200;
   min-height: var(--site-header-height);
-  display: flex;
-  align-items: center;
+  display: block;
   background-color: transparent;
   transition: background-color 0.35s ease;
 }
@@ -32,28 +52,35 @@ body.has-site-header {
   width: 100%;
   max-width: 1520px;
   margin: 0 auto;
-  padding: 20px 0;
+  padding: 20px var(--site-header-inline-pad);
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 20px;
   box-sizing: border-box;
+  min-width: 0;
 }
 
 .site-header__logo {
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  gap: 12px;
+  /* column-gap: 10px; */
   flex-shrink: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
   color: #fff;
   text-decoration: none;
 }
 
+/* В файле логотипа есть тонкий прозрачный край слева — подрезаем при отрисовке */
 .site-header__logo-img {
   width: 48px;
   height: 48px;
   object-fit: contain;
+  object-position: left center;
   flex-shrink: 0;
+  clip-path: inset(0 0 0 2px);
 }
 
 .site-header__logo-text {
@@ -61,6 +88,7 @@ body.has-site-header {
   font-size: clamp(16px, 2vw, 20px);
   letter-spacing: 0.04em;
   text-transform: uppercase;
+  padding-left: 10px;
 }
 
 .site-header__nav {
@@ -344,19 +372,19 @@ body.site-header-menu-open .site-header__drawer {
   pointer-events: none;
 }
 
-/* Главный экран: прокрутка сверху, график/кнопка/контакты снизу с отступами */
+/* Главный экран: один вертикальный скролл на всю колонку (навигация + график + кнопка + контакты) */
 .site-header__drawer-view--main {
   display: flex;
   flex-direction: column;
-  overflow: hidden;
-}
-
-.site-header__drawer-main-scroll {
-  flex: 1 1 auto;
-  min-height: 0;
   overflow-x: hidden;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
+}
+
+.site-header__drawer-main-scroll {
+  flex: 0 0 auto;
+  min-height: 0;
+  overflow: visible;
   padding-bottom: 12px;
 }
 
@@ -367,7 +395,7 @@ body.site-header-menu-open .site-header__drawer {
 
 .site-header__drawer-main-footer {
   flex-shrink: 0;
-  margin-top: auto;
+  margin-top: 0;
   /* Без border-top: при flex с пустым пространством линия оказывалась посреди экрана */
   padding: 28px 14px max(32px, env(safe-area-inset-bottom, 0px));
 }
@@ -881,18 +909,6 @@ body.site-header-menu-open {
   overflow: hidden;
 }
 
-@media (max-width: 1520px) {
-  .site-header__inner {
-    padding: 20px 60px;
-  }
-}
-
-@media (max-width: 1100px) {
-  .site-header__inner {
-    padding: 20px 10px;
-  }
-}
-
 @media (max-width: 900px) {
   .site-header__nav,
   .site-header__actions > .site-header__audit-btn:not(.site-header__audit-btn--panel) {
@@ -911,20 +927,4 @@ body.site-header-menu-open {
     justify-content: space-between;
   }
 
-  /* Один скролл на всю колонку: навигация + график + кнопка + контакты (не только список ссылок) */
-  .site-header__drawer-view--main {
-    overflow-x: hidden;
-    overflow-y: auto;
-    -webkit-overflow-scrolling: touch;
-  }
-
-  .site-header__drawer-main-scroll {
-    flex: 0 0 auto;
-    min-height: 0;
-    overflow: visible;
-  }
-
-  .site-header__drawer-main-footer {
-    margin-top: 0;
-  }
 }

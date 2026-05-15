@@ -40,9 +40,15 @@ $auditStepsItems = [
                 <p class="audit-steps__eyebrow">ЭТАПЫ</p>
                 <h2 class="audit-steps__title" id="audit-steps-heading">
                     Как проходит аудит<br>
-                    <span class="audit-steps__title-accent">ТОП ЭКСПЕРТ</span>
+                    <span class="audit-steps__title-accent">ООО "Аудит Топ Эксперт"</span>
                 </h2>
-                <a class="hero__btn audit-steps__cta" href="#">
+                <button
+                    type="button"
+                    class="hero__btn audit-steps__cta"
+                    data-open-audit-modal
+                    aria-haspopup="dialog"
+                    aria-controls="audit-request-modal"
+                >
                     Консультация
                     <span class="hero__btn-icon" aria-hidden="true">
                         <svg width="30" height="30" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -50,7 +56,7 @@ $auditStepsItems = [
                             <path d="M16 21C15.4477 21 15 21.4477 15 22C15 22.5523 15.4477 23 16 23L16 22L16 21ZM30.7071 22.7071C31.0976 22.3166 31.0976 21.6834 30.7071 21.2929L24.3431 14.9289C23.9526 14.5384 23.3195 14.5384 22.9289 14.9289C22.5384 15.3195 22.5384 15.9526 22.9289 16.3431L28.5858 22L22.9289 27.6569C22.5384 28.0474 22.5384 28.6805 22.9289 29.0711C23.3195 29.4616 23.9526 29.4616 24.3431 29.0711L30.7071 22.7071ZM16 22L16 23L30 23L30 22L30 21L16 21L16 22Z" fill="#DF2726"/>
                         </svg>
                     </span>
-                </a>
+                </button>
             </div>
         </header>
     </div>
